@@ -1,0 +1,1186 @@
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+.responsive
+{
+	width: 100%;
+}
+img.goodies-bg
+{
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+ div.header1
+{
+	position:absolute;
+	width: 100%;
+	height:7.2vw;
+	background-color: #f7ce3e;
+}
+@font-face {
+	font-family: BMorvarid;
+  src:  url('./BMorvarid.woff') format('woff');
+}
+@font-face {
+	font-family: BMitra;
+  src:  url('./BMitra.woff') format('woff');
+}
+@font-face {
+	font-family: BNasimBold;
+  src:  url('./BNasimBold.woff') format('woff');
+}
+@font-face {
+	font-family: BBardiya;
+  src:  url('./BBardiya.woff') format('woff');
+}
+div.motori-logo
+{
+	width: 28vw;
+	text-align: center;
+	position: absolute;
+	padding-bottom: 1vw;
+	padding-top: 1vw;
+	border:0.2vw solid white;
+	font-size: 5.4vw;
+	color: white;
+	letter-spacing: 1.6vw;
+	margin-left: 5vw;
+font-family: 'Open Sans', sans-serif;
+}
+
+ div.yourmechanic
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1vw;
+	background-color: #1a2a31;
+	padding: 1vw;
+	margin-top: 8vw;
+	color: white;
+	width: 7.5vw;
+	position: absolute;
+	margin-left: 22vw;
+	border-radius: 0.3vw;
+}
+i.cart
+{
+	width: 10vw;
+	position: absolute;
+	margin-left: 80vw;
+	color: #1a2930;
+	font-size: 7vw;
+}
+
+img.polygon
+{
+	margin-top:0.3vw;
+	width: 2.5vw;
+	height: 2.5vw;
+	position: absolute;
+	margin-left:86vw;
+}
+div.menubar
+{
+	position:fixed;
+	width: 5vw;
+	height:100%;
+	background-color: #0a1612;
+	z-index: 1;
+}
+
+div.details
+{
+	font-size: 3vw;
+	font-family: BBardiya;
+	color: #c5c1c0;
+	transform: rotate(90deg);
+		margin-top:13vw;
+}
+@media only screen and (min-width:640px) and (max-width:680px)
+{
+	div.details
+	{
+		margin-top: 17vw;
+	}
+}
+div.ideas
+{
+		font-size: 3vw;
+	font-family: BBardiya;
+	color: #c5c1c0;
+	transform: rotate(90deg);
+	margin-top:24vw;
+}
+div.ideas2
+{
+	position: absolute;
+			font-size: 3vw;
+	font-family: BBardiya;
+	color: #c5c1c0;
+	transform: rotate(90deg);
+	margin-top: 1vw;
+	margin-left: 0.5vw;
+}
+/* Slideshow container */
+.slideshow-container{
+  position:absolute;
+  margin: auto;
+  height: 100%;
+  width:100%;
+}
+
+/* Next & previous buttons */
+ .next {
+
+  background-color:white;
+  opacity: 0.6;
+  cursor: pointer;
+  position: absolute;
+padding: 1.5vw;
+padding-top: 6.3vw;
+padding-bottom:6.3vw;
+  margin-top: 16vw;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 7vw;
+  transition: 0.6s ease;
+  border-radius: 0 3vw 3vw 0;
+right: 0;
+}
+.next1,a.next2{
+	background-color: white;
+  padding:1.5vw;
+   opacity: 0.6;
+padding-top: 6.38vw;
+padding-bottom:6.38vw;
+  cursor: pointer;
+  position: absolute;
+  margin-top:34.4vw;
+ color: lightgray;
+  font-weight: bold;
+  font-size: 7vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+    transform: rotate(270deg);
+margin-left:77vw;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+.next1,a.next2
+{
+	border-radius: 0.5vw;
+}
+/* Position the "next button" to the right */
+.next {
+  border-radius:0.5vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.next1,a.next2:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Caption text */
+
+
+/* The dots/bullets/indicators */
+
+
+/* On smaller screens, decrease text size */
+div.slide1
+{
+	margin-bottom:-50vw;
+	position: absolute;
+
+}
+.slideshow-container1{
+  position:absolute;
+  margin: auto;
+  height: 100%;
+  width:100%;
+}
+
+
+/* The dots/bullets/indicators */
+
+/* Fading animation */
+
+
+@-webkit-keyframes fade1{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade1 {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+div.slide2
+{
+  margin-bottom:-50vw;
+  position: absolute;
+  font-size: 40vw;
+  background-color: white;
+
+}
+div.text1,div.text4,div.text6,div.text7
+{
+	font-size: 5vw;
+	margin-left:84vw;
+	position: absolute;
+	margin-top: 9vw;
+	font-family: BNasimBold;
+	color: #f7ce3e;
+}
+div.psr
+{
+	font-family: fantasy;
+	position: absolute;
+	margin-top: -8vw;
+	font-size:6vw;
+margin-left:-10vw;
+margin-bottom:50vw;
+}
+div.text4,div.text6
+{
+	direction: rtl;
+	width: 50vw;
+	margin-left: 43.5vw;
+}
+div.text3,div.text5
+{
+	font-size: 5vw;
+	margin-left:74vw;
+	position: absolute;
+	margin-top: 9vw;
+	font-family: BNasimBold;
+	color: #f7ce3e;
+}
+div.text2,div.text5,div.text8
+{
+	line-height:4vw;
+	width: 25vw;
+	margin-left: 30vw;
+	margin-top: 17vw;
+	font-size:2.5vw;
+	direction: rtl;
+		color: #f7ce3e;
+		position: absolute;
+		font-family: BBardiya;
+}
+img.image1
+{
+	border-radius:0.5vw;
+	padding:2vw;
+	background-color: white;
+	position: absolute;
+	margin-left: 69.5vw;
+	height: 18vw;
+	width: 18vw;
+	margin-top: 18.5vw;
+}
+i.stars1,i.stars2
+{
+	color:#ffbb00;
+	font-size: 1.3vw;
+	margin-top:1vw;
+position: relative;
+margin-left:-3.4vw;
+	transform: skew(20deg);
+}
+i.stars2
+{
+	color: lightgray;
+}
+div.mystars1
+{
+	background-color: white;
+	position: absolute;
+	margin-left:35vw;
+	margin-top: 34vw;
+	padding-left: 17vw;
+	height: 3.5vw;
+		transform: skew(-20deg);
+}
+div.compare1
+{
+	cursor: pointer;
+		color: #1a2930;
+	background-color:#f7ce3e;
+	border-radius: 1vw;
+	position: absolute;
+	margin-left: 15vw;
+	padding:1vw;
+	padding-left: 12vw;
+	font-size: 3vw;
+	margin-top:40vw;
+	font-family: BBardiya;
+}
+i.balance1
+{
+	margin-top:40.4vw;
+	position: absolute;
+	font-size: 6.5vw;
+margin-left: 16vw;
+cursor: pointer;
+color:#1a2930;
+}
+div.add1
+{
+	color: #1a2930;
+	background-color:#f7ce3e;
+	border-radius: 1vw;
+	position: absolute;
+	margin-left: 40vw;
+	padding:1vw;
+width:19vw;
+	font-size: 3vw;
+	margin-top:40vw;
+	font-family: BBardiya;
+	text-align: right;
+}
+span.num
+{
+position: absolute;
+	font-size: 2.5vw;
+	font-family: BBardiya;
+	margin-left:36.5vw;
+margin-top:-0.8vw;
+}
+i.addcart1
+{
+	cursor: pointer;
+	margin-bottom:40vw;
+	margin-left: 40vw;
+		color: #1a2930;
+	font-size: 6.2vw;
+position:absolute;
+
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 690px)
+{
+	i.addcart1
+	{
+		margin-top: 35vw;
+	}
+}
+@media only screen and (min-width:690px) and (max-width: 930px)
+{
+	i.addcart1
+	{
+		margin-top:36vw;
+	}
+}
+@media only screen and (min-width:930px) and (max-width: 1200px)
+{
+	i.addcart1
+	{
+		margin-top:37vw;
+	}
+}
+@media only screen and (min-width:1200px)
+{
+	i.addcart1
+	{
+		margin-top:38vw;
+	}
+}
+@media only screen and (min-width:820px) and (max-width: 1060px)
+{
+.next
+{
+	margin-top: 16.5vw;
+}
+}
+@media only screen and (min-width:1070px)
+{
+.next
+{
+	margin-top: 17.2vw;
+}
+}
+
+.sidenav {
+    height:20vw;
+    width:0vw;
+    position: fixed;
+    z-index: 1;
+    margin-top: 12vw;
+    border-radius: 0.5vw;
+    left: 0;
+    background-color:#f7ce3e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6vw;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+
+    position: absolute;
+    top:0.8vw;
+    right: 2vw;
+    font-size:4vw;
+    margin-left: 5vw;
+}
+
+#main {
+position: absolute;
+    transition: margin-left .5s;
+    padding:1vw;
+}
+
+
+img.arrow1
+{
+position: fixed;
+    margin-left:4vw;
+    margin-top: 21vw;
+    height:10vw;
+    width: 5vw;
+}
+@media only screen and (min-width: 640px) and (max-width: 680px)
+{
+	img.arrow1
+	{
+		margin-top: 18vw;
+	}
+}
+@media only screen and (min-width:681px) and (max-width: 845px)
+{
+	img.arrow1
+	{
+		margin-top:19vw;
+	}
+}
+@media only screen and (min-width:845px) and (max-width: 1005px)
+{
+	img.arrow1
+	{
+		margin-top:20vw;
+	}
+}
+@media only screen and (min-width:1005px) and (max-width: 1505px)
+{
+	img.arrow1
+	{
+		margin-top:21vw;
+	}
+}
+div.box2,div.box3
+{
+    height: 3.5vw;
+    width: 31vw;
+    margin-left: 1.6vw;
+    background-color: #cfc4a6;
+    border-radius:0.5vw;
+}
+div.box3
+{
+    margin-top: 1vw;
+    margin-left:1.2vw;
+}
+div.box4
+{
+    margin-top: 1.4vw;
+}
+@media only screen and (max-width: 640px)
+{
+div.all
+{
+	display: none;
+}
+}
+@media only screen and (min-width: 640px)
+{
+	div.all2
+	{
+		display: none;
+	}
+}
+div.all2
+{
+	position:relative;
+}
+
+div.header2
+{
+	position:absolute;
+	background-color:#0a1612;
+	width: 100%;
+	height:16vw;
+}
+i.cart2
+{
+	margin-top: 1.5vw;
+	margin-left: 75vw;
+	position: absolute;
+	font-size: 14vw;
+	color:#f7ce3e;
+}
+div.motori-logo2
+{
+	margin-top: 1vw;
+		width: 28vw;
+	text-align: center;
+	position: absolute;
+	padding-bottom: 1.5vw;
+	padding-top: 1.5vw;
+	border:0.2vw solid white;
+	font-size: 8.4vw;
+	padding-right:12vw;
+	color: white;
+	letter-spacing: 1.6vw;
+	margin-left: 27vw;
+font-family: 'Open Sans', sans-serif;
+}
+div.yourmechanic2
+{
+		font-family: 'Open Sans', sans-serif;
+	font-size: 2.9vw;
+	background-color: #1a2a31;
+	padding-left:0.1vw;
+	padding-right:0.1vw;
+	padding-top: 1.8vw;
+	border-radius: 0.9vw;
+	padding-bottom:1.8vw;
+	text-align: center;
+	margin-top:13.5vw;
+	letter-spacing:0.2vw;
+	color: white;
+	width: 24.5vw;
+	position: absolute;
+	margin-left:40vw;
+	border-radius: 0.3vw;
+}
+div.topic
+{
+
+	font-size: 7vw;
+	position: absolute;
+	margin-top:-58vw;
+	word-spacing:0.5vw;
+	margin-left: 30vw;
+		color:#f7ce3e;
+		font-family:cursive;
+		letter-spacing: 0.1vw;
+		font-weight:500;
+}
+div.topic7
+{
+		margin-left: 50vw;
+}
+div.topic5
+{
+	margin-top: -57.5vw;
+		margin-left: 39vw;
+}
+.slideshow-container2 {
+width:55vw;
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: 40vw;
+
+}
+
+/* Next & previous buttons */
+.prev5, .next5 {
+	text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 11vw;
+  background-color:black;
+  width:7.5vw;
+  padding-top: 13vw;
+  padding-bottom:13vw;
+  margin-top:-5vw;
+  color: white;
+  font-weight: bold;
+  font-size: 8vw;
+  transition: 0.6s ease;
+  border-radius: 0 0.1vw 0.1vw 0;
+}
+
+/* Position the "next button" to the right */
+.next5 {
+	position: absolute;
+		border-radius: 1vw;
+	margin-left: 62vw;
+}
+.prev5
+{
+	margin-left: -29.9vw;
+	position: absolute;
+	border-radius: 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev5:hover, .next5:hover {
+	border-radius: 2vw;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+
+
+/* The dots/bullets/indicators */
+.dot5 {
+    cursor: pointer;
+  height: 1vw;
+  width: 1vw;
+  margin: 0 0.2vw;
+  background-color: #bbb;
+  border-radius: 0.1vw;
+  display:inline-block;
+  margin-top: 1vw;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot5:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade5 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.image
+{
+  height: 20vw;
+}
+div.sshow1,div.sshow2,div.sshow3,div.sshow4
+{
+	margin-left: -30vw;
+	width: 100vw;
+	height: 110vw;
+	position: absolute;
+	padding-bottom:10vw;
+	padding-top: 40vw;
+}
+img.bg2
+{
+	height: 1175px;
+	width:100%;
+}
+img.simg1,img.simg6
+{
+	padding-right:3vw;
+		padding-left:3vw;
+		border-radius: 1vw;
+	background-color:#111316;
+	margin-left: -10vw;
+}
+img.simg6
+{
+	margin-left: 0vw;
+	width: 55vw;
+	margin-top:-87.3vw;
+	height: 51vw;
+	position: absolute;
+}
+
+
+span.num5
+{
+	color:black;
+	font-family: BBardiya;
+	position: absolute;
+	font-size: 5vw;
+	margin-left: 38vw;
+}
+div.addcart5
+{
+	cursor: pointer;
+	font-family: BBardiya;
+	font-size: 6vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-right: 8vw;
+	padding-left: 8vw;
+	background-color:#f6cb50;
+	width: 15vw;
+	margin-left: 55vw;
+	color:black;
+	margin-top: 35vw;
+	text-align: center;
+	border-radius: 1vw;
+}
+img.polygon5
+{
+	position: absolute;
+	right: 0;
+	margin-right: 8vw;
+	margin-top: 2vw;
+	height: 5vw;
+	width: 5vw;
+}
+div.topic2
+{
+		cursor: pointer;
+	font-family: BBardiya;
+	font-size: 6vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-right: 8vw;
+	padding-left: 8vw;
+	background-color:#f6cb50;
+	width: 15vw;
+	margin-left: 13vw;
+	position: absolute;
+	color:black;
+	margin-top: 35vw;
+	text-align: center;
+	border-radius: 1vw;
+}
+.slideshow-container6{
+  position:absolute;
+margin-left: 20vw;
+}
+
+/* Next & previous buttons */
+.next6,.next7,.next8,.next9{
+	position: absolute;
+width: 35vw;
+text-align: center;
+padding-top: 2vw;
+padding-bottom: 2vw;
+  cursor: pointer;
+  position: absolute;
+  margin-top:-31vw;
+  color: white;
+  font-size:5vw;
+  transition: 0.6s ease;
+  font-family: BBardiya;
+  border-radius:2vw;
+margin-left:11vw;
+background-color:black;
+color: white;
+}
+
+/* Position the "next button" to the right */
+
+/* On hover, add a black background color with a little bit see-through */
+.next6,.next7:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+div.textbox1
+{
+	border-radius: 2vw;
+	padding: 40vw;
+	padding-top: 30vw;
+	padding-bottom: 30vw;
+	background-color:#c4c0bf;
+	margin-left: -20.3vw;
+	margin-top: 97vw;
+	position: absolute;
+
+}
+span.text10
+{
+	text-align: right;
+word-spacing: 0.5vw;
+margin-top: -25vw;
+font-size: 4.5vw;
+width: 100vw;
+margin-left: -65vw;
+	position: absolute;
+	font-family: BBardiya;
+}
+.checked {
+    color: orange;
+}
+div.mystars2
+{
+	position: absolute;
+
+}
+span.fa1
+{
+	color:#979ea7;
+}
+span.fa
+{
+	font-size: 3vw;
+	width: 4vw;
+}
+div.mystars2
+{
+	font-size: 3vw;
+	position: absolute;
+	margin-top: 186vw;
+	margin-left: 58vw;
+}
+.parallelogram1 {
+
+	width: 30vw;
+	height:6vw;
+	transform: skew(-20deg);
+	background:white;
+	position: absolute;
+	margin-top:185vw;
+	margin-left: 53.8vw;
+}
+div.ideas3
+{
+	color: white;
+	font-family: BMitra;
+	font-size: 5vw;
+	right: 0;
+	margin-right: -3vw;
+	margin-top: 160vw;
+	position: absolute;
+}
+div.textbox2,div.textbox3
+{
+	margin-top: 170vw;
+	background-color: #141a1d;
+	border-radius: 2vw;
+	width: 55vw;
+	height: 13vw;
+	margin-left: 5vw;
+	position: absolute;
+}
+div.textbox3
+{
+	margin-left: -20vw;
+	margin-top: 188vw;
+}
+div.textbox4
+{
+	margin-top: 206vw;
+}
+div.textbox5
+{
+	margin-top: 224vw;
+}
+div.topic3
+{
+	margin-left: 27vw;
+}
+div.topic4{
+	margin-left: 37vw;
+}
+div.modal-content
+{
+background-color: #c5c1c0;
+  height: 41vw;
+  width: 50vw;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+     /* Sit on top */
+    padding-top: 1vw; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+
+    padding:20vw;
+    border: 1vw solid #888;
+    padding-top: 30vw;
+    padding-bottom: 30vw;
+    width: 100%;
+    height: 0vw;
+    position: relative;
+    margin-top: 50vw;
+    margin-bottom: 50vw;
+    margin-left:3.5vw;
+}
+
+/* The Close Button */
+.close10 {
+    color: #f7ce3e;
+    position: absolute;
+    margin-left:57vw;
+    margin-top:-29vw;
+    font-size:11vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+i.icon15
+{
+	position: absolute;
+	color: #f7ce3e;
+  font-size: 11vw;
+  margin-left: 7vw;
+  margin-top:3vw;
+
+  cursor: pointer;
+}
+.close10:hover,
+.close10:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.header15
+{
+  position: absolute;
+  height: 15vw;
+  width: 100%;
+  margin-left: -20vw;
+  margin-top: -30vw;
+  background-color:#1a2930;
+}
+div.motori-title15
+{
+  font-size: 8vw;
+  width: 28vw;
+  color: white;
+  text-align: center;
+  font-weight:200;
+  letter-spacing: 1vw;
+font-family: 'Open Sans', sans-serif;
+border: 0.1vw solid white;
+padding-right: 8vw;
+padding-left: 1vw;
+padding-top: 1vw;
+margin-top: 1vw;
+margin-left: 20vw;
+padding-bottom: 1vw;
+}
+div.YourM15
+{
+padding-top: 0.8vw;
+padding-bottom: 0.8vw;
+color: white;
+background-color: #012930;
+margin-top: 5vw;
+position: absolute;
+padding-left: 1vw;
+padding-right: 1vw;
+border-radius:0.8vw;
+margin-left: 15vw;
+margin-top: -18vw;
+font-size: 2.3vw;
+font-family: 'Open Sans', sans-serif;
+}
+div.part2
+{
+  height: 86vw;
+margin-top: -15vw;
+margin-left: -20vw;
+  background-color: #0a1612;
+  width: 60vw;
+  position: absolute;
+}
+div.number15,div.number16
+{
+  color: white;
+ font-size: 5.5vw;
+  font-family: BMitra;
+  margin-top: 2vw;
+  margin-left: 8vw;
+}
+div.number16
+{
+  position: absolute;
+  margin-top: -8.5vw;
+  margin-left: 38vw;
+}
+input.number15-box15,input.number16-box16
+{
+	direction: ltr;
+  position: absolute;
+    font-family: BMitra;
+  width: 25vw;
+  border:none;
+  font-size: 4vw;
+  border-radius:0.5vw;
+  margin-left: 2.5vw;
+  margin-top: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  background-color: #c5c1c0;
+}
+input.number16-box16
+{
+  position: absolute;
+  margin-left: 32vw;
+}
+a.vorod15
+{
+  cursor: pointer;
+  position: absolute;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  text-align: center;
+  width: 30vw;
+  font-size: 4.4vw;
+  background-color: #f7ce3e;
+  margin-left: 15vw;
+  margin-top: 11vw;
+  border-radius: 0.8vw;
+  font-family: BMitra;
+}
+a.forgot15
+{
+  position: absolute;
+  margin-top: 20vw;
+  margin-left: 15vw;
+  color: #f7ce3e;
+  font-family: BMitra;
+  font-size: 4vw;
+}
+div.plaque15,div.number17,div.name15
+{
+  color: white;
+  position: absolute;
+  margin-top: 29vw;
+  font-family: BMitra;
+  font-size: 5.5vw;
+  margin-left: 7.5vw;
+}
+div.number17
+{
+  margin-left: 36vw;
+}
+input.plaque15-box15,input.number17-box17,input.name15-box15
+{
+  border:none;
+  border-radius: 0.8vw;
+  margin-top: 37vw;
+    position: absolute;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  text-align: center;
+  width: 25vw;
+  font-size: 4.4vw;
+  background-color: #c5c1c0;
+  margin-left: 3vw;
+  border-radius: 0.8vw;
+  font-family: BMitra;
+}
+input.number17-box17
+{
+  margin-left: 32vw;
+}
+div.name15
+{
+  margin-top: 49vw;
+  margin-left: 21vw;
+  font-size: 3.5vw
+}
+input.name15-box15
+{
+  margin-top: 55vw;
+  margin-left: 18vw;
+}
+div.register15
+{
+  margin-left: 16vw;
+  width: 30vw;
+  background-color: #f7ce3e;
+  margin-top: 66vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size:4vw;
+  text-align: center;
+  border-radius: 0.8vw;
+  cursor: pointer;
+}
+#myDIV {
+    height: 83vw;
+  width: 60vw;
+  margin-top:2vw;
+}
+button.login1,div.login2
+{
+	font-family: BMitra;
+	text-align: center;
+  font-size: 4vw;
+  border-bottom:0.3vw solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-left: 60vw;
+  padding: 4vw;
+width:30vw;
+  background-color: #f7ce3e;
+  margin-top: -85vw;
+  cursor: pointer;
+  position: absolute;
+}
+div.login2
+{
+	border-top: 0.4vw solid black;
+	  border-bottom:0.4vw solid black;
+  margin-top: -72.3vw;
+  width: 22vw;
+}
+div.login3
+{
+	  border-bottom:0.4vw solid black;
+  text-align: center;
+  margin-top: -59.5vw;
+}
+div.login4
+{
+		  border-bottom:0.4vw solid black;
+  text-align: center;
+   margin-top: -46.8vw;
+}
+div.login5
+{
+		  border-bottom:0.4vw solid black;
+  margin-top: -34vw;
+  text-align: center;
+}
+div.topic5
+{
+	font-family: fantasy;
+}
