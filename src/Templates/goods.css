@@ -108,21 +108,33 @@ div.details
 }
 div.ideas
 {
-		font-size: 3vw;
+	font-size: 3vw;
+
 	font-family: BBardiya;
+	
 	color: #c5c1c0;
+	
 	transform: rotate(90deg);
-	margin-top:24vw;
+	
+	margin-top: 30vw;
+	margin-left: -0.5vw;
+	position: absolute;
 }
 div.ideas2
 {
 	position: absolute;
-			font-size: 3vw;
+
+	font-size: 3vw;
+	
 	font-family: BBardiya;
+	
 	color: #c5c1c0;
+	
 	transform: rotate(90deg);
-	margin-top: 1vw;
-	margin-left: 0.5vw;
+	
+	margin-top: 24.2vw;
+
+	margin-left: 1vw;
 }
 /* Slideshow container */
 .slideshow-container{
