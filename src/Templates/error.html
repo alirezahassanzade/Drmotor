@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>error page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js" defer>
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="artboard 1.png" alt="logo">
+    <ul>
+        <li>صفحه نخست</li>
+        <li>فروشگاه</li>
+        <li>اورژانس</li>
+        <li>صفحه شما</li>
+    </ul>
+    </div>
+    <div class="txt">
+    <h1 id="err">404</h1>
+    <h1 id="txt">این صفحه وجود ندارد</h1>
+    </div>
+    <div class="ptn">
+        <button onclick="goBack()">صفحه قبل</button>
+        <a href="#"><button id="first" >صفحه نخست</button></a>
+    </div>
+    <div class="pic">
+        <div class="motor">
+            <img src="layer 3.png" alt="motor">
+        </div>
+    </div>
+    <script>
+    function goBack() {
+  window.history.back();
+}
+    </script>
+</body>
+</html>
