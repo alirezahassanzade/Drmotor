@@ -6,3 +6,10 @@ def home_view(request):
 
     }
     return render(request, 'home.html', context)
+
+
+def shop_view(request):
+    context = {
+
+    }
+    return render(request, 'shop.html', context)
