@@ -1,8 +1,9 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 	<title>motori</title>
-	<link rel="stylesheet" type="text/css" href="./motori.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}">
 	<meta charset ="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
@@ -11,7 +12,7 @@
 </head>
 <body>
 	<div class="all ">
-		
+
 
 <div class="ym">
 
@@ -250,7 +251,7 @@
 		</div>
 
 <div class="footer">
-  <img src="footer-bg.png" class="responsive footer-bg"> 
+  <img src="footer-bg.png" class="responsive footer-bg">
 <div class="footer-logo">MOTORI</div>
 <div class="footer-mechanic-logo"><span class="footer-mechanic-logo2">Your </span><span class="footer-mechanic-logo3">mechanics</span></div>
 <div class="footer-text">
@@ -272,7 +273,7 @@
    نحوه ثبت سفارش      <br>
   تعمیرکاران<br>
   تعرفه ها
-  
+
   </div>
 </div>
 
@@ -441,7 +442,7 @@ var btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
     modal.style.display = "block";
 }
@@ -474,15 +475,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
@@ -515,7 +516,7 @@ var btn = document.getElementById("myBtn7");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
     modal.style.display = "block";
 }
@@ -552,7 +553,7 @@ var button12 = document.getElementById("myButton");
 // Get the <span> element that closes the modal
 var span12 = document.getElementsByClassName("close1")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 button12.onclick = function() {
     modal12.style.display = "block";
 }
@@ -589,7 +590,7 @@ var btn21 = document.getElementById("myBtn20");
 // Get the <span> element that closes the modal
 var span21 = document.getElementsByClassName("close2")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn21.onclick = function() {
     modal21.style.display = "block";
 }
@@ -614,7 +615,7 @@ function btnClick(){
   timesClicked ++;
 
 document.getElementById("timesClicked").innerHTML = timesClicked;
-return true 
+return true
    }
    </script>
 </body>

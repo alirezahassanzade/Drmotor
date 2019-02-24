@@ -1,7 +1,8 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="./onepage.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -21,7 +22,7 @@
 	<img src="./layer 5.png" class="motorcycle">
 	<img src="./mechanic.jpeg" class="img2">
 
-	
+
 	<div class="box1"></div>
 	<img src="./Layer 12.png" class="img3">
 		<div class="text2">تعمیر موتور سیکلت شما در هر زمان و هر مکان</div>
@@ -109,11 +110,11 @@ function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
   myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
   setTimeout(carousel, 10000); // Change image every 2 seconds
 }
 </script>
@@ -133,15 +134,15 @@ function showSlides2(n2) {
   var i2;
   var slides2 = document.getElementsByClassName("mySlides2");
   var dots2 = document.getElementsByClassName("dot2");
-  if (n2 > slides2.length) {slideIndex2 = 1}    
+  if (n2 > slides2.length) {slideIndex2 = 1}
   if (n2 < 1) {slideIndex2 = slides2.length}
   for (i2 = 0; i2 < slides2.length; i2++) {
-      slides2[i2].style.display = "none";  
+      slides2[i2].style.display = "none";
   }
   for (i2 = 0; i2 < dots2.length; i2++) {
       dots2[i2].className = dots2[i2].className.replace(" active2", "");
   }
-  slides2[slideIndex2-1].style.display = "block";  
+  slides2[slideIndex2-1].style.display = "block";
   dots2[slideIndex2-1].className += " active2";
 }
 </script>
@@ -174,7 +175,7 @@ function showSlides2(n2) {
    onkeyup="f1(event)">
 
   <div class="filters2-text4">رمز عبور</div>
-  <input type="password" class="filters2-text4-box2" 
+  <input type="password" class="filters2-text4-box2"
   id="eventbox1" onkeyup="f2(event)">
 
   <a  class="filters2-text5-box3" href="" ><div class="textt12">ورود
@@ -209,7 +210,7 @@ function showSlides2(n2) {
        <input type="text" class="text24">
        <div class="text25">کد فرستاده شده را وارد کنید</div>
     </div>
-  
+
   </div>
 </div>
 
@@ -316,7 +317,7 @@ var btn21 = document.getElementById("myBtn20");
 // Get the <span> element that closes the modal
 var span21 = document.getElementsByClassName("close2")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn21.onclick = function() {
     modal21.style.display = "block";
 }
@@ -358,15 +359,15 @@ function showSlides3(n3) {
   var i3;
   var slides3 = document.getElementsByClassName("mySlides3");
   var dots3 = document.getElementsByClassName("dot3");
-  if (n3 > slides3.length) {slideIndex3 = 1}    
+  if (n3 > slides3.length) {slideIndex3 = 1}
   if (n3 < 1) {slideIndex3 = slides3.length}
   for (i3 = 0; i3 < slides3.length; i3++) {
-      slides3[i3].style.display = "none";  
+      slides3[i3].style.display = "none";
   }
   for (i3 = 0; i3 < dots3.length; i3++) {
       dots3[i3].className = dots3[i3].className.replace(" active3", "");
   }
-  slides3[slideIndex3-1].style.display = "block";  
+  slides3[slideIndex3-1].style.display = "block";
   dots3[slideIndex3-1].className += " active3";
 }
 </script>
