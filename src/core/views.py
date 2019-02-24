@@ -5,4 +5,4 @@ def home_view(request):
     context = {
 
     }
-    return render(request, 'onepage.html', context)
+    return render(request, 'home.html', context)
