@@ -1,5 +1,6 @@
 body
 {
+	font-size: 1.5vw;
 	margin: 0px;
 }
 @media only screen and (max-width:640px)
@@ -95,8 +96,6 @@ i.cart
 {
 
 	width: 10%;
-font-size: 9vw;
-	margin-top: 1.6%;
 	margin-left: 60vw;
 	position: absolute;
 	color:#f7ce3e;
@@ -143,15 +142,7 @@ div.yourmechanics3
 		padding-right: 2vw;
 	}
 }
-img.polygon
-{
 
-	width: 2vw;
-	height: 2vw;
-	margin-left: 71vw;
-	position: absolute;
-	margin-top: 0.6%;
-}
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
 	img.polygon
@@ -204,6 +195,16 @@ div.font1
 	font-weight: bolder;
 	color: #1a2930;
 }
+@font-face{
+	font-family:"Font Awesome 5 Brands";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../font/BMorvarid.eot);
+	src:url(../font/BMorvarid.eot?#iefix) format("embedded-opentype"),
+	url(../font/BMorvarid.woff2) format("woff2"),
+	url(../../font/BMorvarid.woff) format("woff"),
+	url(../font/BMorvarid.ttf) format("truetype"),
+	url(../font/BMorvarid.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}
 @font-face {
 	font-family: BMorvarid;
   src:  url('./BMorvarid.woff') format('woff');
@@ -360,50 +361,49 @@ div.modal-content > div.loginap-left
 	height: 16vw;
 	position: absolute;
 }
-div.modal-content > div.loginap-left > div.number
+input.text5
 {
-
-	margin-left: 13vw;
-	color: white;
-	font-size: 1.5vw;
-	margin-top: 0.8vw;
+	position: absolute;
+	border:none;
+	background-color: #c0c3c2;
+	border-radius: 0.3vw;
+	height:10%;
+	width: 17vw;
+	font-size: 2vw;
+direction: rtl;
+font-family: BMitra;
 }
 input[type="text5"]
 {
-	position: absolute;
-	border:none;
-	background-color: #c0c3c2;
-	border-radius: 0.3vw;
-	height:10%;
 	margin-left: 1.5vw;
-	width: 17vw;
-margin-top: 0.5vw;
+margin-top: 3.5vw;
 }
 input[type="password"]
 {
-	position: absolute;
-	border:none;
-	background-color: #c0c3c2;
-	border-radius: 0.3vw;
-	height:10%;
 	margin-left: 1.5vw;
-	width: 17vw;
-	margin-top: 6vw;
+	margin-top: 8.5vw;
+}
+div.number
+{
+	color: white;
+	position: absolute;
 }
 div.number2
 {
-	position: absolute;
-	margin-top:4vw;
+	
+	margin-top:6vw;
 margin-left: 14vw;
-font-size: 1.5vw;
-	color: white;
-
+	position: absolute;
+}
+div.number1
+{
+	margin-left: 13vw;
+	margin-top: 1vw;
 }
 a.vorod
 {
 	font-size: 1vw;
 	position: absolute;
-	margin-top: 8vw;
 	padding-right: 3vw;
 	padding-left: 3vw;
 	padding-top: 0.3vw;
@@ -412,71 +412,48 @@ a.vorod
 	border-radius: 0.3vw;
 	color: #000000;
 	margin-left: 6.5vw;
-	margin-top: 9vw;
+	margin-top: 11.5vw;
 }
+
 a.faramosh
 {
 		font-size: 1vw;
 	position: absolute;
-	margin-top: 11.5vw;
+	margin-top: 14vw;
 	margin-left: 4vw;
 	color:#f7ce3e;
 }
 div.number3
 {
-	position: absolute;
 	margin-left: 41.5vw;
-	font-size: 1.5vw;
-	color: white;
 	margin-top: 4vw;
 }
 input[type="text2"]
 {
-	position: absolute;
 	margin-left: 30vw;
 	margin-top: 7vw;
-	border:none;
-	background-color: #c0c3c2;
-	border-radius: 0.3vw;
-	height:3.5%;
-	width: 17vw;
+	height: 4%;
 }
 input[type="text3"]
 {
-	position: absolute;
 	margin-left: 30vw;
 	margin-top: 13vw;
-	border:none;
-	background-color: #c0c3c2;
-	border-radius: 0.3vw;
-	height:3.5%;
-	width: 17vw;
+	height: 4%;
 }
 div.number4
 {
-	position: absolute;
 	margin-left: 41.5vw;
-	font-size: 1.5vw;
-	color: white;
 	margin-top: 10vw;	
 }
 input[type="text4"]
 {
-		position: absolute;
 	margin-left: 30vw;
 	margin-top: 19vw;
-	border:none;
-	background-color: #c0c3c2;
-	border-radius: 0.3vw;
-	height:3.5%;
-	width: 17vw;
+	height: 4%;
 }
 div.number5
 {
-		position: absolute;
 	margin-left: 38.5vw;
-	font-size: 1.5vw;
-	color: white;
 	margin-top: 16vw;	
 	width: 13vw;
 
@@ -640,7 +617,7 @@ div.content
 	width: 20vw;
 	position:relative;
 	margin-top: 30vw;
-	margin-left: 79.92vw;
+	margin-left: 78.75vw;
 }
 
 @media only screen and (max-width:640px)
@@ -650,14 +627,33 @@ div.content
 		display: none;
 	}
 }
-div.content > div.kind1
+.common2
 {
 	font-family: BMitra;
 	font-size: 2vw;
-	margin-left: 11vw;
-	margin-top:2.2vw;
 	position: absolute;
 	color:#3a3838;
+}
+div.dastebandi
+{
+	margin-left: 5.5vw;
+	margin-top:12vw;
+}
+div.content> div.range
+{
+	margin-left: 10vw;
+	margin-top:27vw;
+
+}
+div.brand
+{
+	margin-left: 13vw;
+	margin-top:21vw;
+}
+div.content > div.kind1
+{
+	margin-left: 11vw;
+	margin-top:2.2vw;
 }
 
 div.content > img.motor-logo
@@ -770,15 +766,7 @@ div.box2
 	margin-left: 2vw;
 
 }
- div.brand
-{
-font-family: BMitra;
-	font-size: 2vw;
-	margin-left: 13vw;
-	margin-top:21vw;
-	position: absolute;
-	color:#3a3838;
-}
+
 div.content > div.box3
 {
 			position: absolute;
@@ -788,14 +776,7 @@ div.content > div.box3
 	margin-top:25vw;
 	margin-left: 2vw;
 }
-div.content> div.range
-{
-font-family: BMitra;
-	font-size: 2vw;
-	margin-left: 10vw;
-	margin-top:27vw;
-	position: absolute;
-	color:#3a3838;}
+
 	.slidecontainer {
     width: 100%;
 }
@@ -854,12 +835,8 @@ div.box4
 }
 div.lavazemjanebi
 {
-	font-family: BMitra;
-	font-size: 2vw;
 	margin-left: 7vw;
 	margin-top:5vw;
-	position: absolute;
-	color:#3a3838;
 }
 div.box5
 {
@@ -870,14 +847,16 @@ div.box5
 	margin-top:9.8vw;
 	margin-left: 2vw;
 }
-div.dastebandi
+span.img
 {
-		font-family: BMitra;
-	font-size: 2vw;
-	margin-left: 5.5vw;
-	margin-top:12vw;
 	position: absolute;
-	color:#3a3838;
+	padding: 1vw;
+	padding-bottom: 8vw;
+	padding-right: 10vw;
+	padding-left: 4vw;
+	background-color: white;
+	border-radius: 1vw;
+height: 8.1vw;
 }
 span.img1
 {
@@ -889,7 +868,6 @@ span.img1
 	padding-left: 2vw;
 	background-color: white;
 	margin-left: 5vw;
-	border-radius: 1vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -924,18 +902,17 @@ span.img1 > img.image1 {
 span.img1 > div.imgtext1
 {
 	position: absolute;
-	margin-top: 8.5vw;
+	margin-top: 8vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
-	margin-left: 1.5vw;
+	margin-left: 4vw;
 }
 @media only screen and (max-width:640px)
 {
 	span.img1 > div.imgtext1
 {
-	font-size: 4vw;
-	margin-top: 13vw;
-	margin-left: 1vw;
+	font-size: 3.5vw;
+	margin-top: 14vw;
+	margin-left: 5.8vw;
 }
 }
 span.img1 > div.imgtext2
@@ -944,7 +921,6 @@ span.img1 > div.imgtext2
 	line-height: 2vw;
 	margin-top: 11vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
 	margin-left: 8vw;
 }
 @media only screen and (max-width:640px)
@@ -959,7 +935,6 @@ span.img1 > div.imgtext2
 }
 span.img1 > div.price1 
 {
-	font-size: 1.5vw;
 	position: absolute;
 	font-family: BMitra;
 	margin-top: 13vw;
@@ -978,7 +953,7 @@ span.img2
 	margin-top: -55vw;
 	position: absolute;
 	padding: 1vw;
-	padding-bottom: 8vw;
+	padding-bottom: 9vw;
 	padding-right: 2vw;
 	padding-left: 2vw;
 	background-color: white;
@@ -1005,7 +980,7 @@ span.img2
 
 span.img2 > img.image2 {
 	width: 10vw;
-	height: 8vw;
+	height: 7vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1017,18 +992,17 @@ span.img2 > img.image2 {
 span.img2 > div.imgtext3
 {
 	position: absolute;
-	margin-top: 8.5vw;
+	margin-top: 7.8vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
-	margin-left: 2.5vw;
+	margin-left: 4.5vw;
 }
 @media only screen and (max-width:640px)
 {
 	span.img2 > div.imgtext3
 {
 	font-size: 4vw;
-	margin-top: 12.5vw;
-	margin-left: 2.5vw;
+	margin-top: 13vw;
+	margin-left: 6.5vw;
 }
 }
 
@@ -1038,7 +1012,6 @@ span.img2 > div.imgtext4
 	line-height: 2vw;
 	margin-top: 11vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
 	margin-left: 8vw;
 }
 @media only screen and (max-width:640px)
@@ -1053,7 +1026,6 @@ span.img2 > div.imgtext4
 }
 span.img2 > div.price2
 {
-	font-size: 1.5vw;
 	position: absolute;
 	font-family: BMitra;
 	margin-top: 13vw;
@@ -1112,18 +1084,17 @@ margin-top: 1vw;
 span.img3 > div.imgtext4
 {
 	position: absolute;
-	margin-top: 8.5vw;
+	margin-top: 8vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
-	margin-left: 4vw;
+	margin-left: 7vw;
 }
 @media only screen and (max-width:640px)
 {
 	span.img3 > div.imgtext4
 {
 	font-size: 4vw;
-	margin-left: 8vw;
-	margin-top: 12vw;
+	margin-left: 12vw;
+	margin-top: 13vw;
 }
 }
 span.img3 > div.imgtext5
@@ -1132,7 +1103,6 @@ span.img3 > div.imgtext5
 	line-height: 2vw;
 	margin-top: 11vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
 	margin-left: 8vw;
 }
 @media only screen and (max-width:640px)
@@ -1147,7 +1117,6 @@ span.img3 > div.imgtext5
 }
 span.img3 > div.price3
 {
-	font-size: 1.5vw;
 	position: absolute;
 	font-family: BMitra;
 	margin-top: 13vw;
@@ -1205,18 +1174,17 @@ span.img4 > img.image4 {
 span.img4 > div.imgtext5
 {
 	position: absolute;
-	margin-top: 8.5vw;
+	margin-top: 7.5vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
-	margin-left:1.5vw;
+	margin-left:3.5vw;
 }
 @media only screen and (max-width:640px)
 {
 	span.img4 > div.imgtext5
 {
-	font-size: 4vw;
-	margin-top: 13vw;
-	margin-left: 0.3vw;
+	font-size: 3vw;
+	margin-top: 14.5vw;
+	margin-left: 6vw;
 }
 }
 span.img4 > div.imgtext6
@@ -1225,7 +1193,6 @@ span.img4 > div.imgtext6
 	line-height: 2vw;
 	margin-top: 11vw;
 	font-family: BMitra;
-	font-size: 1.5vw;
 	margin-left: 8vw;
 }
 @media only screen and (max-width:640px)
@@ -1242,7 +1209,6 @@ span.img4 > div.imgtext6
 
 span.img4 > div.price4
 {
-	font-size: 1.5vw;
 	position: absolute;
 	font-family: BMitra;
 	margin-top: 13vw;
@@ -1258,116 +1224,41 @@ span.img4 > div.price4
 }
 span.img5
 {
-	margin-top: -35vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 59vw;
-	border-radius: 1vw;
-height: 8.1vw;
+	margin-top: -35vw;
+
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
-	span.img5
+	span.img17
 	{
 		display: none;
 	}
 }
 span.img6
 {
-	margin-top: -35vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 41vw;
-	border-radius: 1vw;
-height: 8.1vw;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	span.img6
-	{
-		display: none;
-	}
+	margin-top: -35vw;
 }
 span.img7
 {
-	margin-top: -35vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 23vw;
-	border-radius: 1vw;
-height: 8.1vw;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	span.img7
-	{
-		display: none;
-	}
+	margin-top: -35vw;
 }
 span.img8
 {
-	margin-top: -35vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 5vw;
-	border-radius: 1vw;
-height: 8.1vw;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	span.img8
-	{
-		display: none;
-	}
+	margin-top: -35vw;
 }
 span.img9
 {
-	margin-top: -15vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 59vw;
-	border-radius: 1vw;
-height: 8.1vw;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	span.img9
-	{
-		display: none;
-	}
+	margin-top: -15vw;
 }
 span.img10
 {
 	margin-top: -15vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 41vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -1388,15 +1279,7 @@ height: 8.1vw;
 span.img11
 {
 	margin-top: -15vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 23vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -1417,15 +1300,7 @@ height: 8.1vw;
 span.img12
 {
 	margin-top: -15vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 5vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -1438,15 +1313,7 @@ display: none;
 span.img13
 {
 	margin-top: 5vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 59vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -1467,15 +1334,7 @@ height: 8.1vw;
 span.img14
 {
 	margin-top: 5vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 41vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1496,15 +1355,7 @@ height: 8.1vw;
 span.img15
 {
 	margin-top: 5vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 11vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 23vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 
 @media only screen and (min-width:200px ) and (max-width:640px)
@@ -1526,24 +1377,9 @@ height: 8.1vw;
 span.img16
 {
 	margin-top: 5vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 10vw;
-	padding-left: 4vw;
-	background-color: white;
 	margin-left: 5vw;
-	border-radius: 1vw;
-height: 8.1vw;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	span.img16
-{
-display: none;
 }
 
-}
 img.footer-bg
 {
 	position: absolute;
@@ -1651,13 +1487,7 @@ margin-top:114.2vw;
 }
 div.footer > div.footer-text2
 {
-	position: absolute;
-	line-height: 3vw;
-	font-family: BMitra;
-	font-size: 2vw;
-	color: white;
 	margin-left: 70%;
-margin-top:114.2vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1730,7 +1560,7 @@ overflow: scroll;
 	background-color:#1a2930;
 	cursor: pointer;
 	margin-top: -130.6vw;
-	margin-left: 88vw;
+	margin-left: 84vw;
 }
 @media only screen and (min-width:641px )
 {
@@ -1774,17 +1604,32 @@ div.modal-content10 > button.loginap1
 	margin-top:1.9vw;
 	padding-left:17.5vw;
 }
+div.modal-content10 > button.loginap6
+{
+	margin-top:43.5vw;
+}
+div.modal-content10 > button.loginap5
+{
+	padding-right: 17.5vw;
+	margin-top:35.3vw;
+}
+div.modal-content10 > button.loginap3
+{
+	padding-right: 17.8vw;
+	margin-top:18.7vw;
+	padding-left: 17vw;
+}
+div.modal-content10 > button.loginap2
+{
+	padding-right: 16vw;
+	padding-top: 3.4vw;
+	padding-bottom: 3.4vw;
+	margin-top:10.1vw;
+	padding-left:15.7vw;
+}
 div.modal-content10 > button.loginap4
 {
-	cursor:pointer;
-	color: black;
-	border:0.1vw solid black;
 	padding-right: 17.5vw;
-	padding-top:4vw;
-	padding-bottom:4vw;
-	background-color: #f7ce3e;
-	margin-left:39.9vw;
-	position: absolute;
 	margin-top:27.2vw;
 	padding-left: 17.3vw;
 }
@@ -1854,15 +1699,11 @@ div.modal10 > div.modal-content10 > div.filter1-bg1>div.filter1-header
     margin-left: -8vw;
     line-height: 2.5vw;
 }
-
-/* Hide the browser's default checkbox */
 .container1 input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
-
-/* Create a custom checkbox */
 .checkmark1 {
 	margin-left: 2vw;
 	margin-top: 3vw;
@@ -1873,30 +1714,20 @@ div.modal10 > div.modal-content10 > div.filter1-bg1>div.filter1-header
     width: 5vw;
     background-color: #eee;
 }
-
-/* On mouse-over, add a grey background color */
 .container1:hover input ~ .checkmark1 {
     background-color: #ccc;
 }
-
-/* When the checkbox is checked, add a blue background */
 .container1 input:checked ~ .checkmark1 {
     background-color: #2196F3;
 }
-
-/* Create the checkmark/indicator (hidden when not checked) */
 .checkmark1:after {
     content: "";
     position: absolute;
     display: none;
 }
-
-/* Show the checkmark when checked */
 .container1 input:checked ~ .checkmark1:after {
     display: block;
 }
-
-/* Style the checkmark/indicator */
 .container1 .checkmark1:after {
     left: 1.7vw;
     top: -1vw;
@@ -1919,27 +1750,12 @@ div.filterkind1-text1
 	margin-left:32vw;
 	line-height: 10vw;
 }
-div.modal-content10 > button.loginap2
-{
-	border:none;
-	cursor:pointer;
-	color: black;
-	border-bottom:0.1vw solid black;
-	padding-right: 16vw;
-	padding-top: 3.4vw;
-	padding-bottom: 3.4vw;
-	background-color: #f7ce3e;
-	margin-left: 39.9vw;
-	position: absolute;
-	margin-top:10.1vw;
-	padding-left:15.7vw;
-}
+
 div.modal-content10 > button.loginap2 > div.filtertext2
 {
 	font-size: 3vw;
 	margin-top: -2vw;
 	margin-left: -1.6vw;
-}
 }
 @media only screen and (max-width:640px)
 {
@@ -1953,24 +1769,6 @@ div.modal-content10 > button.loginap2 > div.filtertext2
 		margin-top: -0.5vw;
 }
 }
-
-div.modal-content10 > button.loginap3
-{
-	border:none;
-	cursor:pointer;
-	color: black;
-	border-bottom:0.1vw solid black;
-
-	padding-right: 17.8vw;
-	padding-top: 4vw;
-	padding-bottom: 4vw;
-	background-color: #f7ce3e;
-	margin-left: 39.9vw;
-	position: absolute;
-	margin-top:18.7vw;
-	padding-left: 17vw;
-}
-
 div.modal-content10 > button.loginap3 > div.filtertext3
 {
 	font-family: BMitra;
@@ -1993,22 +1791,6 @@ div.modal-content10 > button.loginap3 > div.filtertext3
 		margin-top: -2.5vw;
 }
 }
-div.modal-content10 > button.loginap4
-{
-		border:none;
-	cursor:pointer;
-	color: black;
-	border-bottom:0.1vw solid black;
-	padding-right: 17.5vw;
-	padding-top:4vw;
-	padding-bottom:4vw;
-	background-color: #f7ce3e;
-	margin-left:39.9vw;
-	position: absolute;
-	margin-top:27vw;
-	padding-left: 17.3vw;
-
-}
 div.modal-content10 > button.loginap4 > div.filtertext4
 {
 	font-family: BMitra;
@@ -2026,22 +1808,6 @@ div.modal-content10 > button.loginap4 > div.filtertext4
 	font-size: 3vw;
 			margin-top: -2.5vw;
 }
-}
-div.modal-content10 > button.loginap5
-{
-	border:none;
-	cursor:pointer;
-	color: black;
-	border-bottom:0.1vw solid black;
-	padding-right: 17.5vw;
-	padding-top: 4vw;
-	padding-bottom: 4vw;
-	background-color: #f7ce3e;
-	margin-left: 39.9vw;
-	position: absolute;
-	margin-top:35.3vw;
-	padding-left:17.4vw;
-
 }
 div.modal-content10 > button.loginap5 > div.filtertext5
 {
@@ -2062,21 +1828,7 @@ div.modal-content10 > button.loginap5 > div.filtertext5
 	margin-top: -2.5vw;
 }
 }
-div.modal-content10 > button.loginap6
-{
-	border:none;
-	cursor:pointer;
-	color: black;
-	border-bottom:0.1vw solid black;
-	padding-right: 17.4vw;
-	padding-top: 4vw;
-	padding-bottom: 4vw;
-	background-color: #f7ce3e;
-	margin-left:39.9vw;
-	position: absolute;
-	margin-top:43.5vw;
-	padding-left:17.4vw;
-}
+
 div.modal-content10 > button.loginap6 > div.filtertext6
 {
 	font-family: BMitra;
@@ -2101,7 +1853,7 @@ div.modal-content4
 	background-color:#c5c1c0;
 	height: 70vw;
 	width: 65vw;
-	margin-left: 6vw;
+	margin-left: 3vw;
 }
 
 
@@ -2159,7 +1911,7 @@ div.modal-content4
 	border:none;
 	background-color:#1a2930;
 	margin-top: -131vw;
-	margin-left: 10.9vw;
+	margin-left: 7.9vw;
 }
 @media only screen and (min-width:641px)
 {
@@ -2359,6 +2111,7 @@ input.filters2-text7-box5
 	border-radius: 0.3vw;
 	margin-top: 47vw;
 	margin-left: -7.5vw;
+	direction: rtl;
 }
 div.filters2-text8
 {
@@ -2516,30 +2269,31 @@ span.num
 {
 	span.num
 	{
-		margin-left:28vw;
+		margin-left:-2.5vw;
 				margin-top: -132.5vw;
 				color: black;
 			font-size: 5vw;
 			}
 }
-
-i.imgg1
+i.imgg
 {
 	position: absolute;
-	font-size: 5vw;
+	font-size: 3vw;
 	color: #f7ce3e; 
-	margin-top:-49vw;
-	margin-left: 9vw;
-	display: none;
 	cursor: pointer;
+}
+i.imgg1
+{
+	margin-top:-46.5vw;
+	margin-left: 6.5vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
 	i.imgg1
 {
-margin-top: 50vw;
-font-size: 10vw;
-margin-left: 13vw;
+margin-top: 55vw;
+font-size: 5vw;
+margin-left: 8vw;
 }
 }
 span.img1:hover
@@ -2549,26 +2303,20 @@ span.img1:hover
 }
 span.img1:hover + i.imgg1
 {
-	display:unset;
 	cursor: pointer;
 }
 i.imgg2
 {
-	display: none;
-	margin-top:-49vw;
-	margin-left: 27.5vw;
-	position: absolute;
-		font-size: 5vw;
-		color: #f7ce3e; 
-		cursor: pointer;
+	margin-top:-46.5vw;
+	margin-left: 24.5vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
 	i.imgg2
 {
-	font-size: 10vw;
-	margin-top: 50vw;
-	margin-left: 45vw;
+	font-size: 5vw;
+	margin-top: 55vw;
+	margin-left: 40vw;
 }
 }
 span.img2:hover
@@ -2583,21 +2331,16 @@ span.img2:hover + i.imgg2
 }
 i.imgg3
 {
-	display: none;
-	margin-top:-49vw;
-	margin-left: 45.5vw;
-	position: absolute;
-		font-size: 5vw;
-		color: #f7ce3e; 
-		cursor: pointer;
+	margin-top:-46.5vw;
+	margin-left: 43vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
 	i.imgg3
 {
-	margin-top: 50vw;
-	margin-left: 77vw;
-	font-size: 10vw;
+	margin-top: 55vw;
+	margin-left: 72vw;
+	font-size: 5vw;
 }
 }
 span.img3:hover
@@ -2612,21 +2355,16 @@ span.img3:hover + i.imgg3
 }
 i.imgg4
 {
-	display: none;
-	margin-top:-49vw;
-	margin-left: 63vw;
-	position: absolute;
-		font-size: 5vw;
-		color: #f7ce3e; 
-		cursor: pointer;
+	margin-top:-46.5vw;
+	margin-left: 60.5vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
 	i.imgg4
 {
-	margin-top: 85vw;
-margin-left: 13vw;
-font-size: 10vw;
+	margin-top: 94vw;
+margin-left: 8vw;
+font-size: 5vw;
 }
 }
 span.img4:hover
@@ -2648,6 +2386,7 @@ margin-top: -43.08vw;
 margin-left: -86vw;
 padding: 0.5vw;
 
+    margin-top: -43vw;
 }
 
  div.star-rating input[type=radio] {
@@ -2674,7 +2413,7 @@ i.star1:hover
 font-size: 2.6vw;
     direction: rtl;
     position:absolute;
-margin-left:-78vw;
+margin-left:-75vw;
 margin-top: 60vw;
 }
 }
@@ -2709,7 +2448,7 @@ margin-left: -68vw;
 font-size: 2.6vw;
     direction: rtl;
     position:absolute;
-margin-left:-45.8vw;
+margin-left:-42.8vw;
 margin-top: 60vw;
 }
 }
@@ -2743,42 +2482,50 @@ padding: 0.5vw;
 font-size: 2.6vw;
     direction: rtl;
     position:absolute;
-margin-left:-14vw;
+margin-left:-11vw;
 margin-top: 60vw;
 }
 }
- div.star-rating4 {
-margin-top: -43vw;
-margin-left: -32vw;
-    direction: rtl;
-    position:absolute;
-   font-size: 1vw;
-   padding:0.5vw;
-
-}
-
- div.star-rating4 input[type=radio] {
-    display: none;
-}
-
- div.star-rating4 label {
-    color: #bbb;
-    cursor: pointer;
-
-}
-
- div.star-rating4 label:hover,
-  div.star-rating4 label:hover ~ label,
-  div.star-rating4 input[type=radio]:checked ~ label {
-    color: #f2b600;
-}
-@media only screen and (max-width: 640px)
+div.star-rating4 {
+	margin-top: -43vw;
+	margin-left: -32vw;
+		direction: rtl;
+		position:absolute;
+	   font-size: 1vw;
+	   padding:0.5vw;
+	
+	}
+	
+	 div.star-rating4 input[type=radio] {
+		display: none;
+	}
+	
+	 div.star-rating4 label {
+		color: #bbb;
+		cursor: pointer;
+	
+	}
+	
+	 div.star-rating4 label:hover,
+	  div.star-rating4 label:hover ~ label,
+	  div.star-rating4 input[type=radio]:checked ~ label {
+		color: #f2b600;
+	}
+	@media only screen and (max-width: 640px)
+	{
+		 div.star-rating4 {
+	font-size: 2.6vw;
+		direction: rtl;
+		position:absolute;
+	margin-left:-75vw;
+	margin-top: 99.4vw;
+	}
+	}
+img.Drmotori-logo 
 {
-	 div.star-rating4 {
-font-size: 2.6vw;
-    direction: rtl;
-    position:absolute;
-margin-left:-78vw;
-margin-top: 99.4vw;
-}
+	height: 25vw;
+	position: absolute;
+	width: 34vw;
+	margin-top: -5.54vw;
+	margin-left: -2vw;
 }
