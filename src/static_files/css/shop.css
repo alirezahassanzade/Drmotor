@@ -7,6 +7,7 @@ body
 {
 	div.header2
 	{
+
 		padding-bottom: 2vw;
 	}
 }
@@ -903,11 +904,7 @@ span.img2
 	margin-left: 5vw;
 	border-radius: 1vw;
 }
-
 }
-
-
-
 span.img1 > img.image1 {
 	width: 10vw;
 	height: 8vw;
