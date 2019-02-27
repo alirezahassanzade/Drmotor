@@ -1,4 +1,5 @@
 {% load static %}
+{% load index %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -130,7 +131,7 @@
 			امتیاز <br>قیمت
 		</div>
 		<div class="price4">{{ good.Price }}</div>
-		<img src="{% static 'img/shop_lent4.png' %}" class="responsive image4">
+		<img src="{{ first_image|index:forloop.counter0 }}" class="responsive image4">
 	</span>
 
 {% endfor %}
