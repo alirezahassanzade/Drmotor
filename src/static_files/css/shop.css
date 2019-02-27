@@ -197,11 +197,11 @@ div.font1
 }
 @font-face {
 	font-family: BMorvarid;
-  src:  url('./BMorvarid.woff') format('woff');
+  src:  url('../font/BMorvarid.woff') format('woff');
 }
 @font-face {
 	font-family: BMitra;
-  src:  url('./BMitra.woff') format('woff');
+  src:  url('../font/BMitra.woff') format('woff');
 }
 img.motor
 {
