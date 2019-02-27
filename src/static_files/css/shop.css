@@ -848,16 +848,24 @@ span.img
 	border-radius: 1vw;
 height: 8.1vw;
 }
-span.img1
+.common1
 {
-	margin-top:-55vw;
+	margin-top: -55vw;
 	position: absolute;
 	padding: 1vw;
-	padding-bottom: 8vw;
+	padding-bottom: 9vw;
 	padding-right: 2vw;
 	padding-left: 2vw;
 	background-color: white;
+	border-radius: 1vw;
+}
+span.img1
+{
 	margin-left: 5vw;
+}
+span.img2
+{
+	margin-left: 23vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -938,19 +946,6 @@ span.img1 > div.price1
 	margin-top: 23.4vw;
 }
 }
-span.img2
-{
-	margin-top: -55vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 9vw;
-	padding-right: 2vw;
-	padding-left: 2vw;
-	background-color: white;
-	margin-left: 23vw;
-	border-radius: 1vw;
-}
-
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
 	span.img2
@@ -1031,16 +1026,7 @@ span.img2 > div.price2
 }
 span.img3
 {
-	margin-top: -55vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 2vw;
-	padding-left: 2vw;
-	background-color: white;
 	margin-left: 41vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -1122,16 +1108,7 @@ span.img3 > div.price3
 }
 span.img4
 {
-	margin-top: -55vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 2vw;
-	padding-left: 2vw;
-	background-color: white;
 	margin-left: 59vw;
-	border-radius: 1vw;
-height: 8.1vw;
 }
 @media only screen and  (max-width:640px)
 {
