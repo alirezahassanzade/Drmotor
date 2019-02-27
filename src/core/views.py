@@ -16,3 +16,17 @@ def shop_view(request):
         'goods_list': goods_list
     }
     return render(request, 'shop.html', context)
+
+
+def error_view(request):
+    context = {
+
+    }
+    return render(request, '404.html', context)
+
+
+def panel_view(request):
+    context = {
+
+    }
+    return render(request, 'panel.html', context)
