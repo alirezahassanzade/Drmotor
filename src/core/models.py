@@ -88,6 +88,9 @@ class Good(models.Model):
     Vote = models.PositiveSmallIntegerField()
     Description = models.TextField()
 
+    def __str__(self):
+        return self.Title
+
 
 class Request(models.Model):
     # StartDate will automatically set when an instance is created
@@ -117,6 +120,15 @@ class Service(models.Model):
 class RequestService(models.Model):
     Request = models.ForeignKey(Request, on_delete=models.SET_NULL, null=True)
     Service = models.ForeignKey(Service, on_delete=models.SET_NULL, null=True)
+
+
+class Image(models.Model):
+    Img = models.ImageField(upload_to='static_img/', null=True, blank=True)
+
+
+class Good_Image(models.Model):
+    Good = models.ForeignKey(Good, on_delete=models.SET_NULL, null=True)
+    Image = models.ForeignKey(Image, on_delete=models.SET_NULL, null=True)
 
 
 class System(models.Model):
