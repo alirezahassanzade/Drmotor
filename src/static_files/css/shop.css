@@ -7,7 +7,6 @@ body
 {
 	div.header2
 	{
-
 		padding-bottom: 2vw;
 	}
 }
@@ -196,33 +195,13 @@ div.font1
 	font-weight: bolder;
 	color: #1a2930;
 }
-@font-face{
-	font-family:"Font Awesome 5 Brands";
-	font-style:normal;
-	font-weight:normal;
-	src:url(../font/BMorvarid.eot);
-	src:url(../font/BMorvarid.eot?#iefix) format("embedded-opentype"),
-	url(../font/BMorvarid.woff2) format("woff2"),
-	url(../../font/BMorvarid.woff) format("woff"),
-	url(../font/BMorvarid.ttf) format("truetype"),
-	url(../font/BMorvarid.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}
 @font-face {
 	font-family: BMorvarid;
-  src:  url('../font/BMorvarid.woff') format('woff');
+  src:  url('./BMorvarid.woff') format('woff');
 }
-@font-face{
-	font-family:"Font Awesome 5 Brands";
-	font-style:normal;
-	font-weight:normal;
-	src:url(../font/BMitra.eot);
-	src:url(../font/BMitra.eot?#iefix) format("embedded-opentype"),
-	url(../font/BMitra.woff2) format("woff2"),
-	url(../../font/BMitra.woff) format("woff"),
-	url(../font/BMitra.ttf) format("truetype"),
-	url(../font/BMitra.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}
 @font-face {
 	font-family: BMitra;
-  src:  url('../font/BMitra.woff') format('woff');
+  src:  url('./BMitra.woff') format('woff');
 }
 img.motor
 {
@@ -869,26 +848,16 @@ span.img
 	border-radius: 1vw;
 height: 8.1vw;
 }
-.common1
+span.img1
 {
-	border-radius: 1vw;
 	margin-top:-55vw;
 	position: absolute;
 	padding: 1vw;
 	padding-bottom: 8vw;
 	padding-right: 2vw;
 	padding-left: 2vw;
-	height: 8.3vw;
-}
-span.img1
-{
 	background-color: white;
 	margin-left: 5vw;
-}
-span.img2
-{
-	background-color: white;
-	margin-left: 23vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -904,7 +873,11 @@ span.img2
 	margin-left: 5vw;
 	border-radius: 1vw;
 }
+
 }
+
+
+
 span.img1 > img.image1 {
 	width: 10vw;
 	height: 8vw;
@@ -965,7 +938,18 @@ span.img1 > div.price1
 	margin-top: 23.4vw;
 }
 }
-
+span.img2
+{
+	margin-top: -55vw;
+	position: absolute;
+	padding: 1vw;
+	padding-bottom: 9vw;
+	padding-right: 2vw;
+	padding-left: 2vw;
+	background-color: white;
+	margin-left: 23vw;
+	border-radius: 1vw;
+}
 
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -1047,8 +1031,16 @@ span.img2 > div.price2
 }
 span.img3
 {
+	margin-top: -55vw;
+	position: absolute;
+	padding: 1vw;
+	padding-bottom: 8vw;
+	padding-right: 2vw;
+	padding-left: 2vw;
 	background-color: white;
 	margin-left: 41vw;
+	border-radius: 1vw;
+height: 8.1vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -1130,8 +1122,16 @@ span.img3 > div.price3
 }
 span.img4
 {
+	margin-top: -55vw;
+	position: absolute;
+	padding: 1vw;
+	padding-bottom: 8vw;
+	padding-right: 2vw;
+	padding-left: 2vw;
 	background-color: white;
 	margin-left: 59vw;
+	border-radius: 1vw;
+height: 8.1vw;
 }
 @media only screen and  (max-width:640px)
 {
