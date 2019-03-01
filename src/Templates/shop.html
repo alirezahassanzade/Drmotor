@@ -99,7 +99,7 @@
 	<span class="img" style="display:none"></span>
 	<i class="imgg"></i>
 
-
+<div class="problem">
 {% for good in goods_list %}
 
 	<span class="img1 common1">
@@ -131,11 +131,11 @@
 			امتیاز <br>قیمت
 		</div>
 		<div class="price4">{{ good.Price }}</div>
-		<img src="{{ first_image|index:forloop.counter0 }}" class="responsive image4">
+		<img src="{{ first_image|index:forloop.counter0 }}" class="image4">
 	</span>
 
 {% endfor %}
-
+</div>
 	<div class="footer">
 		<img src="{% static 'img/shop_footer-bg.png' %}" class="responsive footer-bg">
 		<div class="footer-logo">MOTORI</div>

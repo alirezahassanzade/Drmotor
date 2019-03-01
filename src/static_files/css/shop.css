@@ -14,6 +14,7 @@ body
 img.motori-bg
 {
 	position: absolute;
+	margin-top: 28vw;
 }
 div.header
 {
@@ -21,8 +22,8 @@ width: 100%;
 height: 10.2vw;
 	background-color: #1a2930;
 	position:fixed;
-	margin-top: -132.2vw;
-z-index: 2;
+	margin-top: -130.2vw;
+z-index: 0;
 }
 @media only screen and (max-width:640px)
 {
@@ -78,8 +79,8 @@ div.all > div.header >div.header2> div.yourmechanics
 }
 
 .responsive {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 div.ym
 {
@@ -106,9 +107,9 @@ i.cart
 	i.cart
 	{
 		position: fixed;
-		margin-top: 21vw;
+		margin-top: 1vw;
 		font-size: 12vw;
-		margin-left: 35vw;
+		margin-left: 68vw;
 	}
 }
 @media only screen and (min-width:641px)
@@ -233,6 +234,10 @@ div.header3
 	div.header3
 	{
 		height:5vw;
+	}
+	img.motor
+	{
+		
 	}
 }
 input[type="text1"]
@@ -851,18 +856,17 @@ height: 8.1vw;
 }
 .common1
 {
-	margin-top: -55vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 8vw;
-	padding-right: 2vw;
-	padding-left: 2vw;
+	margin-top: 4vw;
+	position: relative;
+	padding-bottom: 11vw;
 	background-color: white;
 	border-radius: 1vw;
+	display: inline-grid;
+	width: 14.3vw;
 }
 span.img1
 {
-	margin-left: 5vw;
+	margin-left: 4.2vw;
 }
 span.img2
 {
@@ -1076,24 +1080,6 @@ span.img3 > div.imgtext4
 	margin-top: 13vw;
 }
 }
-span.img3 > div.imgtext5
-{
-	position: absolute;
-	line-height: 2vw;
-	margin-top: 11vw;
-	font-family: BMitra;
-	margin-left: 8vw;
-}
-@media only screen and (max-width:640px)
-{
-	span.img3 > div.imgtext5
-{
-	line-height: 5vw;
-	font-size: 4vw;
-		margin-left: 15vw;
-	margin-top: 18.5vw;
-}
-}
 span.img3 > div.price3
 {
 	position: absolute;
@@ -1130,10 +1116,11 @@ span.img4
 }
 
 }
-span.img4 > img.image4 {
-	width: 10vw;
-		height: 6vw;
+img.image4 {
+	width: 11vw;
+		height: 7vw;
 margin-top: 1vw;
+	margin-left: 1.5vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1142,12 +1129,12 @@ span.img4 > img.image4 {
 		height: 12vw;
 }	
 }
-span.img4 > div.imgtext5
+span.img1 > div.imgtext5
 {
 	position: absolute;
-	margin-top: 7.5vw;
+	margin-top: 9vw;
 	font-family: BMitra;
-	margin-left:3.5vw;
+	margin-left:9vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1158,13 +1145,13 @@ span.img4 > div.imgtext5
 	margin-left: 6vw;
 }
 }
-span.img4 > div.imgtext6
+div.imgtext6
 {
 	position: absolute;
-	line-height: 2vw;
-	margin-top: 11vw;
+	line-height: 2.5vw;
+	margin-top: 12vw;
 	font-family: BMitra;
-	margin-left: 8vw;
+	margin-left: 10vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1178,12 +1165,12 @@ span.img4 > div.imgtext6
 }
 }
 
-span.img4 > div.price4
+ div.price4
 {
 	position: absolute;
 	font-family: BMitra;
-	margin-top: 13vw;
-	margin-left: 1vw;
+	margin-top: 14.8vw;
+	margin-left: 3vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1531,7 +1518,7 @@ overflow: scroll;
 	background-color:#1a2930;
 	cursor: pointer;
 	margin-top: -130.6vw;
-	margin-left: 84vw;
+	margin-left: 88vw;
 }
 @media only screen and (min-width:641px )
 {
@@ -1881,7 +1868,7 @@ div.modal-content4
 	padding-right: 7.1vw;
 	border:none;
 	background-color:#1a2930;
-	margin-top: -131vw;
+	margin-top: -194vw;
 	margin-left: 7.9vw;
 }
 @media only screen and (min-width:641px)
@@ -2229,7 +2216,7 @@ div.text20
 span.num
 {
 	font-size: 3vw;
-	margin-top: -130.3vw;
+	margin-top: -128.3vw;
 	margin-left: 17.9vw;
 	position: fixed;
 	font-family: BMitra;
@@ -2241,8 +2228,8 @@ span.num
 {
 	span.num
 	{
-		margin-left:-2.5vw;
-				margin-top: -132.5vw;
+		margin-left:30vw;
+				margin-top: -197.2vw;
 				color: black;
 			font-size: 5vw;
 			}
@@ -2314,8 +2301,8 @@ span.img3:hover + i.imgg3
 }
 i.imgg4
 {
-	margin-top:7.5vw;
-	margin-left: -0.5vw;
+	margin-top:8.5vw;
+	margin-left: 1.5vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -2443,8 +2430,8 @@ margin-top: 60vw;
 }
 }
 div.star-rating4 {
-	margin-top: 11vw;
-	margin-left: -9vw;
+	margin-top: 12.2vw;
+	margin-left: -6.4vw;
 		direction: rtl;
 		position:absolute;
 	   font-size: 1vw;
@@ -2484,4 +2471,17 @@ img.Drmotori-logo
 	width: 34vw;
 	margin-top: -5.54vw;
 	margin-left: -2vw;
+}
+.problem
+{
+	position: relative;
+	background-color: red;
+	width: 79vw;
+	height: 58vw;
+	margin-top: -60vw;
+}
+@media only screen and (max-width : 640px)
+{
+
+
 }
