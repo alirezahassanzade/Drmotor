@@ -152,8 +152,8 @@ div.yourmechanics3
 		position: fixed;
 		width: 4.3vw;
 		height: 4.3vw;
-		margin-top: 21vw;
-		margin-left: 45vw;
+		margin-top: 1vw;
+		margin-left: 79vw;
 	}
 }
 @media only screen and (min-width:641px)
@@ -1124,7 +1124,7 @@ margin-top: 1vw;
 }
 @media only screen and (max-width:640px)
 {
-span.img4 > img.image4 {
+img.image4 {
 	width: 20vw;
 		height: 12vw;
 }	
@@ -1138,7 +1138,7 @@ span.img1 > div.imgtext5
 }
 @media only screen and (max-width:640px)
 {
-	span.img4 > div.imgtext5
+	span.img1 > div.imgtext5
 {
 	font-size: 3vw;
 	margin-top: 14.5vw;
@@ -1155,7 +1155,7 @@ div.imgtext6
 }
 @media only screen and (max-width:640px)
 {
-	span.img4 > div.imgtext6
+div.imgtext6
 {
 	line-height: 5vw;
 	font-size: 4vw;
@@ -1174,7 +1174,7 @@ div.imgtext6
 }
 @media only screen and (max-width:640px)
 {
-	span.img4 > div.price4
+ div.price4
 {
 	font-size: 4vw;
 	margin-top: 23.5vw;
