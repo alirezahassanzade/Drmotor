@@ -584,8 +584,9 @@ div.text6
 {
 	div.text6
 	{
-		margin-left: 83vw;
+		margin-left: 78vw;
 		font-size: 3.5vw;
+		width: 14vw;
 	}
 }
 
@@ -2130,7 +2131,6 @@ span.num
 	position: fixed;
 	font-family: BMitra;
 
-	z-index: 3;
 }
 
 @media only screen and (min-width:200px ) and (max-width:640px)
