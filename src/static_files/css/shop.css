@@ -30,7 +30,7 @@ z-index: 0;
 	div.header
 	{
 		height: 15vw;
-			margin-top: -268.2vw;
+			margin-top: -268.8vw;
 	}
 }
 
@@ -233,7 +233,7 @@ div.header3
 {
 	div.header3
 	{
-		height:5vw;
+		height:6vw;
 	}
 	img.motor
 	{
@@ -250,7 +250,7 @@ background-color: #9a9f9d;
 color: white;
 border:none;
 padding: 0.2vw;
-margin-top: 0.2vw;
+margin-top: 0.11vw;
 width: 20vw;
 text-align: center;
 margin-left: 10vw;
@@ -616,7 +616,7 @@ div.content
 	width: 20vw;
 	position:relative;
 	margin-top: 30vw;
-	margin-left: 78.75vw;
+	margin-left: 77.4vw;
 }
 
 @media only screen and (max-width:640px)
@@ -1360,24 +1360,6 @@ img.footer-bg
 	margin-top: 6vw;
 	}
 }
-
-div.footer > div.footer-logo
-{
-	position: absolute;
-	text-align: center;
-	width: 20%;
-	color: white;
-	line-height: 200%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 4vw;
-	letter-spacing: 1.7vw;
-	margin-left: 4%;
-	position: absolute;
-	display: inline-block;
-	margin-top:134vw;
-	border:0.2vw solid white;
-	padding-right: 4.5vw;
-}
 @media only screen and (max-width:640px)
 {
 	div.footer > div.footer-logo
@@ -1386,24 +1368,6 @@ div.footer > div.footer-logo
 	padding-right: 15.8vw;
 	margin-top: 10vw;
 }
-}
-div.footer > div.footer-mechanic-logo
-{
-	position: absolute;
-	text-align: center;
-	width: 10%;
-	color:#1a2930;
-	line-height: 200%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1vw;
-	letter-spacing:0.1vw;
-	margin-left: 15%;
-	position: absolute;
-	margin-top:140.8vw;
-	border:0.2vw solid #ccc;
-	background-color: white;
-padding-top:0.5vw;
-padding-bottom: 0.5vw; 
 }
 @media only screen and (max-width:640px)
 {
@@ -2480,7 +2444,7 @@ img.Drmotori-logo
 	height: 25vw;
 	position: absolute;
 	width: 34vw;
-	margin-top: -5.54vw;
+	margin-top: 128.46vw;
 	margin-left: -2vw;
 }
 .problem
@@ -2499,5 +2463,16 @@ img.Drmotori-logo
 	width: 100vw;
 	height: 96vw;
 }
-
+}
+.motori-logo2
+{	
+	position: absolute;
+	margin-top: 2vw;
+}
+@media only screen and (max-width : 640px)
+{
+img.Drmotori-logo
+{
+	margin-top: 3vw;
+}
 }
