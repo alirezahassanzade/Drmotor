@@ -29,8 +29,8 @@ z-index: 0;
 {
 	div.header
 	{
-		height: 34vw;
-			margin-top: -152.2vw;
+		height: 15vw;
+			margin-top: -268.2vw;
 	}
 }
 
@@ -171,7 +171,7 @@ img.polygon
 img.foroshgah
 {
 	margin-left: 4vw;
-	margin-top: 29.5vw;
+	margin-top: 24.5vw;
 	width: 38vw;
 	height: 10vw;
 }
@@ -237,7 +237,10 @@ div.header3
 	}
 	img.motor
 	{
-		
+		width:35vw;
+		height: 27vw;
+		margin-top: 23.2vw;
+		margin-left: 19vw;
 	}
 }
 input[type="text1"]
@@ -858,15 +861,15 @@ height: 8.1vw;
 {
 	margin-top: 4vw;
 	position: relative;
-	padding-bottom: 11vw;
+	padding-bottom: 10vw;
 	background-color: white;
 	border-radius: 1vw;
 	display: inline-grid;
-	width: 14.3vw;
+	width: 14.5vw;
 }
 span.img1
 {
-	margin-left: 4.2vw;
+	margin-left: 3.9vw;
 }
 span.img2
 {
@@ -877,15 +880,15 @@ span.img2
 {
 	span.img1
 {
-	margin-top: 40vw;
-	position: absolute;
+	margin-top: 5vw;
 	padding: 1vw;
-	padding-bottom: 15vw;
-	padding-right: 4vw;
-	padding-left: 4vw;
+	padding-bottom: 17.5vw;
+	padding-right: 6vw;
+	padding-left: 6vw;
 	background-color: white;
 	margin-left: 5vw;
 	border-radius: 1vw;
+	display: inline-grid;
 }
 
 }
@@ -1120,13 +1123,14 @@ img.image4 {
 	width: 11vw;
 		height: 7vw;
 margin-top: 1vw;
-	margin-left: 1.5vw;
+	margin-left: 1.74vw;
 }
 @media only screen and (max-width:640px)
 {
 img.image4 {
 	width: 20vw;
 		height: 12vw;
+	margin-left: -2.5vw;
 }	
 }
 span.img1 > div.imgtext5
@@ -1142,7 +1146,7 @@ span.img1 > div.imgtext5
 {
 	font-size: 3vw;
 	margin-top: 14.5vw;
-	margin-left: 6vw;
+	margin-left: 15vw;
 }
 }
 div.imgtext6
@@ -1159,8 +1163,8 @@ div.imgtext6
 {
 	line-height: 5vw;
 	font-size: 4vw;
-	margin-top: 18.5vw;
-	margin-left: 15vw;
+	margin-top: 19.5vw;
+	margin-left: 18vw;
 
 }
 }
@@ -1170,14 +1174,14 @@ div.imgtext6
 	position: absolute;
 	font-family: BMitra;
 	margin-top: 14.8vw;
-	margin-left: 3vw;
+	margin-left: 2vw;
 }
 @media only screen and (max-width:640px)
 {
  div.price4
 {
 	font-size: 4vw;
-	margin-top: 23.5vw;
+	margin-top: 24.5vw;
 }
 }
 span.img5
@@ -1341,7 +1345,7 @@ span.img16
 img.footer-bg
 {
 	position: absolute;
-	margin-top: 109vw;
+	margin-top: 131vw;
 }
 
 @media only screen and (max-width:640px)
@@ -1349,6 +1353,11 @@ img.footer-bg
 	div.footer
 	{
 		margin-top: 82vw;
+	}
+	img.footer-bg
+	{
+		
+	margin-top: 6vw;
 	}
 }
 
@@ -1365,7 +1374,7 @@ div.footer > div.footer-logo
 	margin-left: 4%;
 	position: absolute;
 	display: inline-block;
-	margin-top:110vw;
+	margin-top:134vw;
 	border:0.2vw solid white;
 	padding-right: 4.5vw;
 }
@@ -1375,6 +1384,7 @@ div.footer > div.footer-logo
 {
 	font-size: 7vw;
 	padding-right: 15.8vw;
+	margin-top: 10vw;
 }
 }
 div.footer > div.footer-mechanic-logo
@@ -1389,7 +1399,7 @@ div.footer > div.footer-mechanic-logo
 	letter-spacing:0.1vw;
 	margin-left: 15%;
 	position: absolute;
-	margin-top:117.2vw;
+	margin-top:140.8vw;
 	border:0.2vw solid #ccc;
 	background-color: white;
 padding-top:0.5vw;
@@ -1412,10 +1422,10 @@ margin-top: -0.7vw;
 }
 div.footer > div.footer-mechanic-logo
 {
-	margin-top: 121vw;
-margin-right: 2vw;
+	margin-top: 22vw;
 	padding-right: 15vw;
 	padding-bottom: 6vw;
+	margin-left: 11vw;
 }
 	div.footer > div.footer-mechanic-logo>span.footer-mechanic-logo3
 {
@@ -1433,7 +1443,7 @@ div.footer > div.footer-text
 	font-size: 2vw;
 	color: white;
 	margin-left: 90%;
-margin-top:114.2vw;
+margin-top:136.5vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1441,6 +1451,7 @@ margin-top:114.2vw;
 {
 	font-size: 2.5vw;
 	margin-left: 87%;
+	margin-top: 12vw;
 }
 }
 div.footer > div.footer-text2
@@ -1517,7 +1528,7 @@ overflow: scroll;
 	border:none;
 	background-color:#1a2930;
 	cursor: pointer;
-	margin-top: -130.6vw;
+	margin-top: -264.6vw;
 	margin-left: 88vw;
 }
 @media only screen and (min-width:641px )
@@ -1868,7 +1879,7 @@ div.modal-content4
 	padding-right: 7.1vw;
 	border:none;
 	background-color:#1a2930;
-	margin-top: -194vw;
+	margin-top: -264vw;
 	margin-left: 7.9vw;
 }
 @media only screen and (min-width:641px)
@@ -2229,7 +2240,7 @@ span.num
 	span.num
 	{
 		margin-left:30vw;
-				margin-top: -197.2vw;
+				margin-top: -268.2vw;
 				color: black;
 			font-size: 5vw;
 			}
@@ -2308,8 +2319,8 @@ i.imgg4
 {
 	i.imgg4
 {
-	margin-top: 94vw;
-margin-left: 8vw;
+	margin-top: 14vw;
+margin-left: 3vw;
 font-size: 5vw;
 }
 }
@@ -2431,7 +2442,7 @@ margin-top: 60vw;
 }
 div.star-rating4 {
 	margin-top: 12.2vw;
-	margin-left: -6.4vw;
+	margin-left: -7vw;
 		direction: rtl;
 		position:absolute;
 	   font-size: 1vw;
@@ -2460,8 +2471,8 @@ div.star-rating4 {
 	font-size: 2.6vw;
 		direction: rtl;
 		position:absolute;
-	margin-left:-75vw;
-	margin-top: 99.4vw;
+	margin-left:-11vw;
+	margin-top: 20vw;
 	}
 	}
 img.Drmotori-logo 
@@ -2475,13 +2486,18 @@ img.Drmotori-logo
 .problem
 {
 	position: relative;
-	background-color: red;
 	width: 79vw;
 	height: 58vw;
 	margin-top: -60vw;
 }
 @media only screen and (max-width : 640px)
 {
-
+.problem
+{
+	
+	margin-top: 35vw;
+	width: 100vw;
+	height: 96vw;
+}
 
 }
