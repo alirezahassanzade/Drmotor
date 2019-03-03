@@ -871,11 +871,6 @@ span.img1
 {
 	margin-left: 3.9vw;
 }
-span.img2
-{
-	margin-left: 23vw;
-	padding-bottom: 9vw;
-}
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
 	span.img1
@@ -940,50 +935,19 @@ span.img1 > div.imgtext2
 	margin-left: 15vw;
 }
 }
-span.img1 > div.price1 
-{
-	position: absolute;
-	font-family: BMitra;
-	margin-top: 13vw;
-	margin-left: 1vw;
-}
-@media only screen and (max-width:640px)
-{
-	span.img1 > div.price1 
-{
-	font-size: 4vw;
-	margin-top: 23.4vw;
-}
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	span.img2
-{
-	margin-top: 40vw;
-	position: absolute;
-	padding: 1vw;
-	padding-bottom: 17vw;
-	padding-right: 4vw;
-	padding-left: 4vw;
-	background-color: white;
-	margin-left: 37vw;
-	border-radius: 1vw;
-}
 
-}
-
-span.img2 > img.image2 {
+img.image2 {
 	width: 10vw;
 	height: 7vw;
 }
 @media only screen and (max-width:640px)
 {
-span.img2 > img.image2 {
+img.image2 {
 	width: 20vw;
 	height: 13vw;
 }
 }
-span.img2 > div.imgtext3
+div.imgtext3
 {
 	position: absolute;
 	margin-top: 7.8vw;
@@ -992,7 +956,7 @@ span.img2 > div.imgtext3
 }
 @media only screen and (max-width:640px)
 {
-	span.img2 > div.imgtext3
+div.imgtext3
 {
 	font-size: 4vw;
 	margin-top: 13vw;
@@ -1000,7 +964,7 @@ span.img2 > div.imgtext3
 }
 }
 
-span.img2 > div.imgtext4
+div.imgtext4
 {
 	position: absolute;
 	line-height: 2vw;
@@ -1010,27 +974,12 @@ span.img2 > div.imgtext4
 }
 @media only screen and (max-width:640px)
 {
-	span.img2 > div.imgtext4
+div.imgtext4
 {
 	line-height: 5vw;
 	font-size: 4vw;
 	margin-top: 18.5vw;
 	margin-left: 15vw;
-}
-}
-span.img2 > div.price2
-{
-	position: absolute;
-	font-family: BMitra;
-	margin-top: 13vw;
-	margin-left: 1vw;
-}
-@media only screen and (max-width:640px)
-{
-	span.img2 > div.price2
-{
-	font-size: 4vw;
-	margin-top: 23.4vw;
 }
 }
 span.img3
@@ -1081,21 +1030,6 @@ span.img3 > div.imgtext4
 	font-size: 4vw;
 	margin-left: 12vw;
 	margin-top: 13vw;
-}
-}
-span.img3 > div.price3
-{
-	position: absolute;
-	font-family: BMitra;
-	margin-top: 13vw;
-	margin-left: 1vw;
-}
-@media only screen and (max-width:640px)
-{
-	span.img3 > div.price3
-{
-	font-size: 4vw;
-	margin-top: 23.4vw;
 }
 }
 span.img4
@@ -2216,58 +2150,14 @@ i.imgg
 	color: #f7ce3e; 
 	cursor: pointer;
 }
-i.imgg1
-{
-	margin-top:7.5vw;
-	margin-left: -0.5vw;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	i.imgg1
-{
-margin-top: 55vw;
-font-size: 5vw;
-margin-left: 8vw;
-}
-}
 span.img1:hover + i.imgg1
 {
 	cursor: pointer;
-}
-i.imgg2
-{
-	margin-top:7.5vw;
-	margin-left: -0.5vw;
-	z-index: 1;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	i.imgg2
-{
-	font-size: 5vw;
-	margin-top: 55vw;
-	margin-left: 40vw;
-}
 }
 span.img2:hover + i.imgg2
 {
 	display: unset;
 	cursor: pointer;
-}
-i.imgg3
-{
-	margin-top:7.5vw;
-	margin-left: -0.5vw;
-	z-index: 1;
-}
-@media only screen and (min-width:200px ) and (max-width:640px)
-{
-	i.imgg3
-{
-	margin-top: 55vw;
-	margin-left: 72vw;
-	font-size: 5vw;
-}
 }
 span.img3:hover + i.imgg3
 {
@@ -2293,116 +2183,9 @@ span.img4:hover + i.imgg4
 	display: unset;
 	cursor: pointer;
 }
- div.star-rating {
-
-    direction: rtl;
-    position:absolute;
-   font-size: 1vw;
-margin-left: -9vw;
-padding: 0.5vw;
-
-    margin-top: 11vw;
-    z-index: 1;
-}
-
- div.star-rating input[type=radio] {
-    display: none;
-}
-
- div.star-rating label {
-    color: #bbb;
-    cursor: pointer;
-}
-
- div.star-rating label:hover,
-  div.star-rating label:hover ~ label,
-  div.star-rating input[type=radio]:checked ~ label {
-    color: #f2b600;
-}
 i.star1:hover
 {
 	background-color:white;
-}
-@media only screen and (max-width: 640px)
-{
-	 div.star-rating {
-font-size: 2.6vw;
-    direction: rtl;
-    position:absolute;
-margin-left:-75vw;
-margin-top: 60vw;
-}
-}
- div.star-rating2 {
- 	padding: 0.5vw;
-    direction: rtl;
-    position:absolute;
-   font-size: 1vw;
-margin-top: 11vw;
-margin-left: -9vw;
-
- 	z-index: 1;
-}
-
- div.star-rating2 input[type=radio] {
-    display: none;
-}
-
- div.star-rating2 label {
-    color: #bbb;
-    cursor: pointer;
-
-}
-
- div.star-rating2 label:hover,
-  div.star-rating2 label:hover ~ label,
-  div.star-rating2 input[type=radio]:checked ~ label {
-    color: #f2b600;
-}
-@media only screen and (max-width: 640px)
-{
-	 div.star-rating2 {
-font-size: 2.6vw;
-    direction: rtl;
-    position:absolute;
-margin-left:-42.8vw;
-margin-top: 60vw;
-}
-}
- div.star-rating3 {
-margin-top: 11vw;
-margin-left: -9.2vw;
-    direction: rtl;
-    position:absolute;
-   font-size: 1vw;
-padding: 0.5vw;
-z-index: 1;
-}
-
- div.star-rating3 input[type=radio] {
-    display: none;
-}
-
- div.star-rating3 label {
-    color: #bbb;
-    cursor: pointer;
-
-}
-
- div.star-rating3 label:hover,
-  div.star-rating3 label:hover ~ label,
-  div.star-rating3 input[type=radio]:checked ~ label {
-    color: #f2b600;
-}
-@media only screen and (max-width: 640px)
-{
-	 div.star-rating3 {
-font-size: 2.6vw;
-    direction: rtl;
-    position:absolute;
-margin-left:-11vw;
-margin-top: 60vw;
-}
 }
 div.star-rating4 {
 	margin-top: 12.2vw;
