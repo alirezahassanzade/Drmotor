@@ -1,5 +1,5 @@
 from django.db.models import Min, Max
-
+from hashlib import md5
 from .models import Good, Good_Image, Image
 
 
@@ -18,3 +18,7 @@ def get_first_good_pic(good_id):
         return good_image[0].Image.Img.url
     else:
         return '/static/img/nopic.png'
+
+
+def string_to_md5(input_str):
+    return md5(input_str.encode('utf-8')).hexdigest()
