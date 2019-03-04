@@ -166,7 +166,7 @@
 		<button id="myBtn" class="loginap">نام/login</button>
 		<img src="img/shop_Artboard 1_footer.png" alt="motori موتوری repair تعمیرات" class="motori-logo2">
 		<div class="header2 ">
-			
+
 			<i class="fas fa-shopping-cart cart"></i>
 			<img src="{% static 'img/shop_polygon.png' %}" class="responsive polygon">
 		</div>
@@ -183,13 +183,16 @@
 			<span class="close">&times;</span>
 
 			<div class="loginap-left">
-				<div class ="number number1">شماره همراه</div>
-				<input type="text5" name="login" class="login text5">
-				<div class="number number2">رمز عبور</div>
-				<input type="password" name="password" class="password text5">
-				<a href="" class="common2"></a>
-				<a href="" class="vorod common2">ورود</a>
-				<a href="" class="faramosh ">رمز عبور خود را فراموش کرده ام</a>
+				<form method="post"> {% csrf_token %}
+					<div class ="number number1">شماره همراه</div>
+					<input type="text5" name="phone_number" class="login text5">
+					<div class="number number2">رمز عبور</div>
+					<input type="password" name="password" class="password text5">
+					<a href="" class="common2"></a>
+					<button class="vorod common2" type="submit">ورود</button>
+					<!-- <a href="" class="vorod common2">ورود</a> -->
+					<a href="" class="faramosh ">رمز عبور خود را فراموش کرده ام</a>
+				</form>
 			</div>
 			<div class="modal-content2">
 				<div class="number number3">شماره همراه</div>
