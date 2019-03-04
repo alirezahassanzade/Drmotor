@@ -30,7 +30,7 @@ z-index: 0;
 	div.header
 	{
 		height: 15vw;
-			margin-top: -268.8vw;
+			margin-top: -268.9vw;
 	}
 }
 
@@ -266,6 +266,7 @@ border-radius: 20px;
 	height: 3.8vw;
 	width: 25vw;
 	font-size: 3vw;
+	margin-top: 0.8vw;
 }
 }
 div.modal-content
@@ -399,7 +400,7 @@ div.number1
 	margin-left: 13vw;
 	margin-top: 1vw;
 }
-a.vorod
+button.vorod
 {
 	font-size: 1vw;
 	position: absolute;
@@ -412,6 +413,7 @@ a.vorod
 	color: #000000;
 	margin-left: 6.5vw;
 	margin-top: 11.5vw;
+	border: none;
 }
 
 a.faramosh
@@ -569,7 +571,6 @@ div.header4
 	div.header4
 	{
 		height: 35vw;
-		margin-top: 0.1vw;
 	}
 }
 div.text6
@@ -685,6 +686,7 @@ label.container {
     -ms-user-select: none;
     user-select: none;
 
+    margin-top: 0vw;
 }
 
 /* Hide the browser's default radio button */
@@ -696,7 +698,7 @@ label.container input {
 
 /* Create a custom radio button */
 label.container > span.checkmark {
-	    margin-top: 0.8vw;
+	    margin-top: 11.8vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -743,19 +745,22 @@ label.container > span.checkmark {
 div.checkbox1
 {
     margin-left: 4.5vw;
+    margin-top: 11vw;
+    position: absolute;
+    font-family: BMitra;
+    color: #3a3c3a;
 }
 div.checkbox2
 {
     margin-left: 4.5vw;
+    font-family: BMitra;
+    position: absolute;
+    z-index: 3;
+    margin-top: 15vw;
+    color: #3a3c3a;
+    font-family: BMitra;
 }
 
-div.checkbox
-{
-	position: absolute;
-	margin-top: 11vw;
-	font-family: BMitra;
-	color: #3a3c3a
-}
 div.box2
 {
 		position: absolute;
@@ -1364,59 +1369,18 @@ div.footer > div.footer-text2
 	font-size: 2.5vw;
 	margin-left: 67%;
 }
-}
-div.modal-content10
+i.filter1
 {
-		margin-top: 25vw;
-	background-color:#c5c1c0;
-	height: 70vw;
-	width: 65vw;
-	margin-left: 6vw;
-}
 
-/* The Modal (background) */
-.modal10 {
-overflow: scroll;
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-     /* Sit on top */
-    padding-top: 1vw; /* Location of the box */
-    left: 0;
-    top: -10.5vw;
-    width: 100vw; /* Full width */
-    height: 130%; /* Full height */
-     /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	margin-top: 4vw;
+	margin-left: 13vw;
+	position: absolute;
+	width: 10vw;
+	font-size: 7vw;
+	color: #f7ce3e;
+	cursor: pointer;
+	z-index: 2;
 }
-
-/* Modal Content */
-.modal-content10 {
-    background-color: #fefefe;
-    padding:10vw;
-    border: 1vw solid #888;
-    width: 80%;
-    height: 20vw;
-    position: absolute;
-    margin-left: 25vw;
-    margin-top:40vw;
-}
-
-/* The Close Button */
-.close1 {
-    color: #aaaaaa;
-    position: absolute;
-    margin-left:65vw;
-    margin-top: -10vw;
-    font-size: 10vw;
-    font-weight: bold;
-}
-
-.close1:hover,
-.close1:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
 }
  button.loginap10
 {
@@ -1432,22 +1396,18 @@ overflow: scroll;
 }
 @media only screen and (min-width:641px )
 {
+	.filter1
+	{
+		display: none;
+	}
+	.filter1-popup
+	{
+		display: none;
+	}
 	button.loginap10
 	{
 		display: none;
 	}
-}
-
-
-i.filter1
-{
-
-	margin-top: -8vw;
-	margin-left: -2vw;
-	position: absolute;
-	width: 10vw;
-	font-size: 7vw;
-	color: #f7ce3e;
 }
 i.filter2
 {
@@ -1457,264 +1417,7 @@ i.filter2
 	margin-left: 5vw;
 	font-size: 8vw;
 }
-div.modal-content10 > button.loginap1
-{
-	border:none;
-	cursor:pointer;
-	color: black;
-	border-bottom: 0.1vw solid black;
-	padding-right:17.3vw;
-	padding-top:4vw; 
-	padding-bottom:4vw; 
-	background-color: #f7ce3e;
-	margin-left: 39.9vw;
-	position: absolute;
-	margin-top:1.9vw;
-	padding-left:17.5vw;
-}
-div.modal-content10 > button.loginap6
-{
-	margin-top:43.5vw;
-}
-div.modal-content10 > button.loginap5
-{
-	padding-right: 17.5vw;
-	margin-top:35.3vw;
-}
-div.modal-content10 > button.loginap3
-{
-	padding-right: 17.8vw;
-	margin-top:18.7vw;
-	padding-left: 17vw;
-}
-div.modal-content10 > button.loginap2
-{
-	padding-right: 16vw;
-	padding-top: 3.4vw;
-	padding-bottom: 3.4vw;
-	margin-top:10.1vw;
-	padding-left:15.7vw;
-}
-div.modal-content10 > button.loginap4
-{
-	padding-right: 17.5vw;
-	margin-top:27.2vw;
-	padding-left: 17.3vw;
-}
-div.modal-content10 > button.loginap1 > div.filtertext1
-{
-	font-family: BMitra;
-		font-size: 1vw;
-		font-weight: bold;
-		margin-left: 5.8vw;
-		position: absolute;
-		margin-top: -0.5vw;
 
-}
-@media only screen and (max-width:640px)
-{
-	div.modal-content10 > button.loginap1 > div.filtertext1
-{
-	font-size: 3vw;
-	margin-top: -2.5vw;
-	margin-left: -5vw;
-}
-}
-div.modal10 > div.modal-content10 > div.modal11
-{
-	position: absolute;
-}
-div.modal10 > div.modal-content10 > div.filter1-bg2
-{
-	margin-top: 2vw;
-	background-color: #f7ce3e;
-	height: 78vw;
-	width: 35vw;
-	position:absolute;
-	margin-left: 39.9vw;
-}
-div.modal10 > div.modal-content10 > div.filter1-bg1
-{
-	background-color: #0a1612;
-	width:85vw;
-	height: 12vw;
-	position: absolute;
-	margin-top:-10vw;
-	margin-left: -10vw;
-	color: white;
-	font-family: BMitra;
-	font-size: 3vw;
-}
-div.modal10 > div.modal-content10 > div.filter1-bg1>div.filter1-header
-{
-	margin-top: 2vw;
-	margin-left: 35vw;
-	font-size: 6vw;
-		font-family: BMitra;
-}
-/* The container */
-.container1 {
-    display: block;
-    position: relative;
-    padding-left: 3vw;
-    margin-bottom: 1vw;
-    cursor: pointer;
-    font-size: 3vw;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin-left: -8vw;
-    line-height: 2.5vw;
-}
-.container1 input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-.checkmark1 {
-	margin-left: 2vw;
-	margin-top: 3vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 5vw;
-    width: 5vw;
-    background-color: #eee;
-}
-.container1:hover input ~ .checkmark1 {
-    background-color: #ccc;
-}
-.container1 input:checked ~ .checkmark1 {
-    background-color: #2196F3;
-}
-.checkmark1:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-.container1 input:checked ~ .checkmark1:after {
-    display: block;
-}
-.container1 .checkmark1:after {
-    left: 1.7vw;
-    top: -1vw;
-    width: 1.3vw;
-    height: 5vw;
-    border:1vw solid white;
-    border-width: 0 0.5vw 0.5vw 0;
-    -webkit-transform: rotate(60deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-div.filterkind1
-{
-	position: absolute;
-	margin-top: 4vw;
-}
-div.filterkind1-text1
-{
-	font-size: 3vw;
-	margin-left:32vw;
-	line-height: 10vw;
-}
-
-div.modal-content10 > button.loginap2 > div.filtertext2
-{
-	font-size: 3vw;
-	margin-top: -2vw;
-	margin-left: -1.6vw;
-}
-@media only screen and (max-width:640px)
-{
-	div.modal-content10 > button.loginap2 > div.filtertext2
-{
-	font-family: BMitra;
-		font-size: 3vw;
-		font-weight: bold;
-		margin-left: 5.8vw;
-		position: absolute;
-		margin-top: -0.5vw;
-}
-}
-div.modal-content10 > button.loginap3 > div.filtertext3
-{
-	font-family: BMitra;
-		font-size: 0.8vw;
-		font-weight: bold;
-		margin-left: 5.2vw;
-		position: absolute;
-		margin-top: -0.5vw;
-
-}
-@media only screen and (max-width:640px)
-{
-	div.modal-content10 > button.loginap3 > div.filtertext3
-{
-	font-family: BMitra;
-		font-size: 3vw;
-		font-weight: bold;
-		margin-left:-6vw;
-		position: absolute;
-		margin-top: -2.5vw;
-}
-}
-div.modal-content10 > button.loginap4 > div.filtertext4
-{
-	font-family: BMitra;
-		font-size: 3vw;
-		font-weight: bold;
-		margin-left:-4vw;
-		position: absolute;
-
-
-}
-@media only screen and (max-width:640px)
-{
-	div.modal-content10 > button.loginap4 > div.filtertext4
-{
-	font-size: 3vw;
-			margin-top: -2.5vw;
-}
-}
-div.modal-content10 > button.loginap5 > div.filtertext5
-{
-	font-family: BMitra;
-		font-size: 0.8vw;
-		font-weight: bold;
-		margin-left:2vw;
-		position: absolute;
-		margin-top: -2.5vw;
-
-}
-@media only screen and (max-width:640px)
-{
-	div.modal-content10 > button.loginap5 > div.filtertext5
-{
-	margin-left:-4vw;
-	font-size: 3vw;
-	margin-top: -2.5vw;
-}
-}
-
-div.modal-content10 > button.loginap6 > div.filtertext6
-{
-	font-family: BMitra;
-		font-size: 0.8vw;
-		font-weight: bold;
-		position: absolute;
-		margin-top: -0.5vw;
-
-}
-@media only screen and (max-width:640px)
-{
-	div.modal-content10 > button.loginap6 > div.filtertext6
-{
-	margin-left:-5.5vw;
-	font-size: 3vw;
-	margin-top: -2.5vw;
-}
-}
 div.modal-content4
 {
 	margin-top: 25vw;
@@ -1780,6 +1483,7 @@ div.modal-content4
 	background-color:#1a2930;
 	margin-top: -264vw;
 	margin-left: 7.9vw;
+	z-index: 0;
 }
 @media only screen and (min-width:641px)
 {
@@ -2131,6 +1835,7 @@ span.num
 	position: fixed;
 	font-family: BMitra;
 
+	z-index: 0;
 }
 
 @media only screen and (min-width:200px ) and (max-width:640px)
@@ -2257,5 +1962,65 @@ img.Drmotori-logo
 img.Drmotori-logo
 {
 	margin-top: 3vw;
+}
+.filter1-container
+{
+	
+	position: absolute;
+	width: 84vw;
+	height: 91vw;
+	background-color: #c5c1c0;
+	margin-left: 7.5vw;
+	margin-top: 1vw;
+	border: 1vw solid #888;
+	z-index: 1;
+}
+.filter1-opacity
+{
+
+	width: 100%;
+	height: 177vw;
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	margin-top: -2vw;
+}
+.close4
+{
+
+	margin-top: 1.2vw;
+	font-size: 7vw;
+	font-family: sans-serif;
+	margin-left: 72vw;
+	z-index: 5;
+	position: absolute;
+	color: #c5c1c0;
+	cursor: pointer;
+}
+.close4:hover
+{
+	color: darkgray;
+}
+.filter1-header
+{
+
+	position: absolute;
+	width: 83.9vw;
+	background-color: #0a1612;
+	height: 12vw;
+}
+.filter1-popup
+{
+
+}
+.filter-header-logo
+{
+
+	position: absolute;
+	color: white;
+	font-family: BMitra;
+	margin-top: 1vw;
+	z-index: 2;
+	margin-left: 36vw;
+	font-size: 7vw;
 }
 }

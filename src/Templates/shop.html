@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	
 </head>
 <body>
 	<div class="all ">
@@ -80,7 +81,7 @@
 			</label>
 			<label class="container"><div class="checkbox2">ظاهری</div>
 				<input type="radio" name="radio">
-				<span class="checkmark"></span>
+				<span class="checkmark" style="margin-top:16vw"></span>
 			</label>
 		</div>
 		<div class="box2"></div>
@@ -170,6 +171,17 @@
 			<i class="fas fa-shopping-cart cart"></i>
 			<img src="{% static 'img/shop_polygon.png' %}" class="responsive polygon">
 		</div>
+		<i class="fas fa-filter filter1" onclick="filter2()" id="filter"></i>
+		<div class="filter1-opacity"></div>
+		<div class="filter1-container">
+			<div class="close4">&#x2715;
+			</div>
+			<div class="filter1-logo"></div>
+			<div class="filter1-header"><i class="fas fa-filter filter1-popup"></i>
+			</div>
+			<div class="filter-header-logo">فیلترها</div>
+		</div>
+		
 	</div>
 
 	<center><span id="timesClicked" class="num">0</span></center>
@@ -206,8 +218,6 @@
 
 		</div>
 	</div>
-	<button id="myButton" class="loginap10">
-		<i class="fas fa-filter filter1"></i></button>
 		<button id="myBtn20" class="loginap20">
 			<i class="fas fa-bars icon20"></i>
 		</button>
@@ -264,65 +274,13 @@
 				</div>
 
 			</div>
-			<button id="myButton" class="loginap10">
-				<i class="fas fa-filter filter1"></i></button>
-				<!-- The Modal -->
-				<div id="myModal10" class="modal10">
-					<div class="modal-content10">
-						<div class="filter1-bg1"><i class="fas fa-filter filter2"></i><div class="filter1-header">فیلترها</div></div>
-						<span class="close1">&times;</span>
-						<div class="filter1-bg2"></div>
-						<button id="myBtn10" class="loginap1"><div class="filtertext1">
-							نوع موتور
-						</div>
-					</button>
-					<div class="modal11" id="myModal11">
-						<div class="filterkind1">
-							<label class="container1"><div class="filterkind1-text1 cg">cg-125</div>
-								<input type="checkbox" checked="checked">
-								<span class="checkmark1"></span>
-							</label>
-							<label class="container1"><div class="filterkind1-text1">هوندا-200</div>
-								<input type="checkbox">
-								<span class="checkmark1"></span>
-							</label>
-							<label class="container1"><div class="filterkind1-text1">ویو</div>
-								<input type="checkbox">
-								<span class="checkmark1"></span>
-							</label>
-							<label class="container1"><div class="filterkind1-text1">آپاچی</div>
-								<input type="checkbox">
-								<span class="checkmark1"></span>
-							</label>
-							<label class="container1"><div class="filterkind1-text1">باکستر</div>
-								<input type="checkbox">
-								<span class="checkmark1"></span>
-							</label>
-						</div>
-
-					</div>
-					<button id="myBtn2" class="loginap2 loginap1"><div class="filtertext2">
-						برند
-					</div>
-				</button>
-				<button id="myBtn3" class="loginap3 loginap1"><div class="filtertext3">
-					محدوده قیمت
-				</div>
-			</button>
-			<button id="myBtn4" class="loginap4 loginap1"><div class="filtertext4">
-				نوع قطعه
-			</div>
-		</button>
-		<button id="myBtn5" class="loginap5 loginap1"><div class="filtertext5">
-			لوازم جانبی
-		</div>
-	</button>
-	<button id="myBtn6" class="loginap6 loginap1"><div class="filtertext6">
-		کلاه کاسکت
-	</div>
-</button>
-</div>
-</div>
+				<script>
+					var filter = document.getElementById("filter");
+					function filter2()
+					{
+						filter2.style.backgroundColor = 'red';
+					}
+				</script>
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -421,43 +379,6 @@ span.onclick = function() {
 window.onclick = function(event) {
 	if (event.target == modal) {
 		modal.style.display = "none";
-	}
-}
-</script>
-<script>
-var btn1 = document.getElementById("myBtn10");
-btn1.onclick=function()
-{
-	if (modal11.style.display === "none") {
-		modal11.style.display = "block";
-	} else {
-		modal11.style.display = "none";
-	}
-}
-var modal11 = document.getElementById('myModal11');
-// Get the modal
-var modal12 = document.getElementById('myModal10');
-
-// Get the button that opens the modal
-var button12 = document.getElementById("myButton");
-
-// Get the <span> element that closes the modal
-var span12 = document.getElementsByClassName("close1")[0];
-
-// When the user clicks the button, open the modal
-button12.onclick = function() {
-	modal12.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span12.onclick = function() {
-	modal12.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-	if (event.target == modal12) {
-		modal12.style.display = "none";
 	}
 }
 </script>
