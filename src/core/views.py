@@ -1,7 +1,8 @@
 from django.shortcuts import render
 
-from .models import Good
-from .util import get_first_good_pic
+from .models import Good, User
+from .util import get_first_good_pic, string_to_md5
+
 
 def home_view(request):
     context = {
@@ -20,6 +21,15 @@ def shop_view(request):
         'goods_list': goods_list,
         'first_image': g_first_image,
     }
+    if request.method == 'POST':
+        phone_number = request.POST.get('phone_number')
+        # password = string_to_md5(request.POST.get('password'))
+        password = request.POST.get('password')
+        user = User.objects.filter(PhoneNumber=phone_number).filter(Password=password)
+        if len(user) == 1:
+            print('I find one')
+        else:
+            print('No one found')
     return render(request, 'shop.html', context)
 
 
