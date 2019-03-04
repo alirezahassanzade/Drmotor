@@ -81,7 +81,7 @@
 			</label>
 			<label class="container"><div class="checkbox2">ظاهری</div>
 				<input type="radio" name="radio">
-				<span class="checkmark"></span>
+				<span class="checkmark" style="margin-top:16vw"></span>
 			</label>
 		</div>
 		<div class="box2"></div>
@@ -171,6 +171,17 @@
 			<i class="fas fa-shopping-cart cart"></i>
 			<img src="{% static 'img/shop_polygon.png' %}" class="responsive polygon">
 		</div>
+		<i class="fas fa-filter filter1" onclick="filter2()" id="filter"></i>
+		<div class="filter1-opacity"></div>
+		<div class="filter1-container">
+			<div class="close4">&#x2715;
+			</div>
+			<div class="filter1-logo"></div>
+			<div class="filter1-header"><i class="fas fa-filter filter1-popup"></i>
+			</div>
+			<div class="filter-header-logo">فیلترها</div>
+		</div>
+		
 	</div>
 
 	<center><span id="timesClicked" class="num">0</span></center>
@@ -263,10 +274,8 @@
 				</div>
 
 			</div>
-			<button id="loginap10" class="loginap10" onclick="filter2()">
-				<i class="fas fa-filter filter1"></i></button>
 				<script>
-					var filter2 = document.getElementById("loginap10");
+					var filter = document.getElementById("filter");
 					function filter2()
 					{
 						filter2.style.backgroundColor = 'red';
