@@ -43,6 +43,7 @@ class User(models.Model):
     Status = models.ForeignKey(UserStatus, on_delete=models.SET_NULL, null=True)
     Address = models.ForeignKey(Address, on_delete=models.SET_NULL, null=True)
     Type = models.ForeignKey(UserType, on_delete=models.SET_NULL, null=True)
+    Password = models.CharField(max_length=CHARFIELD_MAXLENGTH)
 
 
 class MotorType(models.Model):
