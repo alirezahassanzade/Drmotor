@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .forms import LoginForm
+from .forms import LoginForm, SignupForm
 
 from .models import Good, User
 from .util import get_first_good_pic, string_to_md5
@@ -20,7 +20,9 @@ def shop_view(request):
     for item in goods_list:
         g_first_image.append(get_first_good_pic(item.id))
     login_form = LoginForm()
+    signup_form = SignupForm()
     context = {
+        'signup_form': signup_form,
         'login_form': login_form,
         'goods_list': goods_list,
         'first_image': g_first_image,

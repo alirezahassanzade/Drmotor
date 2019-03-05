@@ -208,13 +208,16 @@
 				</form>
 			</div>
 			<div class="modal-content2">
-				<div class="number number3">شماره همراه</div>
-				<input type="text2" name="phonenumber" class="login text5">
-				<div class="number4 number">شماره پلاک</div>
-				<input type="text3" name="plaquenumber" class="login text5">
-				<div class="number5 number">نام و نام خانوادگی</div>
-				<input type="text4" name="fname" class="login text5">
-				<a href="" class="register common2">ثبت نام</a>
+				<form method="post">
+					{{ signup_form }}
+					<div class="number number3">نام</div>
+					<!-- <input type="text2" name="phonenumber" class="login text5"> -->
+					<div class="number4 number">شماره همراه</div>
+					<!-- <input type="text3" name="plaquenumber" class="login text5"> -->
+					<div class="number5 number">پسورد</div>
+					<!-- <input type="text4" name="fname" class="login text5"> -->
+					<a href="" class="register common2">ثبت نام</a>
+				</form>
 			</div>
 
 		</div>
