@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-	
+
 </head>
 <body>
 	<div class="all ">
@@ -188,7 +188,7 @@
 			کلاه کاسکت
 			</div>
 		</div>
-		
+
 	</div>
 
 	<center><span id="timesClicked" class="num">0</span></center>
@@ -203,10 +203,11 @@
 
 			<div class="loginap-left">
 				<form method="post"> {% csrf_token %}
+					{{ login_form }}
 					<div class ="number number1">شماره همراه</div>
-					<input type="text5" name="phone_number" class="login text5">
+					<!-- <input type="text5" name="phone_number" class="login text5"> -->
 					<div class="number number2">رمز عبور</div>
-					<input type="password" name="password" class="password text5">
+					<!-- <input type="password" name="password" class="password text5"> -->
 					<a href="" class="common2"></a>
 					<button class="vorod common2" type="submit">ورود</button>
 					<!-- <a href="" class="vorod common2">ورود</a> -->
@@ -214,13 +215,16 @@
 				</form>
 			</div>
 			<div class="modal-content2">
-				<div class="number number3">شماره همراه</div>
-				<input type="text2" name="phonenumber" class="login text5">
-				<div class="number4 number">شماره پلاک</div>
-				<input type="text3" name="plaquenumber" class="login text5">
-				<div class="number5 number">نام و نام خانوادگی</div>
-				<input type="text4" name="fname" class="login text5">
-				<a href="" class="register common2">ثبت نام</a>
+				<form method="post">
+					{{ signup_form }}
+					<div class="number number3">نام</div>
+					<!-- <input type="text2" name="phonenumber" class="login text5"> -->
+					<div class="number4 number">شماره همراه</div>
+					<!-- <input type="text3" name="plaquenumber" class="login text5"> -->
+					<div class="number5 number">پسورد</div>
+					<!-- <input type="text4" name="fname" class="login text5"> -->
+					<a href="" class="register common2">ثبت نام</a>
+				</form>
 			</div>
 
 		</div>
