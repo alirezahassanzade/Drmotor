@@ -383,6 +383,13 @@ input[type="password"]
 	margin-left: 1.5vw;
 	margin-top: 8.5vw;
 }
+input[type="familyname"] {
+
+	margin-left: 30vw;
+	margin-top: 5vw;
+	height: 4%;
+
+}
 div.number
 {
 	color: white;
@@ -426,44 +433,50 @@ a.faramosh
 }
 div.number3
 {
-	margin-left: 41.5vw;
-	margin-top: 4vw;
+	margin-left: 45vw;
+	margin-top: 8vw;
 }
 input[type="text2"]
 {
 	margin-left: 30vw;
-	margin-top: 7vw;
+	margin-top: 11vw;
 	height: 4%;
 }
 input[type="text3"]
 {
 	margin-left: 30vw;
-	margin-top: 13vw;
+	margin-top: 18vw;
 	height: 4%;
 }
 div.number4
 {
-	margin-left: 41.5vw;
-	margin-top: 10vw;	
+	margin-left: 40.8vw;
+	margin-top: 14.5vw;	
 }
 input[type="text4"]
 {
 	margin-left: 30vw;
-	margin-top: 19vw;
+	margin-top: 24vw;
 	height: 4%;
 }
 div.number5
 {
-	margin-left: 38.5vw;
-	margin-top: 16vw;	
+	margin-left: 43.5vw;
+	margin-top: 21vw;	
 	width: 13vw;
 
+}
+div.number6
+{
+
+	margin-left: 41vw;
+	margin-top: 1.5vw;
 }
 a.register
 {
 	font-size: 1vw;
 	position: absolute;
-	margin-top: 23vw;
+	margin-top: 28vw;
 	padding-right: 4vw;
 	padding-left: 4vw;
 	padding-top: 0.5vw;
@@ -2025,5 +2038,4 @@ img.Drmotori-logo
 	margin-left: 36vw;
 	font-size: 7vw;
 }
-.right-party
 }
