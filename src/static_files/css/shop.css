@@ -1396,7 +1396,7 @@ i.filter1
 }
 @media only screen and (min-width:641px )
 {
-	.filter1
+	i.filter1,div.close4,i.filter1-popup,div.filter-header-logo
 	{
 		display: none;
 	}
@@ -1955,7 +1955,9 @@ img.Drmotori-logo
 .motori-logo2
 {	
 	position: absolute;
-	margin-top: 2vw;
+	margin-top: -8vw;
+	margin-left: -8vw;
+	height: 38vw;
 }
 @media only screen and (max-width : 640px)
 {
@@ -2023,4 +2025,5 @@ img.Drmotori-logo
 	margin-left: 36vw;
 	font-size: 7vw;
 }
+.right-party
 }
