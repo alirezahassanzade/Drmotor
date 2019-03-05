@@ -27,17 +27,17 @@ class UserType(models.Model):
 class User(models.Model):
     FirstName = models.CharField(max_length=CHARFIELD_MAXLENGTH)
     LastName = models.CharField(max_length=CHARFIELD_MAXLENGTH)
-    DateOfBirth = models.DateField(auto_now=False, auto_now_add=False)
-    IdentificationCode = models.CharField(max_length=10)
+    DateOfBirth = models.DateField(auto_now=False, auto_now_add=False, null=True, blank=True)
+    IdentificationCode = models.CharField(max_length=10, null=True, blank=True)
     # PhoneNumber must be like (0)xxxxxxxxxx where 0 is excluded:
     PhoneNumber = models.CharField(max_length=10)
     # TelephoneNumber must be like (0)xxxxxxxxxx where 0 is excluded
-    TelephoneNumber = models.CharField(max_length=10)
-    Email = models.EmailField(max_length=254)
+    TelephoneNumber = models.CharField(max_length=10, null=True, blank=True)
+    Email = models.EmailField(max_length=254, null=True, blank=True)
     JoinedDate = models.DateTimeField(auto_now=False, auto_now_add=True)
     # TODO: add upload_to argument
-    Picture = models.ImageField(upload_to='')
-    Vote = models.PositiveSmallIntegerField()
+    Picture = models.ImageField(upload_to='', null=True, blank=True)
+    Vote = models.PositiveSmallIntegerField(null=True, blank=True)
     # Maximum amount of wallet is 10^9 + 3 decimal places
     Wallet = models.DecimalField(max_digits=13, decimal_places=3)
     Status = models.ForeignKey(UserStatus, on_delete=models.SET_NULL, null=True)
