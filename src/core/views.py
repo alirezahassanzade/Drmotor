@@ -40,8 +40,9 @@ def shop_view(request):
         last_name = signup_form.cleaned_data.get('last_name')
         phone_number = signup_form.cleaned_data.get('phone_number')
         hashed_password = string_to_md5(signup_form.cleaned_data.get('password'))
-        new_user = User(first_name=first_name, LastName=last_name, PhoneNumber=phone_number, Password=hashed_password, Wallet=0)
+        new_user = User(FirstName=first_name, LastName=last_name, PhoneNumber=phone_number, Password=hashed_password, Wallet=0)
         new_user.save()
+        print('User Successfuly created !')
 
     return render(request, 'shop.html', context)
 

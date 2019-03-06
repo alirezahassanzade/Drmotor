@@ -215,7 +215,7 @@
 				</form>
 			</div>
 			<div class="modal-content2">
-				<form method="post">
+				<form method="post"> {% csrf_token %}
 					{{ signup_form }}
 			<div class="all-filter">
 				<label for="label1">
@@ -230,8 +230,7 @@
 					<label for="label4">
 							<div class="number6 number">نام</div>
 					</label>
-					<a href="" class="register common2">ثبت نام</a>
-
+					<button type="submit" class="register common2">ثبت نام</button>
 				</div>
 				</form>
 			</div>
