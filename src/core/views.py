@@ -29,12 +29,12 @@ def shop_view(request):
     }
     if login_form.is_valid():
         phone_number = login_form.cleaned_data.get('phone_number')
-        password = login_form.cleaned_data.get('password') #string_to_md5(login_form.cleaned_data.get('password'))
+        password = string_to_md5(login_form.cleaned_data.get('password'))
         user = User.objects.filter(PhoneNumber=phone_number).filter(Password=password)
         if len(user) == 1:
-            print('I find one')
+            print('Use Successfuly logged in!')
         else:
-            print('No one found')
+            print('Login attemp unsuccessfuly!')
     if signup_form.is_valid():
         first_name = signup_form.cleaned_data.get('first_name')
         last_name = signup_form.cleaned_data.get('last_name')
