@@ -162,7 +162,6 @@
 
 		</div>
 	</div>
-
 	<div class="header ">
 		<button id="myBtn" class="loginap">نام/login</button>
 		<img src="{% static 'img/shop_Artboard 1_footer.png' %}" alt="motori موتوری repair تعمیرات" class="motori-logo2">
@@ -172,23 +171,54 @@
 			<img src="{% static 'img/shop_polygon.png' %}" class="responsive polygon">
 		</div>
 		<i class="fas fa-filter filter1" onclick="filter2()" id="filter"></i>
+		<button id="myBtn20" class="loginap20">
+				<i class="fas fa-bars icon20"></i>
+			</button>
+		<div  id="filter1-containerr">
 		<div class="filter1-opacity"></div>
-		<div class="filter1-container">
-			<div class="close4">&#x2715;
+		<div class="close4" onclick="filtr1()">&#x2715;
 			</div>
+		<div class="filter1-container">
+				<i class="fas fa-filter filter1 filter1II"></i>
 			<div class="filter1-logo"></div>
 			<div class="filter1-header"><i class="fas fa-filter filter1-popup"></i>
 			</div>
 			<div class="filter-header-logo">فیلترها</div>
 			<div class="right-part"></div>
-			<div class="right-part-text">نوع موتور <br>برند<br>
-			محدوده قیمت <br> 
-			نوع قطعه <br>
-			لوازم جانبی <br>
-			کلاه کاسکت
+			<div class="right-part-text">
+			<div class="right-part-text1">نوع موتور</div><br>
+			<div class="right-part-text2">برند</div><br>
+		<div class="right-part-text3">محدوده قیمت</div> <br>
+		<div class="right-part-text4">نوع قطعه</div><br>
+		<div class="right-part-text5">لوازم جانبی</div><br>
+		<div class="right-part-text6">کلاه کاسکت</div>
 			</div>
+<label class="check1 check">cg-125
+		<input type="checkbox" checked="checked">
+		<span class="checkmark2"></span>
+	  </label>
+	  <label class="check2 check">هوندا-200
+		<input type="checkbox">
+		<span class="checkmark2"></span>
+	  </label>
+	  <label class="check3 check">ویو
+		<input type="checkbox">
+		<span class="checkmark2"></span>
+	  </label>
+	  <label class="check4 check">آپاچی
+		<input type="checkbox">
+		<span class="checkmark2"></span>
+	  </label>
+	  <label class="check5 check">باکستر
+			<input type="checkbox">
+			<span class="checkmark2"></span>
+		  </label>
+		  <label class="check6 check">cgl
+				<input type="checkbox">
+				<span class="checkmark2"></span>
+			  </label>
 		</div>
-
+	</div>
 	</div>
 
 	<center><span id="timesClicked" class="num">0</span></center>
@@ -215,37 +245,28 @@
 				</form>
 			</div>
 			<div class="modal-content2">
-				<form method="post">
+				<form method="post"> {% csrf_token %}
 					{{ signup_form }}
 			<div class="all-filter">
-					<!-- <input type="text2" name="phonenumber" class="login text5" id="label1"> -->
 				<label for="label1">
-					<div class="number number3">نام</div>
+					<div class="number number3">نام خانوادگی</div>
 				</label>
-				<!-- <input type="text3" name="plaquenumber" class="login text5" id="label2"> -->
 				<label for="lebel2">
 					<div class="number4 number">شماره همراه</div>
 				</label>
-					<!-- <input type="text4" name="fname" class="login text5" id="label3"> -->
 				<label for="label3">
-					<div class="number5 number">پسورد</div>
-				</label>	
-					<input class="text5" type="familyname" id="label4" >
+					<div class="number5 number">رمز عبور</div>
+				</label>
 					<label for="label4">
-							<div class="number6 number">نام خانوادگی</div>
+							<div class="number6 number">نام</div>
 					</label>
-					<a href="" class="register common2">ثبت نام</a>
-				
+					<button type="submit" class="register common2">ثبت نام</button>
 				</div>
 				</form>
 			</div>
 
 		</div>
 	</div>
-		<button id="myBtn20" class="loginap20">
-			<i class="fas fa-bars icon20"></i>
-		</button>
-
 		<!-- The Modal -->
 		<div id="myModal20" class="modal20">
 
@@ -299,10 +320,10 @@
 
 			</div>
 				<script>
-					var filter = document.getElementById("filter");
+					var myfilter3 = document.getElementById("filter1-containerr");
 					function filter2()
 					{
-						filter2.style.backgroundColor = 'red';
+					myfilter3.style.display="unset";
 					}
 				</script>
 <script>
@@ -452,6 +473,13 @@ function btnClick(){
 
 	document.getElementById("timesClicked").innerHTML = timesClicked;
 	return true
+}
+</script>
+<script>
+var myfilter1 = document.getElementById("filter1-containerr")
+function filtr1()
+{
+myfilter1.style.display= "none";
 }
 </script>
 </body>
