@@ -13,7 +13,6 @@ body
 
 img.motori-bg
 {
-	
 	position: absolute;
 	margin-top: 28vw;
 }
@@ -2113,7 +2112,7 @@ div.right-part-text2
 	
 	border-bottom: 0.1vw solid black;
 	height: 10vw;
-	margin-top: -4.5vw;
+	margin-top: 5.5vw;
 }
 div.right-part-text3
 {
@@ -2142,6 +2141,13 @@ div.right-part-text6
 	height: 9.5vw;
 	margin-top: -2.5vw;
 }
+div.right-part-text7
+{
+	
+	height: 9.5vw;
+	margin-top: 14.5vw;
+	border-bottom: 0.1vw solid black;
+}
 .check {
   display: block;
   position: relative;
@@ -2158,7 +2164,7 @@ div.right-part-text6
 .check1
 {
 	
-	margin-top: -75vw;
+	margin-top: -9vw;
 }
 .check input {
   position: absolute;
