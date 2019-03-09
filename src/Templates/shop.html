@@ -185,13 +185,17 @@
 			</div>
 			<div class="filter-header-logo">فیلترها</div>
 			<div class="right-part"></div>
-			<div class="right-part-text right-part-text7">نوع موتور <br>
-			<div class="right-part-text2">برند</div> <br>
-			<div class="right-part-text3">محدوده قیمت</div> <br>
-			<div class="right-part-text4">نوع قطعه</div> <br>
-			<div class="right-part-text5">لوازم جانبی</div> <br>
-			<div class="right-part-text6">کلاه ماسکت</div> 
-			</div>
+			<div class="right-part-text">
+			<div class=" right-part-text1"onclick="f1left(0)">نوع موتور <br></div>
+			<div class=" right-part-text2" onclick="f1left(1)">برند</div> <br>
+			<div class=" right-part-text3" onclick="f1left(2)">محدوده قیمت</div> <br>
+			<div class=" right-part-text4" onclick="f1left(3)">نوع قطعه</div> <br>
+			<div class=" right-part-text5" onclick="f1left(4)">لوازم جانبی</div> <br>
+			<div class=" right-part-text6" onclick="f1left(5)">کلاه کاسکت</div> 
+		</div>
+
+			<div class="left-part-container">
+				<div class="right-part-textt left-part-1">
 <label class="check1 check">cg-125
 		<input type="checkbox" checked="checked">
 		<span class="checkmark2"></span>
@@ -216,15 +220,41 @@
 				<input type="checkbox">
 				<span class="checkmark2"></span>
 			  </label>
+			</div>
+			<div class="right-part-textt left-part-3">
+				hey2
+			</div>
+			<div class="right-part-textt left-part-3">
+					hey3
+				</div>
+				<div class="right-part-textt left-part-3">
+						hey4
+					</div>
+					<div class="right-part-textt left-part-3">
+							hey5
+						</div>
+						<div class="right-part-textt left-part-3">
+								hey6
+							</div>
+			</div>
 		</div>
 	</div>
 	</div>
-
+	<script>
+			let i;
+			let rightPartText = document.querySelectorAll('.right-part-textt')
+		function f1left(v)
+		{	
+			for( i = 0 ; i < rightPartText.length ; i ++)
+			{
+				rightPartText[i].style.display = "none";
+			}
+			rightPartText[v].style.display = "unset";
+		}
+		</script>
 	<center><span id="timesClicked" class="num">0</span></center>
-	<!-- Trigger/Open The Modal -->
 	<div id="myModal" class="modal">
 
-		<!-- Modal content -->
 		<div class="modal-content">
 			<div class="number"></div>
 			<input type="text5" class="text5" style="display:none">

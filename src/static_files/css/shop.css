@@ -114,6 +114,7 @@ i.cart
 }
 @media only screen and (min-width:641px)
 {
+
 i.cart
 {
 		margin-top: 2.8%;
@@ -158,6 +159,10 @@ div.yourmechanics3
 }
 @media only screen and (min-width:641px)
 {
+label.check
+	{
+		display: none;
+	}
 img.polygon
 {
 
@@ -1445,7 +1450,7 @@ i.filter1
 }
 @media only screen and (min-width:641px )
 {
-	div.right-part-text
+	div.right-part-text1
 	{
 		display: none;
 	}
@@ -2037,7 +2042,7 @@ img.Drmotori-logo
 {
 
 	width: 100%;
-	height: 177vw;
+	height: 100vh;
 	position: absolute;
 	background-color: rgba(0,0,0,0.4);
 	margin-top: -2vw;
@@ -2112,7 +2117,7 @@ div.right-part-text2
 	
 	border-bottom: 0.1vw solid black;
 	height: 10vw;
-	margin-top: 5.5vw;
+	margin-top: 2vw;
 }
 div.right-part-text3
 {
@@ -2141,11 +2146,11 @@ div.right-part-text6
 	height: 9.5vw;
 	margin-top: -2.5vw;
 }
-div.right-part-text7
+div.right-part-text1
 {
 	
-	height: 9.5vw;
-	margin-top: 14.5vw;
+	height: 9vw;
+	margin-top: 13vw;
 	border-bottom: 0.1vw solid black;
 }
 .check {
@@ -2164,7 +2169,7 @@ div.right-part-text7
 .check1
 {
 	
-	margin-top: -9vw;
+	margin-top: -74vw;
 }
 .check input {
   position: absolute;
@@ -2199,10 +2204,10 @@ div.right-part-text7
   display: block;
 }
 .check .checkmark2:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
+  left: 2vw;
+  top: -0.5vw;
+  width: 1vw;
+  height: 5vw;
   border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
@@ -2213,5 +2218,14 @@ i.filter1II
 {
 	cursor: unset;
 	margin-left: 7vw;
+}
+.left-part-1
+{
+	display:unset;
+}
+.left-part-3
+{
+display:none;
+	font-size: 4vw;
 }
 }
