@@ -14,7 +14,7 @@ body
 img.motori-bg
 {
 	position: absolute;
-	margin-top: 28vw;
+	margin-top: 1vw;
 }
 div.header
 {
@@ -289,7 +289,7 @@ background-color: #9a9f9d;
 color: white;
 border:none;
 padding: 0.2vw;
-margin-top: 0.3vw;
+margin-top: 0.4vw;
 width: 20vw;
 text-align: center;
 margin-left: 10vw;
@@ -1355,7 +1355,7 @@ span.img16
 img.footer-bg
 {
 	position: absolute;
-	margin-top: 131vw;
+	margin-top: 90vw;
 }
 
 @media only screen and (max-width:640px)
@@ -1412,12 +1412,13 @@ div.footer > div.footer-mechanic-logo
 div.footer > div.footer-text
 {
 	position: absolute;
-	line-height: 3vw;
+	line-height: 3.5vw;
 	font-family: BMitra;
-	font-size: 2vw;
+	font-size: 2.5vw;
 	color: white;
-	margin-left: 90%;
-margin-top:136.5vw;
+	margin-left: 85%;
+margin-top:93.5vw;
+	text-align: right;
 }
 @media only screen and (max-width:640px)
 {
@@ -1430,7 +1431,7 @@ margin-top:136.5vw;
 }
 div.footer > div.footer-text2
 {
-	margin-left: 70%;
+	margin-left: 65%;
 }
 @media only screen and (max-width:640px)
 {
@@ -2001,10 +2002,10 @@ div.star-rating4 {
 	}
 img.Drmotori-logo 
 {
-	height: 25vw;
+	height: 23vw;
 	position: absolute;
-	width: 34vw;
-	margin-top: 128.46vw;
+	width: 31vw;
+	margin-top: 86.46vw;
 	margin-left: -2vw;
 }
 .problem
