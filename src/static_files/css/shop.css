@@ -19,11 +19,11 @@ img.motori-bg
 div.header
 {
 width: 100%;
-height: 10.2vw;
+height: 6vw;
 	background-color: #1a2930;
 	position:fixed;
-	margin-top: -130.2vw;
-z-index: 12;
+	margin-top: -124.2vw;
+z-index: 0;
 }
 @media only screen and (max-width:640px)
 {
@@ -85,7 +85,7 @@ div.all > div.header >div.header2> div.yourmechanics
 div.ym
 {
 	background-color: #f7ce3e;
-	height: 40vw;
+	height: 33vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -98,7 +98,7 @@ i.cart
 {
 
 	width: 10%;
-	margin-left: 60vw;
+	margin-left: 23vw;
 	position: absolute;
 	color:#f7ce3e;
 }
@@ -117,8 +117,8 @@ i.cart
 
 i.cart
 {
-		margin-top: 2.8%;
-	font-size:7.5vw;
+		margin-top: 0.5%;
+	font-size:5.5vw;
 }
 }
 div.yourmechanics3
@@ -166,11 +166,11 @@ label.check
 img.polygon
 {
 
-	width: 3vw;
-	height: 3vw;
-	margin-left: 66.5vw;
+	width: 2.5vw;
+	height: 2.5vw;
+	margin-left: 27.5vw;
 	position: absolute;
-	margin-top: 2.4%;
+	margin-top: 0.5%;
 }
 }
 img.foroshgah
@@ -186,7 +186,7 @@ img.foroshgah
 	{
 		width: 29vw;
 		height:8vw;
-		margin-top: 23vw;
+		margin-top: 12vw;
 		margin-left: 8vw;
 	}
 }
@@ -258,14 +258,14 @@ img.motori
 	{
 		width: 23vw;
 		height: 17vw;
-		margin-top: 23vw;
+		margin-top: 16vw;
 		margin-left: 32vw;
 	}
 }
 div.header3
 {
 	width: 100%;
-	height: 2.2vw;
+	height: 3.2vw;
 	background-color: #0a1612;
 }
 @media only screen and (max-width:640px)
@@ -289,14 +289,15 @@ background-color: #9a9f9d;
 color: white;
 border:none;
 padding: 0.2vw;
-margin-top: 0.11vw;
+margin-top: 0.3vw;
 width: 20vw;
 text-align: center;
 margin-left: 10vw;
 border-radius: 20px;
 	font-family: BMitra;
-	font-size:1vw;
+	font-size:2vw;
 	font-weight: bolder;
+	height: 2vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -313,6 +314,8 @@ div.modal-content
 	background-color: #1a2930;
 	height: 25vw;
 	width: 40vw;
+	z-index: 3;
+	position: absolute;
 }
 
 /* The Modal (background) */
@@ -370,18 +373,20 @@ div.modal-content
 }
  button.loginap
 {
-	cursor: pointer;
-	margin-left: 80vw;
 	color: #f7ce3e;
+	background-color: #1a2930;
+	margin-top: 0.2vw;
+	margin-left: 43vw;
+	font-size: 2.1vw;
+	font-family: BBardiya;
+	width: 11.8vw;
+	height: 5.5vw;
+	text-align: center;
+	line-height: 5.5vw;
+	cursor: pointer;
+	border-radius: 0.4vw;
 	position: absolute;
-	padding-bottom: 1vw;
-	padding-top: 1vw;
-	padding-left: 4vw;
-	padding-right: 4vw;
-	border:none;
-	background-color: #9a9f9d;
-	margin-top: 4vw;
-	font-size: 1vw;
+	z-index: 1;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -501,7 +506,7 @@ input[type="text4"]
 }
 div.number5
 {
-	margin-left: 42vw;
+	margin-left: 43.5vw;
 	margin-top: 21vw;	
 	width: 13vw;
 
@@ -547,13 +552,13 @@ div.header4 > div.slideshow-container > a.prev, a.next {
   top: 50%;
   width: auto;
   padding: 2.5vw;
-  margin-top: -4.5vw;
+  margin-top: 4vw;
   color: white;
   font-weight: bold;
   font-size: 3.5vw;
   transition: 0.6s ease;
   border-radius: 0 0.3vw 0.3vw 0;
-  z-index: 2;
+  z-index: 0;
 }
 
 /* Position the "next button" to the right */
@@ -573,11 +578,13 @@ div.header4 > div.slideshow-container > a.prev:hover, div.header4 > div.slidesho
 /* Number text (1/3 etc) */
 .numbertext {
 	font-family: BMitra;
-  color: black;
-  font-size: 2vw;
+  color: white;
+  font-size: 3vw;
   padding: 0.8vw 1.2vw;
   position: absolute;
   top: 0;
+	z-index: 0;
+	margin-top: -7vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -648,11 +655,19 @@ div.text6
 
 img.item4
 {
-	height: 16.8vw;
+	position: absolute;
+	margin-left: 69.5vw;
+	padding: 1vw;
+	padding-bottom: 1vw;
+	border-radius: 1vw;
+	margin-top: -1.5vw;
+	padding-bottom: 5vw;
+	background-color: #e2e2e2;
+	height: 15.8vw;
 }
 img.item8
 {
-	height: 16.8vw;
+	height: 15.1vw;
 }
 
 div.mySlides
@@ -1970,16 +1985,10 @@ div.star-rating4 {
 	}
 	
 	 div.star-rating4 label {
-		color: #bbb;
-		cursor: pointer;
+		color: #f7ce3e;
 	
 	}
-	
-	 div.star-rating4 label:hover,
-	  div.star-rating4 label:hover ~ label,
-	  div.star-rating4 input[type=radio]:checked ~ label {
-		color: #f2b600;
-	}
+
 	@media only screen and (max-width: 640px)
 	{
 		 div.star-rating4 {
@@ -2018,12 +2027,16 @@ img.Drmotori-logo
 .motori-logo2
 {	
 	position: absolute;
-	margin-top: 2vw;
-	margin-left: 5vw;
-	height: 8vw;
+	margin-top: 1.5vw;
+	margin-left: 2vw;
+	height: 4vw;
 }
 @media only screen and (max-width : 640px)
 {
+	a.header-text-1
+	{
+		display: none;
+	}
 img.Drmotori-logo
 {
 	margin-top: 3vw;
@@ -2246,4 +2259,64 @@ label.check3
 	font-family: BMitra;
 	font-size: 3vw;
 }
+}
+a.header-text-1
+{
+	color: #f7ce3e;
+	background-color: #1a2930;
+	margin-top: 0.2vw;
+	margin-left: 85vw;
+	font-size: 2.1vw;
+	font-family: BBardiya;
+	width: 11.8vw;
+	height: 5.5vw;
+	text-align: center;
+	line-height: 5.5vw;
+	cursor: pointer;
+	border-radius: 0.4vw;
+	position: absolute;
+}
+a.header-text-1:hover
+{
+	color: #1a2930;
+background-color: #f7ce3e;
+width: 13vw;
+text-align: center;
+transition: all linear 0.5s;
+}
+a.header-text-2
+{
+	margin-left: 71vw;
+}
+a.header-text-3
+{
+	margin-left: 57vw;
+}
+.item1
+{
+
+	position: absolute;
+	margin-left: -2.5vw;
+	padding: 1vw;
+	border-radius: 1vw;
+	margin-top: -1.5vw;
+	padding-bottom: 5vw;
+	background-color: #e2e2e2;
+}
+.item1:hover
+{
+	background-color: white;
+	transition: 1s linear all;
+}
+.item2
+{
+	margin-left: 21.5vw;
+}
+.item3
+{
+	margin-left: 45.5vw;
+}
+.item4
+{
+	
 }
