@@ -61,7 +61,7 @@ margin-left: 32%;
 font-size: 5vw;
 padding-right: 8.5vw;
 margin-top: 20.6%;
-}	
+}
 }
 
 
@@ -75,7 +75,7 @@ margin-top:10%;
 div.all > div.header >div.header2> div.yourmechanics
 {
 	margin-left: 32%;
-}	
+}
 }
 
 .responsive {
@@ -441,7 +441,7 @@ div.number
 }
 div.number2
 {
-	
+
 	margin-top:6vw;
 margin-left: 14vw;
 	position: absolute;
@@ -496,7 +496,7 @@ input[type="text3"]
 div.number4
 {
 	margin-left: 40.8vw;
-	margin-top: 14.5vw;	
+	margin-top: 14.5vw;
 }
 input[type="text4"]
 {
@@ -507,7 +507,7 @@ input[type="text4"]
 div.number5
 {
 	margin-left: 43.5vw;
-	margin-top: 21vw;	
+	margin-top: 21vw;
 	width: 13vw;
 
 }
@@ -588,7 +588,7 @@ div.header4 > div.slideshow-container > a.prev:hover, div.header4 > div.slidesho
 }
 @media only screen and (max-width:640px)
 {
-	.numbertext 
+	.numbertext
 	{
 		font-size: 4vw;
 	}
@@ -609,12 +609,12 @@ div.header4 > div.slideshow-container > a.prev:hover, div.header4 > div.slidesho
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -733,7 +733,7 @@ div.content > img.motor-logo
 	height: 11.5%;
 	position: absolute;
 	margin-top: 0.8vw;
-	margin-left:1.6vw; 
+	margin-left:1.6vw;
 }
 div.content > div.box1
 {
@@ -1141,7 +1141,7 @@ img.image4 {
 	width: 20vw;
 		height: 12vw;
 	margin-left: -2.5vw;
-}	
+}
 }
 span.img1 > div.imgtext5
 {
@@ -1366,7 +1366,7 @@ img.footer-bg
 	}
 	img.footer-bg
 	{
-		
+
 	margin-top: 6vw;
 	}
 }
@@ -1383,7 +1383,7 @@ img.footer-bg
 {
 	div.footer > div.footer-mechanic-logo>span.footer-mechanic-logo2
 {
-		
+
 	font-size: 3vw;
 margin-top: -0.7vw;
 		line-height: 3vw;
@@ -1623,7 +1623,7 @@ button.filters2-box1
 		margin-left: 40vw;
 		margin-top: 3.0vw;
 		position: absolute;
-	
+
 }
 button.filters2-box1 > div.filters2-text1
 {
@@ -1708,7 +1708,7 @@ div.text12
 {
 	font-size: 4vw;
 	margin-left: 9vw;
-	
+
 }
 i.icon20
 {
@@ -1931,7 +1931,7 @@ i.imgg
 {
 	position: absolute;
 	font-size: 3vw;
-	color: #f7ce3e; 
+	color: #f7ce3e;
 	cursor: pointer;
 }
 span.img1:hover + i.imgg1
@@ -1978,16 +1978,16 @@ div.star-rating4 {
 		position:absolute;
 	   font-size: 1vw;
 	   padding:0.5vw;
-	
+
 	}
-	
+
 	 div.star-rating4 input[type=radio] {
 		display: none;
 	}
-	
+
 	 div.star-rating4 label {
 		color: #f7ce3e;
-	
+
 	}
 
 	@media only screen and (max-width: 640px)
@@ -2000,7 +2000,7 @@ div.star-rating4 {
 	margin-top: 20vw;
 	}
 	}
-img.Drmotori-logo 
+img.Drmotori-logo
 {
 	height: 23vw;
 	position: absolute;
@@ -2019,14 +2019,14 @@ img.Drmotori-logo
 {
 .problem
 {
-	
+
 	margin-top: 35vw;
 	width: 100vw;
 	height: 96vw;
 }
 }
 .motori-logo2
-{	
+{
 	position: absolute;
 	margin-top: 1.5vw;
 	margin-left: 2vw;
@@ -2111,7 +2111,7 @@ div.right-part-text
 }
 div.right-part
 {
-	
+
 	width: 37vw;
 	background-color: #f7ce3e;
 	position: absolute;
@@ -2129,41 +2129,41 @@ div.right-part-text1
 }
 div.right-part-text2
 {
-	
+
 	border-bottom: 0.1vw solid black;
 	height: 10vw;
 	margin-top: 4vw;
 }
 div.right-part-text3
 {
-	
+
 	border-bottom: 0.1vw solid black;
 	height: 12vw;
 	margin-top: -2vw;
 }
 div.right-part-text4
 {
-	
+
 	border-bottom: 0.1vw solid black;
 	height: 12vw;
 	margin-top: -1vw;
 }
 div.right-part-text5
 {
-	
+
 	border-bottom: 0.1vw solid black;
 	height: 12vw;
 	margin-top: -1vw;
 }
 div.right-part-text6
 {
-	
+
 	height: 9.5vw;
 	margin-top: vw;
 }
 div.right-part-text1
 {
-	
+
 	height: 11vw;
 	margin-top: 15vw;
 	border-bottom: 0.1vw solid black;
@@ -2183,7 +2183,7 @@ div.right-part-text1
 }
 .check1
 {
-	
+
 	margin-top: -87vw;
 }
 .check input {
@@ -2319,7 +2319,7 @@ a.header-text-3
 }
 .item4
 {
-	
+
 }
 @media only screen and (min-width:641px ) and (max-width:830px)
 {
