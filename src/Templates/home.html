@@ -16,9 +16,47 @@
 <img src="{% static 'img/sec1.png' %}" class="sec1img">
 <div class="phonebox">
 </div>
-	<input type="text"  class="input1" >
-	<div class="register">ثبت نام</div>
-	<div class="phonenumber">شماره همراه </div>
+  <div class="register" onclick="regPanel()">سفارش</div>
+  <div class="register-opacity" id="register-panel" >
+    <div class="panel-container">
+        <div class="close4" onclick="regPanel2()">&#x2715;</div>
+        <script>
+        var regOpen = document.getElementById('register-panel')
+        function regPanel()
+        {
+          regOpen.style.display = "unset";
+        }
+        function regPanel2()
+        {
+          regOpen.style.display = "none";
+        }
+        </script>
+  <label for="name">
+      <div class="name-container">نام</div>
+      <input type="text" class="name">
+  </label>
+  <label for="fname">
+      <input type="text" class="fname">
+      <div class="fname-container">نام خانوادگی</div>
+  </label>
+  <label for="phonenumber">
+    <input type="text" class="phonenumber">
+    <div class="phonenumber-container">شماره تلفن</div>
+  </label>
+  <label for="explanation">
+    <input type="text" class="explanation">
+    <div class="explain">توضیحات</div>
+  </label>
+  <label for="submit">
+    <button class="submit">ثبت</button>
+  </label>
+    </div>
+  </div>
+
+  <script>
+  var reg = document.getElementById("register")
+
+  </script>
 	<img src="{% static 'img/layer 5.png' %}" class="motorcycle">
 	<img src="{% static 'img/mechanic.jpeg' %}" class="img2">
 
