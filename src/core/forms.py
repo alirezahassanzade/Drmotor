@@ -11,3 +11,7 @@ class SignupForm(forms.Form):
     last_name = forms.CharField(widget=forms.TextInput(attrs={'class':'text5', 'type': 'familyname'}), label='')
     phone_number = forms.CharField(widget=forms.TextInput(attrs={'class':'login text5', 'type': 'text3'}), label='')
     password = forms.CharField(widget=forms.TextInput(attrs={'class':'login text5', 'type': 'text4'}), label='')
+
+
+class HomeRquestForm(forms.Form):
+    pass

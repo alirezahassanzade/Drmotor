@@ -1,15 +1,20 @@
 from django.shortcuts import render
 
-from .forms import LoginForm, SignupForm
+from .forms import LoginForm, SignupForm, HomeRquestForm
 
 from .models import Good, User
 from .util import get_first_good_pic, string_to_md5
 
 
 def home_view(request):
+    request_form = HomeRquestForm(request.POST or None)
     context = {
-
+        'form': request_form,
     }
+    if request_form.is_valid():
+        # Get form arguments & check them
+        # Submit the form
+        pass
     return render(request, 'home.html', context)
 
 
