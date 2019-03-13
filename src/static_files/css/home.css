@@ -39,39 +39,6 @@ img.sec1img
 	background-size: cover;
 	margin-top: 6vw;
 }
-div.headtitle
-{
-	letter-spacing: 1.7vw;
-text-align: center;
-width: 20.2vw;
-color: white;
-margin-top: 0.1vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 4vw;
-letter-spacing: 1vw;
-margin-left: 3vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 0.5vw;
-padding-bottom: 0.5vw;
-z-index: 1;
-}
-div.yourmechanics
-{
-	color: white;
-	padding:0.7vw;
-	background-color: #012930;
-	font-family: 'Open Sans', sans-serif;
-	padding-left: 2vw;
-	padding-right: 2vw;
-	font-size: 0.9vw;
-	margin-top:5.6vw;
-	z-index: 3;
-	position: absolute;
-	margin-left: 11vw;
-	border-radius: 0.2vw;
-}
 div.yourmechanics2
 {
 	margin-top: -1.2vw;
@@ -80,19 +47,19 @@ div.yourmechanics2
 }
 div.phonebox
 {
-	padding: 9vw;
+	padding: 6vw;
 	position: absolute;
 	background-color: black;
 	opacity:0.2;
 	margin-top: 20vw;
 	margin-left: 8vw;
-	padding-left:14vw;
+	padding-right: 9vw;
 }
 div.register
 {
 	color:white;
-	margin-top: 31vw;
-	margin-left: 15.5vw;
+	margin-top: 25vw;
+	margin-left: 11.6vw;
 	cursor: pointer;
 	position: absolute;
 	font-size: 2vw;
@@ -227,7 +194,7 @@ padding: 12vw;
     padding-right: 12vw;
 background-color: #1a2930;
 position: absolute;
-margin-left: 61.5vw;
+margin-left: 60.5vw;
 padding-right: 25vw;
 margin-top: 88.5vw;
 
@@ -235,27 +202,9 @@ margin-top: 88.5vw;
 .mySlides {
 	display: none;
 position: absolute;
-margin-left: 67.5vw;
+margin-left: 66.5vw;
 height: 21.5vw;
 margin-top: 89.7vw;
-}
-div.text5
-{
-	color: #f6ca50;
-
-font-size: 3vw;
-
-margin-top: 98vw;
-
-position: absolute;
-
-transform: rotate(270deg);
-
-margin-left: 59.5vw;
-
-font-family: BBardiya;
-
-letter-spacing: 0.1vw;
 }
 div.box4
 {
@@ -663,43 +612,6 @@ position: absolute;
 height: 37vw;
 margin-top: 205vw;
 }
-div.footer-mortori
-{
-	letter-spacing: 1.7vw;
-text-align: center;
-width: 20.2vw;
-color: white;
-margin-top: 205vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 4vw;
-letter-spacing: 1vw;
-margin-left: 3vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 0.5vw;
-padding-bottom: 0.5vw;
-z-index: 1;
-}
-div.yourmechanics2
-{
-	color: #012930;
-padding: 0.7vw;
-    padding-right: 0.7vw;
-    padding-left: 0.7vw;
-padding-right: 0.7vw;
-padding-left: 0.7vw;
-background-color: white;
-font-family: 'Open Sans', sans-serif;
-padding-left: 2vw;
-padding-right: 2vw;
-font-size: 0.9vw;
-margin-top: 210.6vw;
-z-index: 1;
-position: absolute;
-margin-left: 11vw;
-border-radius: 0.2vw;
-}
 div.text8
 {
 	font-size: 2vw;
@@ -709,7 +621,7 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 208vw;
+margin-top: 205vw;
 margin-left: 82vw;
 }
 div.text9
@@ -721,41 +633,8 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 208vw;
+margin-top: 205vw;
 margin-left: 62vw;
-
-}
-div.text10
-{
-	color: #f7ce3e;
-
-background-color: #1a2930;
-
-margin-top: 0.2vw;
-
-margin-left: 83.8vw;
-
-font-size: 2.1vw;
-
-font-family: BBardiya;
-
-width: 13.8vw;
-
-height: 5.5vw;
-
-text-align: center;
-
-line-height: 5vw;
-cursor: pointer;
-border-radius: 0.4vw;
-}
-div.text10:hover
-{
-	color: #1a2930;
-	background-color: #f7ce3e;
-	width: 14.5vw;
-	text-align: center;
-	transition: all linear 0.5s;
 
 }
 div.text11
@@ -764,9 +643,9 @@ color: #f7ce3e;
 
 background-color: #1a2930;
 
-margin-top: -5.5vw;
+margin-top: -2.6vw;
 
-margin-left: 69.4vw;
+margin-left: 83vw;
 
 font-size: 2.1vw;
 
@@ -798,7 +677,7 @@ background-color: #1a2930;
 
 margin-top: -5.5vw;
 
-margin-left: 55.4vw;
+margin-left: 68.4vw;
 
 font-size: 2.1vw;
 
@@ -830,7 +709,7 @@ background-color: #1a2930;
 
 margin-top: -5.5vw;
 
-margin-left: 40.4vw;
+margin-left: 53.4vw;
 
 font-size: 2.1vw;
 
@@ -869,40 +748,6 @@ position: fixed;
 background-color: #1a2930;
 padding-right: 100%;
 z-index:2;
-}
-div.motori2
-{
-text-align: center;
-width: 30vw;
-color: white;
-margin-top: 0.1vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 6.5vw;
-letter-spacing: 1vw;
-margin-left: 36vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 1vw;
-padding-bottom: 0.7vw;
-}
-div.yourmechanics3
-{
-	color: white;
-padding: 0.7vw;
-    padding-right: 0.7vw;
-    padding-left: 0.7vw;
-padding-right: 0.7vw;
-padding-left: 0.7vw;
-background-color: #012930;
-font-family: 'Open Sans', sans-serif;
-padding-left: 2vw;
-padding-right: 2vw;
-font-size: 1.8vw;
-margin-top: 9vw;
-position: absolute;
-margin-left: 46vw;
-border-radius: 0.2vw;
 }
 div.modal-content4
 {
@@ -1458,7 +1303,7 @@ font-family: BBardiya;
 
 margin-top: 88vw;
 
-margin-left: 67vw;
+margin-left: 72vw;
 }
 input.text28
 {
@@ -1491,9 +1336,9 @@ font-size: 3.5vw;
 
 font-family: BBardiya;
 
-margin-top: 101vw;
+margin-top: 102vw;
 
-margin-left: 71vw;
+margin-left: 82.5vw;
 }
 input.text30
 {
@@ -1511,9 +1356,9 @@ direction: rtl;
 div.text31
 {
 
-	margin-top: 116vw;
+	margin-top: 119vw;
 z-index: 0;
-margin-left: 68vw;
+margin-left: 73vw;
 }
 input.text32
 {
@@ -1745,23 +1590,6 @@ div.box24
 	margin-left: 36vw;
 cursor: pointer;
 margin-top: -11vw;
-}
-div.footer-motori2
-{
-text-align: center;
-width: 31vw;
-color: white;
-margin-top: 0.1vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 6.8vw;
-letter-spacing: 1vw;
-margin-left: 7vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 1vw;
-padding-bottom: 0.7vw;
-z-index:0;
 }
 div.box25
 {
@@ -2076,4 +1904,12 @@ color: black;
 	color: #f2f2f2;
 	margin-left: 3vw;
 	margin-top: 1vw;
+}
+.motori-logo1
+{
+	
+}
+.motori-logo2
+{
+
 }
