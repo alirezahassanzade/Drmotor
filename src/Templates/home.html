@@ -15,22 +15,16 @@
 <div class="all">
 <img src="{% static 'img/sec1.png' %}" class="sec1img">
 <div class="phonebox">
+  موتورت تو راه خراب شده؟<br>
+یه درخواست بده تا<br>
+مکانیک ما بیاد کمکت<br>
+
 </div>
-  <div class="register" onclick="regPanel()">سفارش</div>
+  <div class="register" onclick="regPanel()">درخواست مکانیک</div>
   <div class="register-opacity" id="register-panel" >
     <div class="panel-container">
         <div class="close4" onclick="regPanel2()">&#x2715;</div>
-        <script>
-        var regOpen = document.getElementById('register-panel')
-        function regPanel()
-        {
-          regOpen.style.display = "unset";
-        }
-        function regPanel2()
-        {
-          regOpen.style.display = "none";
-        }
-        </script>
+
   <label for="name">
       <div class="name-container">نام</div>
       <input type="text" class="name">
@@ -52,12 +46,6 @@
   </label>
     </div>
   </div>
-
-  <script>
-  var reg = document.getElementById("register")
-
-  </script>
-	<img src="{% static 'img/layer 5.png' %}" class="motorcycle">
 	<img src="{% static 'img/mechanic.jpeg' %}" class="img2">
 
 
@@ -412,5 +400,16 @@ function closeNav3() {
   document.getElementById("mySidenav3").style.width = "0";
 }
 </script>
+        <script>
+          var regOpen = document.getElementById('register-panel')
+          function regPanel()
+          {
+            regOpen.style.display = "unset";
+          }
+          function regPanel2()
+          {
+            regOpen.style.display = "none";
+          }
+          </script>
 </body>
 </html>

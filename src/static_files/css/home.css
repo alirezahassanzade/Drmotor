@@ -47,19 +47,22 @@ div.yourmechanics2
 }
 div.phonebox
 {
-	padding: 6vw;
+	padding: 8vw;
 	position: absolute;
-	background-color: black;
-	opacity:0.2;
-	margin-top: 20vw;
-	margin-left: 8vw;
-	padding-right: 9vw;
+	background-color: rgba(0,0,0,0.3);
+	margin-top: 12vw;
+	margin-left: 32.7vw;
+	font-family: BMitra;
+	text-align: center;
+	padding-bottom: 14vw;
+	border-radius: 0.7vw;
+	font-size: 2.5vw;
 }
 div.register
 {
 	color:white;
-	margin-top: 25vw;
-	margin-left: 11.6vw;
+	margin-top: 35vw;
+	margin-left: 42.5vw;
 	cursor: pointer;
 	position: absolute;
 	font-size: 2vw;
@@ -76,14 +79,6 @@ div.register:hover
 	padding-right:2.5vw;
 padding-left:2.5vw;
 transition: all 1s;
-}
-
-img.motorcycle
-{
-	position: absolute;
-	width: 22vw;
-	margin-top: 20vw;
-	margin-left:68vw;
 }
 img.img2
 {
@@ -339,7 +334,7 @@ letter-spacing: 0.1vw;
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides2 {display: none}
-img {vertical-align: middle;}
+img {}
 
 /* Slideshow container */
 .slideshow-container2 {
@@ -643,7 +638,7 @@ color: #f7ce3e;
 
 background-color: #1a2930;
 
-margin-top: -2.6vw;
+margin-top: 0.22vw;
 
 margin-left: 83vw;
 
@@ -1423,7 +1418,7 @@ width: 32vw;
 margin-left: 22vw;
 }
 .mySlides3 {display: none}
-img {vertical-align: middle;}
+img {}
 
 /* Slideshow container */
 .slideshow-container3 {
@@ -1766,30 +1761,32 @@ color: black;
 {
 	display:none;
 	width: 100%;
-	height: 256vh;
+	height: 263vh;
 	z-index: 2;
 	position: absolute;
 	background-color: rgba(0,0,0,0.6);
+	overflow: auto;
+	position: fixed;
 }
 .panel-container
 {
 	
-	height: 68vw;
+	height: 48vw;
 	width: 53vw;
 	background-color: #1a2930;
 	margin-left: 22vw;
-	margin-top: 3vw;
+	margin-top: 0.5vw;
 	border-radius: 0.5vw;
-	position: fixed;
 	border: 1vw solid gray;
+	position: fixed;
 }
 .name-container
 {
 
 	position: absolute;
-	margin-left: 45vw;
-	margin-top: 6vw;
-	font-size: 3vw;
+	margin-left: 46vw;
+	margin-top: 4vw;
+	font-size: 2.5vw;
 	color: white;
 	font-family: BMitra;
 }
@@ -1799,9 +1796,9 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 12.5vw;
+	margin-top: 8.5vw;
 	position: absolute;
-	height: 3.5vw;
+	height: 2.5vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2vw;
@@ -1814,9 +1811,9 @@ color: black;
 	width: 94%;
     border-radius: 0.2vw;
     border: none;
-    margin-top: 24vw;
+    margin-top: 16vw;
     position: absolute;
-    height: 3.5vw;
+    height: 2.5vw;
     margin-left: 1.6vw;
     background-color: #c0c3c2;
     font-size: 2.3vw;
@@ -1828,10 +1825,10 @@ color: black;
 {
 	
 	font-family: BMitra;
-	font-size: 3vw;
-	margin-top: 17.8vw;
+	font-size: 2.5vw;
+	margin-top: 12.5vw;
 	color: #f2f2f2;
-	margin-left: 38vw;
+	margin-left: 39.5vw;
 }
 .phonenumber
 {
@@ -1839,9 +1836,9 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 14vw;
+	margin-top: 7vw;
 	position: absolute;
-	height: 3.5vw;
+	height: 2.5vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2.3vw;
@@ -1852,10 +1849,10 @@ color: black;
 {
 	
 	font-family: BMitra;
-	font-size: 3vw;
-	margin-top: 7.55vw;
+	font-size: 2.5vw;
+	margin-top: 3.6vw;
 	color: #f2f2f2;
-	margin-left: 39vw;
+	margin-left: 40.3vw;
 }
 .explanation
 {
@@ -1863,21 +1860,21 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 13vw;
+	margin-top: 7vw;
 	position: absolute;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2vw;
 	direction: rtl;
 	color: #0a1612;
-	padding-bottom: 9vw;
+	padding-bottom: 8vw;
 }
 .explain
 {
 	position: absolute;
-	margin-left: 40vw;
-	margin-top: 7vw;
-	font-size: 3vw;
+	margin-left: 41vw;
+	margin-top: 3.5vw;
+	font-size: 2.5vw;
 	color: white;	
 	font-family: BMitra;
 }
@@ -1889,8 +1886,7 @@ color: black;
 	border-radius: 0.3vw;
 	color: black;
 	background-color: #f7ce3e;
-	margin-top: 26.5vw;
-	height: 4vw;
+	margin-top: 18.6vw;
 	font-size: 2.5vw;
 	font-family: BMitra;
 	margin-left: 1.5vw;
@@ -1900,14 +1896,15 @@ color: black;
 {
 	cursor: pointer;
 	position: absolute;
-	font-size: 5vw;
+	font-size: 4vw;
 	color: #f2f2f2;
 	margin-left: 3vw;
-	margin-top: 1vw;
+	margin-top: 0.5vw;
 }
 .motori-logo1
 {
 	
+	position: absolute;
 }
 .motori-logo2
 {
