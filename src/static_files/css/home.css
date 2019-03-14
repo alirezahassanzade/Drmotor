@@ -1084,6 +1084,10 @@ margin-left: 55vw;
 }
 @media only screen and (min-width: 640px)
 {
+	div.text40,div.text41,div.slideshow-bg
+	{
+		display: none;
+	}
 	div.all2
 	{
 		display: none;
@@ -1338,136 +1342,17 @@ width: 32vw;
 
 margin-left: 22vw;
 }
-.mySlides3 {display: none}
-
-/* Slideshow container */
-.slideshow-container3 {
-max-width: 100%;
-background-color: #1a2930;
-position: relative;
-margin: auto;
-    margin-top: auto;
-height: 31vw;
-margin-top: 0vw;
-}
-
-/* Next & previous buttons */
-.prev3, .next3 {
-cursor: pointer;
-position: absolute;
-top: 72%;
-width: auto;
-padding: 2vw;
-margin-top: -11vw;
-color: white;
-font-weight: bold;
-font-size: 4vw;
-transition: 0.6s ease9
-}
-
-/* Position the "next button" to the right */
-.next3 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev3:hover, .next3:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-
-/* Number text (1/3 etc) */
-.numbertext3 {
-  color: #f2f2f2;
-  font-size:3vw;
-  padding: 8px 12px;
-  position: absolute;
-  top:-1vw;
-  font-family: BMitra;
-  z-index: 0;
-}
-
-/* The dots/bullets/indicators */
-
-.active3, .dot3:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade3 {
-  -webkit-animation-name: fade3;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade3;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade3 {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade3 {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-img.imgIII{position: absolute;
-margin-top: -31vw;}
-img.img21{padding: 0;
-
-margin-left: 75vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;}
-
-img.img22{padding: 0;
-
-margin-left: 50.7vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;}
-
-  img.img23 {
-padding: 0;
-
-margin-left: 26.5vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;
-}
-img.img24
-{padding: 0;
-
-margin-left: 2vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;
-}
 div.box20
 {
 position: absolute;
 
 width: 100%;
 
-height: 46vw;
+height: 32vw;
 
 background-color: #0a1612;
 
-margin-top: -12vw;
+margin-top: 40vw;
 
 z-index: -1;
 }
@@ -1476,7 +1361,7 @@ div.box25
 	background-color: #1a2930;
 width: 100%;
 height: 75vw;
-margin-top: 33.5vw;
+margin-top: 71.5vw;
 z-index: -2;
 }
 div.box26
@@ -1826,8 +1711,8 @@ p.about-us
 	font-family: BMitra;
 	font-size: 3.5vw;
 	width: 92vw;
-	margin-left: 2vw;
-	margin-top: 17vw;
+	margin-left: 3vw;
+	margin-top: 6.5vw;
 	line-height: 6vw;
 	text-align: center;
 }
@@ -1928,11 +1813,73 @@ div.speedy-oil
 }
 div.price8
 {
-
 	padding-left: 9.2vw;
 }
 div.lavazem-carberator
 {
-
 	margin-left: 8.5vw;
+}
+@media only screen and (max-width:640px)
+{
+div.slideshow-bg
+{
+	background-color: #1a2930;
+	width: 100%;
+	height: 41vw;
+	position: absolute;
+	margin-top: 245vw;
+}
+img.img10,img.img11,img.img12,img.img13
+{
+
+	margin-top: 252vw;
+	z-index: 1;
+	height: 28vw;
+}
+img.img10
+{
+
+	margin-left: 77vw;
+}
+img.img11
+{
+
+	margin-left: 52.5vw;
+}
+img.img12
+{
+
+	margin-left: 28vw;
+}
+img.img13
+{
+
+	margin-left: 3.5vw;
+}
+a.next2,a.prev2
+{
+
+	margin-top: 262vw;
+}
+.price1
+{
+
+	margin-top: 252vw;
+	margin-left: 77vw;
+	padding: 3.9vw;
+	padding-bottom: 7.5vw;
+	font-size: 4vw;
+	padding-left: 7vw;
+	padding-right: 7vw;
+}
+div.price2
+{
+
+}
+div.denso-candle
+{
+
+	margin-top: 274vw;
+	font-size: 3.8vw;
+}
 }
