@@ -333,8 +333,7 @@ letter-spacing: 0.1vw;
 }
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides2 {display: none}
-img {}
+.mySlides2 {display: none;margin-left: -1.4vw;}
 
 /* Slideshow container */
 .slideshow-container2 {
@@ -349,14 +348,15 @@ img {}
   cursor: pointer;
   position: absolute;
   width: auto;
-  padding:3vw;
+  padding:2vw;
   color: white;
   font-weight: bold;
   font-size:3vw;
   transition: 0.6s ease;
   border-radius:1vw;
   user-select: none;
-  margin-top: 140.5vw;
+  margin-top: 141vw;
+  z-index: 1;
 }
 
 /* Position the "next button" to the right */
@@ -406,37 +406,56 @@ img {}
 }
 
 img.imgII{position: absolute;
-margin-top: 136vw;
+margin-top: 135vw;
 }
 img.img10{
 margin-left: 75.5vw;
 
-height: 20vw;
+height: 22vw;
 
 width: 22vw;
+padding: 1vw;
+padding-bottom: 5vw;
+background-color: #f2f2f2;
+border-radius: 0.7vw;
 }
 
 img.img11{margin-left: 51.4vw;
 
-height: 20vw;
 
+height: 22vw;
 width: 22vw;
+padding: 1vw;
+padding-bottom: 1vw;
+padding-bottom: 5vw;
+background-color: #f2f2f2;
+border-radius: 0.7vw;
 }
 
   img.img12 {
 margin-left: 27vw;
 
-height: 20vw;
 
+height: 22vw;
 width: 22vw;
+padding: 1vw;
+padding-bottom: 1vw;
+padding-bottom: 5vw;
+background-color: #f2f2f2;
+border-radius: 0.7vw;
 }
 img.img13
 {
 	margin-left: 3vw;
 
-height: 20vw;
 
-width: 22vw;
+	height: 22vw;
+	width: 22vw;
+	padding: 1vw;
+	padding-bottom: 1vw;
+	padding-bottom: 5vw;
+	background-color: #f2f2f2;
+	border-radius: 0.7vw;
 }
 div.box9
 {
@@ -467,105 +486,6 @@ background-color: #f7ce3e;
 height: 27vw;
 margin-top: 178vw;
 z-index: -1;
-}
-div.text6
-{
-color: #908137;
-
-position: absolute;
-
-font-size: 4.2vw;
-
-margin-top: 170vw;
-
-margin-left: 42vw;
-
-font-family: BBardiya;
-}
-div.text7{
-	position: absolute;
-
-font-size: 3vw;
-
-color: black;
-
-margin-top: 180vw;
-
-font-family: BBardiya;
-
-margin-left: 13vw;
-}
-div.box13
-{
-background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 81.75vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 3.5vw;
-padding-right: 3.5vw;
-}
-div.box14
-{
-background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 62.5vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 3.5vw;
-padding-right: 3.5vw;
-}
-div.box15{
-	background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 42.9vw;
-text-align: center;
-padding: 4.96vw;
-padding-left: 3.5vw;
-padding-right: 3.5vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-}
-div.box16{
-	background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 25vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 4.5vw;
-padding-right: 4.5vw;
-}
-div.box17{
-	background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 5.52vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 4.5vw;
-padding-right: 4.5vw;
 }
 div.box18
 {
@@ -812,6 +732,7 @@ margin-top: 2vw;
 margin-left: 7.5vw;
 width: 10vw;
 
+display: none;
 }
 div.filters2-bg1
 {
@@ -1418,7 +1339,6 @@ width: 32vw;
 margin-left: 22vw;
 }
 .mySlides3 {display: none}
-img {}
 
 /* Slideshow container */
 .slideshow-container3 {
@@ -1551,47 +1471,12 @@ margin-top: -12vw;
 
 z-index: -1;
 }
-div.box21
-{
-	font-size: 3vw;
-
-font-family: BBardiya;
-
-width: 26vw;
-background-color: #ffffff;
-
-margin-left: 67vw;
-
-text-align: center;
-
-padding-top: 3vw;
-
-padding-bottom: 3vw;
-cursor: pointer;
-border-radius: 0.8vw;
-}
-div.box22
-{
-	margin-left: 36vw;
-cursor: pointer;
-margin-top: -11vw;
-}
-div.box23
-{cursor: pointer;
-	margin-top: 6vw;
-}
-div.box24
-{
-	margin-left: 36vw;
-cursor: pointer;
-margin-top: -11vw;
-}
 div.box25
 {
 	background-color: #1a2930;
 width: 100%;
 height: 75vw;
-margin-top: 3.5vw;
+margin-top: 33.5vw;
 z-index: -2;
 }
 div.box26
@@ -1625,7 +1510,7 @@ font-size: 4vw;
 color: white;
 text-align: right;
 font-family: BBardiya;
-margin-top: 6vw;
+margin-top: 2.3vw;
 position: absolute;
 line-height: 9vw;
 margin-left: 75vw;
@@ -1635,7 +1520,7 @@ div.text41{
 color: white;
 text-align: right;
 font-family: BBardiya;
-margin-top: -69vw;
+margin-top: -68vw;
 position: absolute;
 line-height: 9vw;
 margin-left: 43vw;
@@ -1841,9 +1726,10 @@ color: black;
 	height: 2.5vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
-	font-size: 2.3vw;
+	font-size: 2.8vw;
 	direction: rtl;
 	color: #0a1612;
+	font-family: BMitra;
 }
 .phonenumber-container
 {
@@ -1906,7 +1792,147 @@ color: black;
 	
 	position: absolute;
 }
-.motori-logo2
+@media only screen and (min-width:641px) and (max-width:700px )
+{
+	div.text11,div.text12,div.text13,div.phonebox,div.register
+	{
+	font-size: 2.6vw;
+	}
+	div.register
+	{
+		
+	}
+	div.text41
+	{
+margin-top: 20vw;
+	}
+}
+p.paragraph1
 {
 
+	position: absolute;
+	font-family: BMitra;
+	font-size: 2.5vw;
+	margin-top: 176vw;
+	width: 56vw;
+	margin-left: 20vw;
+	text-align: center;
+	line-height: 5vw;
+}
+p.about-us
+{
+	
+	color: #f2f2f2;
+	font-family: BMitra;
+	font-size: 3.5vw;
+	width: 92vw;
+	margin-left: 2vw;
+	margin-top: 17vw;
+	line-height: 6vw;
+	text-align: center;
+}
+.price1
+{
+
+	font-size: 3vw;
+	position: absolute;
+	margin-top: 135vw;
+	color: white;
+	margin-left: 75.5vw;
+	text-align: center;
+	font-family: BMitra;
+	padding: 4.7vw;
+	background-color: rgba(0,0,0,0.7);
+	padding-right: 8vw;
+	padding-left: 8vw;
+	z-index: 1;
+	border-radius: 0.6vw;
+	opacity: 0;
+}
+ div.price1:hover
+{
+transition: 0.5s linear all;
+opacity: 1;
+}
+div.denso-candle
+{
+	position: absolute;
+	margin-top: 152.4vw;
+	font-size: 2.5vw;
+	font-family: BMitra;
+	z-index: 1;
+	margin-left: 83vw;
+}
+div.nolabel-candle
+{
+	margin-left: 58vw;
+}
+div.price2
+{
+	margin-left: 51.45vw;
+	padding: 4.7vw;
+	padding-left: 9.2vw;
+	padding-right: 8vw;
+}
+div.price3
+{
+
+	margin-left: 27.05vw;
+	padding-bottom: 4.7vw;
+	padding-left: 7.95vw;
+}
+div.rapido-candle
+{	
+	margin-left: 34vw;
+}
+div.technice-transistor
+{
+	margin-left: 7.5vw;
+}
+div.price4
+{
+	margin-left: 3vw;
+	padding-bottom: 4.7vw;
+}
+.price5
+{
+	padding-bottom: 4.7vw;
+}
+div.price6
+{
+
+	padding-left: 8vw;
+}
+div.golden-lentlazer
+{
+	
+	margin-left: 32vw;
+}
+div.psr-lent
+{
+	
+	margin-left: 10vw;
+}
+div.price7
+{
+
+	padding: 5vw;
+	padding-right: 7.8vw;
+	padding-left: 8.2vw;
+	padding-bottom: 4.4vw;
+}
+div.speedy-oil
+{
+	
+	margin-left: 55vw;
+}
+div.price8
+{
+
+	padding-left: 9.2vw;
+}
+div.lavazem-carberator
+{
+
+	margin-left: 8.5vw;
 }
