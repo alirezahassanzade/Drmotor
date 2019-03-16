@@ -15,22 +15,16 @@
 <div class="all">
 <img src="{% static 'img/sec1.png' %}" class="sec1img">
 <div class="phonebox">
+  موتورت تو راه خراب شده؟<br>
+یه درخواست بده تا<br>
+مکانیک ما بیاد کمکت<br>
+
 </div>
-  <div class="register" onclick="regPanel()">سفارش</div>
+  <div class="register" onclick="regPanel()">درخواست مکانیک</div>
   <div class="register-opacity" id="register-panel" >
     <div class="panel-container">
         <div class="close4" onclick="regPanel2()">&#x2715;</div>
-        <script>
-        var regOpen = document.getElementById('register-panel')
-        function regPanel()
-        {
-          regOpen.style.display = "unset";
-        }
-        function regPanel2()
-        {
-          regOpen.style.display = "none";
-        }
-        </script>
+
   <label for="name">
       <div class="name-container">نام</div>
       <input type="text" class="name">
@@ -52,12 +46,6 @@
   </label>
     </div>
   </div>
-
-  <script>
-  var reg = document.getElementById("register")
-
-  </script>
-	<img src="{% static 'img/layer 5.png' %}" class="motorcycle">
 	<img src="{% static 'img/mechanic.jpeg' %}" class="img2">
 
 
@@ -76,7 +64,6 @@
   <img class="mySlides" src="{% static 'img/2.jpg' %}" style="width:30vw">
   <img class="mySlides" src="{% static 'img/3.jpg' %}" style="width:30vw">
 </div>
-<div class="text5">اسلاید شو</div>
 <div class="box4">توضیح قسمت انتخابی</div>
 <div class="box5">تعمیر فوری</div>
 <div class="box6">برنامه تعمیر</div>
@@ -85,56 +72,143 @@
 
 
 <div class="head1">
-	<div class="headtitle">MOTORI</div>
-	<div class="yourmechanics">Your Mechanics</div>
-	<div class="text10">صفحه نخست</div>
+  <img src="../img/shop_Artboard 1_footer.png" alt="دکتر موتوری دکتر موتوری لوگو مکانیک قطعات موتور" class="motori-logo1">
 	<div class="text11">فروشگاه</div>
 	<div class="text12">مجله موتور</div>
 	<div class="text13">درباره ما</div>
 </div>
+</div>
 	<div class="slideshow-container2">
 
-<div class="mySlides2 fade2">
+<div class="mySlides2 fade2 fade3">
   <img src="{% static 'img/shop_1.jpg' %}" class="img10 imgII">
+  <div class="price1">قیمت <br> 25000<br>تومان</div>
+  <div class="denso-candle">شمع دنسو</div>
   <img src="{% static 'img/shop_2.jpg' %}" class="img11 imgII">
+  <div class="price2 price1">قیمت <br> 8000 <br>تومان</div>
+  <div class="nolabel-candle denso-candle">شمع متفرقه</div>
   <img src="{% static 'img/shop_3.jpg' %}" class="img12 imgII">
+  <div class="price3 price1">قیمت <br>12000 <br>تومان</div>
+  <div class="rapido-candle denso-candle">شمع راپیدو</div>
   <img src="{% static 'img/shop_4.jpg' %}" class="img13 imgII">
+  <div class="price4 price1">قیمت <br>25000 <br>تومان</div>
+  <div class="technice-transistor denso-candle">ترانزیستور تکنیک</div>
 </div>
 
-<div class="mySlides2 fade2">
+<div class="mySlides2 fade2 fade4">
   <img src="{% static 'img/shop_5.jpg' %}" class="img10 imgII">
+  <div class="price5 price1">قیمت <br>75000 <br>تومان</div>
+  <div class="mabna-bobin denso-candle">بوبین مبنا</div>
     <img src="{% static 'img/shop_6.jpg' %}" class="img11 imgII">
+    <div class="price2 price1 price6">قیمت<br>25000 <br>تومان</div>
+    <div class="denso-candle nolabel-candle">شارژر تکنیک</div>
       <img src="{% static 'img/shop_7.jpg' %}" class="img12 imgII">
+      <div class="price1 price3">قیمت<br>32000 <br>تومان</div>
+      <div class="rapido-candle denso-candle golden-lentlazer">لنت لیزر طلایی</div>
     <img src="{% static 'img/shop_8.jpg' %}" class="img13 imgII img14">
+    <div class="price1 price4">قیمت <br> 15000 <br>تومان</div>
+    <div class="technice-transistor denso-candle psr-lent">psr لنت</div>
 </div>
 
-<div class="mySlides2 fade2">
+<div class="mySlides2 fade2 fade5">
   <img src="{% static 'img/shop_1.jpg' %}" class="img10 imgII">
+  <div class="price1">قیمت <br>23000<br>تومان</div>
+  <div class="denso-candle">لنت استاندارد</div>
   <img src="{% static 'img/shop_2.jpg' %}" class="img11 imgII">
+  <div class="price1 price2 price7">قیمت<br>15000<br>تومان</div>
+  <div class="denso-candle nolabel-candle speedy-oil">روغن اسپیدی طلایی</div>
   <img src="{% static 'img/shop_3.jpg' %}" class="img12 imgII">
+  <div class="price1 price3 price8">قیمت<br>10000<br>تومان</div>
+  <div class="denso-candle rapido-candle">سوپرکیان</div>
   <img src="{% static 'img/shop_9.jpg' %}" class="img13 imgII">
-
+  <div class="price1 price4">قیمت<br>20000<br>تومان</div>
+  <div class="denso-candle lavazem-carberator">لوازم کاربراتور</div>
 </div>
+<div class="mySlides2 fade2 fade5">
+    <img src="{% static 'img/shop_1.jpg' %}" class="img10 imgII">
+    <div class="price1">قیمت <br>30000<br>تومان</div>
+    <div class="denso-candle" style="margin-left:82vw">هندل درجه 1</div>
+    <img src="{% static 'img/shop_2.jpg' %}" class="img11 imgII">
+    <div class="price1 price2 price7">قیمت<br>25000<br>تومان</div>
+    <div class="denso-candle nolabel-candle">هندل درجه 2</div>
+    <img src="{% static 'img/shop_3.jpg' %}" class="img12 imgII">
+    <div class="price1 price3 price8">قیمت<br>20000<br>تومان</div>
+    <div class="denso-candle rapido-candle">هندل درجه 3</div>
+    <img src="{% static 'img/shop_9.jpg' %}" class="img13 imgII">
+    <div class="price1 price4" style="padding-right: 9.2vw;">قیمت<br>2000<br>تومان</div>
+    <div class="denso-candle" style="margin-left:12vw">لامپ</div>
+  </div>
+  <div class="mySlides2 fade2 fade5">
+      <img src="{% static 'img/shop_1.jpg' %}" class="img10 imgII">
+      <div class="price1">قیمت <br>20000<br>تومان</div>
+      <div class="denso-candle" style="margin-left:82vw">تیوپ عقب</div>
+      <img src="{% static 'img/shop_2.jpg' %}" class="img11 imgII">
+      <div class="price1 price2 price7">قیمت<br>18000<br>تومان</div>
+      <div class="denso-candle nolabel-candle" style="margin-left: 59vw;">تیوپ جلو</div>
+      <img src="{% static 'img/shop_3.jpg' %}" class="img12 imgII">
+      <div class="price1 price3">قیمت<br>58000<br>تومان</div>
+      <div class="denso-candle rapido-candle">لاستیک جلو</div>
+      <img src="{% static 'img/shop_9.jpg' %}" class="img13 imgII">
+      <div class="price1 price4" >قیمت<br>68000<br>تومان</div>
+      <div class="denso-candle" style="margin-left:9vw">لاستیک عقب</div>
+    </div>
+    <div class="mySlides2 fade2 fade5">
+        <img src="{% static 'img/shop_1.jpg' %}" class="img10 imgII">
+        <div class="price1">قیمت <br>18000<br>تومان</div>
+        <div class="denso-candle" style="margin-left:82vw">درب لنت جلو</div>
+        <img src="{% static 'img/shop_2.jpg' %}" class="img11 imgII">
+        <div class="price1 price2 price7">قیمت<br>25000<br>تومان</div>
+        <div class="denso-candle nolabel-candle" style="margin-left: 58vw;">درب لنت جلو</div>
+        <img src="{% static 'img/shop_3.jpg' %}" class="img12 imgII">
+        <div class="price1 price3">قیمت<br>30000<br>تومان</div>
+        <div class="denso-candle rapido-candle">درب لنت جلو</div>
+        <img src="{% static 'img/shop_9.jpg' %}" class="img13 imgII">
+        <div class="price1 price4" >قیمت<br>18000<br>تومان</div>
+        <div class="denso-candle" style="margin-left:9vw">درب لنت عقب</div>
+      </div>
+      <div class="mySlides2 fade2 fade5">
+          <img src="{% static 'img/shop_1.jpg' %}" class="img10 imgII">
+          <div class="price1">قیمت <br>25000<br>تومان</div>
+          <div class="denso-candle" style="margin-left:82vw">درب لنت عقب</div>
+          <img src="{% static 'img/shop_2.jpg' %}" class="img11 imgII">
+          <div class="price1 price2 price7">قیمت<br>30000<br>تومان</div>
+          <div class="denso-candle nolabel-candle" style="margin-left: 58vw;">درب لنت عقب</div>
+          <img src="{% static 'img/shop_3.jpg' %}" class="img12 imgII">
+          <div class="price1 price3" style="padding-left: 9vw;padding-right: 8.2vw;">قیمت<br>8000<br>تومان</div>
+          <div class="denso-candle rapido-candle" style="margin-left: 30vw;">بولرینگ های چرخ جلو</div>
+          <img src="{% static 'img/shop_9.jpg' %}" class="img13 imgII">
+          <div class="price1 price4" >قیمت<br>10000<br>تومان</div>
+          <div class="denso-candle" style="margin-left:6vw">بولرینگ های چرخ جلو</div>
+        </div>
+        <div class="mySlides2 fade2 fade5">
+            <img src="{% static 'img/shop_1.jpg' %}" class="img10 imgII">
+            <div class="price1">قیمت <br>12000<br>تومان</div>
+            <div class="denso-candle" style="margin-left:78.7vw">بولرینگ های چرخ جلو</div>
+            <img src="{% static 'img/shop_2.jpg' %}" class="img11 imgII">
+            <div class="price1 price2 price7" style="padding-right: 9vw;">قیمت<br>8000<br>تومان</div>
+            <div class="denso-candle nolabel-candle" style="margin-left: 54vw;">بولرینگ های چرخ عقب</div>
+            <img src="{% static 'img/shop_3.jpg' %}" class="img12 imgII">
+            <div class="price1 price3" style="padding-left: 9vw;padding-right:7vw;">قیمت<br>10000<br>تومان</div>
+            <div class="denso-candle rapido-candle" style="margin-left: 29.5vw;">بولرینگ های چرخ عقب</div>
+            <img src="{% static 'img/shop_9.jpg' %}" class="img13 imgII">
+            <div class="price1 price4" >قیمت<br>12000<br>تومان</div>
+            <div class="denso-candle" style="margin-left:5.5vw">بولرینگ های چرخ عقب</div>
+          </div>
 
 <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
 <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
 
 </div>
+<div class="all">
 <img src="{% static 'img/polygon1.png' %}" class="img15">
-<div class="box10"></div>
-<div class="text6">سرویس ها</div>
-<div class="text7">با سفارش سرویس های کوتاه مدت خود را از سفارشات پی در پی نجات دهید</div>
+<p class="paragraph1">تاحالا شده که موتورت تو راه بمونه؟
+    یا وقت نداشته باشی بری و برای موتورت قطعه بخری؟
+    خب من زیاد دیدم این اتفاق بیوفته،پس "من" شدم "ما" و دکترموتوری رو راه انداختیم تا شما موتورسوارا دیگه نه تو راه بمونید نه از وقت استراحتتون بزنید. این تازه شروعشه <div class="box10"></div>
 <div class="box9"></div>
 <div class="box18">
-	<div class="box13">سرویس هفتگی</div>
-	<div class="box14">سرویس دو هفته ای</div>
-	<div class="box15">سرویس سه هفته ای</div>
-	<div class="box16">سرویس ماهانه</div>
-	<div class="box17">سرویس سفارشی</div>
 </div>
 <img src="{% static 'img/footer-bg.png' %}" class="img16">
-<div class="footer-mortori">MOTORI</div>
-<div class="yourmechanics2">Your Mechanics</div>
+<img src="../img/shop_Artboard 1.png" alt="" class="motori-logo2">
 <div class="text8">صفحه نخست <br>تعمیر موتور <br> سرویس ها <br>
 	فروشگاه <br> مجله موتور <br> تماس با ما <br> درباره ما
  </div>
@@ -187,8 +261,7 @@ function showSlides2(n2) {
 </div>
 <div class="all2">
 <div class="header2">
-	<div class="motori2">MOTORI</div>
-	<div class="yourmechanics3">Your Mechanics</div>
+<img src="../shop_Artboard 1_footer.png" alt="" class="mobile-header-logo">
   <button id="myBtn20" class="loginap20">
 <i class="fas fa-bars icon20"></i>
 </button>
@@ -256,6 +329,7 @@ function showSlides2(n2) {
 </div>
 </div>
 </div>
+<div class="slideshow-bg"></div>
 <img src="{% static 'img/part2-mobile-bg-onepage.png' %}" class="img17">
 <div class="text21">تامین قطعات و تعمیر موتور شما</div>
 <div class="text22">در هر جایی که شما هستید</div>
@@ -268,7 +342,7 @@ function showSlides2(n2) {
   <div class="text29">نام</div>
   <input type="text" class=" text28 text30" id="eventbox5"
   onkeyup="f6(event)">
-  <div class="text31 text29">مدل موتور</div>
+  <div class="text31 text29">نام خانوادگی</div>
   <input type="text" class="text32 text28" id="eventbox6">
   <div id="mySidenav3" class="sidenav3">
     <div class="text44"></div>
@@ -285,49 +359,18 @@ function showSlides2(n2) {
   <div class="text34">تحویل قطعات در کمترین زمان </div>
   <div class="text35">فروش قطعات موتور سیکلت شما</div>
   <div class="text36">تعمیر موتور شما در هر مکان و زمان </div>
-  <div class="all3">
-    <div class="slideshow-container3">
-
-<div class="mySlides3 fade3">
-  <div class="numbertext3">1 / 3</div>
-  <img src="{% static 'img/1.jpg' %}"  class="img21 imgIII">
-  <img src="{% static 'img/2.jpg' %}"  class="img22 imgIII">
-  <img src="{% static 'img/3.jpg' %}"  class="img23 imgIII">
-  <img src="{% static 'img/4.jpg' %}"  class="img24 imgIII">
-</div>
-
-<div class="mySlides3 fade3">
-  <div class="numbertext3">2 / 3</div>
-  <img src="{% static 'img/5.jpg' %}"  class="img21 imgIII">
-  <img src="{% static 'img/6.jpg' %}"  class="img22 imgIII">
-  <img src="{% static 'img/7.jpg' %}"  class="img23 imgIII">
-  <img src="{% static 'img/8.jpg' %}"  class="img24 imgIII">
-</div>
-
-<div class="mySlides3 fade3">
-  <div class="numbertext3">3 / 3</div>
-  <img src="{% static 'img/9.jpg' %}"  class="img21 imgIII">
-  <img src="{% static 'img/2.jpg' %}"  class="img22 imgIII">
-  <img src="{% static 'img/3.jpg' %}"  class="img23 imgIII">
-  <img src="{% static 'img/4.jpg' %}"  class="img24 imgIII">
-</div>
-
-<a class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
-<a class="next3" onclick="plusSlides3(1)">&#10095;</a>
-
-</div>
-<br>
-
   </div>
-  <div class="box20"></div>
-  <div class="box21">سرویس دو هفته ای</div>
-  <div class="box21 box22">سرویس ماهانه</div>
-  <div class="box21 box23">سرویس سه هفته ای</div>
-  <div class="box21 box24">سرویس یک و نیم ماهه</div>
+  <div class="box20">
+    <p class="about-us">
+    تاحالا شده که موتورت تو راه بمونه؟
+یا وقت نداشته باشی بری و برای موتورت قطعه بخری؟
+خب من زیاد دیدم این اتفاق بیوفته،پس "من" شدم "ما" و دکترموتوری رو راه انداختیم تا شما موتورسوارا دیگه نه تو راه بمونید نه از وقت استراحتتون بزنید.
+این تازه شروعشه...
+    </p>
+  </div>
   <div class="box25">
     <div class="all4">
-  <div class="footer-motori2">MOTORI</div>
-  <div class="box26">Your Mechanics</div>
+<img src="../img/shop_Artboard 1.png" alt="" class="mobile-footer-logo">
   </div>
   <div class="text40">صفحه نخست <br> تعمیر موتور <br> سرویس ها <br>
     فروشگاه ها <br> مجله موتور <br> تماس با ما <br>درباره ما</div>
@@ -381,42 +424,17 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 </script>
-<script>
-var slideIndex3 = 1;
-showSlides3(slideIndex3);
-
-function plusSlides3(n3) {
-  showSlides3(slideIndex3 += n3);
-}
-
-function currentSlide3(n3) {
-  showSlides3(slideIndex3 = n3);
-}
-
-function showSlides3(n3) {
-  var i3;
-  var slides3 = document.getElementsByClassName("mySlides3");
-  var dots3 = document.getElementsByClassName("dot3");
-  if (n3 > slides3.length) {slideIndex3 = 1}
-  if (n3 < 1) {slideIndex3 = slides3.length}
-  for (i3 = 0; i3 < slides3.length; i3++) {
-      slides3[i3].style.display = "none";
-  }
-  for (i3 = 0; i3 < dots3.length; i3++) {
-      dots3[i3].className = dots3[i3].className.replace(" active3", "");
-  }
-  slides3[slideIndex3-1].style.display = "block";
-  dots3[slideIndex3-1].className += " active3";
-}
 </script>
-<script>
-function openNav3() {
-  document.getElementById("mySidenav3").style.width = "100%";
-}
-
-function closeNav3() {
-  document.getElementById("mySidenav3").style.width = "0";
-}
-</script>
+        <script>
+          var regOpen = document.getElementById('register-panel')
+          function regPanel()
+          {
+            regOpen.style.display = "unset";
+          }
+          function regPanel2()
+          {
+            regOpen.style.display = "none";
+          }
+          </script>
 </body>
 </html>

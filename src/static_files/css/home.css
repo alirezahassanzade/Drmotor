@@ -39,39 +39,6 @@ img.sec1img
 	background-size: cover;
 	margin-top: 6vw;
 }
-div.headtitle
-{
-	letter-spacing: 1.7vw;
-text-align: center;
-width: 20.2vw;
-color: white;
-margin-top: 0.1vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 4vw;
-letter-spacing: 1vw;
-margin-left: 3vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 0.5vw;
-padding-bottom: 0.5vw;
-z-index: 1;
-}
-div.yourmechanics
-{
-	color: white;
-	padding:0.7vw;
-	background-color: #012930;
-	font-family: 'Open Sans', sans-serif;
-	padding-left: 2vw;
-	padding-right: 2vw;
-	font-size: 0.9vw;
-	margin-top:5.6vw;
-	z-index: 3;
-	position: absolute;
-	margin-left: 11vw;
-	border-radius: 0.2vw;
-}
 div.yourmechanics2
 {
 	margin-top: -1.2vw;
@@ -80,19 +47,22 @@ div.yourmechanics2
 }
 div.phonebox
 {
-	padding: 9vw;
+	padding: 8vw;
 	position: absolute;
-	background-color: black;
-	opacity:0.2;
-	margin-top: 20vw;
-	margin-left: 8vw;
-	padding-left:14vw;
+	background-color: rgba(0,0,0,0.3);
+	margin-top: 12vw;
+	margin-left: 32.7vw;
+	font-family: BMitra;
+	text-align: center;
+	padding-bottom: 14vw;
+	border-radius: 0.7vw;
+	font-size: 2.5vw;
 }
 div.register
 {
 	color:white;
-	margin-top: 31vw;
-	margin-left: 15.5vw;
+	margin-top: 35vw;
+	margin-left: 42.5vw;
 	cursor: pointer;
 	position: absolute;
 	font-size: 2vw;
@@ -109,14 +79,6 @@ div.register:hover
 	padding-right:2.5vw;
 padding-left:2.5vw;
 transition: all 1s;
-}
-
-img.motorcycle
-{
-	position: absolute;
-	width: 22vw;
-	margin-top: 20vw;
-	margin-left:68vw;
 }
 img.img2
 {
@@ -227,7 +189,7 @@ padding: 12vw;
     padding-right: 12vw;
 background-color: #1a2930;
 position: absolute;
-margin-left: 61.5vw;
+margin-left: 60.5vw;
 padding-right: 25vw;
 margin-top: 88.5vw;
 
@@ -235,27 +197,9 @@ margin-top: 88.5vw;
 .mySlides {
 	display: none;
 position: absolute;
-margin-left: 67.5vw;
+margin-left: 66.5vw;
 height: 21.5vw;
 margin-top: 89.7vw;
-}
-div.text5
-{
-	color: #f6ca50;
-
-font-size: 3vw;
-
-margin-top: 98vw;
-
-position: absolute;
-
-transform: rotate(270deg);
-
-margin-left: 59.5vw;
-
-font-family: BBardiya;
-
-letter-spacing: 0.1vw;
 }
 div.box4
 {
@@ -389,8 +333,7 @@ letter-spacing: 0.1vw;
 }
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides2 {display: none}
-img {vertical-align: middle;}
+.mySlides2 {display: none;margin-left: -1.4vw;}
 
 /* Slideshow container */
 .slideshow-container2 {
@@ -405,14 +348,15 @@ img {vertical-align: middle;}
   cursor: pointer;
   position: absolute;
   width: auto;
-  padding:3vw;
+  padding:2vw;
   color: white;
   font-weight: bold;
   font-size:3vw;
   transition: 0.6s ease;
   border-radius:1vw;
   user-select: none;
-  margin-top: 140.5vw;
+  margin-top: 141vw;
+  z-index: 1;
 }
 
 /* Position the "next button" to the right */
@@ -462,37 +406,56 @@ img {vertical-align: middle;}
 }
 
 img.imgII{position: absolute;
-margin-top: 136vw;
+margin-top: 135vw;
 }
 img.img10{
 margin-left: 75.5vw;
 
-height: 20vw;
+height: 22vw;
 
 width: 22vw;
+padding: 1vw;
+padding-bottom: 5vw;
+background-color: #f2f2f2;
+border-radius: 0.7vw;
 }
 
 img.img11{margin-left: 51.4vw;
 
-height: 20vw;
 
+height: 22vw;
 width: 22vw;
+padding: 1vw;
+padding-bottom: 1vw;
+padding-bottom: 5vw;
+background-color: #f2f2f2;
+border-radius: 0.7vw;
 }
 
   img.img12 {
 margin-left: 27vw;
 
-height: 20vw;
 
+height: 22vw;
 width: 22vw;
+padding: 1vw;
+padding-bottom: 1vw;
+padding-bottom: 5vw;
+background-color: #f2f2f2;
+border-radius: 0.7vw;
 }
 img.img13
 {
 	margin-left: 3vw;
 
-height: 20vw;
 
-width: 22vw;
+	height: 22vw;
+	width: 22vw;
+	padding: 1vw;
+	padding-bottom: 1vw;
+	padding-bottom: 5vw;
+	background-color: #f2f2f2;
+	border-radius: 0.7vw;
 }
 div.box9
 {
@@ -523,105 +486,6 @@ background-color: #f7ce3e;
 height: 27vw;
 margin-top: 178vw;
 z-index: -1;
-}
-div.text6
-{
-color: #908137;
-
-position: absolute;
-
-font-size: 4.2vw;
-
-margin-top: 170vw;
-
-margin-left: 42vw;
-
-font-family: BBardiya;
-}
-div.text7{
-	position: absolute;
-
-font-size: 3vw;
-
-color: black;
-
-margin-top: 180vw;
-
-font-family: BBardiya;
-
-margin-left: 13vw;
-}
-div.box13
-{
-background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 81.75vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 3.5vw;
-padding-right: 3.5vw;
-}
-div.box14
-{
-background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 62.5vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 3.5vw;
-padding-right: 3.5vw;
-}
-div.box15{
-	background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 42.9vw;
-text-align: center;
-padding: 4.96vw;
-padding-left: 3.5vw;
-padding-right: 3.5vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-}
-div.box16{
-	background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 25vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 4.5vw;
-padding-right: 4.5vw;
-}
-div.box17{
-	background-color:#0a1612;
-color: white;
-height: 15vw;
-position: absolute;
-margin-top: 189vw;
-margin-left: 5.52vw;
-text-align: center;
-padding: 4.96vw;
-font-size: 2.1vw;
-font-family: BBardiya;
-padding-left: 4.5vw;
-padding-right: 4.5vw;
 }
 div.box18
 {
@@ -663,43 +527,6 @@ position: absolute;
 height: 37vw;
 margin-top: 205vw;
 }
-div.footer-mortori
-{
-	letter-spacing: 1.7vw;
-text-align: center;
-width: 20.2vw;
-color: white;
-margin-top: 205vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 4vw;
-letter-spacing: 1vw;
-margin-left: 3vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 0.5vw;
-padding-bottom: 0.5vw;
-z-index: 1;
-}
-div.yourmechanics2
-{
-	color: #012930;
-padding: 0.7vw;
-    padding-right: 0.7vw;
-    padding-left: 0.7vw;
-padding-right: 0.7vw;
-padding-left: 0.7vw;
-background-color: white;
-font-family: 'Open Sans', sans-serif;
-padding-left: 2vw;
-padding-right: 2vw;
-font-size: 0.9vw;
-margin-top: 210.6vw;
-z-index: 1;
-position: absolute;
-margin-left: 11vw;
-border-radius: 0.2vw;
-}
 div.text8
 {
 	font-size: 2vw;
@@ -709,7 +536,7 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 208vw;
+margin-top: 205vw;
 margin-left: 82vw;
 }
 div.text9
@@ -721,41 +548,8 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 208vw;
+margin-top: 205vw;
 margin-left: 62vw;
-
-}
-div.text10
-{
-	color: #f7ce3e;
-
-background-color: #1a2930;
-
-margin-top: 0.2vw;
-
-margin-left: 83.8vw;
-
-font-size: 2.1vw;
-
-font-family: BBardiya;
-
-width: 13.8vw;
-
-height: 5.5vw;
-
-text-align: center;
-
-line-height: 5vw;
-cursor: pointer;
-border-radius: 0.4vw;
-}
-div.text10:hover
-{
-	color: #1a2930;
-	background-color: #f7ce3e;
-	width: 14.5vw;
-	text-align: center;
-	transition: all linear 0.5s;
 
 }
 div.text11
@@ -764,9 +558,9 @@ color: #f7ce3e;
 
 background-color: #1a2930;
 
-margin-top: -5.5vw;
+margin-top: 0.22vw;
 
-margin-left: 69.4vw;
+margin-left: 83vw;
 
 font-size: 2.1vw;
 
@@ -798,7 +592,7 @@ background-color: #1a2930;
 
 margin-top: -5.5vw;
 
-margin-left: 55.4vw;
+margin-left: 68.4vw;
 
 font-size: 2.1vw;
 
@@ -830,7 +624,7 @@ background-color: #1a2930;
 
 margin-top: -5.5vw;
 
-margin-left: 40.4vw;
+margin-left: 53.4vw;
 
 font-size: 2.1vw;
 
@@ -869,40 +663,6 @@ position: fixed;
 background-color: #1a2930;
 padding-right: 100%;
 z-index:2;
-}
-div.motori2
-{
-text-align: center;
-width: 30vw;
-color: white;
-margin-top: 0.1vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 6.5vw;
-letter-spacing: 1vw;
-margin-left: 36vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 1vw;
-padding-bottom: 0.7vw;
-}
-div.yourmechanics3
-{
-	color: white;
-padding: 0.7vw;
-    padding-right: 0.7vw;
-    padding-left: 0.7vw;
-padding-right: 0.7vw;
-padding-left: 0.7vw;
-background-color: #012930;
-font-family: 'Open Sans', sans-serif;
-padding-left: 2vw;
-padding-right: 2vw;
-font-size: 1.8vw;
-margin-top: 9vw;
-position: absolute;
-margin-left: 46vw;
-border-radius: 0.2vw;
 }
 div.modal-content4
 {
@@ -972,6 +732,7 @@ margin-top: 2vw;
 margin-left: 7.5vw;
 width: 10vw;
 
+display: none;
 }
 div.filters2-bg1
 {
@@ -1323,6 +1084,10 @@ margin-left: 55vw;
 }
 @media only screen and (min-width: 640px)
 {
+	div.text40,div.text41,div.slideshow-bg
+	{
+		display: none;
+	}
 	div.all2
 	{
 		display: none;
@@ -1458,7 +1223,7 @@ font-family: BBardiya;
 
 margin-top: 88vw;
 
-margin-left: 67vw;
+margin-left: 72vw;
 }
 input.text28
 {
@@ -1491,9 +1256,9 @@ font-size: 3.5vw;
 
 font-family: BBardiya;
 
-margin-top: 101vw;
+margin-top: 102vw;
 
-margin-left: 71vw;
+margin-left: 82.5vw;
 }
 input.text30
 {
@@ -1511,9 +1276,9 @@ direction: rtl;
 div.text31
 {
 
-	margin-top: 116vw;
+	margin-top: 119vw;
 z-index: 0;
-margin-left: 68vw;
+margin-left: 73vw;
 }
 input.text32
 {
@@ -1577,198 +1342,26 @@ width: 32vw;
 
 margin-left: 22vw;
 }
-.mySlides3 {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container3 {
-max-width: 100%;
-background-color: #1a2930;
-position: relative;
-margin: auto;
-    margin-top: auto;
-height: 31vw;
-margin-top: 0vw;
-}
-
-/* Next & previous buttons */
-.prev3, .next3 {
-cursor: pointer;
-position: absolute;
-top: 72%;
-width: auto;
-padding: 2vw;
-margin-top: -11vw;
-color: white;
-font-weight: bold;
-font-size: 4vw;
-transition: 0.6s ease9
-}
-
-/* Position the "next button" to the right */
-.next3 {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev3:hover, .next3:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-
-/* Number text (1/3 etc) */
-.numbertext3 {
-  color: #f2f2f2;
-  font-size:3vw;
-  padding: 8px 12px;
-  position: absolute;
-  top:-1vw;
-  font-family: BMitra;
-  z-index: 0;
-}
-
-/* The dots/bullets/indicators */
-
-.active3, .dot3:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade3 {
-  -webkit-animation-name: fade3;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade3;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade3 {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade3 {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-img.imgIII{position: absolute;
-margin-top: -31vw;}
-img.img21{padding: 0;
-
-margin-left: 75vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;}
-
-img.img22{padding: 0;
-
-margin-left: 50.7vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;}
-
-  img.img23 {
-padding: 0;
-
-margin-left: 26.5vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;
-}
-img.img24
-{padding: 0;
-
-margin-left: 2vw;
-
-height: 22.5vw;
-
-width: 23vw;
-
-margin-top: 4.5vw;
-}
 div.box20
 {
 position: absolute;
 
 width: 100%;
 
-height: 46vw;
+height: 32vw;
 
 background-color: #0a1612;
 
-margin-top: -12vw;
+margin-top: 40vw;
 
 z-index: -1;
-}
-div.box21
-{
-	font-size: 3vw;
-
-font-family: BBardiya;
-
-width: 26vw;
-background-color: #ffffff;
-
-margin-left: 67vw;
-
-text-align: center;
-
-padding-top: 3vw;
-
-padding-bottom: 3vw;
-cursor: pointer;
-border-radius: 0.8vw;
-}
-div.box22
-{
-	margin-left: 36vw;
-cursor: pointer;
-margin-top: -11vw;
-}
-div.box23
-{cursor: pointer;
-	margin-top: 6vw;
-}
-div.box24
-{
-	margin-left: 36vw;
-cursor: pointer;
-margin-top: -11vw;
-}
-div.footer-motori2
-{
-text-align: center;
-width: 31vw;
-color: white;
-margin-top: 0.1vw;
-font-family: 'Open Sans', sans-serif;
-font-size: 6.8vw;
-letter-spacing: 1vw;
-margin-left: 7vw;
-padding-right: 4.5vw;
-border: 1px solid white;
-position: absolute;
-padding-top: 1vw;
-padding-bottom: 0.7vw;
-z-index:0;
 }
 div.box25
 {
 	background-color: #1a2930;
 width: 100%;
 height: 75vw;
-margin-top: 3.5vw;
+margin-top: 71.5vw;
 z-index: -2;
 }
 div.box26
@@ -1802,7 +1395,7 @@ font-size: 4vw;
 color: white;
 text-align: right;
 font-family: BBardiya;
-margin-top: 6vw;
+margin-top: 2.3vw;
 position: absolute;
 line-height: 9vw;
 margin-left: 75vw;
@@ -1812,7 +1405,7 @@ div.text41{
 color: white;
 text-align: right;
 font-family: BBardiya;
-margin-top: -69vw;
+margin-top: -68vw;
 position: absolute;
 line-height: 9vw;
 margin-left: 43vw;
@@ -1938,30 +1531,32 @@ color: black;
 {
 	display:none;
 	width: 100%;
-	height: 256vh;
+	height: 263vh;
 	z-index: 2;
 	position: absolute;
 	background-color: rgba(0,0,0,0.6);
+	overflow: auto;
+	position: fixed;
 }
 .panel-container
 {
 	
-	height: 68vw;
+	height: 48vw;
 	width: 53vw;
 	background-color: #1a2930;
 	margin-left: 22vw;
-	margin-top: 3vw;
+	margin-top: 0.5vw;
 	border-radius: 0.5vw;
-	position: fixed;
 	border: 1vw solid gray;
+	position: fixed;
 }
 .name-container
 {
 
 	position: absolute;
-	margin-left: 45vw;
-	margin-top: 6vw;
-	font-size: 3vw;
+	margin-left: 46vw;
+	margin-top: 4vw;
+	font-size: 2.5vw;
 	color: white;
 	font-family: BMitra;
 }
@@ -1971,9 +1566,9 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 12.5vw;
+	margin-top: 8.5vw;
 	position: absolute;
-	height: 3.5vw;
+	height: 2.5vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2vw;
@@ -1986,9 +1581,9 @@ color: black;
 	width: 94%;
     border-radius: 0.2vw;
     border: none;
-    margin-top: 24vw;
+    margin-top: 16vw;
     position: absolute;
-    height: 3.5vw;
+    height: 2.5vw;
     margin-left: 1.6vw;
     background-color: #c0c3c2;
     font-size: 2.3vw;
@@ -2000,10 +1595,10 @@ color: black;
 {
 	
 	font-family: BMitra;
-	font-size: 3vw;
-	margin-top: 17.8vw;
+	font-size: 2.5vw;
+	margin-top: 12.5vw;
 	color: #f2f2f2;
-	margin-left: 38vw;
+	margin-left: 39.5vw;
 }
 .phonenumber
 {
@@ -2011,23 +1606,24 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 14vw;
+	margin-top: 7vw;
 	position: absolute;
-	height: 3.5vw;
+	height: 2.5vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
-	font-size: 2.3vw;
+	font-size: 2.8vw;
 	direction: rtl;
 	color: #0a1612;
+	font-family: BMitra;
 }
 .phonenumber-container
 {
 	
 	font-family: BMitra;
-	font-size: 3vw;
-	margin-top: 7.55vw;
+	font-size: 2.5vw;
+	margin-top: 3.6vw;
 	color: #f2f2f2;
-	margin-left: 39vw;
+	margin-left: 40.3vw;
 }
 .explanation
 {
@@ -2035,21 +1631,21 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 13vw;
+	margin-top: 7vw;
 	position: absolute;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2vw;
 	direction: rtl;
 	color: #0a1612;
-	padding-bottom: 9vw;
+	padding-bottom: 8vw;
 }
 .explain
 {
 	position: absolute;
-	margin-left: 40vw;
-	margin-top: 7vw;
-	font-size: 3vw;
+	margin-left: 41vw;
+	margin-top: 3.5vw;
+	font-size: 2.5vw;
 	color: white;	
 	font-family: BMitra;
 }
@@ -2061,8 +1657,7 @@ color: black;
 	border-radius: 0.3vw;
 	color: black;
 	background-color: #f7ce3e;
-	margin-top: 26.5vw;
-	height: 4vw;
+	margin-top: 18.6vw;
 	font-size: 2.5vw;
 	font-family: BMitra;
 	margin-left: 1.5vw;
@@ -2072,8 +1667,219 @@ color: black;
 {
 	cursor: pointer;
 	position: absolute;
-	font-size: 5vw;
+	font-size: 4vw;
 	color: #f2f2f2;
 	margin-left: 3vw;
-	margin-top: 1vw;
+	margin-top: 0.5vw;
+}
+.motori-logo1
+{
+	
+	position: absolute;
+}
+@media only screen and (min-width:641px) and (max-width:700px )
+{
+	div.text11,div.text12,div.text13,div.phonebox,div.register
+	{
+	font-size: 2.6vw;
+	}
+	div.register
+	{
+		
+	}
+	div.text41
+	{
+margin-top: 20vw;
+	}
+}
+p.paragraph1
+{
+
+	position: absolute;
+	font-family: BMitra;
+	font-size: 2.5vw;
+	margin-top: 176vw;
+	width: 56vw;
+	margin-left: 20vw;
+	text-align: center;
+	line-height: 5vw;
+}
+p.about-us
+{
+	
+	color: #f2f2f2;
+	font-family: BMitra;
+	font-size: 3.5vw;
+	width: 92vw;
+	margin-left: 3vw;
+	margin-top: 6.5vw;
+	line-height: 6vw;
+	text-align: center;
+}
+.price1
+{
+
+	font-size: 3vw;
+	position: absolute;
+	margin-top: 135vw;
+	color: white;
+	margin-left: 75.5vw;
+	text-align: center;
+	font-family: BMitra;
+	padding: 4.7vw;
+	background-color: rgba(0,0,0,0.7);
+	padding-right: 8vw;
+	padding-left: 8vw;
+	z-index: 1;
+	border-radius: 0.6vw;
+	opacity: 0;
+}
+ div.price1:hover
+{
+transition: 0.5s linear all;
+opacity: 1;
+}
+div.denso-candle
+{
+	position: absolute;
+	margin-top: 152.4vw;
+	font-size: 2.5vw;
+	font-family: BMitra;
+	z-index: 1;
+	margin-left: 83vw;
+}
+div.nolabel-candle
+{
+	margin-left: 58vw;
+}
+div.price2
+{
+	margin-left: 51.45vw;
+	padding: 4.7vw;
+	padding-left: 9.2vw;
+	padding-right: 8vw;
+}
+div.price3
+{
+
+	margin-left: 27.05vw;
+	padding-bottom: 4.7vw;
+	padding-left: 7.95vw;
+}
+div.rapido-candle
+{	
+	margin-left: 34vw;
+}
+div.technice-transistor
+{
+	margin-left: 7.5vw;
+}
+div.price4
+{
+	margin-left: 3vw;
+	padding-bottom: 4.7vw;
+}
+.price5
+{
+	padding-bottom: 4.7vw;
+}
+div.price6
+{
+
+	padding-left: 8vw;
+}
+div.golden-lentlazer
+{
+	
+	margin-left: 32vw;
+}
+div.psr-lent
+{
+	
+	margin-left: 10vw;
+}
+div.price7
+{
+
+	padding: 5vw;
+	padding-right: 7.8vw;
+	padding-left: 8.2vw;
+	padding-bottom: 4.4vw;
+}
+div.speedy-oil
+{
+	
+	margin-left: 55vw;
+}
+div.price8
+{
+	padding-left: 9.2vw;
+}
+div.lavazem-carberator
+{
+	margin-left: 8.5vw;
+}
+@media only screen and (max-width:640px)
+{
+div.slideshow-bg
+{
+	background-color: #1a2930;
+	width: 100%;
+	height: 41vw;
+	position: absolute;
+	margin-top: 245vw;
+}
+img.img10,img.img11,img.img12,img.img13
+{
+
+	margin-top: 252vw;
+	z-index: 1;
+	height: 28vw;
+}
+img.img10
+{
+
+	margin-left: 77vw;
+}
+img.img11
+{
+
+	margin-left: 52.5vw;
+}
+img.img12
+{
+
+	margin-left: 28vw;
+}
+img.img13
+{
+
+	margin-left: 3.5vw;
+}
+a.next2,a.prev2
+{
+
+	margin-top: 262vw;
+}
+.price1
+{
+
+	margin-top: 252vw;
+	margin-left: 77vw;
+	padding: 3.9vw;
+	padding-bottom: 7.5vw;
+	font-size: 4vw;
+	padding-left: 7vw;
+	padding-right: 7vw;
+}
+div.price2
+{
+
+}
+div.denso-candle
+{
+
+	margin-top: 274vw;
+	font-size: 3.8vw;
+}
 }
