@@ -1541,7 +1541,7 @@ color: black;
 .panel-container
 {
 	
-	height: 48vw;
+	height: 51vw;
 	width: 53vw;
 	background-color: #1a2930;
 	margin-left: 22vw;
@@ -1555,7 +1555,7 @@ color: black;
 
 	position: absolute;
 	margin-left: 46vw;
-	margin-top: 4vw;
+	top:4vw;
 	font-size: 2.5vw;
 	color: white;
 	font-family: BMitra;
@@ -1566,9 +1566,9 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 8.5vw;
 	position: absolute;
-	height: 2.5vw;
+	top:8vw;
+	height: 3vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2vw;
@@ -1581,9 +1581,9 @@ color: black;
 	width: 94%;
     border-radius: 0.2vw;
     border: none;
-    margin-top: 16vw;
-    position: absolute;
-    height: 2.5vw;
+		position: absolute;
+		top:16vw;
+    height: 3vw;
     margin-left: 1.6vw;
     background-color: #c0c3c2;
     font-size: 2.3vw;
@@ -1596,7 +1596,8 @@ color: black;
 	
 	font-family: BMitra;
 	font-size: 2.5vw;
-	margin-top: 12.5vw;
+	position: absolute;
+	top:12vw;
 	color: #f2f2f2;
 	margin-left: 39.5vw;
 }
@@ -1606,9 +1607,9 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 7vw;
 	position: absolute;
-	height: 2.5vw;
+	top:24vw;
+	height: 3vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2.8vw;
@@ -1618,7 +1619,8 @@ color: black;
 }
 .phonenumber-container
 {
-	
+	position: absolute;
+	top: 20vw;
 	font-family: BMitra;
 	font-size: 2.5vw;
 	margin-top: 3.6vw;
@@ -1631,8 +1633,8 @@ color: black;
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
-	margin-top: 7vw;
 	position: absolute;
+	top: 32vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2vw;
