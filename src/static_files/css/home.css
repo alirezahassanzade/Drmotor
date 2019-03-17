@@ -1620,7 +1620,7 @@ color: black;
 .phonenumber-container
 {
 	position: absolute;
-	top: 20vw;
+	top: 16vw;
 	font-family: BMitra;
 	font-size: 2.5vw;
 	margin-top: 3.6vw;
@@ -1629,7 +1629,6 @@ color: black;
 }
 .explanation
 {
-	
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
@@ -1645,25 +1644,25 @@ color: black;
 .explain
 {
 	position: absolute;
+	top:27.5vw;
 	margin-left: 41vw;
-	margin-top: 3.5vw;
 	font-size: 2.5vw;
 	color: white;	
 	font-family: BMitra;
 }
 .submit
 {
-	
 	width: 95%;
 	border: none;
 	border-radius: 0.3vw;
 	color: black;
 	background-color: #f7ce3e;
-	margin-top: 18.6vw;
 	font-size: 2.5vw;
 	font-family: BMitra;
 	margin-left: 1.5vw;
 	cursor: pointer;
+	position: absolute;
+	top:44vw;
 }
 .close4
 {
@@ -1672,7 +1671,7 @@ color: black;
 	font-size: 4vw;
 	color: #f2f2f2;
 	margin-left: 3vw;
-	margin-top: 0.5vw;
+	margin-top: 0vw;
 }
 .motori-logo1
 {
