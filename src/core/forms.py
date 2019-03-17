@@ -14,8 +14,7 @@ class SignupForm(forms.Form):
 
 
 class HomeRquestForm(forms.Form):
-    first_name = forms.CharField(widget=forms.TextInput(attrs={'class':'login text5', 'type': 'text2'}), label='')
-    last_name = forms.CharField(widget=forms.TextInput(attrs={'class':'text5', 'type': 'familyname'}), label='')
-    phone_number = forms.CharField(widget=forms.TextInput(attrs={'class':'login text5', 'type': 'text3'}), label='')
-    address = forms.CharField(widget=forms.TextInput(attrs={'class':'login text5', 'type': 'text2'}), label='')
-    description = forms.CharField(widget=forms.TextInput(attrs={'class':'login text5', 'type': 'text2'}), label='')
+    first_name = forms.CharField(widget=forms.TextInput(attrs={'class':'name', 'type': 'text'}), label='')
+    last_name = forms.CharField(widget=forms.TextInput(attrs={'class':'fname', 'type': 'text'}), label='')
+    phone_number = forms.CharField(widget=forms.TextInput(attrs={'class':'phonenumber', 'type': 'text'}), label='')
+    description = forms.CharField(widget=forms.TextInput(attrs={'class':'explanation', 'type': 'text'}), label='')

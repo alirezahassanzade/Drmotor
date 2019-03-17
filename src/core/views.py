@@ -9,7 +9,7 @@ from .util import get_first_good_pic, string_to_md5
 def home_view(request):
     request_form = HomeRquestForm(request.POST or None)
     context = {
-        'form': request_form,
+        'request_form': request_form,
     }
     if request_form.is_valid():
         # Get form arguments & check them
