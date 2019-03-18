@@ -1230,47 +1230,32 @@ input.text28
 width: 26vw;
 z-index: 0;
 height: 4vw;
-
 margin-top: 95vw;
-
 position: absolute;
-
 background-color: #c4c7c8;
-
 border: none;
-
 margin-left: 61vw;
 font-family: BMitra;
-
 font-size: 3.5vw;
-
 letter-spacing: 0.3vw;
 }
 div.text29
 {
 	position: absolute;
-
 width: 16vw;
 z-index:0;
 font-size: 3.5vw;
-
 font-family: BBardiya;
-
-margin-top: 102vw;
-
+margin-top: 101vw;
 margin-left: 82.5vw;
 }
 input.text30
 {
-	margin-top: 109vw;
-
+margin-top: 109vw;
 z-index: 0;
 font-family: BMitra;
-
 font-size: 3.5vw;
-
 letter-spacing: 0vw;
-
 direction: rtl;
 }
 div.text31
@@ -1284,9 +1269,8 @@ input.text32
 {
 z-index: 0;
 font-size: 3vw;
-
 direction: rtl;
-	margin-top: 126vw;
+margin-top: 113vw;
 }
 div.text33
 {
