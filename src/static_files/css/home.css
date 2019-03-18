@@ -1229,7 +1229,7 @@ input.text28
 {
 width: 26vw;
 z-index: 0;
-height: 4vw;
+height: 5vw;
 margin-top: 95vw;
 position: absolute;
 background-color: #c4c7c8;
@@ -1260,8 +1260,7 @@ direction: rtl;
 }
 div.text31
 {
-
-	margin-top: 119vw;
+margin-top: 115vw;
 z-index: 0;
 margin-left: 73vw;
 }
@@ -1270,7 +1269,7 @@ input.text32
 z-index: 0;
 font-size: 3vw;
 direction: rtl;
-margin-top: 113vw;
+margin-top: 123vw;
 }
 div.text33
 {
