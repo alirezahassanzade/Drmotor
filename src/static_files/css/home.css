@@ -25,7 +25,7 @@ body
 
 div.head1
 {
-	height: 4.5vw;
+	height: 4.3vw;
 	position:fixed;
 	background-color:#1a2930;
 	padding-right: 100%;
@@ -558,7 +558,7 @@ width: 14.5vw;
 	content: '';
 	display: block;
 	width: 0;
-	height:0.5vw;
+	height:0.3vw;
 	background: #f7ce3e;
 	transition: width .7s;
 }
@@ -568,9 +568,9 @@ width: 14.5vw;
 }
 h1.text12
 {
-margin-top: -5.4vw;
+margin-top: -5.3vw;
 margin-left: 68vw;
-line-height: 3.9vw;
+line-height: 4vw;
 width: 14.5vw;
 -webkit-transition: background 1s;
 height: 4vw;
@@ -594,7 +594,7 @@ height: 4vw;
 	content: '';
 	display: block;
 	width: 0;
-	height:0.64vw;
+	height:0.3vw;
 	background: #f7ce3e;
 	transition: width .7s;
 }
@@ -604,9 +604,9 @@ height: 4vw;
 }
 h1.text13
 {
-margin-top: -5.3vw;
+margin-top: -5.4vw;
 margin-left: 53vw;
-line-height: 3.9vw;
+line-height: 4vw;
 width: 14.5vw;
 -webkit-transition: background 1s;
 }
@@ -628,7 +628,7 @@ width: 14.5vw;
 	content: '';
 	display: block;
 	width: 0;
-	height:0.64vw;
+	height:0.35vw;
 	background: #f7ce3e;
 	transition: width .7s;
 }
@@ -1071,21 +1071,47 @@ margin-left: 55vw;
 }
 @media only screen and (min-width: 640px) and (max-width:762px)
 {
+	.text11::after
+{
+	height:0.35vw;
+}
 	h1.headcommon
 	{
 	font-size: 2.3vw;
 	}
 	h1.text11
 	{
-		margin-top: -6.85vw;
+		margin-top: -7.1vw;
+		margin-left: 83.4vw;
+		line-height: 4vw;
 	}
 	h1.text12
 	{
-		margin-top: -5.52vw;
+		margin-top: -5.5vw;
+		margin-left: 68.9vw;
 	}
 	h1.text13
 	{
-		margin-top: -5.6vw;
+		margin-top: -5.56vw;
+		margin-left: 54.39vw;
+	}
+}
+@media only screen and (min-width:762px)
+{
+	h1.text11
+	{
+
+	margin-left: 84.5vw;
+	}
+	h1.text12
+	{
+
+	margin-left: 70vw;
+	}
+	h1.text13
+	{
+
+	margin-left: 55.5vw;
 	}
 }
 @media only screen and (min-width: 640px)
@@ -1670,7 +1696,7 @@ color: black;
 .motori-logo1
 {
 	position: absolute;
-	width: 17.5vw;
+	width: 16vw;
 	margin-left: 1vw;
 	margin-top: 0.2vw;
 }
