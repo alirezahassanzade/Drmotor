@@ -29,7 +29,7 @@ div.head1
 	position:fixed;
 	background-color:#1a2930;
 	padding-right: 100%;
-	z-index: 1;
+	z-index: 2;
 }
 img.sec1img
 {
@@ -153,7 +153,7 @@ img.polygon1
 {
 	position: absolute;
 	height: 20vw;
-	margin-top: 114vw;
+	margin-top: 112vw;
 	width: 100%;
 }
 div.box2
@@ -162,7 +162,8 @@ position: absolute;
     width: 100%;
     background-color: #f7ce3e;
    height: 28vw;
-    margin-top: 86vw;
+    margin-top: 84vw;
+z-index: -1;
 }
 div.box3
 {
@@ -322,6 +323,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   background-color:#1a2930;
   position: relative;
   margin: auto;
+  margin-left: -0.8vw;
 }
 
 /* Next & previous buttons */
@@ -342,7 +344,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 /* Position the "next button" to the right */
 .next2 {
-  right: 0;
+  right: -0.8vw;
   border-radius: 3px 0 0 3px;
 }
 
@@ -387,12 +389,12 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 
 img.imgII{position: absolute;
-margin-top: 135vw;
+margin-top: 133vw;
 }
 img.img10{
-margin-left: 75.5vw;
+margin-left: 77vw;
 
-height: 22vw;
+height: 28vw;
 
 width: 22vw;
 padding: 1vw;
@@ -401,10 +403,10 @@ background-color: #f2f2f2;
 border-radius: 0.7vw;
 }
 
-img.img11{margin-left: 51.4vw;
+img.img11{margin-left: 52.5vw;
 
 
-height: 22vw;
+height: 28vw;
 width: 22vw;
 padding: 1vw;
 padding-bottom: 1vw;
@@ -414,10 +416,10 @@ border-radius: 0.7vw;
 }
 
   img.img12 {
-margin-left: 27vw;
+margin-left: 28.16vw;
 
 
-height: 22vw;
+height: 28vw;
 width: 22vw;
 padding: 1vw;
 padding-bottom: 1vw;
@@ -427,10 +429,10 @@ border-radius: 0.7vw;
 }
 img.img13
 {
-	margin-left: 3vw;
+	margin-left: 3.7vw;
 
 
-	height: 22vw;
+	height: 28vw;
 	width: 22vw;
 	padding: 1vw;
 	padding-bottom: 1vw;
@@ -440,10 +442,10 @@ img.img13
 }
 div.box9
 {
-height: 26vw;
+height: 30vw;
 width: 100%;
 background-color: #1a2930;
-margin-top: 134vw;
+margin-top: 132vw;
 position: absolute;
 z-index: -1;
 }
@@ -452,7 +454,7 @@ img.img15
 position: absolute;
 width: 100%;
 height: 20vw;
-margin-top: 158.2vw;
+margin-top: 162.2vw;
 transform: rotate(180deg);
 }
 div.box10
@@ -461,7 +463,7 @@ position: absolute;
 width: 100%;
 background-color: #f7ce3e;
 height: 27vw;
-margin-top: 178vw;
+margin-top: 182vw;
 z-index: -1;
 }
 div.box18
@@ -1061,6 +1063,10 @@ margin-left: 55vw;
 }
 @media only screen and (min-width: 640px)
 {
+	div.box25
+	{
+		display: none;
+	}
 	div.text40,div.text41,div.slideshow-bg
 	{
 		display: none;
@@ -1661,7 +1667,7 @@ p.paragraph1
 	position: absolute;
 	font-family: BMitra;
 	font-size: 2.5vw;
-	margin-top: 176vw;
+	margin-top: 179vw;
 	width: 56vw;
 	margin-left: 20vw;
 	text-align: center;
@@ -1705,11 +1711,11 @@ opacity: 1;
 div.denso-candle
 {
 	position: absolute;
-	margin-top: 152.4vw;
+	margin-top: 156.4vw;
 	font-size: 2.5vw;
 	font-family: BMitra;
 	z-index: 1;
-	margin-left: 83vw;
+	margin-left: 83.2vw;
 }
 div.nolabel-candle
 {
@@ -1731,7 +1737,7 @@ div.price3
 }
 div.rapido-candle
 {	
-	margin-left: 29.5vw;
+	margin-left: 33vw;
 }
 div.technice-transistor
 {
@@ -1754,12 +1760,12 @@ div.price6
 div.golden-lentlazer
 {
 	
-	margin-left: 32vw;
+	margin-left: 35vw;
 }
 div.psr-lent
 {
 	
-	margin-left: 10vw;
+	margin-left: 9.4vw;
 }
 div.price7
 {
@@ -1771,7 +1777,7 @@ div.price7
 }
 div.speedy-oil
 {
-	margin-left: 53.5vw;
+	margin-left: 53.4vw;
 }
 div.price8
 {
@@ -1779,7 +1785,7 @@ div.price8
 }
 div.lavazem-carberator
 {
-	margin-left: 7.5vw;
+	margin-left: 6.5vw;
 }
 @media only screen and (max-width:640px)
 {
