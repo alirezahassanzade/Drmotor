@@ -25,11 +25,11 @@ body
 
 div.head1
 {
-	height: 6vw;
+	height: 4.5vw;
 	position:fixed;
 	background-color:#1a2930;
 	padding-right: 100%;
-	z-index: 2;
+	z-index: 1;
 }
 img.sec1img
 {
@@ -37,7 +37,7 @@ img.sec1img
 	height: 45vw;
 	width: 100%;
 	background-size: cover;
-	margin-top: 6vw;
+	margin-top: 4vw;
 }
 div.yourmechanics2
 {
@@ -50,7 +50,7 @@ div.phonebox
 	padding: 8vw;
 	position: absolute;
 	background-color: rgba(255,255,255,0.7);
-	margin-top: 12vw;
+	margin-top: 10vw;
 	margin-left: 32.7vw;
 	font-family: BMitra;
 	text-align: center;
@@ -61,7 +61,7 @@ div.phonebox
 div.register
 {
 	color:white;
-	margin-top: 35vw;
+	margin-top: 34vw;
 	margin-left: 42.5vw;
 	cursor: pointer;
 	position: absolute;
@@ -339,7 +339,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   border-radius:1vw;
   user-select: none;
   margin-top: 141vw;
-  z-index: 1;
+  z-index: 0;
 }
 
 /* Position the "next button" to the right */
@@ -531,102 +531,110 @@ margin-top: 205vw;
 margin-left: 62vw;
 
 }
-div.text11
+h1.text11
 {
-color: #f7ce3e;
-
-background-color: #1a2930;
-
-margin-top: 0.22vw;
-
+margin-top: -6.7vw;
 margin-left: 83vw;
-
-font-size: 2.1vw;
-
-font-family: BBardiya;
-
-width: 13.8vw;
-
-height: 5.5vw;
-cursor: pointer;
-text-align: center;
-
-line-height: 5vw;
-
-border-radius: 0.4vw;
+line-height: 4vw;
+width: 14.5vw;
+-webkit-transition: background 1s;
 }
-div.text11:hover
+.text11:hover
 {
 		color: #1a2930;
-	background-color: #f7ce3e;
-	width: 14.5vw;
+	background: #f7ce3e;
 	text-align: center;
-	transition: all linear 0.5s;
+	transition: all 0.5s linear ;
+	
 }
-div.text12
-{
-color: #f7ce3e;
-
-background-color: #1a2930;
-
-margin-top: -5.5vw;
-
-margin-left: 68.4vw;
-
-font-size: 2.1vw;
-
-font-family: BBardiya;
-
-width: 13.8vw;
-
-height: 5.5vw;
-
-text-align: center;
-
-line-height: 5vw;
-cursor: pointer;
-border-radius: 0.4vw;
-}
-div.text12:hover
-{
-		color: #1a2930;
-	background-color: #f7ce3e;
-	width: 14.5vw;
-	text-align: center;
-	transition: all linear 0.5s;
-}
-div.text13
+.text11:hover::after
 {
 	color: #f7ce3e;
-
-background-color: #1a2930;
-
-margin-top: -5.5vw;
-
-margin-left: 53.4vw;
-
-font-size: 2.1vw;
-
-font-family: BBardiya;
-
-width: 13.8vw;
-
-height: 5.5vw;
-
-text-align: center;
-
-line-height: 5vw;
-
-border-radius: 0.4vw;
-cursor: pointer;
-}
-div.text13:hover
-{
-		color: #1a2930;
-	background-color: #f7ce3e;
-	width: 14.5vw;
-	text-align: center;
+	background-color: #f2f2f2;
 	transition: all linear 0.5s;
+}
+.text11::after
+{
+	content: '';
+	display: block;
+	width: 0;
+	height:0.5vw;
+	background: #f7ce3e;
+	transition: width .7s;
+}
+.text11:hover::after
+{
+	width:14.5vw;
+}
+h1.text12
+{
+margin-top: -5.4vw;
+margin-left: 68vw;
+line-height: 3.9vw;
+width: 14.5vw;
+-webkit-transition: background 1s;
+height: 4vw;
+}
+.text12:hover
+{
+	color: #1a2930;
+	background: #f7ce3e;
+	text-align: center;
+	transition: all 0.5s linear ;
+	
+}
+.text12:hover::after
+{
+	color: #f7ce3e;
+	background-color: #f2f2f2;
+	transition: all linear 0.5s;
+}
+.text12::after
+{
+	content: '';
+	display: block;
+	width: 0;
+	height:0.64vw;
+	background: #f7ce3e;
+	transition: width .7s;
+}
+.text12:hover::after
+{
+	width:14.5vw;
+}
+h1.text13
+{
+margin-top: -5.3vw;
+margin-left: 53vw;
+line-height: 3.9vw;
+width: 14.5vw;
+-webkit-transition: background 1s;
+}
+.text13:hover
+{
+	color: #1a2930;
+	background: #f7ce3e;
+	text-align: center;
+	transition: all 0.5s linear ;
+}
+.text13:hover::after
+{
+	color: #f7ce3e;
+	background-color: #f2f2f2;
+	transition: all linear 0.5s;
+}
+.text13::after
+{
+	content: '';
+	display: block;
+	width: 0;
+	height:0.64vw;
+	background: #f7ce3e;
+	transition: width .7s;
+}
+.text13:hover::after
+{
+	width:14.5vw;
 }
 @media only screen and (max-width: 640px)
 {
@@ -1061,8 +1069,28 @@ transform: rotate(-27deg);
 margin-left: 55vw;
 }
 }
+@media only screen and (min-width: 640px) and (max-width:762px)
+{
+	h1.headcommon
+	{
+	font-size: 2.3vw;
+	}
+	h1.text11
+	{
+		margin-top: -6.85vw;
+	}
+	h1.text12
+	{
+		margin-top: -5.52vw;
+	}
+	h1.text13
+	{
+		margin-top: -5.6vw;
+	}
+}
 @media only screen and (min-width: 640px)
 {
+
 	div.box25
 	{
 		display: none;
@@ -1642,13 +1670,13 @@ color: black;
 .motori-logo1
 {
 	position: absolute;
-	width: 15vw;
+	width: 17.5vw;
 	margin-left: 1vw;
-	margin-top: 0.75vw;
+	margin-top: 0.2vw;
 }
 @media only screen and (min-width:641px) and (max-width:700px )
 {
-	div.text11,div.text12,div.text13,div.phonebox,div.register
+	.text11,.text12,.text13,div.phonebox,div.register
 	{
 	font-size: 2.6vw;
 	}
@@ -1850,4 +1878,16 @@ div.denso-candle
 	margin-top: 274vw;
 	font-size: 3.8vw;
 }
+}
+.headcommon
+{
+	font-size: 2vw;
+font-family: BBardiya;
+width: 13.8vw;
+height: 4vw;
+cursor: pointer;
+text-align: center;
+line-height: 3.5vw;
+font-weight: normal;
+color: #f7ce3e;
 }
