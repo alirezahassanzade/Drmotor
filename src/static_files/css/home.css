@@ -93,7 +93,7 @@ img.img3
 {
 	position: absolute;
 	height: 15vw;
-	margin-left: 75.5vw;
+	margin-left: 71.5vw;
 	margin-top: 50vw;
 }
 div.box1
@@ -114,7 +114,7 @@ font-size: 2vw;
 margin-top: 71vw;
 width: 15vw;
 text-align: center;
-margin-left: 76vw;
+margin-left: 72vw;
 }
 img.img4
 {
@@ -138,7 +138,7 @@ img.img5
 position: absolute;
 height: 21vw;
 margin-top: 50vw;
-margin-left: 6vw;
+margin-left: 11vw;
 }
 div.text4
 {
@@ -147,7 +147,7 @@ font-size: 2vw;
 margin-top: 71vw;
 width: 12vw;
 text-align: center;
-margin-left: 9.5vw;
+margin-left: 14.5vw;
 font-family: BMitra;
 }
 img.polygon1
@@ -172,22 +172,22 @@ padding: 10vw;
     padding-right: 12vw;
 background-color: #1a2930;
 position: absolute;
-margin-left: 60.5vw;
-padding-right: 23vw;
-margin-top: 81.5vw;
+margin-left: 59.5vw;
+padding-right: 19vw;
+margin-top: 82.5vw;
 
 }
 .mySlides {
 	display: none;
 position: absolute;
-margin-left: 63vw;
-height: 18vw;
-margin-top: 82.5vw;
+margin-left: 62.5vw;
+height: 17.5vw;
+margin-top: 83.6vw;
 }
 div.box4
 {
 	font-size: 2vw;
-margin-top: 81.6vw;
+margin-top: 82.6vw;
 position: absolute;
 font-family: BMitra;
 padding: 6vw;
@@ -197,15 +197,15 @@ background-color: black;
 opacity: 0.4;
 padding-top: 8.5vw;
 padding-bottom: 8.5vw;
-margin-left: 31.2vw;
+margin-left: 32.8vw;
 color: white;
 }
 div.box5{
-font-size: 2vw;
+font-size: 1.8vw;
 
 position: absolute;
 
-margin-top: 81.6vw;
+margin-top: 82.6vw;
 
 font-family: BBardiya;
 cursor: pointer;
@@ -224,16 +224,16 @@ padding-left: 6vw;
 
 padding-right: 6vw;
 
-margin-left: 5vw;
+margin-left: 11vw;
 
 letter-spacing: 0.1vw;
 }
 div.box6
-{font-size: 2vw;
+{font-size: 1.8vw;
 
 position: absolute;
 
-margin-top: 87vw;
+margin-top: 88vw;
 cursor: pointer;
 font-family: BBardiya;
 
@@ -256,17 +256,17 @@ padding-left: 5.5vw;
 
 padding-right: 6vw;
 
-margin-left: 5vw;
+margin-left: 11vw;
 
 letter-spacing: 0.1vw;
 
 }
 div.box7
-{font-size: 2vw;
+{font-size: 1.7vw;
 cursor: pointer;
 position: absolute;
 
-margin-top:92.5vw;
+margin-top:93.5vw;
 
 font-family: BBardiya;
 
@@ -290,28 +290,28 @@ padding-left: 7.2vw;
 
 padding-right: 7vw;
 
-margin-left: 5vw;
+margin-left: 11vw;
 
 letter-spacing: 0.1vw;
 
 }
 div.box8
 {
-	font-size: 2vw;
+	font-size: 1.8vw;
 
 position: absolute;
 cursor: pointer;
-margin-top: 97.8vw;
+margin-top: 98.8vw;
 
 font-family: BBardiya;
 z-index: 1;
-padding: 0.2vw;
+padding: 0.1vw;
 background-color: #1a2930;
 border-radius: 0.8vw;
 color: white;
 padding-left: 6.2vw;
 padding-right: 6vw;
-margin-left: 5vw;
+margin-left: 11vw;
 letter-spacing: 0.1vw;
 }
 * {box-sizing: border-box}
@@ -339,8 +339,11 @@ body {font-family: Verdana, sans-serif; margin:0}
   transition: 0.6s ease;
   border-radius:1vw;
   user-select: none;
-  margin-top: 141vw;
+  margin-top: 122.1vw;
   z-index: 0;
+  background-color: rgba(0,0,0,0.8);
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 /* Position the "next button" to the right */
@@ -351,7 +354,6 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev2:hover, .next2:hover {
-  background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -393,33 +395,22 @@ img.imgII{position: absolute;
 margin-top: 123vw;
 }
 img.img10{
-margin-left: 77vw;
+margin-left: 72vw;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-width: 267px;
-=======
-height: 28vw;
 
-width: 22vw;
->>>>>>> parent of f37b57d... changed files
-=======
-height: 28vw;
 
-width: 22vw;
->>>>>>> 27dab57e264219944718525bd16bcd31aec3b271
-padding: 1vw;
+width: 19vw;
 padding-bottom: 5vw;
 background-color: #f2f2f2;
 border-radius: 0.7vw;
+height: 21vw;
 }
 
-img.img11{margin-left: 52.5vw;
+img.img11{margin-left: 52.2vw;
 
 
 height: 21vw;
 width: 18vw;
-padding: 1vw;
 padding-bottom: 1vw;
 padding-bottom: 5vw;
 background-color: #f2f2f2;
@@ -427,12 +418,11 @@ border-radius: 0.7vw;
 }
 
   img.img12 {
-margin-left: 28.16vw;
+margin-left: 32.5vw;
 
 
-height: 28vw;
-width: 22vw;
-padding: 1vw;
+height: 21vw;
+width: 18vw;
 padding-bottom: 1vw;
 padding-bottom: 5vw;
 background-color: #f2f2f2;
@@ -440,12 +430,11 @@ border-radius: 0.7vw;
 }
 img.img13
 {
-	margin-left: 3.7vw;
+	margin-left: 12.7vw;
 
 
-	height: 28vw;
-	width: 22vw;
-	padding: 1vw;
+	height: 21vw;
+	width: 18vw;
 	padding-bottom: 1vw;
 	padding-bottom: 5vw;
 	background-color: #f2f2f2;
@@ -453,10 +442,10 @@ img.img13
 }
 div.box9
 {
-height: 27vw;
+height: 24vw;
 width: 100%;
 background-color: #1a2930;
-margin-top: 123.1vw;
+margin-top: 122.1vw;
 position: absolute;
 z-index: -1;
 }
@@ -465,7 +454,7 @@ img.img15
 position: absolute;
 width: 100%;
 height: 20vw;
-margin-top: 162.2vw;
+margin-top: 146.2vw;
 transform: rotate(180deg);
 }
 div.box10
@@ -473,8 +462,8 @@ div.box10
 position: absolute;
 width: 100%;
 background-color: #f7ce3e;
-height: 27vw;
-margin-top: 182vw;
+height: 20vw;
+margin-top: 166.2vw;
 z-index: -1;
 }
 div.box18
@@ -515,30 +504,30 @@ img.img16{
 	width: 100%;
 position: absolute;
 height: 37vw;
-margin-top: 205vw;
+margin-top: 186.2vw;
 }
 div.text8
 {
-	font-size: 2vw;
+	font-size: 1.8vw;
 color: white;
 position: absolute;
 direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 205vw;
+margin-top: 186.2vw;
 margin-left: 82vw;
 }
 div.text9
 {
-	font-size: 2vw;
+	font-size: 1.8vw;
 color: white;
 position: absolute;
 direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 205vw;
+margin-top: 186.2vw;
 margin-left: 62vw;
 
 }
@@ -1768,12 +1757,12 @@ p.paragraph1
 
 	position: absolute;
 	font-family: BMitra;
-	font-size: 2.5vw;
-	margin-top: 179vw;
+	font-size: 2vw;
+	margin-top: 164vw;
 	width: 56vw;
 	margin-left: 20vw;
 	text-align: center;
-	line-height: 5vw;
+	line-height: 4.8vw;
 }
 p.about-us
 {
@@ -1787,20 +1776,33 @@ p.about-us
 	line-height: 6vw;
 	text-align: center;
 }
+div.price9
+{
+
+	padding: 5.37vw;
+	margin-left: 72vw;
+	padding-right: 7vw;
+	padding-left: 7vw;
+}
+div.price10
+{
+
+	padding-right: 8vw;
+}
 .price1
 {
 
-	font-size: 3vw;
+	font-size: 2.5vw;
 	position: absolute;
-	margin-top: 135vw;
+	margin-top: 123vw;
 	color: white;
 	margin-left: 75.5vw;
 	text-align: center;
 	font-family: BMitra;
-	padding: 4.7vw;
+	padding: 6.04vw;
 	background-color: rgba(0,0,0,0.7);
-	padding-right: 8vw;
-	padding-left: 8vw;
+	padding-right: 6.5vw;
+	padding-left: 6.5vw;
 	z-index: 1;
 	border-radius: 0.6vw;
 	opacity: 0;
@@ -1809,37 +1811,38 @@ p.about-us
 {
 transition: 0.5s linear all;
 opacity: 1;
+cursor: pointer;
 }
 div.denso-candle
 {
 	position: absolute;
-	margin-top: 156.4vw;
-	font-size: 2.5vw;
+	margin-top: 139.8vw;
+	font-size: 2vw;
 	font-family: BMitra;
 	z-index: 1;
-	margin-left: 83.2vw;
+	margin-left: 78.2vw;
 }
 div.nolabel-candle
 {
-	margin-left: 58vw;
+	margin-left: 56.5vw;
 }
 div.price2
 {
-	margin-left: 51.45vw;
-	padding: 4.7vw;
-	padding-left: 9.2vw;
-	padding-right: 8vw;
+	margin-left: 52.2vw;
+	padding: 5.39vw;
+	padding-left: 6.5vw;
+	padding-right: 6.5vw;
 }
 div.price3
 {
 
-	margin-left: 27.05vw;
+	margin-left: 32.5vw;
 	padding-bottom: 4.7vw;
-	padding-left: 7.95vw;
+	padding-left: 6.5vw;
 }
 div.rapido-candle
 {	
-	margin-left: 33vw;
+	margin-left: 36.5vw;
 }
 div.technice-transistor
 {
@@ -1847,7 +1850,7 @@ div.technice-transistor
 }
 div.price4
 {
-	margin-left: 3vw;
+	margin-left: 12.7vw;
 	padding-bottom: 4.7vw;
 }
 .price5
@@ -1857,17 +1860,17 @@ div.price4
 div.price6
 {
 
-	padding-left: 8vw;
+	padding-left: 6.5vw;
 }
 div.golden-lentlazer
 {
 	
-	margin-left: 35vw;
+	margin-left: 38.6vw;
 }
 div.psr-lent
 {
 	
-	margin-left: 9.4vw;
+	margin-left: 17.4vw;
 }
 div.price7
 {
@@ -1881,9 +1884,37 @@ div.speedy-oil
 {
 	margin-left: 53.4vw;
 }
+div.price11
+{
+	padding-left: 5.5vw;
+}
 div.price8
 {
-	padding-left: 9.2vw;
+	padding-left: 6.5vw;
+}
+div.price14
+{
+	padding-left: 6.5vw;
+	padding-right: 6.5vw;
+	padding-bottom: 5.77vw;
+}
+div.price15{
+
+	padding-right: 6vw;
+	padding-left: 6vw;
+}
+div.price13
+{
+
+	padding: 5.4vw;
+	padding-right: 6.5vw;
+	padding-left: 6.5vw;
+}
+div.price12
+{
+	padding-left: 6.5vw;
+	padding-bottom: 5.77vw;
+	padding-right: 6.5vw;
 }
 div.lavazem-carberator
 {
