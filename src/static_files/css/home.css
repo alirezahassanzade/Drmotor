@@ -1707,10 +1707,6 @@ color: black;
 	{
 	font-size: 2.2vw;
 	}
-	div.register
-	{
-		
-	}
 	div.text41
 	{
 margin-top: 20vw;
@@ -1895,10 +1891,6 @@ a.next2,a.prev2
 	padding-left: 7vw;
 	padding-right: 7vw;
 }
-div.price2
-{
-
-}
 div.denso-candle
 {
 
@@ -1917,4 +1909,11 @@ text-align: center;
 line-height: 3.5vw;
 font-weight: normal;
 color: #f7ce3e;
+}
+@media only screen and (min-width:900px)
+{
+	div.head1
+	{
+
+	}
 }
