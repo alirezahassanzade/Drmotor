@@ -29,12 +29,12 @@ div.head1
 	position:fixed;
 	background-color:#1a2930;
 	padding-right: 100%;
-	z-index: 1;
+	z-index: 2;
 }
 img.sec1img
 {
 	position: absolute;
-	height: 41vw;
+	height: 47vw;
 	width: 100%;
 	margin-top: 3vw;
 }
@@ -86,7 +86,7 @@ img.img2
 	position: absolute;
 	width: 100%;
 	height: 37vw;
-	margin-top: 43.99vw;
+	margin-top: 50vw;
 	z-index: 0;
 }
 img.img3
@@ -94,7 +94,7 @@ img.img3
 	position: absolute;
 	height: 15vw;
 	margin-left: 71.5vw;
-	margin-top: 50vw;
+	margin-top: 56vw;
 }
 div.box1
 {
@@ -104,14 +104,14 @@ div.box1
 	padding-bottom: 18.5vw;
 	width: 100%;
 	background-color: white;
-	margin-top: 43.99vw;
+	margin-top: 49.955vw;
 }
 div.text2
 {
 font-family: BMitra;
 position: absolute;
 font-size: 2vw;
-margin-top: 71vw;
+margin-top: 77vw;
 width: 15vw;
 text-align: center;
 margin-left: 72vw;
@@ -119,7 +119,7 @@ margin-left: 72vw;
 img.img4
 {
 position: absolute;
-margin-top: 50vw;
+margin-top: 56vw;
 height: 15vw;
 margin-left: 43vw;
 }
@@ -127,7 +127,7 @@ div.text3
 {
 position: absolute;
 font-size: 2vw;
-margin-top: 71vw;
+margin-top: 77vw;
 width: 14vw;
 text-align: center;
 margin-left: 42vw;
@@ -137,14 +137,14 @@ img.img5
 {
 position: absolute;
 height: 21vw;
-margin-top: 50vw;
+margin-top: 56vw;
 margin-left: 11vw;
 }
 div.text4
 {
 position: absolute;
 font-size: 2vw;
-margin-top: 71vw;
+margin-top: 77vw;
 width: 12vw;
 text-align: center;
 margin-left: 14.5vw;
@@ -154,7 +154,7 @@ img.polygon1
 {
 	position: absolute;
 	height: 20vw;
-	margin-top: 102vw;
+	margin-top: 108vw;
 	width: 100%;
 }
 div.box2
@@ -163,7 +163,7 @@ position: absolute;
     width: 100%;
     background-color: #f7ce3e;
    height: 21vw;
-    margin-top: 81vw;
+    margin-top: 87vw;
 z-index: -1;
 }
 div.box3
@@ -174,7 +174,7 @@ background-color: #1a2930;
 position: absolute;
 margin-left: 59.5vw;
 padding-right: 19vw;
-margin-top: 82.5vw;
+margin-top: 88.5vw;
 
 }
 .mySlides {
@@ -182,12 +182,12 @@ margin-top: 82.5vw;
 position: absolute;
 margin-left: 62.5vw;
 height: 17.5vw;
-margin-top: 83.6vw;
+margin-top: 89.6vw;
 }
 div.box4
 {
 	font-size: 2vw;
-margin-top: 82.6vw;
+margin-top: 88.6vw;
 position: absolute;
 font-family: BMitra;
 padding: 6vw;
@@ -205,7 +205,7 @@ font-size: 1.8vw;
 
 position: absolute;
 
-margin-top: 82.6vw;
+margin-top: 88.6vw;
 
 font-family: BBardiya;
 cursor: pointer;
@@ -233,7 +233,7 @@ div.box6
 
 position: absolute;
 
-margin-top: 88vw;
+margin-top: 94vw;
 cursor: pointer;
 font-family: BBardiya;
 
@@ -266,7 +266,7 @@ div.box7
 cursor: pointer;
 position: absolute;
 
-margin-top:93.5vw;
+margin-top:99.5vw;
 
 font-family: BBardiya;
 
@@ -301,7 +301,7 @@ div.box8
 
 position: absolute;
 cursor: pointer;
-margin-top: 98.8vw;
+margin-top: 104.8vw;
 
 font-family: BBardiya;
 z-index: 1;
@@ -339,7 +339,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   transition: 0.6s ease;
   border-radius:1vw;
   user-select: none;
-  margin-top: 122.1vw;
+  margin-top: 128.1vw;
   z-index: 0;
   background-color: rgba(0,0,0,0.8);
   padding-top: 10vw;
@@ -392,7 +392,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 
 img.imgII{position: absolute;
-margin-top: 123vw;
+margin-top: 129.5vw;
 }
 img.img10{
 margin-left: 72vw;
@@ -445,7 +445,7 @@ div.box9
 height: 24vw;
 width: 100%;
 background-color: #1a2930;
-margin-top: 122.1vw;
+margin-top: 128.1vw;
 position: absolute;
 z-index: -1;
 }
@@ -454,7 +454,7 @@ img.img15
 position: absolute;
 width: 100%;
 height: 20vw;
-margin-top: 146.2vw;
+margin-top: 152.2vw;
 transform: rotate(180deg);
 }
 div.box10
@@ -463,7 +463,7 @@ position: absolute;
 width: 100%;
 background-color: #f7ce3e;
 height: 20vw;
-margin-top: 166.2vw;
+margin-top: 172.2vw;
 z-index: -1;
 }
 div.box18
@@ -504,7 +504,7 @@ img.img16{
 	width: 100%;
 position: absolute;
 height: 37vw;
-margin-top: 186.2vw;
+margin-top: 192.2vw;
 }
 div.text8
 {
@@ -515,7 +515,7 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 186.2vw;
+margin-top: 192.2vw;
 margin-left: 82vw;
 }
 div.text9
@@ -527,7 +527,7 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 186.2vw;
+margin-top: 192.2vw;
 margin-left: 62vw;
 
 }
@@ -1758,11 +1758,10 @@ p.paragraph1
 	position: absolute;
 	font-family: BMitra;
 	font-size: 2vw;
-	margin-top: 164vw;
+	margin-top: 169vw;
 	width: 56vw;
 	margin-left: 20vw;
 	text-align: center;
-	line-height: 4.8vw;
 }
 p.about-us
 {
@@ -1794,7 +1793,7 @@ div.price10
 
 	font-size: 2.5vw;
 	position: absolute;
-	margin-top: 123vw;
+	margin-top: 129.5vw;
 	color: white;
 	margin-left: 75.5vw;
 	text-align: center;
@@ -1816,7 +1815,7 @@ cursor: pointer;
 div.denso-candle
 {
 	position: absolute;
-	margin-top: 139.8vw;
+	margin-top: 146.4vw;
 	font-size: 2vw;
 	font-family: BMitra;
 	z-index: 1;
