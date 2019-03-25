@@ -575,7 +575,7 @@ width: 14.5vw;
 }
 .text11:hover::after
 {
-	width:12.5vw;
+	width:15vw;
 }
 h1.text12
 {
@@ -611,7 +611,7 @@ height: 4vw;
 }
 .text12:hover::after
 {
-	width:12vw;
+	width:14.5vw;
 }
 h1.text13
 {
@@ -645,7 +645,7 @@ width: 14.5vw;
 }
 .text13:hover::after
 {
-	width:12vw;
+	width:14.5vw;
 }
 @media only screen and (max-width: 640px)
 {
@@ -1093,23 +1093,39 @@ margin-left: 55vw;
 	h1.text11
 	{
 		margin-top: -7.1vw;
-		margin-left: 83.4vw;
+		margin-left: 85.5vw;
 		line-height: 4vw;
 	}
 	h1.text12
 	{
 		margin-top: -5.5vw;
-		margin-left: 68.9vw;
+		margin-left: 71vw;
 	}
 	h1.text13
 	{
 		margin-top: -5.56vw;
-		margin-left: 54.39vw;
+		margin-left: 56.5vw;
 	}
 
 }
 @media only screen and (min-width:762px)
 {
+	.text13::after
+{
+	height:0.2vw;
+}
+	.text12:hover::after
+{
+	width:12vw;
+}
+.text11:hover::after
+{
+	width:12.5vw;
+}
+.text13:hover::after
+{
+	width:12vw;
+}
 div.head1
 	{
 
@@ -1119,27 +1135,27 @@ div.head1
 	{
 
 	font-size: 1.8vw;
-	height: 3.2vw;
-	line-height: 3.2vw;
-	margin-top: -2.2vw;
+	height: 3.3vw;
+	line-height: 3.3vw;
+	margin-top: -2.3vw;
 	}
 	h1.text11
 	{
 
-	margin-left: 86.5vw;
+	margin-left: 87.5vw;
 	width: 12.5vw;
 	}
 	h1.text12
 	{
 
-	margin-left: 74.5vw;
+	margin-left: 75.5vw;
 	margin-top: -4.5vw;
 	width: 12vw;
 	}
 	h1.text13
 	{
 
-	margin-left: 62.5vw;
+	margin-left: 63.5vw;
 	margin-top: -4.4vw;
 	width: 12vw;
 	}
