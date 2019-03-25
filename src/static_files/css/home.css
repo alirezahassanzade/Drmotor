@@ -36,8 +36,25 @@ img.sec1img
 	position: absolute;
 	height: 45vw;
 	width: 100%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	background-size: cover;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	margin-top: 3vw;
+=======
+	margin-top: 4vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+	margin-top: 4vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 4vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
 	background-size: cover;
 	margin-top: 3vw;
+>>>>>>> 9edd14cdb7d3dc83c102cff7c2dc995d55064179
 }
 div.yourmechanics2
 {
@@ -85,7 +102,23 @@ img.img2
 	position: absolute;
 	width: 100%;
 	height: 37vw;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: 48vw;
+=======
+	margin-top: 45vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 48vw;
+>>>>>>> 9edd14cdb7d3dc83c102cff7c2dc995d55064179
 	z-index: 0;
 }
 img.img3
@@ -103,7 +136,23 @@ div.box1
 	padding-bottom: 18.5vw;
 	width: 100%;
 	background-color: white;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: 48vw;
+=======
+	margin-top: 45vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 48vw;
+>>>>>>> 9edd14cdb7d3dc83c102cff7c2dc995d55064179
 }
 div.text2
 {
@@ -394,9 +443,33 @@ margin-top: 133vw;
 img.img10{
 margin-left: 77vw;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 height: 350px;
 
 width: 267px;
+=======
+height: 21vw;
+
+width: 18vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+height: 28vw;
+
+width: 22vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+height: 28vw;
+
+width: 22vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+height: 350px;
+
+width: 267px;
+>>>>>>> 9edd14cdb7d3dc83c102cff7c2dc995d55064179
 padding: 1vw;
 padding-bottom: 5vw;
 background-color: #f2f2f2;
