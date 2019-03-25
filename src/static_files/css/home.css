@@ -34,10 +34,22 @@ div.head1
 img.sec1img
 {
 	position: absolute;
-	height: 45vw;
+	height: 41vw;
 	width: 100%;
+<<<<<<< HEAD
 	background-size: cover;
+<<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: 3vw;
+=======
+	margin-top: 4vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+	margin-top: 4vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 4vw;
+>>>>>>> parent of 00935f5... nicki did this
 }
 div.yourmechanics2
 {
@@ -47,22 +59,24 @@ div.yourmechanics2
 }
 div.phonebox
 {
-	padding: 8vw;
+	padding: 9vw;
 	position: absolute;
 	background-color: rgba(255,255,255,0.7);
-	margin-top: 10vw;
-	margin-left: 32.7vw;
+	margin-top: 9.4vw;
+	margin-left: 33vw;
 	font-family: BMitra;
 	text-align: center;
-	padding-bottom: 14vw;
+	padding-bottom: 13vw;
 	border-radius: 0.7vw;
-	font-size: 2.5vw;
+	font-size: 2vw;
+	line-height: 3.2vw;
+	padding-top: 7vw;
 }
 div.register
 {
 	color:white;
-	margin-top: 34vw;
-	margin-left: 42.5vw;
+	margin-top: 32vw;
+	margin-left: 42vw;
 	cursor: pointer;
 	position: absolute;
 	font-size: 2vw;
@@ -85,15 +99,27 @@ img.img2
 	position: absolute;
 	width: 100%;
 	height: 37vw;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: 48vw;
+=======
+	margin-top: 45vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
 	z-index: 0;
 }
 img.img3
 {
 	position: absolute;
-	height: 17vw;
-	margin-left: 69vw;
-	margin-top: 56vw;
+	height: 15vw;
+	margin-left: 70.5vw;
+	margin-top: 50vw;
 }
 div.box1
 {
@@ -103,14 +129,26 @@ div.box1
 	padding-bottom: 18.5vw;
 	width: 100%;
 	background-color: white;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: 48vw;
+=======
+	margin-top: 45vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+	margin-top: 51vw;
+>>>>>>> parent of 00935f5... nicki did this
 }
 div.text2
 {
 font-family: BMitra;
 position: absolute;
-font-size: 2.25vw;
-margin-top: 75vw;
+font-size: 2vw;
+margin-top: 71vw;
 width: 15vw;
 text-align: center;
 margin-left: 70.5vw;
@@ -118,15 +156,15 @@ margin-left: 70.5vw;
 img.img4
 {
 position: absolute;
-margin-top: 56vw;
-height: 17vw;
-margin-left: 42vw;
+margin-top: 50vw;
+height: 15vw;
+margin-left: 43vw;
 }
 div.text3
 {
 position: absolute;
-font-size: 2.25vw;
-margin-top: 75.5vw;
+font-size: 2vw;
+margin-top: 71vw;
 width: 14vw;
 text-align: center;
 margin-left: 42vw;
@@ -135,25 +173,25 @@ font-family: BMitra;
 img.img5
 {
 position: absolute;
-height: 23vw;
-margin-top: 56vw;
+height: 21vw;
+margin-top: 50vw;
 margin-left: 10vw;
 }
 div.text4
 {
 position: absolute;
-font-size: 2.25vw;
-margin-top: 75.5vw;
+font-size: 2vw;
+margin-top: 71vw;
 width: 12vw;
 text-align: center;
-margin-left: 15vw;
+margin-left: 13.5vw;
 font-family: BMitra;
 }
 img.polygon1
 {
 	position: absolute;
 	height: 20vw;
-	margin-top: 112vw;
+	margin-top: 103vw;
 	width: 100%;
 }
 div.box2
@@ -161,42 +199,42 @@ div.box2
 position: absolute;
     width: 100%;
     background-color: #f7ce3e;
-   height: 28vw;
-    margin-top: 84vw;
+   height: 21vw;
+    margin-top: 82vw;
 z-index: -1;
 }
 div.box3
 {
-padding: 12vw;
+padding: 10vw;
     padding-right: 12vw;
 background-color: #1a2930;
 position: absolute;
 margin-left: 60.5vw;
-padding-right: 25vw;
-margin-top: 88.5vw;
+padding-right: 23vw;
+margin-top: 82.5vw;
 
 }
 .mySlides {
 	display: none;
 position: absolute;
-margin-left: 66.5vw;
-height: 21.5vw;
-margin-top: 89.7vw;
+margin-left: 64.5vw;
+height: 18vw;
+margin-top: 83.5vw;
 }
 div.box4
 {
-	font-size: 2.5vw;
-margin-top: 89vw;
+	font-size: 2vw;
+margin-top: 82.6vw;
 position: absolute;
 font-family: BMitra;
-padding: 5vw;
+padding: 6vw;
     padding-top: 5vw;
     padding-bottom: 5vw;
 background-color: black;
 opacity: 0.4;
-padding-top: 10vw;
-padding-bottom: 10vw;
-margin-left: 31.8vw;
+padding-top: 8.5vw;
+padding-bottom: 8.5vw;
+margin-left: 31.2vw;
 color: white;
 }
 div.box5{
@@ -204,11 +242,11 @@ font-size: 2vw;
 
 position: absolute;
 
-margin-top: 89vw;
+margin-top: 82.6vw;
 
 font-family: BBardiya;
 cursor: pointer;
-padding: 0.5vw;
+padding: 0.2vw;
 
     padding-right: 1vw;
     padding-left: 1vw;
@@ -223,7 +261,7 @@ padding-left: 6vw;
 
 padding-right: 6vw;
 
-margin-left: 6vw;
+margin-left: 5vw;
 
 letter-spacing: 0.1vw;
 }
@@ -232,11 +270,11 @@ div.box6
 
 position: absolute;
 
-margin-top: 95.3vw;
+margin-top: 88vw;
 cursor: pointer;
 font-family: BBardiya;
 
-padding: 0.5vw;
+padding: 0.2vw;
 
     padding-right: 1vw;
     padding-left: 1vw;
@@ -255,7 +293,7 @@ padding-left: 5.5vw;
 
 padding-right: 6vw;
 
-margin-left: 6vw;
+margin-left: 5vw;
 
 letter-spacing: 0.1vw;
 
@@ -265,11 +303,11 @@ div.box7
 cursor: pointer;
 position: absolute;
 
-margin-top:101.5vw;
+margin-top:93.5vw;
 
 font-family: BBardiya;
 
-padding: 0.5vw;
+padding: 0.2vw;
 
     padding-right: 1vw;
     padding-left: 1vw;
@@ -289,7 +327,7 @@ padding-left: 7.2vw;
 
 padding-right: 7vw;
 
-margin-left: 6vw;
+margin-left: 5vw;
 
 letter-spacing: 0.1vw;
 
@@ -300,17 +338,17 @@ div.box8
 
 position: absolute;
 cursor: pointer;
-margin-top: 107.8vw;
+margin-top: 98.8vw;
 
 font-family: BBardiya;
 z-index: 1;
-padding: 0.5vw;
+padding: 0.2vw;
 background-color: #1a2930;
 border-radius: 0.8vw;
 color: white;
 padding-left: 6.2vw;
 padding-right: 6vw;
-margin-left: 6vw;
+margin-left: 5vw;
 letter-spacing: 0.1vw;
 }
 * {box-sizing: border-box}
@@ -389,23 +427,43 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 
 img.imgII{position: absolute;
-margin-top: 133vw;
+margin-top: 123vw;
 }
 img.img10{
 margin-left: 77vw;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 height: 350px;
+
 width: 267px;
+=======
+height: 21vw;
+
+width: 18vw;
+>>>>>>> f37b57dc921ffa303abd3df5c26f7c9efb71c995
+=======
+height: 28vw;
+
+width: 22vw;
+>>>>>>> parent of 00935f5... nicki did this
+=======
+height: 28vw;
+
+width: 22vw;
+>>>>>>> parent of 00935f5... nicki did this
 padding: 1vw;
 padding-bottom: 5vw;
-background-color: #f2f2f2;
+background-color: white;
 border-radius: 0.7vw;
 }
 
 img.img11{margin-left: 52.5vw;
 
 
-height: 28vw;
-width: 22vw;
+height: 21vw;
+width: 18vw;
 padding: 1vw;
 padding-bottom: 1vw;
 padding-bottom: 5vw;
@@ -440,10 +498,10 @@ img.img13
 }
 div.box9
 {
-height: 30vw;
+height: 27vw;
 width: 100%;
 background-color: #1a2930;
-margin-top: 132vw;
+margin-top: 123.1vw;
 position: absolute;
 z-index: -1;
 }
@@ -1702,7 +1760,7 @@ color: black;
 {
 	.text11,.text12,.text13,div.phonebox,div.register
 	{
-	font-size: 2.6vw;
+	font-size: 2.2vw;
 	}
 	div.register
 	{
