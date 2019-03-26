@@ -658,10 +658,16 @@ width: 14.5vw;
 }
 @media only screen and (max-width: 640px)
 { 
+
 	div.text40
 	{
 		
 	margin-top: -0.5vw !important;
+	}
+	div.text41
+	{
+		
+	margin-top: -69vw !important;
 	}
 	div.roqan2
 	{
@@ -1099,7 +1105,7 @@ transform: rotate(-27deg);
 margin-left: 55vw;
 }
 }
-@media only screen and (min-width: 640px) and (max-width:762px)
+@media only screen and (min-width: 641px) and (max-width:762px)
 {
 	.text11::after
 {
@@ -1185,7 +1191,7 @@ div.head1
 	margin-top: 0.3vw;
 	}
 }
-@media only screen and (min-width: 640px)
+@media only screen and (min-width: 641px)
 {
 
 	div.box25
@@ -1771,7 +1777,7 @@ color: black;
 	margin-left: 2vw;
 	margin-top: 0.1vw;
 }
-@media only screen and (min-width:640px) and (max-width:700px )
+@media only screen and (min-width:641px) and (max-width:700px )
 {
 	.text11,.text12,.text13,div.phonebox,div.register
 	{
@@ -1798,7 +1804,7 @@ p.about-us
 	
 	color: #f2f2f2;
 	font-family: BMitra;
-	font-size: 3.5vw;
+	font-size: 3.6vw;
 	width: 92vw;
 	margin-left: 3vw;
 	margin-top: 6.5vw;
@@ -1915,7 +1921,7 @@ div.speedy-oil
 }
 div.price11
 {
-	padding-left: 5.5vw;
+	padding-left: 3.5vw !important;
 }
 div.price8
 {
@@ -2175,7 +2181,7 @@ line-height: 3.5vw;
 font-weight: normal;
 color: #f7ce3e;
 }
-@media only screen and (min-width:640px) and (max-width:750px)
+@media only screen and (min-width:641px) and (max-width:750px)
 {
 div.text2,div.text3,div.text4
 {
