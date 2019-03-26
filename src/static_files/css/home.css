@@ -1,22 +1,22 @@
 @font-face
 {
 	font-family: BMitra;
-	src:url('../font/BMitra.woff') format('woff');
+	src:url('../font/BMitra.Woff') format('woff');
 }
 @font-face
 {
 	font-family:BMorvarid;
-	src:url('../font/BMorvarid.woff') format('woff');
+	src:url('../font/BMorvarid.Woff') format('woff');
 }
 @font-face
 {
 	font-family:BBardiya;
-	src:url('../font/BBardiya.woff') format('woff');
+	src:url('../font/BBardiya.Woff') format('woff');
 }
 @font-face
 {
 	font-family:BNasimBold;
-	src:url('../font/BNasimBold.woff') format('woff');
+	src:url('../font/BNasimBold.Woff') format('woff');
 }
 body
 {
@@ -29,7 +29,7 @@ div.head1
 	position:fixed;
 	background-color:#1a2930;
 	padding-right: 100%;
-	z-index: 2;
+	z-index: 1;
 }
 img.sec1img
 {
@@ -50,7 +50,7 @@ div.phonebox
 	position: absolute;
 	background-color: rgba(255,255,255,0.7);
 	margin-top: 9.4vw;
-	margin-left: 33vw;
+	margin-left: 34vw;
 	font-family: BMitra;
 	text-align: center;
 	padding-bottom: 13vw;
@@ -63,7 +63,7 @@ div.register
 {
 	color:white;
 	margin-top: 32vw;
-	margin-left: 42vw;
+	margin-left: 43vw;
 	cursor: pointer;
 	position: absolute;
 	font-size: 2vw;
@@ -100,11 +100,11 @@ div.box1
 {
 	opacity: 0.7;
 	position: absolute;
-	padding-top: 18.5vw;
-	padding-bottom: 18.5vw;
+	padding-top: 18.6vw;
+	padding-bottom: 18.4vw;
 	width: 100%;
 	background-color: white;
-	margin-top: 49.955vw;
+	margin-top: 49.99vw;
 }
 div.text2
 {
@@ -154,9 +154,8 @@ img.polygon1
 {
 	position: absolute;
 	height: 20vw;
-	margin-top: 106vw;
-	width: 106%;
-	margin-left: -3vw;
+	margin-top: 108vw;
+	width: 100%;
 }
 div.box2
 {
@@ -546,7 +545,7 @@ width: 14.5vw;
 	background: #f7ce3e;
 	text-align: center;
 	transition: all 0.5s linear ;
-
+	
 }
 .text11:hover::after
 {
@@ -582,7 +581,7 @@ height: 4vw;
 	background: #f7ce3e;
 	text-align: center;
 	transition: all 0.5s linear ;
-
+	
 }
 .text12:hover::after
 {
@@ -1602,7 +1601,7 @@ color: black;
 }
 .panel-container
 {
-
+	
 	height: 51vw;
 	width: 53vw;
 	background-color: #1a2930;
@@ -1624,7 +1623,7 @@ color: black;
 }
 .name
 {
-
+	
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
@@ -1655,7 +1654,7 @@ color: black;
 }
 .fname-container
 {
-
+	
 	font-family: BMitra;
 	font-size: 2.5vw;
 	position: absolute;
@@ -1709,7 +1708,7 @@ color: black;
 	top:27.5vw;
 	margin-left: 41vw;
 	font-size: 2.5vw;
-	color: white;
+	color: white;	
 	font-family: BMitra;
 }
 .submit
@@ -1742,11 +1741,11 @@ color: black;
 	margin-left: 2vw;
 	margin-top: 0.1vw;
 }
-@media only screen and (min-width:641px) and (max-width:700px )
+@media only screen and (min-width:640px) and (max-width:700px )
 {
 	.text11,.text12,.text13,div.phonebox,div.register
 	{
-	font-size: 2.2vw;
+	font-size: 2.4vw;
 	}
 	div.text41
 	{
@@ -1766,7 +1765,7 @@ p.paragraph1
 }
 p.about-us
 {
-  display: none;
+	
 	color: #f2f2f2;
 	font-family: BMitra;
 	font-size: 3.5vw;
@@ -1819,7 +1818,7 @@ div.denso-candle
 	margin-top: 146.4vw;
 	font-size: 2vw;
 	font-family: BMitra;
-	z-index: 1;
+	z-index: 0;
 	margin-left: 78.2vw;
 }
 div.nolabel-candle
@@ -1841,7 +1840,7 @@ div.price3
 	padding-left: 6.5vw;
 }
 div.rapido-candle
-{
+{	
 	margin-left: 36.5vw;
 }
 div.technice-transistor
@@ -1864,12 +1863,12 @@ div.price6
 }
 div.golden-lentlazer
 {
-
+	
 	margin-left: 38.6vw;
 }
 div.psr-lent
 {
-
+	
 	margin-left: 17.4vw;
 }
 div.price7
@@ -1922,62 +1921,212 @@ div.lavazem-carberator
 }
 @media only screen and (max-width:640px)
 {
+	div.pmszanjir
+	{
+
+	}
+		div.technice-transistor
+		{
+			margin-left: 16.6vw !important;
+		}
+		div.rapido-candle
+		{
+			margin-left: 33.8vw !important;
+		}
+		div.nolabel-candle
+		{
+			margin-left: 52.3vw !important;
+		}
+		div.roqan
+		{
+			margin-left: 74.6vw !important;
+		}
+		div.psrlent
+		{
+			margin-left: 55vw !important;
+		}
+		div.shamrapido
+		{
+
+	margin-left: 36.5vw !important;
+		}
+		div.shamdenso
+		{
+
+	margin-left: 14.6vw !important;
+		}
+		div.shamtgr
+		{
+
+	margin-left: 77vw !important;
+		}
+		div.safekelach
+		{
+			margin-left: 12vw !important; 
+		}
+		div.safekelach2
+		{
+			margin-left: 32.1vw !important;
+			font-size: 2.66vw !important;
+		}
+		div.safekelach3
+		{
+			margin-left: 52.3vw !important;
+			font-size: 2.4vw !important;
+		}
+		div.zanjirrapido
+		{
+			margin-left: 13vw !important;
+		}
+		div.sharzher
+		{
+			margin-left: 54.3vw !important;
+		}
+		div.sharzher2
+		{
+			margin-left: 75.5vw !important;
+		}
+		div.zanjirrapido2
+		{
+			margin-left: 14vw !important;
+		}
+		div.zanjir3
+		{
+			margin-left: 32.2vw !important;
+			font-size: 2.5vw !important;
+		}
+		div.zanjirracer
+		{
+			margin-left: 56vw !important;
+		}
+		div.zanjirracer
+		{
+			margin-left: 56.3vw !important;
+		}
+		div.yasazanjir
+		{
+			margin-left: 15.2vw !important;
+		}
+		div.bobinmabna
+		{
+			margin-left: 36.8vw !important;
+		}
+		div.noblebobin
+		{
+			margin-left: 56.3vw !important;
+		}
+		div.olampiazanjir
+		{
+			margin-left: 75vw !important;
+		}
+		div.tube
+		{
+			margin-left: 75vw !important;
+		}
 div.slideshow-bg
 {
 	background-color: #1a2930;
 	width: 100%;
-	height: 41vw;
+	height: 33vw;
 	position: absolute;
 	margin-top: 245vw;
 }
 img.img10,img.img11,img.img12,img.img13
 {
 
-	margin-top: 252vw;
+	margin-top: 247vw;
 	z-index: 1;
 	height: 28vw;
 }
 img.img10
 {
 
-	margin-left: 77vw;
+	margin-left: 72vw;
 }
 img.img11
 {
 
-	margin-left: 52.5vw;
+	margin-left: 52vw;
 }
 img.img12
 {
 
-	margin-left: 28vw;
+	margin-left: 32vw;
 }
 img.img13
 {
 
-	margin-left: 3.5vw;
+	margin-left: 12vw;
 }
 a.next2,a.prev2
 {
 
-	margin-top: 262vw;
+	margin-top: 248.6vw;
+	z-index: 1;
+	font-size: 4.4vw;
 }
 .price1
 {
+	margin-top: 247vw;
 
-	margin-top: 252vw;
 	margin-left: 77vw;
-	padding: 3.9vw;
+	
+	padding: 6.7vw;
+	
+			padding-right: 6.7vw;
+			padding-bottom: 6.7vw;
+			padding-left: 6.7vw;
+	
 	padding-bottom: 7.5vw;
+	
 	font-size: 4vw;
-	padding-left: 7vw;
-	padding-right: 7vw;
+	
+	padding-left: 5vw;
+	
+	padding-right: 5vw;
+}
+div.price4
+{
+
+	margin-left: 12vw;
+}
+div.price3
+{
+
+	margin-left: 31.8vw;
+	padding-left: 5.5vw;
+}
+div.price2
+{
+
+	padding: 5vw;
+	margin-left: 52vw;
+	padding-top: 6.4vw;
+}
+div.price16
+{
+	
+}
+div.price9
+{
+
+	padding: 5.5vw;
+	padding-top: 5.9vw;
+}
+div.price10
+{
+
+	padding: 5.5vw;
+	padding-right: 6.4vw;
+	padding-left: 6.4vw;
 }
 div.denso-candle
 {
 
-	margin-top: 274vw;
-	font-size: 3.8vw;
+	margin-top: 270vw;
+	font-size: 3vw;
+	z-index: 1;
+	margin-left: 75.6vw;
 }
 }
 .headcommon
@@ -1992,10 +2141,27 @@ line-height: 3.5vw;
 font-weight: normal;
 color: #f7ce3e;
 }
-@media only screen and (min-width:900px)
+@media only screen and (min-width:640px) and (max-width:750px)
 {
-	div.head1
-	{
+div.text2,div.text3,div.text4
+{
 
-	}
+	font-size: 2.3vw;
+	width: 16vw;
+}
+div.text4
+{
+	margin-left: 13vw;
+}
+div.text3
+{
+
+	margin-left: 41vw;
+}
+div.text2
+{
+
+	margin-left: 71vw;
+}
+
 }
