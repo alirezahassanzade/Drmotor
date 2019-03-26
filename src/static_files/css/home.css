@@ -184,21 +184,41 @@ margin-left: 62.5vw;
 height: 17.5vw;
 margin-top: 89.6vw;
 }
-div.box4
+div.rec1,div.rec2,div.rec3,div.rec4
 {
 	font-size: 2vw;
-margin-top: 88.6vw;
+margin-top: 94.6vw;
 position: absolute;
-font-family: BMitra;
-padding: 6vw;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-background-color: black;
+margin-left: 36vw;
+color: #f2f2f2;
+	width: 18vw;
+	z-index: 1;
+	font-family: BMitra;
+	text-align: center;
+}
+div.rec1
+{
+	display: unset;
+} 
+div.rec2,div.rec4
+{
+	
+	margin-top: 96vw;
+}
+div.rec5
+{
+	background-color: black;
 opacity: 0.4;
-padding-top: 8.5vw;
-padding-bottom: 8.5vw;
-margin-left: 32.8vw;
-color: white;
+	padding: 11vw;
+	padding-top: 9.5vw;
+padding-bottom: 10.4vw;
+margin-top: 88.6vw;
+	position: absolute;
+	margin-left: 34vw;
+}
+div.choose
+{
+	display: none;
 }
 div.box5{
 font-size: 1.8vw;
@@ -640,7 +660,7 @@ width: 14.5vw;
 { 
 	p.paragraph1
 	{
-		
+
 	}
 	div.price11
 	{

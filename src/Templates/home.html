@@ -65,12 +65,31 @@
 			<img class="mySlides" src="{% static 'img/2.jpg' %}" style="width:25.5vw">
 			<img class="mySlides" src="{% static 'img/3.jpg' %}" style="width:25.5vw">
 		</div>
-		<div class="box4">توضیح قسمت انتخابی</div>
-		<div class="box5">تعمیر فوری</div>
-		<div class="box6">برنامه تعمیر</div>
-		<div class="box7">فروشگاه</div>
-		<div class="box8">مجله موتور</div>
-
+		<div class="rec1 choose">اگه موتورت تو راه خراب شده ما در کمترین زمان برات درستش میکنیم </div>
+		<div class="rec2 choose" > میتونی برای تعمیر موتورت وقت قبلی تعیین کنی </div>
+		<div class="rec3 choose"></div>
+		<div class="rec4 choose"> به روز ترین اتفاقات موتور را بخوان </div>
+		<div class="rec5"></div>
+		<div class="box5" onclick="choice(0)">تعمیر فوری</div>
+		<div class="box6" onclick="choice(1)">برنامه تعمیر</div>
+		<div class="box7" onclick="choice(2)">فروشگاه</div>
+		<div class="box8" onclick="choice(3)">مجله موتور</div>
+		<script>
+		let toggle = document.querySelectorAll('.choose')
+		var l;
+		toggle[0].style.display = "unset"
+		function reset()
+		{
+			for(l=0 ; l < toggle.length ; l++)
+			toggle[l].style.display = 'none';
+		}
+		function choice(ch)
+		{
+			reset();
+			toggle[ch].style.display = 'unset'
+			
+		}
+		</script>
 
 		<div class="head1">
 			<img src="/static/img/shop_Artboard1_footer.png" alt="دکتر موتوری دکتر موتوری لوگو مکانیک قطعات موتور" class="motori-logo1">
