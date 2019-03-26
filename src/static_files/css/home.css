@@ -1,22 +1,22 @@
 @font-face
 {
 	font-family: BMitra;
-	src:url('../font/BMitra.Woff') format('woff');
+	src:url('../font/BMitra.woff') format('woff');
 }
 @font-face
 {
 	font-family:BMorvarid;
-	src:url('../font/BMorvarid.Woff') format('woff');
+	src:url('../font/BMorvarid.woff') format('woff');
 }
 @font-face
 {
 	font-family:BBardiya;
-	src:url('../font/BBardiya.Woff') format('woff');
+	src:url('../font/BBardiya.woff') format('woff');
 }
 @font-face
 {
 	font-family:BNasimBold;
-	src:url('../font/BNasimBold.Woff') format('woff');
+	src:url('../font/BNasimBold.woff') format('woff');
 }
 body
 {
@@ -545,7 +545,7 @@ width: 14.5vw;
 	background: #f7ce3e;
 	text-align: center;
 	transition: all 0.5s linear ;
-	
+
 }
 .text11:hover::after
 {
@@ -581,7 +581,7 @@ height: 4vw;
 	background: #f7ce3e;
 	text-align: center;
 	transition: all 0.5s linear ;
-	
+
 }
 .text12:hover::after
 {
@@ -1601,7 +1601,7 @@ color: black;
 }
 .panel-container
 {
-	
+
 	height: 51vw;
 	width: 53vw;
 	background-color: #1a2930;
@@ -1623,7 +1623,7 @@ color: black;
 }
 .name
 {
-	
+
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
@@ -1654,7 +1654,7 @@ color: black;
 }
 .fname-container
 {
-	
+
 	font-family: BMitra;
 	font-size: 2.5vw;
 	position: absolute;
@@ -1708,7 +1708,7 @@ color: black;
 	top:27.5vw;
 	margin-left: 41vw;
 	font-size: 2.5vw;
-	color: white;	
+	color: white;
 	font-family: BMitra;
 }
 .submit
@@ -1765,7 +1765,7 @@ p.paragraph1
 }
 p.about-us
 {
-	
+
 	color: #f2f2f2;
 	font-family: BMitra;
 	font-size: 3.5vw;
@@ -1840,7 +1840,7 @@ div.price3
 	padding-left: 6.5vw;
 }
 div.rapido-candle
-{	
+{
 	margin-left: 36.5vw;
 }
 div.technice-transistor
@@ -1863,12 +1863,12 @@ div.price6
 }
 div.golden-lentlazer
 {
-	
+
 	margin-left: 38.6vw;
 }
 div.psr-lent
 {
-	
+
 	margin-left: 17.4vw;
 }
 div.price7

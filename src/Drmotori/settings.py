@@ -13,7 +13,12 @@ SECRET_KEY = 'xfhw!v8rsh&g7-g+6p&6l%1=j60rq)!*ero5se8v*05y_ue#8_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'drmotori.com',
+    'drmotori.ir'
+    'drmotori.*'
+]
 
 
 # Application definition
