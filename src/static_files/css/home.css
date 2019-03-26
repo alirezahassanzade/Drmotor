@@ -637,7 +637,20 @@ width: 14.5vw;
 	width:14.5vw;
 }
 @media only screen and (max-width: 640px)
-{
+{ 
+	p.paragraph1
+	{
+		
+	}
+	div.price11
+	{
+
+	}
+	div.roqan2
+	{
+		
+	margin-left: 52vw !important;
+	}
 	div.all
 	{
 		display: none;
@@ -1413,7 +1426,7 @@ height: 32vw;
 
 background-color: #0a1612;
 
-margin-top: 40vw;
+margin-top: 32vw;
 
 z-index: -1;
 }
@@ -1422,7 +1435,7 @@ div.box25
 	background-color: #1a2930;
 width: 100%;
 height: 75vw;
-margin-top: 71.5vw;
+margin-top: 63.5vw;
 z-index: -2;
 }
 div.box26
@@ -1899,8 +1912,8 @@ div.price14
 }
 div.price15{
 
-	padding-right: 6vw;
-	padding-left: 6vw;
+	padding-right: 3.5vw !important;
+	padding-left: 5vw !important;
 }
 div.price13
 {
@@ -1924,6 +1937,7 @@ div.lavazem-carberator
 	div.pmszanjir
 	{
 
+	margin-left: 76vw !important;
 	}
 		div.technice-transistor
 		{
@@ -1935,7 +1949,7 @@ div.lavazem-carberator
 		}
 		div.nolabel-candle
 		{
-			margin-left: 52.3vw !important;
+			margin-left: 54vw !important;
 		}
 		div.roqan
 		{
@@ -2071,7 +2085,7 @@ a.next2,a.prev2
 
 	margin-left: 77vw;
 	
-	padding: 6.7vw;
+	padding: 6.8vw;
 	
 			padding-right: 6.7vw;
 			padding-bottom: 6.7vw;
@@ -2106,6 +2120,9 @@ div.price2
 div.price16
 {
 	
+	padding: 5.8vw;
+	padding-left: 5vw;
+	padding-right: 5vw !important;
 }
 div.price9
 {
@@ -2116,8 +2133,8 @@ div.price9
 div.price10
 {
 
-	padding: 5.5vw;
-	padding-right: 6.4vw;
+	padding: 5.8vw;
+	padding-right: 6.3vw;
 	padding-left: 6.4vw;
 }
 div.denso-candle
