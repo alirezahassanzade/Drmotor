@@ -202,7 +202,7 @@ div.rec1
 } 
 div.rec2,div.rec4
 {
-	
+
 	margin-top: 96vw;
 }
 div.rec5
@@ -658,13 +658,10 @@ width: 14.5vw;
 }
 @media only screen and (max-width: 640px)
 { 
-	p.paragraph1
+	div.text40
 	{
-
-	}
-	div.price11
-	{
-
+		
+	margin-top: -0.5vw !important;
 	}
 	div.roqan2
 	{
