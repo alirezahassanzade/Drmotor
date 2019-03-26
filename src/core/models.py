@@ -95,14 +95,14 @@ class Good(models.Model):
 
 class Request(models.Model):
     # StartDate will automatically set when an instance is created
-    StartDate = models.DateTimeField(auto_now=False, auto_now_add=True)
-    EndDate = models.DateTimeField(auto_now=False, auto_now_add=True)
+    StartDate = models.DateTimeField(auto_now=False, auto_now_add=True, blank=True, null=True)
+    EndDate = models.DateTimeField(auto_now=False, auto_now_add=True, blank=True, null=True)
     Description = models.TextField()
     # Maximum amount of wallet is 10^9 + 3 decimal places
-    TotalPrice = models.DecimalField(max_digits=13, decimal_places=3)
-    Address = models.ForeignKey(Address, on_delete=models.SET_NULL, null=True)
-    Mechanic = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
-    Motor = models.ForeignKey(Motor, on_delete=models.SET_NULL, null=True)
+    TotalPrice = models.DecimalField(max_digits=13, decimal_places=3, blank=True, null=True)
+    Address = models.ForeignKey(Address, on_delete=models.SET_NULL, null=True, blank=True)
+    Mechanic = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
+    Motor = models.ForeignKey(Motor, on_delete=models.SET_NULL, null=True, blank=True)
 
 
 class RequestGood(models.Model):

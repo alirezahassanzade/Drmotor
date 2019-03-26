@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 from .forms import LoginForm, SignupForm, HomeRquestForm
 
-from .models import Good, User
+from .models import Good, User, Request
 from .util import get_first_good_pic, string_to_md5
 
 
@@ -12,9 +12,14 @@ def home_view(request):
         'request_form': request_form,
     }
     if request_form.is_valid():
-        # Get form arguments & check them
-        # Submit the form
-        pass
+        first_name = request_form.cleaned_data.get('first_name')
+        last_name = request_form.cleaned_data.get('last_name')
+        phone_number = request_form.cleaned_data.get('phone_number')
+        description = request_form.cleaned_data.get('description')
+        if first_name and last_name and phone_number and description:
+            request = Request()
+            request.Description = f'{first_name} {last_name}\n{phone_number}\n{description}'
+            request.save()
     return render(request, 'home.html', context)
 
 
