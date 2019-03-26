@@ -3,7 +3,7 @@ from django.shortcuts import render
 from .forms import LoginForm, SignupForm, HomeRquestForm
 
 from .models import Good, User, Request
-from .util import get_first_good_pic, string_to_md5
+from .util import get_first_good_pic, string_to_md5, send_mail
 
 
 def home_view(request):
@@ -17,9 +17,11 @@ def home_view(request):
         phone_number = request_form.cleaned_data.get('phone_number')
         description = request_form.cleaned_data.get('description')
         if first_name and last_name and phone_number and description:
-            request = Request()
-            request.Description = f'{first_name} {last_name}\n{phone_number}\n{description}'
-            request.save()
+            obj_request = Request()
+            details = f'{first_name} {last_name}\n{phone_number}\n{description}'
+            obj_request.Description = details
+            send_mail(details)
+            obj_request.save()
     return render(request, 'home.html', context)
 
 
