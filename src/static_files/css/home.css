@@ -662,7 +662,7 @@ width: 14.5vw;
 {
 	position: absolute;
 	height: 7.5vw;
-	margin-top: 3vw;
+	margin-top: 1vw;
 	margin-left: 4vw;
 }
 img.mobile-footer-logo
@@ -696,7 +696,7 @@ img.mobile-footer-logo
 
 div.header2
 {
-height:11vw;
+height:9vw;
 position: fixed;
 background-color: #1a2930;
 padding-right: 100%;
