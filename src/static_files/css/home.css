@@ -671,7 +671,7 @@ img.mobile-footer-logo
 	height: 23vw;
 	position: absolute;
 	width: 31vw;
-	margin-top: -1.54vw;
+	margin-top: 0.8vw;
 	margin-left: 3vw;
 }
 	div.text40
@@ -2223,9 +2223,9 @@ div.text2
 img.motori-logo2
 {
 
-	height: 23vw;
+	height: 20vw;
 	position: absolute;
-	width: 31vw;
-	margin-top: 188.46vw;
+	width: 26vw;
+	margin-top: 191.3vw;
 	margin-left: -2vw;
 }
