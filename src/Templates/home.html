@@ -74,23 +74,6 @@
 		<div class="box6" onclick="choice(1)">برنامه تعمیر</div>
 		<div class="box7" onclick="choice(2)">فروشگاه</div>
 		<div class="box8" onclick="choice(3)">مجله موتور</div>
-		<script>
-		let toggle = document.querySelectorAll('.choose')
-		var l;
-		toggle[0].style.display = "unset"
-		function reset()
-		{
-			for(l=0 ; l < toggle.length ; l++)
-			toggle[l].style.display = 'none';
-		}
-		function choice(ch)
-		{
-			reset();
-			toggle[ch].style.display = 'unset'
-			
-		}
-		</script>
-
 		<div class="head1">
 			<img src="/static/img/shop_Artboard1_footer.png" alt="دکتر موتوری دکتر موتوری لوگو مکانیک قطعات موتور" class="motori-logo1">
 			<h1 class="headcommon">
@@ -410,7 +393,24 @@
 		}
 
 	</script>
+			<script>
+					let toggle = document.querySelectorAll('.choose')
+					var l;
+					toggle[0].style.display = "unset"
+					function reset()
+					{
+						for(l=0 ; l < toggle.length ; l++)
+						toggle[l].style.display = 'none';
+					}
+					function choice(ch)
+					{
+						reset();
+						toggle[ch].style.display = 'unset'
+						
+					}
+					</script>
 	<script>
+
 	// Get the modal
 	var modal21 = document.getElementById('myModal20');
 
