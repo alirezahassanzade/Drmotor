@@ -535,7 +535,7 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 192.2vw;
+margin-top: 195vw;
 margin-left: 82vw;
 }
 div.text9
@@ -547,7 +547,7 @@ direction: rtl;
 font-family: BBardiya;
 letter-spacing: 0.03vw;
 line-height: 4.5vw;
-margin-top: 192.2vw;
+margin-top: 195.2vw;
 margin-left: 62vw;
 
 }
@@ -658,11 +658,26 @@ width: 14.5vw;
 }
 @media only screen and (max-width: 640px)
 { 
+	img.mobile-header-logo
+{
+	position: absolute;
+	height: 7.5vw;
+	margin-top: 3vw;
+	margin-left: 4vw;
+}
+img.mobile-footer-logo
+{
 
+	height: 23vw;
+	position: absolute;
+	width: 31vw;
+	margin-top: -1.54vw;
+	margin-left: 3vw;
+}
 	div.text40
 	{
 		
-	margin-top: -0.5vw !important;
+	margin-top: 6vw !important;
 	}
 	div.text41
 	{
@@ -2204,4 +2219,13 @@ div.text2
 	margin-left: 71vw;
 }
 
+}
+img.motori-logo2
+{
+
+	height: 23vw;
+	position: absolute;
+	width: 31vw;
+	margin-top: 188.46vw;
+	margin-left: -2vw;
 }
