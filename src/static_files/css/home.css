@@ -1,22 +1,22 @@
 @font-face
 {
 	font-family: BMitra;
-	src:url('../font/BMitra.Woff') format('woff');
+	src:url('../font/BMitra.woff') format('woff');
 }
 @font-face
 {
 	font-family:BMorvarid;
-	src:url('../font/BMorvarid.Woff') format('woff');
+	src:url('../font/BMorvarid.woff') format('woff');
 }
 @font-face
 {
 	font-family:BBardiya;
-	src:url('../font/BBardiya.Woff') format('woff');
+	src:url('../font/BBardiya.woff') format('woff');
 }
 @font-face
 {
 	font-family:BNasimBold;
-	src:url('../font/BNasimBold.Woff') format('woff');
+	src:url('../font/BNasimBold.woff') format('woff');
 }
 body
 {
@@ -199,7 +199,7 @@ color: #f2f2f2;
 div.rec1
 {
 	display: unset;
-} 
+}
 div.rec2,div.rec4
 {
 
@@ -565,7 +565,7 @@ width: 14.5vw;
 	background: #f7ce3e;
 	text-align: center;
 	transition: all 0.5s linear ;
-	
+
 }
 .text11:hover::after
 {
@@ -601,7 +601,7 @@ height: 4vw;
 	background: #f7ce3e;
 	text-align: center;
 	transition: all 0.5s linear ;
-	
+
 }
 .text12:hover::after
 {
@@ -657,7 +657,7 @@ width: 14.5vw;
 	width:14.5vw;
 }
 @media only screen and (max-width: 640px)
-{ 
+{
 	img.mobile-header-logo
 {
 	position: absolute;
@@ -676,17 +676,17 @@ img.mobile-footer-logo
 }
 	div.text40
 	{
-		
+
 	margin-top: 6vw !important;
 	}
 	div.text41
 	{
-		
+
 	margin-top: -69vw !important;
 	}
 	div.roqan2
 	{
-		
+
 	margin-left: 52vw !important;
 	}
 	div.all
@@ -1674,7 +1674,7 @@ color: black;
 }
 .name
 {
-	
+
 	width: 94%;
 	border-radius: 0.2vw;
 	border: none;
@@ -1705,7 +1705,7 @@ color: black;
 }
 .fname-container
 {
-	
+
 	font-family: BMitra;
 	font-size: 2.1vw;
 	position: absolute;
@@ -1816,7 +1816,7 @@ p.paragraph1
 }
 p.about-us
 {
-	
+
 	color: #f2f2f2;
 	font-family: BMitra;
 	font-size: 3.6vw;
@@ -1891,7 +1891,7 @@ div.price3
 	padding-left: 6.5vw;
 }
 div.rapido-candle
-{	
+{
 	margin-left: 36.5vw;
 }
 div.technice-transistor
@@ -1914,12 +1914,12 @@ div.price6
 }
 div.golden-lentlazer
 {
-	
+
 	margin-left: 38.6vw;
 }
 div.psr-lent
 {
-	
+
 	margin-left: 17.4vw;
 }
 div.price7
@@ -2014,7 +2014,7 @@ div.lavazem-carberator
 		}
 		div.safekelach
 		{
-			margin-left: 12vw !important; 
+			margin-left: 12vw !important;
 		}
 		div.safekelach2
 		{
@@ -2122,19 +2122,19 @@ a.next2,a.prev2
 	margin-top: 247vw;
 
 	margin-left: 77vw;
-	
+
 	padding: 6.8vw;
-	
+
 			padding-right: 6.7vw;
 			padding-bottom: 6.7vw;
 			padding-left: 6.7vw;
-	
+
 	padding-bottom: 7.5vw;
-	
+
 	font-size: 4vw;
-	
+
 	padding-left: 5vw;
-	
+
 	padding-right: 5vw;
 }
 div.price4
@@ -2157,7 +2157,7 @@ div.price2
 }
 div.price16
 {
-	
+
 	padding: 5.8vw;
 	padding-left: 5vw;
 	padding-right: 5vw !important;
