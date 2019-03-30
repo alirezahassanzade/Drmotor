@@ -1653,7 +1653,7 @@ color: black;
 .panel-container
 {
 	
-	height: 51vw;
+	height: 49vw;
 	width: 53vw;
 	background-color: #1a2930;
 	margin-left: 22vw;
@@ -1666,9 +1666,9 @@ color: black;
 {
 
 	position: absolute;
-	margin-left: 46vw;
-	top:4vw;
-	font-size: 2.5vw;
+	margin-left: 47vw;
+	top:4.8vw;
+	font-size: 2.1vw;
 	color: white;
 	font-family: BMitra;
 }
@@ -1680,10 +1680,10 @@ color: black;
 	border: none;
 	position: absolute;
 	top:8vw;
-	height: 3vw;
+	height: 2.5vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	direction: rtl;
 	color: #0a1612;
 	text-align: top;
@@ -1694,11 +1694,11 @@ color: black;
     border-radius: 0.2vw;
     border: none;
 		position: absolute;
-		top:16vw;
-    height: 3vw;
+		top:15vw;
+    height: 2.5vw;
     margin-left: 1.6vw;
     background-color: #c0c3c2;
-    font-size: 2.3vw;
+    font-size: 1.9vw;
     direction: rtl;
     color: #0a1612;
 
@@ -1707,11 +1707,11 @@ color: black;
 {
 	
 	font-family: BMitra;
-	font-size: 2.5vw;
+	font-size: 2.1vw;
 	position: absolute;
-	top:12vw;
+	top:11.8vw;
 	color: #f2f2f2;
-	margin-left: 39.5vw;
+	margin-left: 41.5vw;
 }
 .phonenumber
 {
@@ -1720,11 +1720,11 @@ color: black;
 	border-radius: 0.2vw;
 	border: none;
 	position: absolute;
-	top:24vw;
-	height: 3vw;
+	top:21.7vw;
+	height: 2.5vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
-	font-size: 2.8vw;
+	font-size: 1.9vw;
 	direction: rtl;
 	color: #0a1612;
 	font-family: BMitra;
@@ -1732,12 +1732,12 @@ color: black;
 .phonenumber-container
 {
 	position: absolute;
-	top: 16vw;
+	top: 15vw;
 	font-family: BMitra;
-	font-size: 2.5vw;
+	font-size: 2.1vw;
 	margin-top: 3.6vw;
 	color: #f2f2f2;
-	margin-left: 40.3vw;
+	margin-left: 42.3vw;
 }
 .explanation
 {
@@ -1745,20 +1745,20 @@ color: black;
 	border-radius: 0.2vw;
 	border: none;
 	position: absolute;
-	top: 32vw;
+	top: 28.7vw;
 	margin-left: 1.6vw;
 	background-color: #c0c3c2;
 	font-size: 2vw;
 	direction: rtl;
 	color: #0a1612;
-	padding-bottom: 8vw;
+	padding-bottom: 11vw;
 }
 .explain
 {
 	position: absolute;
-	top:27.5vw;
-	margin-left: 41vw;
-	font-size: 2.5vw;
+	top:25.5vw;
+	margin-left: 43vw;
+	font-size: 2.1vw;
 	color: white;	
 	font-family: BMitra;
 }
@@ -1769,12 +1769,12 @@ color: black;
 	border-radius: 0.3vw;
 	color: black;
 	background-color: #f7ce3e;
-	font-size: 2.5vw;
+	font-size: 2.1vw;
 	font-family: BMitra;
 	margin-left: 1.5vw;
 	cursor: pointer;
 	position: absolute;
-	top:44vw;
+	top:43.2vw;
 }
 .close4
 {
