@@ -49,20 +49,20 @@ div.phonebox
 	padding: 9vw;
 	position: absolute;
 	background-color: rgba(255,255,255,0.7);
-	margin-top: 9.4vw;
+	margin-top: 12vw;
 	margin-left: 34vw;
 	font-family: BMitra;
 	text-align: center;
 	padding-bottom: 13vw;
 	border-radius: 0.7vw;
 	font-size: 2vw;
-	line-height: 3.2vw;
+	line-height: 2.7vw;
 	padding-top: 7vw;
 }
 div.register
 {
 	color:white;
-	margin-top: 32vw;
+	margin-top: 33vw;
 	margin-left: 43vw;
 	cursor: pointer;
 	position: absolute;
@@ -344,7 +344,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   background-color:#1a2930;
   position: relative;
   margin: auto;
-  margin-left: -0.8vw;
+  margin-left: -1.5vw;
 }
 
 /* Next & previous buttons */
@@ -364,11 +364,12 @@ body {font-family: Verdana, sans-serif; margin:0}
   background-color: rgba(0,0,0,0.8);
   padding-top: 10vw;
   padding-bottom: 10vw;
+  margin-left: 1vw;
 }
 
 /* Position the "next button" to the right */
 .next2 {
-  right: -0.8vw;
+  right: -1.5vw;
   border-radius: 3px 0 0 3px;
 }
 
@@ -658,6 +659,11 @@ width: 14.5vw;
 }
 @media only screen and (max-width: 640px)
 {
+	div.price15
+	{
+
+	}
+
 	img.mobile-header-logo
 {
 	position: absolute;
@@ -1831,7 +1837,7 @@ div.price9
 
 	padding: 5.37vw;
 	margin-left: 72vw;
-	padding-right: 7vw;
+	padding-right: 7.05vw;
 	padding-left: 7vw;
 }
 div.price10
@@ -1936,7 +1942,8 @@ div.speedy-oil
 }
 div.price11
 {
-	padding-left: 3.5vw !important;
+	padding-left: 6vw !important;
+	padding-right: 6vw !important;
 }
 div.price8
 {
@@ -1950,8 +1957,8 @@ div.price14
 }
 div.price15{
 
-	padding-right: 3.5vw !important;
-	padding-left: 5vw !important;
+	padding-right: 6vw !important;
+	padding-left: 6vw !important;
 }
 div.price13
 {
@@ -2075,6 +2082,28 @@ div.lavazem-carberator
 		{
 			margin-left: 75vw !important;
 		}
+		div.price17
+		{
+	
+	padding-right: 4vw !important;
+	padding-left: 4.5vw !important;
+		}
+		div.price18
+		{
+
+	padding-right: 4vw !important;
+	padding-left: 4.6vw !important;
+		}
+		div.slideshow-container2
+		{
+
+	margin-left: 0vw;
+		}
+		.next2
+		{
+
+	right: 0vw !important;
+		}
 div.slideshow-bg
 {
 	background-color: #1a2930;
@@ -2116,6 +2145,7 @@ a.next2,a.prev2
 	margin-top: 248.6vw;
 	z-index: 1;
 	font-size: 4.4vw;
+	margin-left: 0.3vw;
 }
 .price1
 {
