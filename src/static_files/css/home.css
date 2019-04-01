@@ -413,7 +413,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 
 img.imgII{position: absolute;
-margin-top: 129.5vw;
+margin-top: 256.5vw !important;
 }
 img.img10{
 margin-left: 72vw;
@@ -1215,7 +1215,7 @@ div.head1
 @media only screen and (min-width: 641px)
 {
 
-	div.box25
+	div.box25,div.box20
 	{
 		display: none;
 	}
@@ -1327,24 +1327,25 @@ font-family: BMitra;
 }
 img.img18
 {
-	z-index: -1;
+	z-index: 0;
 	width: 100%;
-height: 66vw;
+height: 77vw;
 position: absolute;
 margin-top: 82vw;
 }
 div.text26
 {
-z-index: -1;
-padding: 19vw;
+z-index: 0;
+padding: 27vw;
     padding-top: 19vw;
 padding-top: 19vw;
 position: absolute;
 background-color: white;
-margin-top: 86vw;
+margin-top: 82vw;
 opacity: 0.4;
-padding-top: 39vw;
-margin-left: 55vw;
+padding-top: 50vw;
+margin-left: 0vw;
+width: 100%;
 }
 div.text27
 {
@@ -1356,23 +1357,24 @@ font-size: 3.5vw;
 
 font-family: BBardiya;
 
-margin-top: 88vw;
+margin-top: 83vw;
 
-margin-left: 72vw;
+margin-left: 79.5vw;
 }
 input.text28
 {
-width: 26vw;
+width: 92vw;
 z-index: 0;
 height: 5vw;
-margin-top: 95vw;
+margin-top: 89vw;
 position: absolute;
 background-color: #c4c7c8;
 border: none;
-margin-left: 61vw;
+margin-left: 4vw;
 font-family: BMitra;
 font-size: 3.5vw;
 letter-spacing: 0.3vw;
+border-radius: 0.5vw;
 }
 div.text29
 {
@@ -1381,12 +1383,12 @@ width: 13vw;
 z-index:0;
 font-size: 3.5vw;
 font-family: BBardiya;
-margin-top: 101vw;
-margin-left: 82.5vw;
+margin-top: 95.5vw;
+margin-left: 89.5vw;
 }
 input.text30
 {
-margin-top: 109vw;
+margin-top: 101.5vw;
 z-index: 0;
 font-family: BMitra;
 font-size: 3.5vw;
@@ -1395,16 +1397,16 @@ direction: rtl;
 }
 div.text31
 {
-margin-top: 115vw;
+margin-top: 108vw;
 z-index: 0;
-margin-left: 73vw;
+margin-left: 80vw;
 }
 input.text32
 {
 z-index: 0;
 font-size: 3vw;
 direction: rtl;
-margin-top: 123vw;
+margin-top: 114vw;
 }
 div.text33
 {
@@ -1424,7 +1426,7 @@ img.img20
 {
 	height: 97vw;
 width: 100%;
-margin-top: 148vw;
+margin-top: 157vw;
 }
 div.text34
 {
@@ -1584,9 +1586,9 @@ cursor: pointer;
 
 position: absolute;
 
-margin-top: 134vw;
+margin-top: 150.5vw;
 
-margin-left: 64.5vw;
+margin-left: 36.5vw;
 
 font-size: 3.5vw;
 
@@ -1979,6 +1981,20 @@ div.lavazem-carberator
 }
 @media only screen and (max-width:640px)
 {
+div.text51
+{
+
+	margin-top: 120vw;
+	margin-left: 82.8vw;
+}
+	input.text50
+	{
+		
+	margin-top: 126vw;
+	padding-bottom: 20vw;
+	font-size: 3vw;
+	padding-top: 2.5vw;
+	}
 	div.pmszanjir
 	{
 
@@ -2098,6 +2114,7 @@ div.lavazem-carberator
 		{
 
 	margin-left: 0vw;
+	margin-top: 0vw;
 		}
 		.next2
 		{
@@ -2110,7 +2127,7 @@ div.slideshow-bg
 	width: 100%;
 	height: 33vw;
 	position: absolute;
-	margin-top: 245vw;
+	margin-top: 254vw;
 }
 img.img10,img.img11,img.img12,img.img13
 {
@@ -2142,14 +2159,14 @@ img.img13
 a.next2,a.prev2
 {
 
-	margin-top: 248.6vw;
+	margin-top: 257.6vw;
 	z-index: 1;
 	font-size: 4.4vw;
 	margin-left: 0.3vw;
 }
 .price1
 {
-	margin-top: 247vw;
+	margin-top: 256.5vw;
 
 	margin-left: 77vw;
 
@@ -2208,7 +2225,7 @@ div.price10
 div.denso-candle
 {
 
-	margin-top: 270vw;
+	margin-top: 279.8vw;
 	font-size: 3vw;
 	z-index: 1;
 	margin-left: 75.6vw;
