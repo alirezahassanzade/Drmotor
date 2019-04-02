@@ -19,7 +19,7 @@ img.motori-bg
 div.header
 {
 width: 100%;
-height: 6vw;
+height: 3.5vw;
 	background-color: #1a2930;
 	position:fixed;
 	margin-top: -124.2vw;
@@ -98,7 +98,7 @@ i.cart
 {
 
 	width: 10%;
-	margin-left: 23vw;
+	margin-left: 25vw;
 	position: absolute;
 	color:#f7ce3e;
 }
@@ -117,8 +117,8 @@ i.cart
 
 i.cart
 {
-		margin-top: 0.5%;
-	font-size:5.5vw;
+		margin-top: 0;
+	font-size:3.5vw;
 }
 }
 div.yourmechanics3
@@ -166,11 +166,10 @@ label.check
 img.polygon
 {
 
-	width: 2.5vw;
-	height: 2.5vw;
-	margin-left: 27.5vw;
+	width: 1.5vw;
+	height: 1.5vw;
+	margin-left: 28vw;
 	position: absolute;
-	margin-top: 0.5%;
 }
 }
 img.foroshgah
@@ -375,14 +374,14 @@ div.modal-content
 {
 	color: #f7ce3e;
 	background-color: #1a2930;
-	margin-top: 0.2vw;
-	margin-left: 43vw;
-	font-size: 2.1vw;
+	margin-top: 0.21vw;
+	margin-left: 45vw;
+	font-size: 2vw !important;
 	font-family: BBardiya;
 	width: 11.8vw;
-	height: 5.5vw;
+	height: 3vw;
 	text-align: center;
-	line-height: 5.5vw;
+	line-height: 0.3vw;
 	cursor: pointer;
 	border-radius: 0.4vw;
 	position: absolute;
@@ -825,7 +824,7 @@ div.checkbox2
     margin-left: 4.5vw;
     font-family: BMitra;
     position: absolute;
-    z-index: 3;
+    z-index: 0;
     margin-top: 15vw;
     color: #3a3c3a;
     font-family: BMitra;
@@ -2265,33 +2264,77 @@ a.header-text-1
 {
 	color: #f7ce3e;
 	background-color: #1a2930;
-	margin-top: 0.2vw;
-	margin-left: 85vw;
-	font-size: 2.1vw;
+	margin-left: 86vw;
+	font-size: 1.8vw !important;
 	font-family: BBardiya;
-	width: 11.8vw;
-	height: 5.5vw;
+	width: 12.5vw;
+	height: 3.3vw;
 	text-align: center;
-	line-height: 5.5vw;
+	line-height: 3.3vw;
 	cursor: pointer;
-	border-radius: 0.4vw;
 	position: absolute;
+	-webkit-transition: background 1s;
 }
 a.header-text-1:hover
 {
 	color: #1a2930;
 background-color: #f7ce3e;
-width: 13vw;
 text-align: center;
 transition: all linear 0.5s;
 }
+a.header-text-1:hover::after
+{
+	color: #f7ce3e;
+	background-color: #f2f2f2;
+	transition: all linear 0.5s;
+}
+a.header-text-1::after
+{
+	content: '';
+	display: block;
+	width: 0;
+	height:0.3vw;
+	background: #f7ce3e;
+	transition: width .7s;
+}
+a.header-text-1:hover::after
+{
+	width:12.5vw;
+}
+@media only screen and (min-width:641px) and (max-width:761px)
+{
+	button.loginap
+	{
+		
+	margin-left: 47vw;
+	}
+	a.header-text-1
+	{
+	font-size: 2vw !important;
+	margin-left: 87.5vw;
+	}
+	a.header-text-2
+	{
+	font-size: 2vw !important;
+	margin-left: 75vw !important;
+	}
+	a.header-text-3
+	{
+	font-size: 2vw !important;
+	margin-left: 62.5vw !important;
+	}
+}
+div.header-text-4
+{
+	
+}
 a.header-text-2
 {
-	margin-left: 71vw;
+	margin-left: 73.5vw;
 }
 a.header-text-3
 {
-	margin-left: 57vw;
+	margin-left: 61vw;
 }
 .item1
 {
