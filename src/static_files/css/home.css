@@ -659,17 +659,19 @@ width: 14.5vw;
 }
 @media only screen and (max-width: 640px)
 {
-div.phonenumber-container
+	div.text4
+	{
+		
+	}
+img.motori-logo1
 {
-
-}
-
-	img.mobile-header-logo
-{
-	position: absolute;
-	height: 7.5vw;
-	margin-top: 1vw;
+	
+	position: fixed;
+	height: 8vw;
+	margin-top: 0.5vw;
 	margin-left: 4vw;
+	z-index: 3;
+	width: 32vw;
 }
 img.mobile-footer-logo
 {
@@ -1795,10 +1797,11 @@ color: black;
 }
 .motori-logo1
 {
-	position: absolute;
+	position: fixed;
 	width: 14vw;
 	margin-left: 2vw;
 	margin-top: 0.1vw;
+	z-index: 2;
 }
 @media only screen and (min-width:641px) and (max-width:700px )
 {
