@@ -413,7 +413,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 }
 
 img.imgII{position: absolute;
-margin-top: 256.5vw !important;
+margin-top: 129.5vw !important;
 }
 img.img10{
 margin-left: 72vw;
@@ -659,10 +659,10 @@ width: 14.5vw;
 }
 @media only screen and (max-width: 640px)
 {
-	div.price15
-	{
+div.phonenumber-container
+{
 
-	}
+}
 
 	img.mobile-header-logo
 {
@@ -1981,6 +1981,11 @@ div.lavazem-carberator
 }
 @media only screen and (max-width:640px)
 {
+	img.imgII
+	{
+		
+	margin-top: 256.5vw !important;
+	}
 div.text51
 {
 
