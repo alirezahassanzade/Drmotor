@@ -22,7 +22,7 @@ width: 100%;
 height: 3.5vw;
 	background-color: #1a2930;
 	position:fixed;
-	margin-top: -124.2vw;
+	margin-top: -118.2vw;
 z-index: 0;
 }
 @media only screen and (max-width:640px)
@@ -85,7 +85,7 @@ div.all > div.header >div.header2> div.yourmechanics
 div.ym
 {
 	background-color: #f7ce3e;
-	height: 33vw;
+	height: 27vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -98,7 +98,7 @@ i.cart
 {
 
 	width: 10%;
-	margin-left: 25vw;
+	margin-left: 19vw;
 	position: absolute;
 	color:#f7ce3e;
 }
@@ -168,7 +168,7 @@ img.polygon
 
 	width: 1.5vw;
 	height: 1.5vw;
-	margin-left: 28vw;
+	margin-left: 22vw;
 	position: absolute;
 }
 }
@@ -185,7 +185,7 @@ img.foroshgah
 	{
 		width: 29vw;
 		height:8vw;
-		margin-top: 12vw;
+		margin-top: 6vw;
 		margin-left: 8vw;
 	}
 }
@@ -257,7 +257,7 @@ img.motori
 	{
 		width: 23vw;
 		height: 17vw;
-		margin-top: 16vw;
+		margin-top: 10vw;
 		margin-left: 32vw;
 	}
 }
@@ -294,7 +294,7 @@ text-align: center;
 margin-left: 10vw;
 border-radius: 20px;
 	font-family: BMitra;
-	font-size:2vw;
+	font-size:1.8vw;
 	font-weight: bolder;
 	height: 2vw;
 }
