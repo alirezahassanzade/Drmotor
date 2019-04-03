@@ -196,8 +196,8 @@ img.foroshgah
 {
 	img.foroshgah
 	{
-		width: 29vw;
-		height:8vw;
+		width: 22vw;
+		height:6vw;
 		margin-top: 5vw;
 		margin-left: 8vw;
 	}
@@ -268,10 +268,10 @@ img.motori
 {
 	img.motor
 	{
-		width: 23vw;
-		height: 17vw;
-		margin-top: 6.1vw;
-		margin-left: 32vw;
+		width: 19vw;
+		height: 14vw;
+		margin-top: 9.1vw;
+		margin-left: 37vw;
 	}
 }
 div.header3
@@ -307,7 +307,7 @@ text-align: center;
 margin-left: 10vw;
 border-radius: 20px;
 	font-family: BMitra;
-	font-size:1.8vw;
+	font-size:1.5vw;
 	font-weight: bolder;
 	height: 1.8vw;
 }
