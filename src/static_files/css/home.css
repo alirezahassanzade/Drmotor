@@ -18,6 +18,12 @@
 	font-family:BNasimBold;
 	src:url('../font/BNasimBold.woff') format('woff');
 }
+h1.text52
+{
+
+	margin-left: 50.5vw !important;
+	margin-top: -4.5vw !important;
+}
 body
 {
 	margin: 0vw;

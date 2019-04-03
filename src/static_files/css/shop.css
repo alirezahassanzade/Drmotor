@@ -388,7 +388,7 @@ div.modal-content
 	color: #f7ce3e;
 	background-color: #1a2930;
 	margin-top: 0.21vw;
-	margin-left: 45vw;
+	margin-left: 34vw;
 	font-size: 2vw !important;
 	font-family: BBardiya;
 	width: 11.8vw;
@@ -762,6 +762,7 @@ div.content > img.motor-logo
 	cursor: pointer;
 	padding-left: 1vw;
 	z-index: 2;
+	opacity: 0;
 }
 div.content > div.box1
 {
@@ -2502,4 +2503,9 @@ div.box6
 	background-color: #3a3838;
 	margin-top: 25vw;
 	margin-left: 2vw;
+}
+a.header-text-5
+{
+	
+	margin-left: 48.5vw;
 }
