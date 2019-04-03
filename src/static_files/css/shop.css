@@ -563,8 +563,8 @@ div.header4 > div.slideshow-container > a.prev, a.next {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 2.5vw;
-  margin-top: -6vw;
+  padding: 1.5vw;
+  margin-top: 3.8vw;
   color: white;
   font-weight: bold;
   font-size: 3.5vw;
@@ -572,8 +572,8 @@ div.header4 > div.slideshow-container > a.prev, a.next {
   border-radius: 0 0.3vw 0.3vw 0;
   z-index: 0;
   background-color: rgba(0,0,0,0.8);
-  padding-top: 12.7vw;
-  padding-bottom: 12.7vw;
+  padding-top: 2.7vw;
+  padding-bottom: 2.7vw;
 }
 
 /* Position the "next button" to the right */
@@ -589,18 +589,6 @@ div.header4 > div.slideshow-container > a.prev:hover, div.header4 > div.slidesho
 /* Caption text */
 
 
-/* Number text (1/3 etc) */
-.numbertext {
-	font-family: BMitra;
-  color: white;
-  font-size: 3vw;
-  padding: 0.8vw 1.2vw;
-  position: absolute;
-  top: 0;
-	z-index: 0;
-	margin-top: -6.5vw;
-	margin-left: 4vw;
-}
 @media only screen and (max-width:640px)
 {
 	.numbertext
@@ -638,7 +626,7 @@ div.header4 > div.slideshow-container > a.prev:hover, div.header4 > div.slidesho
 div.header4
 {
 	width: 100%;
-	height: 30vw;
+	height: 28vw;
 	background-color: #1a2930;
 	position: absolute;
 	margin-bottom: 2vw;
@@ -656,7 +644,7 @@ div.text6
 	color: white;
 	margin-top: 0.5vw;
 	font-family: BMorvarid;
-	font-size: 2.1vw;
+	font-size: 1.6vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -671,7 +659,7 @@ div.text6
 img.item4
 {
 	position: absolute;
-	margin-left: 67.4vw;
+	margin-left: 68.4vw;
 	border-radius: 1vw;
 	margin-top: -1.5vw;
 	padding-bottom: 5.3vw;
@@ -699,7 +687,7 @@ div.content
 	background-color: #f7ce3e;
 	width: 18vw;
 	position:sticky;
-	margin-top: 30vw;
+	margin-top: 28vw;
 	overflow: auto;
 	overflow-y: auto;
 	top: 3.5vw;
@@ -739,14 +727,17 @@ div.brand
 {
 	cursor: pointer;
 	margin-left: 13vw;
-	margin-top:21vw;
+	margin-top:20.9vw;
 	z-index: 2;
+	padding-right: 1.5vw;
+	z-index: 1;
+	height: 4vw;
+	width: 14vw;
 }
 div.content > div.kind1
 {
-	margin-left: -10vw;
 	margin-top:2.2vw;
-	padding-right: 0vw;
+	padding-right: 1vw;
 }
 #filter-all-2
 {
@@ -2380,7 +2371,7 @@ a.header-text-3
 	margin-top: -1.5vw;
 	padding-bottom: 5vw;
 	background-color: #e2e2e2;
-	margin-left: 5vw;
+	margin-left: 6vw;
 	height: 16vw;
 }
 .item1:hover
@@ -2390,11 +2381,11 @@ a.header-text-3
 }
 .item2
 {
-	margin-left: 25.8vw;
+	margin-left: 26.8vw;
 }
 .item3
 {
-	margin-left: 46.5vw;
+	margin-left: 47.5vw;
 }
 .item4
 {
@@ -2508,4 +2499,36 @@ a.header-text-5
 {
 	
 	margin-left: 48.5vw;
+}
+div.arrowUp
+{
+	
+	position: absolute;
+	font-size: 2.2vw;
+	transform: rotate(90deg);
+	padding-right: 10vw;
+	padding-top: 15vw;
+	color: black;
+}
+div.arrowUp2
+{
+
+	margin-top: 18.5vw;
+}
+.box53
+{
+	
+	width: 14vw;
+	position: absolute;
+	height: 4.2vw;
+	margin-top: 1.8vw;
+	background-color: #f2f2f2;
+	padding-right: 1vw;
+	opacity: 0.5;
+	z-index: -1;
+}
+.box54
+{
+	
+	margin-top: 20.4vw;
 }
