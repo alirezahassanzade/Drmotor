@@ -22,15 +22,25 @@ width: 100%;
 height: 3.5vw;
 	background-color: #1a2930;
 	position:fixed;
-	margin-top: -113.2vw;
+	margin-top: -165.7vw;
 z-index: 0;
+}
+div.content2
+{
+
+	width: 100%;
+	height: 142.5vw;
+}
+div.content3
+{
+	
 }
 @media only screen and (max-width:640px)
 {
 	div.header
 	{
 		height: 15vw;
-			margin-top: -268.9vw;
+			margin-top: -231.9vw;
 	}
 }
 
@@ -114,7 +124,10 @@ i.cart
 }
 @media only screen and (min-width:641px)
 {
-
+div.right-part-text
+{
+	display: none;
+}
 i.cart
 {
 		margin-top: 0;
@@ -383,9 +396,9 @@ div.modal-content
 	text-align: center;
 	line-height: 0.3vw;
 	cursor: pointer;
-	border-radius: 0.4vw;
 	position: absolute;
 	z-index: 1;
+	border-radius: 0.4vw;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -683,14 +696,17 @@ div.mySlides
 div.content
 {
 	background-color: #f7ce3e;
-	height: 60vw;
-	width: 20vw;
-	position:relative;
+	width: 18vw;
+	position:sticky;
 	margin-top: 30vw;
-	margin-left: 79vw;
 	overflow: auto;
 	overflow-y: auto;
+	top: 3.5vw;
+	direction: rtl;
+	height: 93vh;
 	overflow-x: hidden;
+	padding-right: 2vw;
+	float: right;
 }
 
 @media only screen and (max-width:640px)
@@ -707,35 +723,44 @@ div.content
 	position: absolute;
 	color:#3a3838;
 }
-div.dastebandi
+div.filter-all-1
 {
-	margin-left: 5.5vw;
-	margin-top:12vw;
+	margin-top: 0vw;
 }
-div.content> div.range
+div.range
 {
 	margin-left: 10vw;
 	margin-top:27vw;
 
+	width: 11vw;
 }
 div.brand
 {
+	cursor: pointer;
 	margin-left: 13vw;
 	margin-top:21vw;
+	z-index: 2;
 }
 div.content > div.kind1
 {
-	margin-left: 11vw;
+	margin-left: -10vw;
 	margin-top:2.2vw;
+	padding-right: 0vw;
 }
-
+#filter-all-2
+{
+	position: absolute;
+}
 div.content > img.motor-logo
 {
-	width: 40%;
-	height: 11.5%;
+	width: 10vw;
+	height: 7vw;
 	position: absolute;
-	margin-top: 0.8vw;
-	margin-left:1.6vw;
+	margin-top: 0.2vw;
+	padding-right: 7vw;
+	cursor: pointer;
+	padding-left: 1vw;
+	z-index: 2;
 }
 div.content > div.box1
 {
@@ -779,6 +804,7 @@ label.container > span.checkmark {
     background-color: #eee;
     border-radius: 50%;
     margin-left: 3vw;
+	    z-index: 2;
 }
 
 /* On mouse-over, add a grey background color */
@@ -789,6 +815,7 @@ label.container > span.checkmark {
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
     background-color:#ccc;
+    z-index: 2;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -855,7 +882,6 @@ div.content > div.box3
 }
 
 	.slidecontainer {
-    width: 100%;
 }
 
 .slider {
@@ -878,7 +904,7 @@ div.content > div.box3
 
 .slider {
     -webkit-appearance: none;
-    width: 17vw;
+    width: 15vw;
     height: 1.5vw;
     background: #d3d3d3;
     outline: none;
@@ -1357,7 +1383,9 @@ span.img16
 img.footer-bg
 {
 	position: absolute;
-	margin-top: 180vw;
+	margin-top: -6vw;
+	padding-top: 8vw;
+	height: 39vw;
 }
 
 @media only screen and (max-width:640px)
@@ -1369,7 +1397,7 @@ img.footer-bg
 	img.footer-bg
 	{
 
-	margin-top: 6vw;
+	margin-top: -47vw;
 	}
 }
 @media only screen and (max-width:640px)
@@ -1416,11 +1444,14 @@ div.footer > div.footer-text
 	position: absolute;
 	line-height: 3.5vw;
 	font-family: BMitra;
-	font-size: 2.5vw;
+	font-size: 1.8vw;
 	color: white;
 	margin-left: 85%;
-margin-top:184vw;
+margin-top:6.5vw;
 	text-align: right;
+	font-family: BBardiya;
+	line-height: 4.5vw;
+	padding-top: 0vw;
 }
 @media only screen and (max-width:640px)
 {
@@ -1428,7 +1459,7 @@ margin-top:184vw;
 {
 	font-size: 2.5vw;
 	margin-left: 87%;
-	margin-top: 12vw;
+	margin-top: -36vw;
 }
 }
 div.footer > div.footer-text2
@@ -2007,7 +2038,7 @@ img.Drmotori-logo
 	height: 23vw;
 	position: absolute;
 	width: 31vw;
-	margin-top: 179.46vw;
+	margin-top: 3vw;
 	margin-left: -2vw;
 }
 .problem
@@ -2022,7 +2053,7 @@ img.Drmotori-logo
 .problem
 {
 
-	margin-top: 35vw;
+	margin-top: -145vw;
 	width: 100vw;
 	height: 96vw;
 }
@@ -2042,7 +2073,7 @@ img.Drmotori-logo
 	}
 img.Drmotori-logo
 {
-	margin-top: 3vw;
+	margin-top: -41vw;
 }
 .filter1-container
 {
@@ -2373,4 +2404,101 @@ a.header-text-1,button.loginap
 {
 	font-size: 2.5vw;
 }
+}
+.model-container,.brand-container{
+  display: block;
+  position: relative;
+  padding-left: 8.2vw;
+  margin-bottom: 3vw;
+  cursor: pointer;
+  font-size: 1.8vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.model-container input,.brand-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#models-container
+{
+	font-family: BBardiya;
+	display: none;
+	position: absolute;
+	margin-top: 10.5vw;
+	background-color: #c5c1c0;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+	height: 34.4vw;
+	z-index: 2;
+}
+#brands-container
+{
+	font-family: BBardiya;
+	position: absolute;
+	margin-top: 26.5vw;
+	background-color: #c5c1c0;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+	height: 46.4vw;
+	z-index: 2;
+	display: none;
+}
+.checkmarkmodel,.checkmarkbrand {
+  position: absolute;
+  top: 0.7vw;
+  left: 0;
+  height:2vw;
+  width:2vw;
+  background-color: #eee;
+}
+
+
+.model-container:hover input ~ .checkmarkmodel,.brand-container:hover input ~ .checkmarkbrand {
+  background-color: #ccc;
+}
+
+
+.model-container input:checked ~ .checkmarkmodel,.brand-container input:checked ~ .checkmarkbrand {
+  background-color: #2196F3;
+}
+
+
+.checkmarkmodel:after,.checkmarkbrand:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.model-container input:checked ~ .checkmarkmodel:after,.brand-container input:checked ~ .checkmarkbrand:after {
+  display: block;
+}
+
+
+.model-container .checkmarkmodel:after,.brand-container .checkmarkbrand:after {
+  left: 0.7vw;
+  top: -0.2vw;
+  width: 0.4vw;
+  height: 2vw;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+div.box6
+{
+	position: absolute;
+	width: 15vw;
+	height: 0.1%;
+	background-color: #3a3838;
+	margin-top: 25vw;
+	margin-left: 2vw;
 }

@@ -68,12 +68,39 @@
 		<br>
 
 	</div>
-
+	<div class="content2">
 	<div class="content">
 		<div class="common2"></div>
 		<div class="kind1 common2">نوع موتور</div>
-		<img src="{% static 'img/shop_motor-logo.png' %}" class="responsive motor-logo">
+		<img src="{% static 'img/shop_motor-logo.png' %}" class="responsive motor-logo" onclick="pushDown()">
 		<div class="box1"></div>
+		<div id="models-container">
+			<label class="model-container">cg-125
+			  <input type="checkbox" checked="checked">
+			  <span class="checkmarkmodel"></span>
+			</label>
+			<label class="model-container">هوندا-200
+			  <input type="checkbox">
+			  <span class="checkmarkmodel"></span>
+			</label>
+			<label class="model-container">ویو
+			  <input type="checkbox">
+			  <span class="checkmarkmodel"></span>
+			</label>
+			<label class="model-container">آپاچی
+			  <input type="checkbox">
+			  <span class="checkmarkmodel"></span>
+			</label>
+			<label class="model-container">باکستر
+				<input type="checkbox">
+				<span class="checkmarkmodel"></span>
+			  </label>
+			  <label class="model-container">cgl
+				<input type="checkbox">
+				<span class="checkmarkmodel"></span>
+			  </label>
+			</div>
+		<div id="filter-all-1">
 		<div class="checkbox">
 			<label class="container"><div class="checkbox1">موتوری</div>
 				<input type="radio" checked="checked" name="radio">
@@ -85,8 +112,44 @@
 			</label>
 		</div>
 		<div class="box2"></div>
-		<div class="brand common2">برند</div>
+		<div class="brand common2" onclick="fbrand()">برند</div>
+		<div id="brands-container">
+			<label class="brand-container">نوبل
+			  <input type="checkbox" checked="checked">
+			  <span class="checkmarkbrand"></span>
+			</label>
+			<label class="brand-container">راپیدو
+			  <input type="checkbox">
+			  <span class="checkmarkbrand"></span>
+			</label>
+			<label class="brand-container">تکنیک
+			  <input type="checkbox">
+			  <span class="checkmarkbrand"></span>
+			</label>
+			<label class="brand-container">تیزرو
+			  <input type="checkbox">
+			  <span class="checkmarkbrand"></span>
+			</label>
+			<label class="brand-container">تکنو
+				<input type="checkbox">
+				<span class="checkmarkbrand"></span>
+			  </label>
+			  <label class="brand-container">ریسر
+				<input type="checkbox">
+				<span class="checkmarkbrand"></span>
+			  </label>
+			  <label class="brand-container">استاندارد
+				<input type="checkbox">
+				<span class="checkmarkbrand"></span>
+			  </label>
+			  <label class="brand-container">انرژی
+				<input type="checkbox">
+				<span class="checkmarkbrand"></span>
+			  </label>
+			</div>
+		<div class="box6"></div>
 		<div class="box3"></div>
+		<div id="filter-all-2">
 		<div class="range common2">محدوده قیمت</div>
 		<div class="slidecontainer">
 			<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
@@ -95,8 +158,50 @@
 		<div class="box4"></div>
 		<div class="lavazemjanebi common2">لوازم جانبی</div>
 		<div class="box5"></div>
-		<div class="dastebandi common2"> انواع دسته بندی</div>
 	</div>
+</div>
+	</div>
+	<script>
+		var push = document.getElementById('filter-all-1')
+		var pull = document.getElementById('models-container')
+		var push2 = document.getElementById('filter-all-2')
+		var pull2 = document.getElementById('brands-container')
+		
+		function pushDown()
+		{
+			if(push.style.marginTop == "35vw")
+			{
+				push.style.marginTop = "0vw";
+				pull.style.display="none"
+			}
+			else
+			{
+			push.style.marginTop = "35vw";
+			pull.style.display="unset"
+			}
+		
+		}
+		function fbrand()
+		{
+			
+			if(push2.style.marginTop == "48vw")
+			{
+				push2.style.marginTop = "0vw";
+				pull2.style.display="none"
+			}
+			else
+			{
+			push2.style.marginTop = "48vw";
+			pull2.style.display="unset"
+			}
+			
+			}
+		
+
+		</script>
+<div class="content3"></div>
+</div>
+
 	<span class="img" style="display:none"></span>
 	<i class="imgg"></i>
 
