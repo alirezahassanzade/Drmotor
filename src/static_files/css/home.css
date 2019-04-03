@@ -1609,6 +1609,7 @@ color: black;
 	border-radius: 0.5vw;
 	border: 1vw solid gray;
 	position: fixed;
+	z-index: 4;
 }
 .name-container
 {
@@ -1802,7 +1803,7 @@ div.price10
 	background-color: rgba(0,0,0,0.7);
 	padding-right: 6.5vw;
 	padding-left: 6.5vw;
-	z-index: 1;
+	z-index: 0;
 	border-radius: 0.6vw;
 	opacity: 0;
 }
