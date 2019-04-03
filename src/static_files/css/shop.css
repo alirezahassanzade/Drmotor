@@ -198,7 +198,7 @@ img.foroshgah
 	{
 		width: 22vw;
 		height:6vw;
-		margin-top: 5vw;
+		margin-top: 6vw;
 		margin-left: 8vw;
 	}
 }
@@ -669,7 +669,7 @@ img.item4
 {
 	position: absolute;
 	margin-left: 69.5vw;
-	padding: 1vw;
+	padding-bottom: 1vw;
 	padding-bottom: 1vw;
 	border-radius: 1vw;
 	margin-top: -1.5vw;
@@ -2375,7 +2375,7 @@ a.header-text-3
 
 	position: absolute;
 	margin-left: -2.5vw;
-	padding: 1vw;
+	padding-bottom: 1vw;
 	border-radius: 1vw;
 	margin-top: -1.5vw;
 	padding-bottom: 5vw;
