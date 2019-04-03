@@ -2130,6 +2130,7 @@ a.next2,a.prev2
 	padding-left: 5vw;
 
 	padding-right: 5vw;
+	z-index: 1;
 }
 div.price4
 {
