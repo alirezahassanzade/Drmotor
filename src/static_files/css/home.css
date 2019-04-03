@@ -1098,7 +1098,12 @@ margin-left: 55vw;
 		margin-top: -5.56vw;
 		margin-left: 56.5vw;
 	}
-
+h1.text52
+{
+	
+	margin-top: -5.5vw !important;
+	margin-left: 42vw !important;
+}
 }
 @media only screen and (min-width:762px)
 {
