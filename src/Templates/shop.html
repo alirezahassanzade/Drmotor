@@ -11,10 +11,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	
 
 </head>
 <body>
-	<div class="all ">
+	<div class="all2">
+			<div class="all ">
 		<div class="ym">
 
 			<img src="{% static 'img/shop_foroshgah.png' %}" class="responsive foroshgah">
@@ -76,7 +78,7 @@
 		<div class="box1"></div>
 		<div id="models-container">
 			<label class="model-container">cg-125
-			  <input type="checkbox" checked="checked">
+			  <input type="checkbox" >
 			  <span class="checkmarkmodel"></span>
 			</label>
 			<label class="model-container">هوندا-200
@@ -103,7 +105,7 @@
 		<div id="filter-all-1">
 		<div class="checkbox">
 			<label class="container"><div class="checkbox1">موتوری</div>
-				<input type="radio" checked="checked" name="radio">
+				<input type="radio"  name="radio">
 				<span class="checkmark"></span>
 			</label>
 			<label class="container"><div class="checkbox2">ظاهری</div>
@@ -117,7 +119,7 @@
 		<div class="box54 box53"></div>
 		<div id="brands-container">
 			<label class="brand-container">نوبل
-			  <input type="checkbox" checked="checked">
+			  <input type="checkbox">
 			  <span class="checkmarkbrand"></span>
 			</label>
 			<label class="brand-container">راپیدو
@@ -232,6 +234,7 @@
 
 		</div>
 	</div>
+</div>
 	<div class="header ">
 		<button id="myBtn" class="loginap">نام/login</button>
 		<a href="" class="header-text-1 header-text-4">صفحه نخست</a>
@@ -272,7 +275,7 @@
 			<div class="left-part-container">
 				<div class="right-part-textt left-part-1">
 <label class="check1 check">cg-125
-		<input type="checkbox" checked="checked">
+		<input type="checkbox">
 		<span class="checkmark2"></span>
 	  </label>
 	  <label class="check2 check">هوندا-200
@@ -298,51 +301,66 @@
 			</div>
 			<div class="right-part-textt left-part-4 left-part-3">
 				<label class="check1 check check3">نوبل
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 				  <label class="check1 check check3">راپیدو
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 				  <label class="check1 check check3">تکنیک
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 				  <label class="check1 check check3">تیزرو
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 				  <label class="check1 check check3">تکنو
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 				  <label class="check1 check check3">ریسر
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 				  <label class="check1 check check3">استاندارد
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 				  <label class="check1 check check3">انرژی
-					<input type="checkbox" checked="checked">
+					<input type="checkbox"  >
 					<span class="checkmark2"></span>
 				  </label>
 			</div>
 			<div class="right-part-textt left-part-3">
-					hey3
+				<div class="slidecontainer2">
+					<input type="range"  max="600000" min="1000" value="1000" class="slider2" id="myRange2">
+					<p class="valuee">تا قیمت : <span id="demo2"></span></p>
+					<div class="valuee2">از قیمت : 0 تومان</div>
+					<div class="valuee3">تومان</div>
+				  </div>
 				</div>
 				<div class="right-part-textt left-part-3">
-						hey4
+					<form method="post">
+						<p id="text1">
+						  <input type="radio" id="test1" name="radio-group" checked>
+						  <label for="test1">موتوری</label>
+						</p>
+						<p id="text2">
+						  <input type="radio" id="test2" name="radio-group">
+						  <label for="test2">ظاهری</label>
+						</p>
+					  </form>
 					</div>
 					<div class="right-part-textt left-part-3">
-							hey5
+							
 						</div>
 						<div class="right-part-textt left-part-3">
-								hey6
+								
 							</div>
 			</div>
+			<div class="filter2-sub">فیلتر کن</div>
 		</div>
 	</div>
 	</div>
@@ -656,5 +674,14 @@ myfilter1.style.display= "none";
 			
 	
 			</script>
+			<script>
+				var slider2 = document.getElementById("myRange2");
+				var output2 = document.getElementById("demo2");
+				output2.innerHTML = slider2.value;
+				
+				slider2.oninput = function() {
+				  output2.innerHTML = this.value;
+				}
+				</script>
 </body>
 </html>
