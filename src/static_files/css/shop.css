@@ -1525,7 +1525,7 @@ div.modal-content4
 	background-color:#c5c1c0;
 	height: 70vw;
 	width: 65vw;
-	margin-left: 3vw;
+	margin-left: 6.5vw;
 }
 
 
@@ -2073,9 +2073,9 @@ img.Drmotori-logo
 {
 	position: absolute;
 	width: 84vw;
-	height: 107vw;
+	height: 115vw;
 	background-color: #c5c1c0;
-	margin-left: 7.5vw;
+	margin-left: 7vw;
 	margin-top: 1vw;
 	border: 1vw solid #888;
 	z-index: 1;
@@ -2199,7 +2199,7 @@ div.right-part-text1
   display: block;
   position: relative;
   padding-left: 33vw;
-  margin-bottom: 11.6vw;
+  margin-bottom: 11.55vw;
   cursor: pointer;
   font-size: 3vw;
   -webkit-user-select: none;
@@ -2675,7 +2675,18 @@ transition: opacity .2s;
 	margin-top: 47vw;
 	position: absolute;
 }
-#text2
+.filter2-sub
 {
-
+	
+	width: 99.6%;
+	background-color: #0a1612;
+	text-align: center;
+	font-size: 4.5vw;
+	font-family: BMitra;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+	border: 0.1vw solid white;
+	color: white;
+	margin-top: 0.4vw;
+	position: absolute;
 }
