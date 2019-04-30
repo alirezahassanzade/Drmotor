@@ -107,10 +107,11 @@ div.ym
 i.cart
 {
 
-	width: 10%;
+	width: 4.6%;
 	margin-left: 19vw;
 	position: absolute;
 	color:#f7ce3e;
+	cursor: pointer;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -183,6 +184,7 @@ img.polygon
 	height: 1.5vw;
 	margin-left: 22vw;
 	position: absolute;
+	cursor: pointer;
 }
 }
 img.foroshgah
@@ -398,7 +400,7 @@ div.modal-content
 	cursor: pointer;
 	position: absolute;
 	z-index: 1;
-	border-radius: 0.4vw;
+	border: none;
 }
 @media only screen and (min-width:200px ) and (max-width:640px)
 {
@@ -2055,9 +2057,9 @@ img.Drmotori-logo
 .motori-logo2
 {
 	position: absolute;
-	margin-top: 1.5vw;
+	margin-top: 0.3vw;
 	margin-left: 2vw;
-	height: 4vw;
+	width: 11vw;
 }
 @media only screen and (max-width : 640px)
 {
@@ -2689,4 +2691,12 @@ transition: opacity .2s;
 	color: white;
 	margin-top: 0.4vw;
 	position: absolute;
+}
+span.cart-container
+{
+	
+	width: 20vw;
+	height: 20vw;
+	background: red;
+	margin-top: 25vw;
 }
