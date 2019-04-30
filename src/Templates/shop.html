@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-	
+
 
 </head>
 <body>
@@ -74,7 +74,7 @@
 		<div class="kind1 common2">نوع موتور</div>
 		<img src="{% static 'img/shop_motor-logo.png' %}" class="responsive motor-logo" onclick="pushDown()">
 		<div class="arrowUp">&#10094;</div>
-		
+
 		<div class="box1"></div>
 		<div id="models-container">
 			<label class="model-container">cg-125
@@ -242,7 +242,7 @@
 		<a href="" class="header-text-1 header-text-3">درباره ما</a>
 		<a href="" class="header-text-1 header-text-5">اورژانس</a>
 
-		<img src="{% static 'img/shop_Artboard 1_footer.png' %}" alt="motori موتوری repair تعمیرات" class="motori-logo2">
+		<img src="{% static 'img/shop_Artboard1_footer.png' %}" alt="motori موتوری repair تعمیرات" class="motori-logo2">
 		<div class="header2 ">
 
 			<i class="fas fa-shopping-cart cart"></i>
@@ -269,7 +269,7 @@
 			<div class=" right-part-text3" onclick="f1left(2)">محدوده قیمت</div> <br>
 			<div class=" right-part-text4" onclick="f1left(3)">نوع قطعه</div> <br>
 			<div class=" right-part-text5" onclick="f1left(4)">لوازم جانبی</div> <br>
-			<div class=" right-part-text6" onclick="f1left(5)">کلاه کاسکت</div> 
+			<div class=" right-part-text6" onclick="f1left(5)">کلاه کاسکت</div>
 		</div>
 
 			<div class="left-part-container">
@@ -354,10 +354,10 @@
 					  </form>
 					</div>
 					<div class="right-part-textt left-part-3">
-							
+
 						</div>
 						<div class="right-part-textt left-part-3">
-								
+
 							</div>
 			</div>
 			<div class="filter2-sub">فیلتر کن</div>
@@ -628,7 +628,7 @@ myfilter1.style.display= "none";
 		let i;
 		let rightPartText = document.querySelectorAll('.right-part-textt')
 	function f1left(v)
-	{	
+	{
 		for( i = 0 ; i < rightPartText.length ; i ++)
 		{
 			rightPartText[i].style.display = "none";
@@ -641,7 +641,7 @@ myfilter1.style.display= "none";
 			var pull = document.getElementById('models-container')
 			var push2 = document.getElementById('filter-all-2')
 			var pull2 = document.getElementById('brands-container')
-			
+
 			function pushDown()
 			{
 				if(push.style.marginTop == "35vw")
@@ -654,11 +654,11 @@ myfilter1.style.display= "none";
 				push.style.marginTop = "35vw";
 				pull.style.display="unset"
 				}
-			
+
 			}
 			function fbrand()
 			{
-				
+
 				if(push2.style.marginTop == "48vw")
 				{
 					push2.style.marginTop = "0vw";
@@ -669,16 +669,16 @@ myfilter1.style.display= "none";
 				push2.style.marginTop = "48vw";
 				pull2.style.display="unset"
 				}
-				
+
 				}
-			
-	
+
+
 			</script>
 			<script>
 				var slider2 = document.getElementById("myRange2");
 				var output2 = document.getElementById("demo2");
 				output2.innerHTML = slider2.value;
-				
+
 				slider2.oninput = function() {
 				  output2.innerHTML = this.value;
 				}
