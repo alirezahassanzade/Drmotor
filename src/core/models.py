@@ -23,6 +23,7 @@ class Address(models.Model):
 class UserType(models.Model):
     Title = models.CharField(max_length=CHARFIELD_MAXLENGTH)
 
+# TODO: Multi address on profile
 
 class User(models.Model):
     FirstName = models.CharField(max_length=CHARFIELD_MAXLENGTH)
