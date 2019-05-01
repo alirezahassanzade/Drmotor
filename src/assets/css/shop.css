@@ -4,7 +4,11 @@ body
 	margin: 0px;
 }
 @media only screen and (max-width:640px)
-{
+{ 
+	.fa-caret-up
+	{
+		display: none;
+	}
 	div.header2
 	{
 		padding-bottom: 2vw;
@@ -39,7 +43,7 @@ div.content3
 {
 	div.header
 	{
-		height: 15vw;
+		height: 11vw;
 			margin-top: -231.9vw;
 	}
 }
@@ -118,9 +122,9 @@ i.cart
 	i.cart
 	{
 		position: fixed;
-		margin-top: 1vw;
-		font-size: 12vw;
-		margin-left: 68vw;
+		margin-top: -9.5vw;
+		font-size: 10vw;
+		margin-left: 82vw;
 	}
 }
 @media only screen and (min-width:640px)
@@ -182,9 +186,10 @@ img.polygon
 
 	width: 1.5vw;
 	height: 1.5vw;
-	margin-left: 22vw;
+	margin-left: 2.9vw;
 	position: absolute;
 	cursor: pointer;
+	margin-top: -3.5vw;
 }
 }
 img.foroshgah
@@ -196,6 +201,13 @@ img.foroshgah
 }
 @media only screen and (min-width:641px)
 {
+	.motori-logo2
+{
+	position: absolute;
+	margin-top: 0.3vw;
+	margin-left: 2vw;
+	width: 11vw;
+}
 	img.foroshgah
 	{
 		width: 22vw;
@@ -628,7 +640,6 @@ div.header4 > div.slideshow-container > a.prev:hover, div.header4 > div.slidesho
 div.header4
 {
 	width: 100%;
-	height: 28vw;
 	background-color: #1a2930;
 	position: absolute;
 	margin-bottom: 2vw;
@@ -1471,8 +1482,8 @@ div.footer > div.footer-text2
 i.filter1
 {
 
-	margin-top: 2.5vw;
-	margin-left: 52vw;
+	margin-top: -9.5vw;
+	margin-left: 66vw;
 	position: absolute;
 	width: 10vw;
 	font-size: 7vw;
@@ -1585,8 +1596,9 @@ div.modal-content4
 	border:none;
 	background-color:#1a2930;
 	margin-top: 4vw;
-	margin-left: 32.9vw;
+	margin-left: 51.9vw;
 	z-index: 0;
+	position: absolute;
 }
 @media only screen and (min-width:640px)
 {
@@ -1742,7 +1754,7 @@ i.icon20
 {
 	position:absolute;
 	color: #f7ce3e;
-	margin-top: -7.5vw;
+	margin-top: -7.3vw;
 	margin-left: 0vw;
 	font-size: 8vw;
 }
@@ -2053,13 +2065,6 @@ img.Drmotori-logo
 	width: 100vw;
 	height: 96vw;
 }
-}
-.motori-logo2
-{
-	position: absolute;
-	margin-top: 0.3vw;
-	margin-left: 2vw;
-	width: 11vw;
 }
 @media only screen and (max-width : 640px)
 {
@@ -2695,8 +2700,110 @@ transition: opacity .2s;
 span.cart-container
 {
 	
-	width: 20vw;
-	height: 20vw;
-	background: red;
-	margin-top: 25vw;
+	background: white;
+	margin-top: 4.8vw;
+	padding: 0vw 2.3vw 7vw 8.5vw;
+	position: absolute;
+	margin-left: 4vw;
+	border: 0.1vw solid lightgray;
+	display: none;
+	overflow-y: auto;
+	height: 14vh;
+	overflow-x: hidden;
+}
+.fa-caret-up
+{
+	
+	transform: rotate(180deg);
+	margin-top: 2.35vw;
+	position: absolute;
+	font-size: 4vw;
+	margin-left: -2.9vw;
+	color: #1a2930;
+}
+.total1
+{
+	
+	font-family: BMitra;
+	font-size: 2vw;
+	position: absolute;
+	margin-left: -8.5vw;
+	width: 33vw;
+	text-align: center;
+	border-bottom: 0.1vw solid #60606026;
+	padding-right: 1.3vw;
+	background-color: #f2f2f2;
+}
+.goods-img1
+{
+	width: 7vw;
+
+	height: 7vw;
+	
+	margin-top: -4.5vw;
+	
+	margin-left: 12.8vw;
+	
+	border-radius: 0.6vw;
+}
+.closeGoods
+{
+	
+	font-size: 2vw;
+
+	margin-top: 6vw;
+	
+	margin-left: 22vw;
+	
+	color: #323232;
+
+	display: block;
+	cursor: pointer;
+}
+.goods1
+{
+	font-size: 2vw;
+
+	font-family: BMitra;
+	
+	display: block;
+	
+	margin-top: -5vw;
+	
+	margin-left: -1vw;
+	
+	padding-bottom: 1vw;
+}
+.sabtErsal
+{
+
+	border: none;
+	background: #1a2930;
+	color: white;
+	padding: 1vw;
+	position: absolute;
+	width: 34.6vw;
+	margin-left: -8.6vw;
+	margin-top: 4.2vh;
+	padding-top: 1.4vw;
+	padding-bottom: 1.4vw;
+	font-size: 1.5vw;
+}
+@media only screen and (max-width:640px)
+{ 
+	.fa-caret-up
+	{
+		display: none !important;
+	}
+	.motori-logo2
+	{
+		
+	width: 35vw;
+	margin-left: 2vw;
+	margin-top: 2vw;
+	}
+	span.goods-line
+	{
+
+	}
 }
