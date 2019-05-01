@@ -11,16 +11,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-	$(document).ready(function(){
-	  $(".closeGoods").click(function(){
-		$(".deleteGoods").remove();
-	  });
-	});
-	</script>
+
 </head>
 <body>
+
 	<div class="all2">
 			<div class="all ">
 		<div class="ym">
@@ -261,26 +255,26 @@
 				</span>	
 <div class="goods-container">
 <span class="deleteGoods">
-		<span class="closeGoods">&#10005;</span>
+		<span class="closeGoods" onclick="noneContainer()">&#10005;</span>
 	<img src="/static/img/shop_8.jpg" alt="" class="goods-img1">
 	<span class="goods1"> لامپ</span>
 	<span class="goods-line"></span>
 </span>
-<input type="submit" class="sabtErsal" value="ثبت و ارسال">
-</div>	
+<input type="submit" class="sabtErsal" value="ثبت و ارسال" onclick="submit1()">
+<script>
+function submit1()
+{
+var o = document.getElementById("myModal")
+if(o.style.display==="block")
+{
+	o.style.display="none"
+}
+else
+o.style.display="block"
+}
+</script>
+</div>
 			</span>
-			<script>
-				function openArrow()
-				{
-					var a = document.getElementById("cartOne")	
-					if(a.style.display === "unset")
-					{
-						a.style.display = "none"
-					}	
-					else
-					a.style.display = "unset"
-				}
-				</script>
 		</div>
 		</div>
 		<i class="fas fa-filter filter1" onclick="filter2()" id="filter"></i>
@@ -401,7 +395,7 @@
 	</div>
 
 	<center><span id="timesClicked" class="num">0</span></center>
-	<div id="myModal" class="modal">
+	<div id="myModal" class="modal" >
 
 		<div class="modal-content">
 			<div class="number"></div>
@@ -496,6 +490,18 @@
 				</div>
 
 			</div>
+			<script>
+					function openArrow()
+					{
+						var a = document.getElementById("cartOne")	
+						if(a.style.display === "unset")
+						{
+							a.style.display = "none"
+						}	
+						else
+						a.style.display = "unset"
+					}
+					</script>
 				<script>
 					var myfilter3 = document.getElementById("filter1-containerr");
 					function filter2()

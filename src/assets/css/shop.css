@@ -2788,6 +2788,7 @@ span.cart-container
 	padding-top: 1.4vw;
 	padding-bottom: 1.4vw;
 	font-size: 1.5vw;
+	cursor: pointer;
 }
 @media only screen and (max-width:640px)
 { 
