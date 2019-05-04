@@ -1,6 +1,8 @@
 from django.db.models import Min, Max
 from hashlib import md5
 
+from .models import Good
+
 import smtplib
 import ssl
 
@@ -15,9 +17,9 @@ def get_max_good_price():
 
 def get_first_good_pic(good_id):
     good = Good.objects.filter(id=good_id)[0]
-    good_image = Good_Image.objects.filter(Good=good)
-    if len(good_image) >= 1:
-        return good_image[0].Image.Img.url
+    good_images = good.Images.all()
+    if len(good_images) >= 1:
+        return good_images[0].Img.url
     else:
         return '/static/img/nopic.png'
 
