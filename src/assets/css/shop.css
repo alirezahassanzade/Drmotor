@@ -48,7 +48,11 @@ div.content3
 	div.header
 	{
 		height: 11vw;
-			margin-top: -231.9vw;
+			margin-top: -268.2vw;
+	}
+	div.content2
+	{
+
 	}
 }
 
@@ -991,7 +995,7 @@ span.img1
 {
 	span.img1
 {
-	margin-top: 5vw;
+	margin-top: 145vw;
 	padding: 1vw;
 	padding-bottom: 17.5vw;
 	padding-right: 6vw;
@@ -1000,6 +1004,7 @@ span.img1
 	margin-left: 5vw;
 	border-radius: 1vw;
 	display: inline-grid;
+	cursor: pointer;
 }
 
 }
@@ -1012,6 +1017,7 @@ span.img1 > img.image1 {
 }
 @media only screen and (max-width:640px)
 {
+	.common1{}
 span.img1 > img.image1 {
 	width: 20vw;
 	height: 15vw;
@@ -1404,12 +1410,12 @@ img.footer-bg
 {
 	div.footer
 	{
-		margin-top: 82vw;
+		margin-top: 222vw;
 	}
 	img.footer-bg
 	{
 
-	margin-top: -40vw;
+	margin-top: -44.5vw;
 	}
 }
 @media only screen and (max-width:640px)
@@ -1470,8 +1476,8 @@ margin-top:13.5vw;
 	div.footer > div.footer-text
 {
 	font-size: 2.5vw;
-	margin-left: 87%;
-	margin-top: -29vw;
+	margin-left: 84%;
+	margin-top: -33vw;
 }
 }
 div.footer > div.footer-text2
@@ -1483,12 +1489,12 @@ div.footer > div.footer-text2
 	div.footer > div.footer-text2
 {
 	font-size: 2.5vw;
-	margin-left: 67%;
+	margin-left: 63%;
 }
 i.filter1
 {
 
-	margin-top: -9.5vw;
+	margin-top: -9.8vw;
 	margin-left: 66vw;
 	position: absolute;
 	width: 10vw;
@@ -1544,7 +1550,7 @@ div.modal-content4
 	background-color:#c5c1c0;
 	height: 70vw;
 	width: 65vw;
-	margin-left: 6.5vw;
+	margin-left: 3.5vw;
 }
 
 
@@ -1601,9 +1607,8 @@ div.modal-content4
 	padding-right: 7.1vw;
 	border:none;
 	background-color:#1a2930;
-	margin-top: 4vw;
+	margin-top: -9.8vw;
 	margin-left: 51.9vw;
-	z-index: 0;
 	position: absolute;
 }
 @media only screen and (min-width:640px)
@@ -2066,12 +2071,17 @@ img.Drmotori-logo
 }
 @media only screen and (max-width : 640px)
 {
+	.footer
+	{
+		
+	}
 .problem
 {
 
-	margin-top: -145vw;
-	width: 100vw;
+	margin-top: -106vw;
+	width: 100%;
 	height: 96vw;
+	margin-left: -1.5vw;
 }
 }
 @media only screen and (max-width : 640px)
@@ -2082,7 +2092,7 @@ img.Drmotori-logo
 	}
 img.Drmotori-logo
 {
-	margin-top: -34vw;
+	margin-top: -39vw;
 }
 .filter1-container
 {
