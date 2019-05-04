@@ -90,7 +90,7 @@ class Good(models.Model):
     Price = models.DecimalField(max_digits=13, decimal_places=3)
     Vote = models.PositiveSmallIntegerField()
     Description = models.TextField()
-    Images = models.ManyToManyField('Image')
+    Images = models.ManyToManyField('Image', blank=True)
 
     def __str__(self):
         return self.Title
