@@ -25,6 +25,7 @@ class UserType(models.Model):
 
 # TODO: Multi address on profile
 
+
 class User(models.Model):
     FirstName = models.CharField(max_length=CHARFIELD_MAXLENGTH)
     LastName = models.CharField(max_length=CHARFIELD_MAXLENGTH)
@@ -128,7 +129,7 @@ class Image(models.Model):
     Img = models.ImageField(upload_to='static_img/', null=True, blank=True)
 
 
-class Good_Image(models.Model):
+class GoodImage(models.Model):
     Good = models.ForeignKey(Good, on_delete=models.SET_NULL, null=True)
     Image = models.ForeignKey(Image, on_delete=models.SET_NULL, null=True)
 
