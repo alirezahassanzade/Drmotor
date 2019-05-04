@@ -643,6 +643,7 @@ div.header4
 	background-color: #1a2930;
 	position: absolute;
 	margin-bottom: 2vw;
+	height: 28vw;
 }
 @media only screen and (max-width:640px)
 {
