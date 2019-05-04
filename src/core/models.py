@@ -90,6 +90,7 @@ class Good(models.Model):
     Price = models.DecimalField(max_digits=13, decimal_places=3)
     Vote = models.PositiveSmallIntegerField()
     Description = models.TextField()
+    Images = models.ManyToManyField('Image')
 
     def __str__(self):
         return self.Title
@@ -105,11 +106,8 @@ class Request(models.Model):
     Address = models.ForeignKey(Address, on_delete=models.SET_NULL, null=True, blank=True)
     Mechanic = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     Motor = models.ForeignKey(Motor, on_delete=models.SET_NULL, null=True, blank=True)
-
-
-class RequestGood(models.Model):
-    Request = models.ForeignKey(Request, on_delete=models.SET_NULL, null=True)
-    Good = models.ForeignKey(Good, on_delete=models.SET_NULL, null=True)
+    Goods = models.ManyToManyField('Good')
+    Services = models.ManyToManyField('Service')
 
 
 class Service(models.Model):
@@ -119,19 +117,12 @@ class Service(models.Model):
     # TODO: add field "available on" in order to specify motor type
     Description = models.TextField()
 
-
-class RequestService(models.Model):
-    Request = models.ForeignKey(Request, on_delete=models.SET_NULL, null=True)
-    Service = models.ForeignKey(Service, on_delete=models.SET_NULL, null=True)
+    def __str__(self):
+        return self.Title
 
 
 class Image(models.Model):
     Img = models.ImageField(upload_to='static_img/', null=True, blank=True)
-
-
-class GoodImage(models.Model):
-    Good = models.ForeignKey(Good, on_delete=models.SET_NULL, null=True)
-    Image = models.ForeignKey(Image, on_delete=models.SET_NULL, null=True)
 
 
 class System(models.Model):

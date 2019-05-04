@@ -1,5 +1,8 @@
 from django.contrib import admin
-from core.models import *
+from core.models import (UserStatus, Address, UserType, User, MotorType, Motor,
+                        TransactionType, TransactionStatus, Transaction, Good,
+                        Request, Service, System, Image
+                        )
 
 admin.site.register(UserStatus)
 admin.site.register(Address)
@@ -12,9 +15,6 @@ admin.site.register(TransactionStatus)
 admin.site.register(Transaction)
 admin.site.register(Good)
 admin.site.register(Request)
-admin.site.register(RequestGood)
 admin.site.register(Service)
-admin.site.register(RequestService)
 admin.site.register(System)
-admin.site.register(Good_Image)
 admin.site.register(Image)
