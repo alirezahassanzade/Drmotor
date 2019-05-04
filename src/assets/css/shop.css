@@ -14,11 +14,16 @@ body
 		padding-bottom: 2vw;
 	}
 }
-
+.footer
+{
+	
+	margin-top: 133vw;
+}
 img.motori-bg
 {
 	position: absolute;
 	margin-top: 1vw;
+	z-index: -1;
 }
 div.header
 {
@@ -26,14 +31,13 @@ width: 100%;
 height: 3.5vw;
 	background-color: #1a2930;
 	position:fixed;
-	margin-top: -165.7vw;
+	margin-top: -156.2vw;
 z-index: 0;
 }
 div.content2
 {
 
 	width: 100%;
-	height: 142.5vw;
 }
 div.content3
 {
@@ -704,12 +708,13 @@ div.content
 	margin-top: 28vw;
 	overflow: auto;
 	overflow-y: auto;
-	top: 3.5vw;
+	top: 3vw;
 	direction: rtl;
-	height: 93vh;
+	height: 94vh;
 	overflow-x: hidden;
 	padding-right: 2vw;
 	float: right;
+	margin-bottom: -143vw;
 }
 
 @media only screen and (max-width:640px)
@@ -970,7 +975,7 @@ height: 8.1vw;
 }
 .common1
 {
-	margin-top: 4vw;
+	margin-top: 92vw;
 	position: relative;
 	padding-bottom: 10vw;
 	background-color: white;
@@ -1390,7 +1395,7 @@ span.img16
 img.footer-bg
 {
 	position: absolute;
-	margin-top: -6vw;
+	margin-top: 4vw;
 	padding-top: 8vw;
 	height: 39vw;
 }
@@ -1454,7 +1459,7 @@ div.footer > div.footer-text
 	font-size: 1.8vw;
 	color: white;
 	margin-left: 85%;
-margin-top:6.5vw;
+margin-top:13.5vw;
 	text-align: right;
 	font-family: BBardiya;
 	line-height: 4.5vw;
@@ -1956,6 +1961,7 @@ span.num
 	font-family: BMitra;
 
 	z-index: -1;
+	display: none;
 }
 
 @media only screen and (min-width:200px ) and (max-width:640px)
@@ -2016,10 +2022,11 @@ div.star-rating4 {
 	margin-top: 12.2vw;
 	margin-left: -7vw;
 		direction: rtl;
-		position:absolute;
 	   font-size: 1vw;
 	   padding:0.5vw;
 
+	position: absolute;
+	cursor: pointer;
 	}
 
 	 div.star-rating4 input[type=radio] {
@@ -2027,7 +2034,7 @@ div.star-rating4 {
 	}
 
 	 div.star-rating4 label {
-		color: #f7ce3e;
+		color: darkgray;
 
 	}
 
@@ -2046,7 +2053,7 @@ img.Drmotori-logo
 	height: 23vw;
 	position: absolute;
 	width: 31vw;
-	margin-top: 3vw;
+	margin-top: 9vw;
 	margin-left: -2vw;
 }
 .problem
@@ -2633,23 +2640,13 @@ transition: opacity .2s;
 [type="radio"]:checked + label,
 [type="radio"]:not(:checked) + label
 {
-    position: relative;
-    padding-left:30vw;
-    cursor: pointer;
-    line-height:1vw;
-    display:inline;
-    color: black;
-    font-family: BBardiya;
-    margin-left: 4vw;
 }
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before {
     content: '';
     position: absolute;
     left: 0vw;
-    top: 2vw;
-    width: 3.3vw;
-    height: 3.3vw;
+    top: 15vw;
     border: 0.07vw solid #ddd;
     border-radius: 100%;
     background: #fff;
