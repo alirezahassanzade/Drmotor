@@ -2645,7 +2645,6 @@ transition: opacity .2s;
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
     position: absolute;
-    left: -9999999px;
 }
 [type="radio"]:checked + label,
 [type="radio"]:not(:checked) + label
