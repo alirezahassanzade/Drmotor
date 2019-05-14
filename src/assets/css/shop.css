@@ -956,6 +956,7 @@ div.lavazemjanebi
 {
 	margin-left: 7vw;
 	margin-top:5vw;
+	cursor: pointer;
 }
 div.box5
 {
@@ -1494,14 +1495,14 @@ div.footer > div.footer-text2
 i.filter1
 {
 
-	margin-top: -9.8vw;
+	margin-top: -10vw;
 	margin-left: 66vw;
 	position: absolute;
 	width: 10vw;
 	font-size: 7vw;
 	color: #f7ce3e;
 	cursor: pointer;
-	z-index: 1;
+	z-index: 0;
 }
 }
  button.loginap10
@@ -2098,12 +2099,13 @@ img.Drmotori-logo
 {
 	position: absolute;
 	width: 84vw;
-	height: 115vw;
+	height: 1053%;
 	background-color: #c5c1c0;
 	margin-left: 7vw;
 	margin-top: 1vw;
 	border: 1vw solid #888;
 	z-index: 1;
+	overflow: auto;
 }
 .filter1-opacity
 {
@@ -2112,7 +2114,7 @@ img.Drmotori-logo
 	height: 100vh;
 	position: absolute;
 	background-color: rgba(0,0,0,0.4);
-	margin-top: -2vw;
+	margin-top: -13vw;
 }
 .close4
 {
@@ -2285,6 +2287,8 @@ i.filter1II
 {
 	cursor: unset;
 	margin-left: 7vw;
+	margin-top: 2.5vw;
+	z-index: 1;
 }
 .left-part-1
 {
@@ -2652,26 +2656,9 @@ transition: opacity .2s;
 }
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before {
-    content: '';
-    position: absolute;
-    left: 0vw;
-    top: 15vw;
-    border: 0.07vw solid #ddd;
-    border-radius: 100%;
-    background: #fff;
 }
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after {
-    content: '';
-    width: 1.8vw;
-    height: 1.8vw;
-    background: #f7ce3e;
-    position: absolute;
-    top: 2.9vw;
-    left: 0.9vw;
-    border-radius: 100%;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
 }
 [type="radio"]:not(:checked) + label:after {
     opacity: 0;
@@ -2688,6 +2675,7 @@ transition: opacity .2s;
 
 	margin-top: 47vw;
 	position: absolute;
+	margin-left: 337%;
 }
 .filter2-sub
 {
