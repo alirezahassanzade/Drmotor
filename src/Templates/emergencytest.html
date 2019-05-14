@@ -51,6 +51,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
 <!--map ends here!-->
 <section>
   <div class="all1 ">
+    <form action="">
     <div>
       <label for="left-part">
     <input class="left-part" value=" : مشکل موتور" onfocus='this.value=" "' onfocusout='this.value=" : مشکل موتور"'>
@@ -63,6 +64,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
   </label>
       <a class="request" onclick="f4()">درخواست مکانیک</a>
     </div>
+  </form>
     <div >
     <div class="problems">
         <button class="problems2">
@@ -105,7 +107,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
            <img src="semiCircle.png" alt="" class="halfCircle">
            <div class="common2">
               <span class="request2">درخواست مکانیک</span>
-              <span class="circle">
+              <span class="circle" onclick="f4()">
               <img src="handyman-tools.png" alt="" class="img2">
             </span>
           </div>
