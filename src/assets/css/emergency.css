@@ -16,6 +16,10 @@ body
   font-family:BBardiya;
   src:url('./BBardiya.Woff') format('woff');
 }
+.hiddeninput
+{
+  display: none;
+}
 div.header > nav.nav-content > div > ul > li
 {
   display: inline-block;
@@ -351,7 +355,7 @@ div.header > nav.nav-content > div > ul > li
   padding-left: 15px;
   font-size: 14px;
   position: absolute;
-  right: 8px;
+  right: 2%;
   border-radius: 1vw;
 }
 .fa-arrow-left

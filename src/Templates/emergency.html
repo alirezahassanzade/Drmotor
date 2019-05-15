@@ -46,13 +46,15 @@ navigator.geolocation.getCurrentPosition(function(location) {
   }).addTo(mymap);
 
   var marker = L.marker(latlng).addTo(mymap);
-
+  var a = document.getElementsByClassName("hiddeninput")[0]
+  a.value = latlng
 });
 </script>
 <!--map ends here!-->
 <section>
   <div class="all1 ">
-    <form action="">
+                 <form action="">
+                   <input type="text" class="hiddeninput">
     <div>
       <label for="left-part">
     <input class="left-part" value=" : مشکل موتور" onfocus='this.value=" "' onfocusout='this.value=" : مشکل موتور"'>
@@ -65,7 +67,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
   </label>
       <a class="request" onclick="f4()">درخواست مکانیک</a>
     </div>
-  </form>
+                    </form>
     <div >
     <div class="problems">
         <button class="problems2">
