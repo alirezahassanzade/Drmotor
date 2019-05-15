@@ -340,15 +340,19 @@ div.header > nav.nav-content > div > ul > li
   position: absolute;
   width: 100%;
 }
-.fa-bars
+.bars
 {
 
-  font-size: 38px;
-  color: #f7ce3e;
-  position: absolute;
-  margin-top: 6px;
-  margin-left: 89%;
+  background-color: #f7ce3e;
+  margin-top: 5.1px;
   cursor: pointer;
+  padding: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+  position: absolute;
+  right: 8px;
+  border-radius: 1vw;
 }
 .fa-arrow-left
 {
@@ -574,11 +578,12 @@ body
   font-size: 30px;
   right: 5%;
   }
-  .fa-bars
+  .bars
   {
-    font-size: 33px;
-top: 3px;
-left: -7px;
+
+  font-size: 12px;
+  padding: 15px;
+  margin-top: 13px;
   }
   img.logo2
   {
