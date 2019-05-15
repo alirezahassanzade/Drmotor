@@ -2,144 +2,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="{% static 'css/emergency.css' %}">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="{% static 'js/emergency.js' %}" differ></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/emergency.css' %}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="{% static 'js/emergency.js' %}" differ></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 </head>
 <body>
-        <header>
-                <div class="header">
-                <nav class="nav-content">
-                    <div><img src="{% static 'img/shop_Artboard1_footer.png' %}" class="logo1"></div>
-                <div>
-                <ul class="unorder-list">
-                <li class="a1"> <a > درباره ما </a></li>
-                <li class="a1"> <a> مجله موتور </a></li>
-                <li class="a1"> <a>  فروشگاه</a></li>
-                <li class="a1 a2"> <a>  صفحه نخست</a></li>
-                </ul>
-                </div>
-                </nav>
-                </div>
-         </header>
-         <!-- map-->
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/topojson.v0.min.js"></script>
-	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
-	 <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
-<div id="mapid" style="  height: 400px;"></div>
-<!--latlng is coordinates-->
-<script>
-navigator.geolocation.getCurrentPosition(function(location) {
-  var latlng = new L.LatLng(location.coords.latitude, location.coords.longitude);
-  var mymap = L.map('mapid').setView(latlng, 13)
-  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://mapbox.com">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox.streets',
-    accessToken: 'pk.eyJ1IjoiYmJyb29rMTU0IiwiYSI6ImNpcXN3dnJrdDAwMGNmd250bjhvZXpnbWsifQ.Nf9Zkfchos577IanoKMoYQ'
-  }).addTo(mymap);
+  <header>
+    <div class="header">
+      <nav class="nav-content">
+        <div><img src="{% static 'img/shop_Artboard1_footer.png' %}" class="logo1"></div>
+        <div>
+          <ul class="unorder-list">
+            <li class="a1"> <a > درباره ما </a></li>
+            <li class="a1"> <a> مجله موتور </a></li>
+            <li class="a1"> <a>  فروشگاه</a></li>
+            <li class="a1 a2"> <a>  صفحه نخست</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- map-->
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/topojson.v0.min.js"></script>
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
+  <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
+  <div id="mapid" style="  height: 400px;"></div>
+  <!--latlng is coordinates-->
+  <script>
+  navigator.geolocation.getCurrentPosition(function(location) {
+    var latlng = new L.LatLng(location.coords.latitude, location.coords.longitude);
+    var mymap = L.map('mapid').setView(latlng, 13)
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://mapbox.com">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox.streets',
+      accessToken: 'pk.eyJ1IjoiYmJyb29rMTU0IiwiYSI6ImNpcXN3dnJrdDAwMGNmd250bjhvZXpnbWsifQ.Nf9Zkfchos577IanoKMoYQ'
+    }).addTo(mymap);
 
-  var marker = L.marker(latlng).addTo(mymap);
-  var a = document.getElementsByClassName("hiddeninput")[0]
-  a.value = latlng
-});
+    var marker = L.marker(latlng).addTo(mymap);
+    var a = document.getElementsByClassName("hiddeninput")[0]
+    a.value = latlng
+  });
 </script>
 <!--map ends here!-->
 <section>
   <div class="all1 ">
-                 <form action="">
-                   <input type="text" class="hiddeninput">
-    <div>
-      <label for="left-part">
-    <input class="left-part" value=" : مشکل موتور" onfocus='this.value=" "' onfocusout='this.value=" : مشکل موتور"'>
-      </label>
-    </div>
-    <div class="common1">
-    <img src="{% static 'img/motor.png' %}" class="img1">
-    <label for="center-part">
-    <input class="center-part" value="محل شما : خیابان" onfocus='this.value=" "' onfocusout='this.value="محل شما : خیابان"' onclick="f1()">
-  </label>
-      <a class="request" onclick="f4()">درخواست مکانیک</a>
-    </div>
-                    </form>
+    <form method="POST"> {% csrf_token %}
+      <input name="location" type="text" class="hiddeninput">
+      <div>
+        <label for="left-part">
+          <input name="problem" class="left-part" value=" : مشکل موتور" onfocus='this.value=" "' onfocusout='this.value=" : مشکل موتور"'>
+        </label>
+      </div>
+      <div class="common1">
+        <img src="{% static 'img/motor.png' %}" class="img1">
+        <label for="center-part">
+          <input name="address" class="center-part" value="محل شما : خیابان" onfocus='this.value=" "' onfocusout='this.value="محل شما : خیابان"' onclick="f1()">
+        </label>
+        <input type="submit" class="request" name="" value="درخواست مکانیک">
+        <!-- <a class="request" onclick="f4()">درخواست مکانیک</a> -->
+      </div>
+
     <div >
-    <div class="problems">
+      <div class="problems">
         <button class="problems2">
-            <div id="triangle-down" onclick="f2()"></div>
+          <div id="triangle-down" onclick="f2()"></div>
         </button>
         <button class="problems1" onclick="f2()">
-               مشکل موتور
-            </button>
+          مشکل موتور
+        </button>
 
 
-      <div class="all-problems">
+        <div class="all-problems">
 
-    <a class="item" onclick="f2() ;f3(0)">روشن نشدن موتور</a>
-    <a class="item" onclick="f2() ;f3(1)">ضعف در قدرت و ریپ زدن</a>
-    <a class="item" onclick="f2() ;f3(2)">پنچری چرخ جلو</a>
-    <a class="item" onclick="f2() ;f3(3)">پنچری چرخ عقب</a>
-    <a class="item" onclick="f2() ;f3(4)">خرابی چرخ عقب</a>
-    <a class="item" onclick="f2() ;f3(5)">خرابی چرخ جلو</a>
-    <a class="item" onclick="f2() ;f3(6)">کج شدن کمک فنر جلو</a>
-    <a class="item" onclick="f2() ;f3(7)">شکستن کمک فنر عقب</a>
-  </div>
-</div>
+          <a class="item" onclick="f2() ;f3(0)">روشن نشدن موتور</a>
+          <a class="item" onclick="f2() ;f3(1)">ضعف در قدرت و ریپ زدن</a>
+          <a class="item" onclick="f2() ;f3(2)">پنچری چرخ جلو</a>
+          <a class="item" onclick="f2() ;f3(3)">پنچری چرخ عقب</a>
+          <a class="item" onclick="f2() ;f3(4)">خرابی چرخ عقب</a>
+          <a class="item" onclick="f2() ;f3(5)">خرابی چرخ جلو</a>
+          <a class="item" onclick="f2() ;f3(6)">کج شدن کمک فنر جلو</a>
+          <a class="item" onclick="f2() ;f3(7)">شکستن کمک فنر عقب</a>
+        </div>
+      </div>
+        </form>
     </div>
   </div>
-    </section>
-    <!--mobile-->
-    <div class="all2">
-      <header>
-        <nav class="header-m">
-        <div>
-            <span class="bars" onclick="f6()">...اشکال موتور  </span>
-           </div>
-        <div>
+</section>
+<!--mobile-->
+<div class="all2">
+  <header>
+    <nav class="header-m">
+      <div>
+        <span class="bars" onclick="f6()">...اشکال موتور  </span>
+      </div>
+      <div>
         <span><img src="{% static 'img/shop_Artboard1_footer.png' %}" alt="" class="logo2"></span>
       </div>
-        </nav>
-        </header>
-          <div>
-          <span >
-           <img src="{% static 'img/semiCircle.png' %}" alt="" class="halfCircle">
-           <div class="common2">
-              <span class="request2">درخواست مکانیک</span>
-              <span class="circle" onclick="f4()">
-              <img src="{% static 'img/handyman-tools.png' %}" alt="" class="img2">
-            </span>
-          </div>
-          </span>
-          </div>
-          </section>
-    </section>
-    <div class="all4" style="margin-left:-999px; ">
-      <header>
-        <nav>
-          <div class="header3">
+    </nav>
+  </header>
+  <div>
+    <span >
+      <img src="{% static 'img/semiCircle.png' %}" alt="" class="halfCircle">
+      <div class="common2">
+        <span class="request2">درخواست مکانیک</span>
+        <span class="circle" onclick="f4()">
+          <img src="{% static 'img/handyman-tools.png' %}" alt="" class="img2">
+        </span>
+      </div>
+    </span>
+  </div>
+</section>
+</section>
+<div class="all4" style="margin-left:-999px; ">
+  <header>
+    <nav>
+      <div class="header3">
         <div>
-        <span><img src="{% static 'img/shop_Artboard1_footer.png' %}" alt="" class="logo3"></span>
+          <span><img src="{% static 'img/shop_Artboard1_footer.png' %}" alt="" class="logo3"></span>
         </div>
         <div>
-        <span class="close3" onclick="f6()">&#10005;</span>
+          <span class="close3" onclick="f6()">&#10005;</span>
         </div>
       </div>
-        </nav>
-        </header>
-        <section class="mid-all">
-          <div class="problemsII">
-                <div id="triangle-downII"  onclick="f2II()"></div>
-            <button class="problems1II" onclick="f2II()">
-                   مشکل موتور
-                </button>
+    </nav>
+  </header>
+  <section class="mid-all">
+    <div class="problemsII">
+      <div id="triangle-downII"  onclick="f2II()"></div>
+      <button class="problems1II" onclick="f2II()">
+        مشکل موتور
+      </button>
 
 
-          <div class="all-problemsII">
+      <div class="all-problemsII">
 
         <a class="itemII" onclick="f2II() ;f3II(0)">روشن نشدن موتور</a>
         <a class="itemII" onclick="f2II() ;f3II(1)">ضعف در قدرت و ریپ زدن</a>
@@ -151,18 +153,18 @@ navigator.geolocation.getCurrentPosition(function(location) {
         <a class="itemII" onclick="f2II() ;f3II(7)">شکستن کمک فنر عقب</a>
       </div>
     </div>
-        <div>
-          <label for="left-partII">
-            <input class="left-partII" value=" : مشکل موتور" onfocus='this.value=" "' onfocusout='this.value=" : مشکل موتور"'>
-           </label>
-            </div>
-            <div>
-              <span class="accept">تایید</span>
-            </div>
-        </section>
+    <div>
+      <label for="left-partII">
+        <input class="left-partII" value=" : مشکل موتور" onfocus='this.value=" "' onfocusout='this.value=" : مشکل موتور"'>
+      </label>
     </div>
-  </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <div>
+      <span class="accept">تایید</span>
+    </div>
+  </section>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

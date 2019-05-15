@@ -74,6 +74,9 @@ def panel_view(request):
 
 
 def emergency_view(request):
+    if request.method == "POST":
+        print(request.POST)
+
     context = {
 
     }
