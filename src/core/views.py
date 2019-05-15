@@ -71,3 +71,10 @@ def panel_view(request):
 
     }
     return render(request, 'panel.html', context)
+
+
+def emergency_view(request):
+    context = {
+
+    }
+    return render(request, 'emergency.html', context)

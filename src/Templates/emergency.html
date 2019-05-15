@@ -1,20 +1,21 @@
-﻿<!DOCTYPE html>
+{% load static %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="./emergencytest.css">
+      <link rel="stylesheet" href="{% static 'css/emergency.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./emergencytest.js" differ></script>
+    <script src="{% static 'js/emergency.js' %}" differ></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    
+
 </head>
 <body>
         <header>
                 <div class="header">
                 <nav class="nav-content">
-                    <div><img src="shop_Artboard1_footer.png" class="logo1"></div>
+                    <div><img src="{% static 'img/shop_Artboard1_footer.png' %}" class="logo1"></div>
                 <div>
                 <ul class="unorder-list">
                 <li class="a1"> <a > درباره ما </a></li>
@@ -58,7 +59,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
       </label>
     </div>
     <div class="common1">
-    <img src="./motor.png" class="img1">
+    <img src="{% static 'img/motor.png' %}" class="img1">
     <label for="center-part">
     <input class="center-part" value="محل شما : خیابان" onfocus='this.value=" "' onfocusout='this.value="محل شما : خیابان"' onclick="f1()">
   </label>
@@ -70,10 +71,10 @@ navigator.geolocation.getCurrentPosition(function(location) {
         <button class="problems2">
             <div id="triangle-down" onclick="f2()"></div>
         </button>
-        <button class="problems1" onclick="f2()"> 
-               مشکل موتور 
+        <button class="problems1" onclick="f2()">
+               مشکل موتور
             </button>
-            
+
 
       <div class="all-problems">
 
@@ -95,23 +96,23 @@ navigator.geolocation.getCurrentPosition(function(location) {
       <header>
         <nav class="header-m">
         <div>
-            <span class="bars" onclick="f6()">...اشکال موتور  </span>       
+            <span class="bars" onclick="f6()">...اشکال موتور  </span>
            </div>
         <div>
-        <span><img src="shop_Artboard1_footer.png" alt="" class="logo2"></span>
+        <span><img src="{% static 'img/shop_Artboard1_footer.png' %}" alt="" class="logo2"></span>
       </div>
         </nav>
         </header>
           <div>
           <span >
-           <img src="semiCircle.png" alt="" class="halfCircle">
+           <img src="{% static 'img/semiCircle.png' %}" alt="" class="halfCircle">
            <div class="common2">
               <span class="request2">درخواست مکانیک</span>
               <span class="circle" onclick="f4()">
-              <img src="handyman-tools.png" alt="" class="img2">
+              <img src="{% static 'img/handyman-tools.png' %}" alt="" class="img2">
             </span>
           </div>
-          </span>  
+          </span>
           </div>
           </section>
     </section>
@@ -120,7 +121,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
         <nav>
           <div class="header3">
         <div>
-        <span><img src="shop_Artboard1_footer.png" alt="" class="logo3"></span>
+        <span><img src="{% static 'img/shop_Artboard1_footer.png' %}" alt="" class="logo3"></span>
         </div>
         <div>
         <span class="close3" onclick="f6()">&#10005;</span>
@@ -131,13 +132,13 @@ navigator.geolocation.getCurrentPosition(function(location) {
         <section class="mid-all">
           <div class="problemsII">
                 <div id="triangle-downII"  onclick="f2II()"></div>
-            <button class="problems1II" onclick="f2II()"> 
-                   مشکل موتور 
+            <button class="problems1II" onclick="f2II()">
+                   مشکل موتور
                 </button>
-                
-    
+
+
           <div class="all-problemsII">
-    
+
         <a class="itemII" onclick="f2II() ;f3II(0)">روشن نشدن موتور</a>
         <a class="itemII" onclick="f2II() ;f3II(1)">ضعف در قدرت و ریپ زدن</a>
         <a class="itemII" onclick="f2II() ;f3II(2)">پنچری چرخ جلو</a>
@@ -151,7 +152,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
         <div>
           <label for="left-partII">
             <input class="left-partII" value=" : مشکل موتور" onfocus='this.value=" "' onfocusout='this.value=" : مشکل موتور"'>
-           </label>      
+           </label>
             </div>
             <div>
               <span class="accept">تایید</span>
