@@ -332,6 +332,14 @@ div.header > nav.nav-content > div > ul > li
   {
   height:   100vh !important;
   }
+  .weirdlogo
+  {
+
+  width: 337px;
+  top: 2%;
+  position: absolute;
+  left: 20%;
+  }
 .header-m
 {
   width: 100%;
@@ -552,9 +560,18 @@ body
 
   margin-left: 32%;
   }
+  .weirdlogo
+  {
+    
+  left: 19vw;
+  }
 }
 @media only screen and (max-width:422px)
 {
+  .weirdlogo
+  {
+    
+  }
   .common2
   {
     margin-left: -4%;
