@@ -195,6 +195,10 @@ a.item
   font-size: 16px;
   cursor: pointer;
 }
+.map-all
+{
+  
+}
 .common1
 {
 
@@ -341,8 +345,8 @@ div.header > nav.nav-content > div > ul > li
 {
 
   margin-top: 50px;
-  position: absolute;
   width: 100%;
+  overflow: auto !important;
 }
 .bars
 {
@@ -430,6 +434,7 @@ body
   top: 0;
   margin-left: -999px;
   transition: 1s;
+  overflow: auto;
 }
 .logo3
 {
