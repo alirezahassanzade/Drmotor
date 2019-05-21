@@ -26,6 +26,7 @@ class UserType(models.Model):
 # TODO: Multi address on profile
 
 
+# BUG: Change address from Foreignkey to many to one field
 class User(models.Model):
     FirstName = models.CharField(max_length=CHARFIELD_MAXLENGTH)
     LastName = models.CharField(max_length=CHARFIELD_MAXLENGTH)
