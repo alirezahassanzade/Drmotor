@@ -338,7 +338,7 @@ div.header > nav.nav-content > div > ul > li
   width: 337px;
   top: 2%;
   position: absolute;
-  left: 20%;
+  left: 24%;
   }
 .header-m
 {
@@ -551,6 +551,10 @@ body
 }
 @media only screen and (max-width:550px)
 {
+  .weirdlogo
+  {
+    
+  }
   .close3
   {
   font-size: 38px;
@@ -563,7 +567,7 @@ body
   .weirdlogo
   {
     
-  left: 19vw;
+  left: 14%;
   }
 }
 @media only screen and (max-width:422px)
@@ -571,6 +575,7 @@ body
   .weirdlogo
   {
     
+  left: 7%;
   }
   .common2
   {
@@ -618,6 +623,11 @@ height: 40px;
 margin-top: 4px;
 margin-left: 20px;
   }
+  .weirdlogo
+  {
+
+  left: 1%;
+  }
 }
 @media only screen and (max-width:316px)
 {
@@ -643,6 +653,11 @@ margin-left: 20px;
     font-size: 29px;
 
     right: 5%;
+  }
+  .weirdlogo
+  {
+    
+  left: -7%;
   }
 }
 body
