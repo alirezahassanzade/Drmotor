@@ -45,6 +45,43 @@ div.content3
 }
 @media only screen and (max-width:640px)
 {
+	.sabtErsal
+	{
+		
+	font-size: 2.1vw !important;
+	top: 15vw;
+	padding-top: 0.7vw !important;
+	}
+	.closeGoods
+	{
+		
+	font-size: 2.5vw !important;
+	margin-top: 8vw !important;
+	margin-left: 23vw !important;
+	}
+	.goods-img1
+	{
+
+	width: 8vw !important;
+	height: 8vw !important;
+	margin-top: -5vw !important;
+	}
+	.goods1
+	{
+
+	font-size: 3vw !important;
+	margin-top: -7vw !important;
+	}
+	.total1
+	{
+		
+	font-size: 3.5vw !important;
+	}
+	#cartOne
+	{
+
+	right: 2vw;
+	}
 	div.header
 	{
 		height: 11vw;
@@ -2698,12 +2735,11 @@ span.cart-container
 	background: white;
 	margin-top: 4.8vw;
 	padding: 0vw 2.3vw 7vw 8.5vw;
-	position: absolute;
+	position: fixed;
 	margin-left: 4vw;
 	border: 0.1vw solid lightgray;
 	display: none;
-	overflow-y: auto;
-	height: 14vh;
+	overflow: auto;
 	overflow-x: hidden;
 }
 .fa-caret-up
@@ -2723,7 +2759,7 @@ span.cart-container
 	font-size: 2vw;
 	position: absolute;
 	margin-left: -8.5vw;
-	width: 33vw;
+	width: 100%;
 	text-align: center;
 	border-bottom: 0.1vw solid #60606026;
 	padding-right: 1.3vw;
@@ -2777,19 +2813,21 @@ span.cart-container
 	color: white;
 	padding: 1vw;
 	position: absolute;
-	width: 34.6vw;
+	width: 100%;
 	margin-left: -8.6vw;
-	margin-top: 4.2vh;
 	padding-top: 1.4vw;
 	padding-bottom: 1.4vw;
 	font-size: 1.5vw;
 	cursor: pointer;
+	bottom: 0;
 }
 @media only screen and (max-width:640px)
 { 
 	.fa-caret-up
 	{
-		display: none !important;
+	font-size: 12vw;
+	top: 4vw;
+	left: 5.8vw;
 	}
 	.motori-logo2
 	{
