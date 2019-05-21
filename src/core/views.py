@@ -75,6 +75,7 @@ def panel_view(request):
 
 def emergency_view(request):
     if request.method == "POST":
+        # lat, lng = request.POST.get('')
         print(request.POST)
 
     context = {
