@@ -195,6 +195,10 @@ a.item
   font-size: 16px;
   cursor: pointer;
 }
+.map-all
+{
+  
+}
 .common1
 {
 
@@ -328,6 +332,14 @@ div.header > nav.nav-content > div > ul > li
   {
   height:   100vh !important;
   }
+  .weirdlogo
+  {
+
+  width: 337px;
+  top: 2%;
+  position: absolute;
+  left: 24%;
+  }
 .header-m
 {
   width: 100%;
@@ -341,8 +353,8 @@ div.header > nav.nav-content > div > ul > li
 {
 
   margin-top: 50px;
-  position: absolute;
   width: 100%;
+  overflow: auto !important;
 }
 .bars
 {
@@ -423,13 +435,14 @@ body
 .all4
 {
   width: 100%;
-  height: 106vh;
+  height: 100vh;
   background-color: #f6ca51;
   z-index: 16;
-  position: absolute;
+  position: fixed;
   top: 0;
   margin-left: -999px;
   transition: 1s;
+  overflow: auto;
 }
 .logo3
 {
@@ -538,6 +551,10 @@ body
 }
 @media only screen and (max-width:550px)
 {
+  .weirdlogo
+  {
+    
+  }
   .close3
   {
   font-size: 38px;
@@ -547,9 +564,19 @@ body
 
   margin-left: 32%;
   }
+  .weirdlogo
+  {
+    
+  left: 14%;
+  }
 }
 @media only screen and (max-width:422px)
 {
+  .weirdlogo
+  {
+    
+  left: 7%;
+  }
   .common2
   {
     margin-left: -4%;
@@ -596,6 +623,11 @@ height: 40px;
 margin-top: 4px;
 margin-left: 20px;
   }
+  .weirdlogo
+  {
+
+  left: 1%;
+  }
 }
 @media only screen and (max-width:316px)
 {
@@ -621,6 +653,11 @@ margin-left: 20px;
     font-size: 29px;
 
     right: 5%;
+  }
+  .weirdlogo
+  {
+    
+  left: -7%;
   }
 }
 body

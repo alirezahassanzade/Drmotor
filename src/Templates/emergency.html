@@ -32,7 +32,9 @@
   <script src="https://d3js.org/topojson.v0.min.js"></script>
   <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
   <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
+  <div class="map-all">
   <div id="mapid" style="  height: 400px;"></div>
+</div>
   <!--latlng is coordinates-->
   <script>
   navigator.geolocation.getCurrentPosition(function(location) {
@@ -134,6 +136,9 @@
     </nav>
   </header>
   <section class="mid-all">
+    <div class="weird-logo">
+        <img src="{% static 'img/white-drmotori.png' %}" alt="" class="weirdlogo">
+      </div>
     <div class="problemsII">
       <div id="triangle-downII"  onclick="f2II()"></div>
       <button class="problems1II" onclick="f2II()">
