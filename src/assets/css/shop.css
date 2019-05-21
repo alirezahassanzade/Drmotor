@@ -1588,7 +1588,7 @@ div.modal-content4
 	background-color:#c5c1c0;
 	height: 70vw;
 	width: 65vw;
-	margin-left: 3.5vw;
+	margin-left: 6.5vw;
 }
 
 
@@ -1598,7 +1598,7 @@ div.modal-content4
     position: fixed; /* Stay in place */
      /* Sit on top */
     padding-top: 1vw; /* Location of the box */
-    left: 0;
+    left: 0px;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
@@ -2080,7 +2080,6 @@ div.star-rating4 {
 		color: darkgray;
 
 	}
-
 	@media only screen and (max-width: 640px)
 	{
 		 div.star-rating4 {
