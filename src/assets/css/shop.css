@@ -169,7 +169,7 @@ i.cart
 		position: fixed;
 		margin-top: -9.5vw;
 		font-size: 10vw;
-		margin-left: 82vw;
+		margin-left: 84vw;
 	}
 }
 @media only screen and (min-width:640px)
@@ -1533,7 +1533,7 @@ i.filter1
 {
 
 	margin-top: -10vw;
-	margin-left: 66vw;
+	margin-left: 5vw;
 	position: absolute;
 	width: 10vw;
 	font-size: 7vw;
@@ -1646,7 +1646,7 @@ div.modal-content4
 	border:none;
 	background-color:#1a2930;
 	margin-top: -9.8vw;
-	margin-left: 51.9vw;
+	margin-left: 74.9vw;
 	position: absolute;
 }
 @media only screen and (min-width:640px)
@@ -1804,7 +1804,7 @@ i.icon20
 	position:absolute;
 	color: #f7ce3e;
 	margin-top: -7.3vw;
-	margin-left: 0vw;
+	margin-left: -3vw;
 	font-size: 8vw;
 }
 div.filters2-text6
@@ -2832,7 +2832,7 @@ span.cart-container
 	{
 		
 	width: 35vw;
-	margin-left: 2vw;
+	margin-left: 29vw;
 	margin-top: 2vw;
 	}
 	span.goods-line
