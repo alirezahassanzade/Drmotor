@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./order.css">
-    <script src="./test.js" defer></script>
+    <link rel="stylesheet" href="../assets/css/order.css">
+    <script src="../assets/js/order.js" defer></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
@@ -63,7 +63,7 @@
 <div class="category1">
         <span >ت 26000</span>
     <div class="clickable">
-           <input type="text" class="quantity" value="1" >
+           <input type="submit" class="quantity" value="1" onclick="f1()">
            <div class="triangle" onclick="f1()"></div>
            <div class="all-items" style="display:none;">
                <span class="item1" onclick="f1(); f2(1)">1</span>
@@ -109,7 +109,43 @@
 </div>
 </div>
 </div>
+<div style="padding-top: 32px;">
 
+<div class="all-line3">
+        <div>
+        <img src="./lent2.jpg" class="mobile-img1">
+        </div>
+        <div class="text-mobile-container">
+        <div class="goods-container">
+        <span class="goods">لنت لیزر طلایی</span>
+        </div>
+        <div class="price-container">
+                <span style="direction: rtl;">10000 تومان  </span>
+        <span> : قیمت</span>
+        </div>
+        <div>
+            <span class="quantity-text">تعداد</span>
+        </div>
+        <div class="clickable">
+            <input type="submit" class="quantity" value="1" onclick="f1()">
+            <div class="triangle" onclick="f1()"></div>
+            <div class="all-items" style="display:none;">
+                <span class="item1" onclick="f1(); f2(1)">1</span>
+                <span class="item1" onclick="f1(); f2(2)">2</span>
+                <span class="item1" onclick="f1(); f2(3)">3</span>
+                <span class="item1" onclick="f1(); f2(4)">4</span>
+                <span class="item1" onclick="f1(); f2(5)">5</span>
+                <span class="item1" onclick="f1(); f2(6)">6</span>
+                <span class="item1" onclick="f1(); f2(7)">7</span>
+                <span class="item1" onclick="f1(); f2(8)">8</span>
+                <span class="item1" onclick="f1(); f2(9)">9</span>
+                <span class="item1" onclick="f1(); f2(10)">10</span>
+            </div>
+     </div>
+    </div>
+</div>
+
+</div>
 </div>
 <div class="common3"> 
         <img src="./cart-bg2.jpg" class="footer-img1 footer-img">
@@ -164,7 +200,7 @@
        <input type="radio" name="radio1" class="radio2">
                         </span>
                         </div>
-    <div class="lineII lineII2">
+    <div class="lineII lineII2 lineII4">
     <span class="lineII-content">
     <span class="time-topic">ساعت مراجعه مکانیک </span>
     <div class="time">
@@ -219,9 +255,69 @@
     </div>
     </span>
     </div>
+    <div class="lineII lineII2 lineII3">
+        <span class="lineII-content">
+        <span class="time-topic">ساعت مراجعه مکانیک </span>
+        <div class="time" style = "direction: rtl;">
+            <span class="change1">روز</span>
+                <span class="change1">۶ تا ۱۲</span>
+                <span class="change1">۱۲ تا ۱۸</span>
+                <span class="change1">۱۸ تا ۲۱</span>
+                <span class="change1">۲۱ تا ۱۲</span>
+        </div>
+        <div class="time" style="background-color:#dcdcdc;justify-content: space-between;" >
+            <span style="height: 0;margin-left: 48px;  margin-right: -13px;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="direction: rtl; margin-right: 27px;">شنبه </span>
+        </div>
+        <div class="time" style="justify-content: space-between;">
+            <span style="height: 0;margin-left: 48px;  margin-right: -13px;"><input type="radio" name="radio3" class="radio3"></span>            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="direction: rtl; margin-right: 10px;">یکشنبه</span>
+        </div>
+        <div class="time" style="background-color:#dcdcdc; justify-content: space-between;">
+            <span style="width:0px; height: 0;margin-left:48px;  margin-right: 8px;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;" ><input type="radio" name="radio3" class="radio3"></span>
+            <span style="direction: rtl;margin-right: 10px;">دوشنبه</span>
+        </div>
+        <div class="time" style=" justify-content: space-between;">
+            <span style="width:0px; height: 0;margin-left:48px;  margin-right: 8px;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;" ><input type="radio" name="radio3" class="radio3"></span>
+            <span style="direction: rtl;margin-right:2px;">سه شنبه</span>
+        </div>
+        <div class="time" style="background-color:#dcdcdc; justify-content: space-between;">
+            <span style="width:0px; height: 0;margin-left:48px;  margin-right: 8px;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;" ><input type="radio" name="radio3" class="radio3"></span>
+            <span style="direction: rtl;margin-right: -1px;">چهارشنبه</span>
+        </div>
+        <div class="time" style=" justify-content: space-between;">
+            <span style="width:0px; height: 0;margin-left:48px;  margin-right: 8px;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;" ><input type="radio" name="radio3" class="radio3"></span>
+            <span style="direction: rtl;margin-right:2px;">پنج شنبه</span>
+        </div>
+        <div class="time" style="background-color:#dcdcdc; justify-content: space-between;">
+            <span style="width:0px; height: 0;margin-left:48px;  margin-right: 8px;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;"><input type="radio" name="radio3" class="radio3"></span>
+            <span style="width:0px; height: 0;" ><input type="radio" name="radio3" class="radio3"></span>
+            <span style="direction: rtl;margin-right: 23px;">جمعه</span>
+        </div>
+        </span>
+        </div>
                 </section>
                 <footer>
-                    <img src="./cart-side2-bg2.png" alt="" class="footer-img">
+                    <img src="./cart-side2-bg2.png" alt="" class="footer-img footer-img2">
                 </footer>
                 <div class="common3"> 
                         <div class="all-triangle2">
@@ -262,11 +358,12 @@
                 <span>8000</span>
             <span>اجرت لنت</span>
         </div>
-    </div>
-        <div>
+
+        <div class="cashier-container">
         <span class="cashier">قیمت کل : 20000 تومان</span>
         <span class="pay">پرداخت آنلاین</span>
         </div>
+    </div>
         </div>
     </section>
         <footer>
