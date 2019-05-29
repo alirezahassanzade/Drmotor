@@ -15,18 +15,22 @@ function reset()
 
 function nextSlide()
 {
+    if(current === a.length)
+    {  
+        current = 0;
+        for( i = 0 ; i < a.length-1 ; i++)
+        {
+           b[i].style.backgroundColor = "#bbbbbb";
+           c[i].style.backgroundColor = "#bbbbbb";
+           c[1].style.background="linear-gradient( -90deg, #bbbbbb, #bbbbbb 49%, #bbbbbb 49%, #bbbbbb 51%, #bbbbbb 51% )"
+   
+        }
+    }
  reset();
  current++
  if(current === a.length)
  {  
-     current = 0;
-     for( i = 0 ; i < a.length-1 ; i++)
-     {
-        b[i].style.backgroundColor = "#bbbbbb";
-        c[i].style.backgroundColor = "#bbbbbb";
-        c[1].style.background="linear-gradient( -90deg, #bbbbbb, #bbbbbb 49%, #bbbbbb 49%, #bbbbbb 51%, #bbbbbb 51% )"
-
-     }
+     current = a.length-1;
  }
  a[current].style.display="unset";
  if(current === 1)
@@ -48,7 +52,7 @@ reset();
 current--
 if(current===-1)
 {
-    current = a.length-1
+    current = 0
 
 }
 if(current === 0 )
@@ -77,22 +81,32 @@ a[current].style.display="unset";
 }
 function f1()
 {
-    var a = document.getElementsByClassName("all-items")[0]
+    var i ;
+    var a = document.getElementsByClassName("all-items")
+for(i=0 ; i<2 ; i++)
+{
 
-    if(a.style.display==="grid")
+
+    if(a[i].style.display==="grid")
     {
-       a.style.display="none"
+       a[i].style.display="none"
     }
     else
-    a.style.display="grid"
+    a[i].style.display="grid"
+}
 }
 function f2(wh)
 {
-    var b = document.getElementsByClassName("quantity")[0]
- b.value=wh
+    var b = document.getElementsByClassName("quantity")
+    var i ;
+    for(i=0 ; i <2 ; i++)
+    {
+        b[i].value=wh
+    }
+
 }
 window.onload = function(){
 document.querySelectorAll("INPUT[type='radio']").forEach(function(rd){rd.addEventListener("mousedown",
 	function(){
 		if (this.checked) {this.onclick=function(){this.checked=false}} else{this.onclick=null}
-	})})}
+    })})}

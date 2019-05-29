@@ -2057,19 +2057,23 @@ span.img4:hover + i.imgg4
 	display: unset;
 	cursor: pointer;
 }
+i.star1
+{
+	transform: rotate(108deg);
+}
 i.star1:hover
 {
 	background-color:white;
 }
 div.star-rating4 {
-	margin-top: 12.2vw;
-	margin-left: -7vw;
+	margin-top: 12.4vw;
+	margin-left: 1vw;
 		direction: rtl;
 	   font-size: 1vw;
 	   padding:0.5vw;
 
 	position: absolute;
-	cursor: pointer;
+	transform: rotate(-180deg);
 	}
 
 	 div.star-rating4 input[type=radio] {
@@ -2086,7 +2090,7 @@ div.star-rating4 {
 	font-size: 2.6vw;
 		direction: rtl;
 		position:absolute;
-	margin-left:-11vw;
+	margin-left:1vw;
 	margin-top: 20vw;
 	}
 	}
@@ -2832,11 +2836,23 @@ span.cart-container
 	{
 		
 	width: 35vw;
-	margin-left: 29vw;
+	margin-left: 34vw;
 	margin-top: 2vw;
 	}
 	span.goods-line
 	{
 
+	}
+	.hamFilter-logo
+	{
+
+	}
+	.ham-img
+	{
+		
+	width: 53%;
+	position: absolute;
+	top: 1vw;
+	left: 17vw;
 	}
 }
