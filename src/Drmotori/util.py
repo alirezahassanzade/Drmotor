@@ -1,7 +1,7 @@
 from django.db.models import Min, Max
 from hashlib import md5
 
-from .models import Good
+from shop.models import Good
 
 import smtplib
 import ssl

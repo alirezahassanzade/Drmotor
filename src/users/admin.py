@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Address, User, Motor
+
+admin.site.register(Address)
+admin.site.register(User)
+admin.site.register(Motor)
