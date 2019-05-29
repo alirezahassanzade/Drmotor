@@ -11,8 +11,11 @@ class Good(models.Model):
     images = models.ManyToManyField('Image', blank=True)
 
     def __str__(self):
-        return self.Title
+        return self.title
 
 
 class Image(models.Model):
     image = models.ImageField(upload_to='static_img/', null=True, blank=True)
+
+    def __str__(self):
+        return self.image.url

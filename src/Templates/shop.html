@@ -174,7 +174,6 @@
 
 <div class="problem">
 {% for good in goods_list %}
-
 	<span class="img1 common1">
 		<div class="star-rating4 responsive">
 			<input id="star-5III" type="radio" name="rating" value="star-5">
@@ -199,12 +198,12 @@
 			</label>
 		</div>
 		<i class="fas fa-cart-plus imgg4 imgg" onclick="btnClick()"></i>
-		<div class="imgtext5">{{ good.Title }}</div>
+		<div class="imgtext5">{{ good.title }}</div>
 		<div class="imgtext6">
 			امتیاز <br>قیمت
 		</div>
-		<div class="price4">{{ good.Price }}</div>
-		<img src="{{ first_image|index:forloop.counter0 }}" class="image4">
+		<div class="price4">{{ good.price }}</div>
+		<img src="{{ good.images.first.image.url }}" class="image4">
 	</span>
 
 {% endfor %}
