@@ -17,6 +17,7 @@
 
 	<div class="all2">
 			<div class="all ">
+				</div>
 		<div class="ym">
 
 			<img src="{% static 'img/shop_foroshgah.png' %}" class="responsive foroshgah">
@@ -25,10 +26,6 @@
 		<div class="header3">
 			<div class="search1"><input type="text1" placeholder ="جست و جو در فروشگاه" class="search1" id="search1"></div>
 		</div>
-
-		<img src="{% static 'img/shop_motori-bg.jpg' %}" class="responsive motori-bg">
-
-
 		<div class="header4"><div class="text6">پرفروش ها</div>
 		<div class="slideshow-container">
 
@@ -140,7 +137,6 @@
 		</div>
 		<div class="box4"></div>
 		<div class="lavazemjanebi common2">لوازم جانبی</div>
-		<div class="box5"></div>
 	</div>
 </div>
 	</div>
@@ -150,55 +146,55 @@
 
 	<span class="img" style="display:none"></span>
 	<i class="imgg"></i>
-
-<div class="problem">
-{% for good in goods_list %}
-	<span class="img1 common1">
-		<div class="star-rating4 responsive">
-			<script>star(4);</script>
-			<input id="star-5III" type="radio">
-			<label for="star-5III">
-				<i class="fa fa-star star1"></i>
-			</label>
-			<input id="star-5III" type="radio">
-			<label for="star-5III">
-				<i class="fa fa-star star1"></i>
-			</label>
-			<input id="star-5III" type="radio">
-			<label for="star-5III">
-				<i class="fa fa-star star1"></i>
-			</label>
-			<input id="star-5III" type="radio">
-			<label for="star-5III">
-				<i class="fa fa-star star1"></i>
-			</label>
-			<input id="star-5III" type="radio">
-			<label for="star-5III">
-				<i class="fa fa-star star1"></i>
-			</label>
+	<div class="problem">
+		{% for good in goods_list %}
+			<span class="img1 common1">
+				<div class="star-rating4 responsive">
+					<script>star(4);</script>
+					<input id="star-5III" type="radio">
+					<label for="star-5III">
+						<i class="fa fa-star star1"></i>
+					</label>
+					<input id="star-5III" type="radio">
+					<label for="star-5III">
+						<i class="fa fa-star star1"></i>
+					</label>
+					<input id="star-5III" type="radio">
+					<label for="star-5III">
+						<i class="fa fa-star star1"></i>
+					</label>
+					<input id="star-5III" type="radio">
+					<label for="star-5III">
+						<i class="fa fa-star star1"></i>
+					</label>
+					<input id="star-5III" type="radio">
+					<label for="star-5III">
+						<i class="fa fa-star star1"></i>
+					</label>
+				</div>
+				<script>
+					function star(wh)
+					{
+					var i ;
+				var a = document.getElementsByClassName("star1")
+					for(i = 0 ; i < wh ; i ++ )
+					{
+						a[i].style.color = "#f7ce3e"
+					}
+					}
+				</script>
+				<i class="fas fa-cart-plus imgg4 imgg" onclick="btnClick()"></i>
+				<div class="imgtext5">{{ good.title }}</div>
+				<div class="imgtext6">
+					امتیاز <br>قیمت
+				</div>
+				<div class="price4">{{ good.price }}</div>
+				<img src="{{ good.images.first.image.url }}" class="image4">
+			</span>
+		
+		{% endfor %}
 		</div>
-		<script>
-			function star(wh)
-			{
-			var i ;
-		var a = document.getElementsByClassName("star1")
-			for(i = 0 ; i < wh ; i ++ )
-			{
-				a[i].style.color = "#f7ce3e"
-			}
-			}
-		</script>
-		<i class="fas fa-cart-plus imgg4 imgg" onclick="btnClick()"></i>
-		<div class="imgtext5">{{ good.title }}</div>
-		<div class="imgtext6">
-			امتیاز <br>قیمت
-		</div>
-		<div class="price4">{{ good.price }}</div>
-		<img src="{{ good.images.first.image.url }}" class="image4">
-	</span>
 
-{% endfor %}
-</div>
 	<div class="footer">
 		<img src="{% static 'img/shop_footer-bg.png' %}" class="responsive footer-bg">
 		<img src="{% static 'img/shop_Artboard 1.png' %}" alt="Drmotori logo motor mechanics مکانیک موتور دکترموتوری تعمیر موتور " class="Drmotori-logo">
@@ -224,7 +220,7 @@
 
 		</div>
 	</div>
-</div>
+
 	<div class="header ">
 		<button id="myBtn" class="loginap">نام/login</button>
 		<a href="" class="header-text-1 header-text-4">صفحه نخست</a>

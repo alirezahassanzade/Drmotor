@@ -1,5 +1,6 @@
 body
 {
+	background-color: #c5c1c0;
 	font-size: 1.5vw;
 	margin: 0px;
 }
@@ -20,8 +21,8 @@ width: 100%;
 height: 3.5vw;
 	background-color: #1a2930;
 	position:fixed;
-	margin-top: -156.2vw;
 z-index: 0;
+top: 0;
 }
 div.content2
 {
@@ -359,7 +360,7 @@ div.number1
 }
 button.vorod
 {
-	font-size: 1vw;
+	font-size: 1.1vw;
 	position: absolute;
 	padding-right: 3vw;
 	padding-left: 3vw;
@@ -371,6 +372,7 @@ button.vorod
 	margin-left: 6.5vw;
 	margin-top: 11.5vw;
 	border: none;
+	cursor: pointer;
 }
 
 a.faramosh
@@ -437,6 +439,7 @@ button.register
 	color: #000000;
 	margin-left: 34vw;
 	border: none;
+	cursor: pointer;
 }
 div.header4 > div.slideshow-container > div.mySlides
  {display: none}
@@ -560,7 +563,7 @@ div.content
 	overflow-y: auto;
 	top: 3vw;
 	direction: rtl;
-	height: 94vh;
+	height: 100vh;
 	overflow-x: hidden;
 	padding-right: 2vw;
 	float: right;
@@ -793,7 +796,6 @@ div.box4
 div.lavazemjanebi
 {
 	margin-left: 7vw;
-	margin-top:5vw;
 	cursor: pointer;
 }
 div.box5
@@ -802,7 +804,7 @@ div.box5
 	width: 15vw;
 	height: 0.1%;
 	background-color: #3a3838;
-	margin-top:9.8vw;
+	margin-top:4.8vw;
 	margin-left: 2vw;
 }
 span.img
@@ -818,13 +820,13 @@ height: 8.1vw;
 }
 .common1
 {
-	margin-top: 92vw;
 	position: relative;
 	padding-bottom: 10vw;
 	background-color: white;
 	border-radius: 1vw;
 	display: inline-grid;
 	width: 14.5vw;
+	margin-top: 8vw;
 }
 span.img1
 {
@@ -985,8 +987,7 @@ span.img16
 img.footer-bg
 {
 	position: absolute;
-	margin-top: 4vw;
-	padding-top: 8vw;
+	margin-top: -75vw;
 	height: 39vw;
 }
 div.footer > div.footer-text
@@ -997,7 +998,7 @@ div.footer > div.footer-text
 	font-size: 1.8vw;
 	color: white;
 	margin-left: 85%;
-margin-top:13.5vw;
+margin-top:-71.5vw;
 	text-align: right;
 	font-family: BBardiya;
 	line-height: 4.5vw;
@@ -1534,16 +1535,20 @@ img.Drmotori-logo
 	height: 23vw;
 	position: absolute;
 	width: 31vw;
-	margin-top: 9vw;
+	margin-top: -76vw;
 	margin-left: -2vw;
+}
+.all
+{
+	
 }
 .problem
 {
 	position: relative;
 	width: 79vw;
 	height: 58vw;
-	margin-top: -60vw;
 	z-index: -1;
+	padding-top: 27vw;
 }
 a.header-text-1
 {
@@ -2047,7 +2052,7 @@ span.cart-container
 	}
 	span.img1
 {
-	margin-top: 145vw;
+	margin-top: 16vw;
 	padding: 1vw;
 	padding-bottom: 17.5vw;
 	padding-right: 6vw;
@@ -2267,7 +2272,7 @@ div.imgtext6
 	{
 		font-size: 2.5vw;
 		margin-left: 84%;
-		margin-top: -33vw;
+		margin-top: -1vw;
 	}
 	div.footer > div.footer-text2
 	{
@@ -2309,7 +2314,7 @@ div.imgtext6
 .problem
 {
 
-	margin-top: -106vw;
+	margin-top: 4vw;
 	width: 100%;
 	height: 96vw;
 	margin-left: -1.5vw;
@@ -2346,7 +2351,7 @@ div.imgtext6
 		}
 	img.Drmotori-logo
 	{
-		margin-top: -39vw;
+		margin-top: -6vw;
 	}
 	.filter1-container
 	{
@@ -2634,7 +2639,7 @@ margin-top: 20.6%;
 	div.header
 	{
 		height: 11vw;
-			margin-top: -268.2vw;
+		top: 156vw;
 	}
 	div.header2
 	{
