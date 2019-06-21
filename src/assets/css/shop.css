@@ -2,7 +2,7 @@ body
 {
 	font-size: 1.5vw;
 	margin: 0px;
-	background-color: lightgray;
+	background-color: #c5c1c0;
 }
 .footer
 {
@@ -561,7 +561,7 @@ div.content
 	overflow-y: auto;
 	top: 3vw;
 	direction: rtl;
-	height: 100vh;
+	height: 94vh;
 	overflow-x: hidden;
 	padding-right: 2vw;
 	float: right;
@@ -794,7 +794,7 @@ div.box4
 div.lavazemjanebi
 {
 	margin-left: 7vw;
-	margin-top:0;
+	margin-top:5vw;
 	cursor: pointer;
 }
 div.box5
@@ -988,8 +988,8 @@ span.img16
 img.footer-bg
 {
 	position: absolute;
-	margin-top: 12vw;
-	/*! padding-top: 124vw; */
+	margin-top: -112vw;
+	padding-top: 124vw;
 	height: 39vw;
 }
 div.footer > div.footer-text
@@ -2230,7 +2230,7 @@ div.imgtext6
 	img.footer-bg
 	{
 
-	margin-top: 80.5vw;
+	margin-top: -44.5vw;
 	}
 	div.footer > div.footer-logo
 	{
@@ -2354,7 +2354,7 @@ div.imgtext6
 	{
 		position: fixed;
 		width: 84vw;
-		height: 97%;
+		height: 316px;
 		background-color: #c5c1c0;
 		margin-left: 7vw;
 		margin-top: -12vw;
