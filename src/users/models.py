@@ -1,39 +1,68 @@
 from django.db import models
+from django.contrib.auth.models import (
+    AbstractUser,
+    BaseUserManager,
+)
 
 CHARFIELD_MAXLENGTH = 50
 
 
-# TODO: Multi address on profile
-# BUG: Change address from Foreignkey to many to one field
-class User(models.Model):
-    STATUS_CHOICES = (
-        ('A', 'Active'),
-        ('D', 'Deactive'),
+class UserManager(BaseUserManager):
+    use_in_migrations = True
+
+    def _create_user(self, phone_number, password, **extra_fields):
+        if not phone_number:
+            raise ValueError("The given phone_number must be set")
+        user = self.model(phone_number=phone_number, **extra_fields)
+        user.set_password(password)
+        user.save(using=self._db)
+        return user
+
+    def create_user(self, phone_number, password=None, **extra_fields):
+        extra_fields.setdefault("is_staff", False)
+        extra_fields.setdefault("is_superuser", False)
+        return self._create_user(phone_number, password, **extra_fields)
+
+    def create_superuser(self, phone_number, password, **extra_fields):
+        extra_fields.setdefault("is_staff", True)
+        extra_fields.setdefault("is_superuser", True)
+
+        if extra_fields.get("is_staff") is not True:
+            raise ValueError(
+               "Superuser must have is_staff=True."
+               )
+        if extra_fields.get("is_superuser") is not True:
+            raise ValueError(
+               "Superuser must have is_superuser=True."
+               )
+        return self._create_user(phone_number, password, **extra_fields)
+
+
+class User(AbstractUser):
+    username = None
+    # PhoneNumber must be lslike (0)xxxxxxxxxx where 0 is excluded:
+    phone_number = models.CharField('Phone Number', max_length=10, unique=True)
+
+    USER_TYPE = (
+        ('USR', 'User'),
+        ('MEC', 'Mechanic'),
     )
-    TYPE_CHOICES = (
-        ('S', 'Staff'),
-        ('C', 'Customer'),
-        ('M', 'Mechanic'),
-    )
-    firstname = models.CharField(max_length=CHARFIELD_MAXLENGTH)
-    lastname = models.CharField(max_length=CHARFIELD_MAXLENGTH)
+    type = models.IntegerField(verbose_name='User Type', choices=USER_TYPE, required=True)
     dateofbirth = models.DateField(auto_now=False, auto_now_add=False, null=True, blank=True)
     identificationcode = models.CharField(max_length=10, null=True, blank=True)
-    # PhoneNumber must be like (0)xxxxxxxxxx where 0 is excluded:
-    phonenumber = models.CharField(max_length=10)
     # TelephoneNumber must be like (0)xxxxxxxxxx where 0 is excluded
     telephonenumber = models.CharField(max_length=10, null=True, blank=True)
     email = models.EmailField(max_length=254, null=True, blank=True)
     joinedDate = models.DateTimeField(auto_now=False, auto_now_add=True)
-    # TODO: add upload_to argument
-    picture = models.ImageField(upload_to='', null=True, blank=True)
+    picture = models.ImageField(upload_to='/user-img/', null=True, blank=True)
     vote = models.PositiveSmallIntegerField(null=True, blank=True)
     # Maximum amount of wallet is 10^9 + 3 decimal places
     wallet = models.DecimalField(max_digits=13, decimal_places=3)
-    addresses = models.ManyToManyField('Address', blank=True)
-    status = models.CharField(null=True, blank=True, choices=STATUS_CHOICES, max_length=CHARFIELD_MAXLENGTH)
-    type = models.CharField(null=True, blank=True, choices=TYPE_CHOICES, max_length=CHARFIELD_MAXLENGTH)
-    password = models.CharField(max_length=CHARFIELD_MAXLENGTH)
+
+    USERNAME_FIELD = 'phone_number'
+    REQUIRED_FIELDS = []
+
+    objects = UserManager()
 
 
 class Address(models.Model):
