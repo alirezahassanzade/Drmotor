@@ -44,10 +44,11 @@ class User(AbstractUser):
     phone_number = models.CharField('Phone Number', max_length=10, unique=True)
 
     USER_TYPE = (
-        ('USR', 'User'),
-        ('MEC', 'Mechanic'),
+        (10, 'Admin'),
+        (20, 'User'),
+        (30, 'Mechanic'),
     )
-    type = models.IntegerField(verbose_name='User Type', choices=USER_TYPE)
+    type = models.IntegerField(verbose_name='User Type', choices=USER_TYPE, default=10)
     dateofbirth = models.DateField(auto_now=False, auto_now_add=False, null=True, blank=True)
     identificationcode = models.CharField(max_length=10, null=True, blank=True)
     # TelephoneNumber must be like (0)xxxxxxxxxx where 0 is excluded
@@ -57,7 +58,7 @@ class User(AbstractUser):
     picture = models.ImageField(upload_to='user-img/', null=True, blank=True)
     vote = models.PositiveSmallIntegerField(null=True, blank=True)
     # Maximum amount of wallet is 10^9 + 3 decimal places
-    wallet = models.DecimalField(max_digits=13, decimal_places=3)
+    wallet = models.DecimalField(max_digits=13, decimal_places=3, default=0.0)
 
     USERNAME_FIELD = 'phone_number'
     REQUIRED_FIELDS = []
