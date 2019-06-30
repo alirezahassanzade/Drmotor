@@ -152,42 +152,23 @@
 	<i class="imgg"></i>
 
 <div class="problem">
+	<script>
+		function star(wh)
+		{
+		var i ;
+	var a = document.getElementsByClassName("star1")
+		for(i = 0 ; i < wh ; i ++ )
+		{
+			a[i].style.color = "#f7ce3e"
+		}
+		}
+	</script>v
+
 {% for good in goods_list %}
 	<span class="img1 common1">
 		<div class="star-rating4 responsive">
-			<script>star(4);</script>
-			<input id="star-5III" type="radio" name="rating" value="star-5">
-			<label for="star-5III" title="5 stars">
-				<i class="active fa fa-star star1"></i>
-			</label>
-			<input id="star-4III" type="radio" name="rating" value="star-4">
-			<label for="star-4III" title="4 stars">
-				<i class="active fa fa-star star1"></i>
-			</label>
-			<input id="star-3III" type="radio" name="rating" value="star-3">
-			<label for="star-3III" title="3 stars">
-				<i class="active fa fa-star star1"></i>
-			</label>
-			<input id="star-2III" type="radio" name="rating" value="star-2">
-			<label for="star-2III" title="2 stars">
-				<i class="active fa fa-star star1"></i>
-			</label>
-			<input id="star-1III" type="radio" name="rating" value="star-1">
-			<label for="star-1III">
-				<i class="active fa fa-star star1"></i>
-			</label>
+			<script>star({{ good.vote }});</script>
 		</div>
-		<script>
-			function star(wh)
-			{
-			var i ;
-		var a = document.getElementsByClassName("star1")
-			for(i = 0 ; i < wh ; i ++ )
-			{
-				a[i].style.color = "#f7ce3e"
-			}
-			}
-		</script>
 		<i class="fas fa-cart-plus imgg4 imgg" onclick="btnClick()"></i>
 		<div class="imgtext5">{{ good.title }}</div>
 		<div class="imgtext6">
@@ -198,6 +179,9 @@
 	</span>
 
 {% endfor %}
+
+
+
 </div>
 	<div class="footer">
 		<img src="{% static 'img/shop_footer-bg.png' %}" class="responsive footer-bg">
@@ -693,15 +677,15 @@ myfilter1.style.display= "none";
 					<script>
 							var slideIndex = 1;
 							showSlides(slideIndex);
-							
+
 							function plusSlides(n) {
 								showSlides(slideIndex += n);
 							}
-							
+
 							function currentSlide(n) {
 								showSlides(slideIndex = n);
 							}
-							
+
 							function showSlides(n) {
 								var i;
 								var slides = document.getElementsByClassName("mySlides");
