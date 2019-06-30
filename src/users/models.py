@@ -47,14 +47,14 @@ class User(AbstractUser):
         ('USR', 'User'),
         ('MEC', 'Mechanic'),
     )
-    type = models.IntegerField(verbose_name='User Type', choices=USER_TYPE, required=True)
+    type = models.IntegerField(verbose_name='User Type', choices=USER_TYPE)
     dateofbirth = models.DateField(auto_now=False, auto_now_add=False, null=True, blank=True)
     identificationcode = models.CharField(max_length=10, null=True, blank=True)
     # TelephoneNumber must be like (0)xxxxxxxxxx where 0 is excluded
     telephonenumber = models.CharField(max_length=10, null=True, blank=True)
     email = models.EmailField(max_length=254, null=True, blank=True)
     joinedDate = models.DateTimeField(auto_now=False, auto_now_add=True)
-    picture = models.ImageField(upload_to='/user-img/', null=True, blank=True)
+    picture = models.ImageField(upload_to='user-img/', null=True, blank=True)
     vote = models.PositiveSmallIntegerField(null=True, blank=True)
     # Maximum amount of wallet is 10^9 + 3 decimal places
     wallet = models.DecimalField(max_digits=13, decimal_places=3)
