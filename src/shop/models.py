@@ -3,9 +3,12 @@ from users.models import User
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
 from Drmotori.utils import unique_slug_generator
-
+import logging
 from django.core.validators import MinValueValidator
 CHARFIELD_MAXLENGTH = 50
+
+
+logger = logging.getLogger(__name__)
 
 
 class Product(models.Model):
@@ -111,7 +114,7 @@ class Sales(models.Model):
     discount_value = models.DecimalField(max_digits=13, decimal_places=3)
     discount_type = models.IntegerField(verbose_name='Sales Type', choices=SALES_TYPE, default=10)
     start_date = models.DateTimeField()
-    end_date = models.DateTimeField()
+    end_date = models.DateTimeField(blank=True, null=True)
     products = models.ManyToManyField(Product)
     catrgories = models.ManyToManyField(Category)
 
@@ -128,7 +131,7 @@ class Voucher(models.Model):
     name = models.CharField(max_length=CHARFIELD_MAXLENGTH, blank=True, null=True)
     discount_value = models.DecimalField(max_digits=13, decimal_places=3)
     discount_type = models.IntegerField(verbose_name='Sales Type', choices=SALES_TYPE, default=10)
-    usage_limit = models.IntegerField(verbose_name='Maximum number of times that the code can be used.')
+    usage_limit = models.IntegerField(verbose_name='Maximum number of times that the code can be used.', blank=True, null=True)
 
 
 # End Discounts
@@ -148,6 +151,56 @@ class Basket(models.Model):
 
     def count(self):
         return sum(i.quantity for i in self.basketline_set.all())
+
+    def create_order(self, billing_address, shipping_address):
+        if not self.user:
+            raise Exception.BasketException(
+                "Cannot create order without user"
+            )
+
+        logger.info(
+            "Creating order for basket_id=%d"
+            ", shipping_address_id=%d, billing_address_id=%d",
+            self.id,
+            shipping_address.id,
+            billing_address.id,
+        )
+
+        order_data = {
+            "user": self.user,
+            "billing_name": billing_address.name,
+            "billing_address1": billing_address.address1,
+            "billing_address2": billing_address.address2,
+            "billing_zip_code": billing_address.zip_code,
+            "billing_city": billing_address.city,
+            "billing_country": billing_address.country,
+            "shipping_name": shipping_address.name,
+            "shipping_address1": shipping_address.address1,
+            "shipping_address2": shipping_address.address2,
+            "shipping_zip_code": shipping_address.zip_code,
+            "shipping_city": shipping_address.city,
+            "shipping_country": shipping_address.country,
+        }
+        order = Order.objects.create(**order_data)
+        c = 0
+        for line in self.basketline_set.all():
+            for item in range(line.quantity):
+                order_line_data = {
+                    "order": order,
+                    "product": line.product,
+                }
+                order_line = OrderLine.objects.create(**order_line_data)
+                c += 1
+
+        logger.info(
+            "Created order with id=%d and lines_count=%d",
+            order.id,
+            c,
+        )
+
+        self.status = Basket.SUBMITTED
+        self.save()
+        return order
 
 
 class BasketLine(models.Model):
@@ -171,14 +224,6 @@ class Order(models.Model):
     STATUSES = ((NEW, "New"), (PAID, "Paid"), (DONE, "Done"))
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     status = models.IntegerField(choices=STATUSES, default=NEW)
-    billing_name = models.CharField(max_length=60)
-    billing_address1 = models.CharField(max_length=60)
-    billing_address2 = models.CharField(
-        max_length=60,  blank=True
-    )
-    billing_zip_code = models.CharField(max_length=12)
-    billing_city = models.CharField(max_length=60)
-    billing_country = models.CharField(max_length=3)
     shipping_name = models.CharField(max_length=60)
     shipping_address1 = models.CharField(max_length=60)
     shipping_address2 = models.CharField(
