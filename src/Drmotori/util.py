@@ -1,18 +1,18 @@
 from django.db.models import Min, Max
 from hashlib import md5
 
-from shop.models import Good
+from shop.models import Product
 
 import smtplib
 import ssl
 
 
 def get_min_good_price():
-    Good.objects.filter().value_list('Price').annotate(Min('Price')).order_by('price')[0]
+    Product.objects.filter().value_list('Price').annotate(Min('Price')).order_by('price')[0]
 
 
 def get_max_good_price():
-    Good.objects.filter().value_list('Price').annotate(Max('Price')).order_by('price')[0]
+    Product.objects.filter().value_list('Price').annotate(Max('Price')).order_by('price')[0]
 
 
 def string_to_md5(input_str):

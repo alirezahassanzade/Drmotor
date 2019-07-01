@@ -1,5 +1,16 @@
 {% load static %}
 {% load index %}
+
+{% if request.basket %}
+	<div>
+		{{ request.basket.count }}
+		items in basket
+	</div>
+{% endif %}
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -216,7 +227,7 @@
 				<div class="price4">{{ good.price }}</div>
 				<img src="{{ good.images.first.image.url }}" class="image4">
 			</span>
-		
+
 		{% endfor %}
 >>>>>>> 9ecdf34651e85213fbe517ec01dbed142e22a508
 		</div>

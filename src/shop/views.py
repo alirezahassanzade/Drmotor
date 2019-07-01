@@ -1,15 +1,17 @@
 from django.shortcuts import render
-
+from django.http import HttpResponseRedirect
+from django.urls import reverse
 from .forms import LoginForm, SignupForm
-from shop.models import Good
-from users.models import User
+from shop.models import Product
+from users.models import User, Basket, BasketLine
+from django.shortcuts import get_object_or_404
 
 from Drmotori.util import string_to_md5
 
 
 def shop_view(request):
     # '/static/img/nopic.png'
-    goods_list = Good.objects.all()
+    goods_list = Product.objects.all()
     login_form = LoginForm(request.POST or None)
     signup_form = SignupForm(request.POST or None)
     context = {
@@ -35,3 +37,21 @@ def shop_view(request):
         print('User Successfuly created !')
 
     return render(request, 'shop.html', context)
+
+
+def add_to_basket(request):
+    product = get_object_or_404(Product, pk=request.GET.get("product_id"))
+    basket = request.basket
+    if not request.basket:
+        if request.user.is_authenticated:
+            user = request.user
+        else:
+            user = None
+        basket = Basket.objects.create(user=user)
+        request.session["basket_id"] = basket.id
+
+    basketline, created = BasketLine.objects.get_or_create(basket=basket, product=product)
+    if not created:
+        basketline.quantity += 1
+        basketline.save()
+    return HttpResponseRedirect(reverse("product", args=(product.slug,)))

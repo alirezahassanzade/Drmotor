@@ -1,6 +1,6 @@
 from django.db import models
 from users.models import User, Address, Motor
-from shop.models import Good
+from shop.models import Product
 
 CHARFIELD_MAXLENGTH = 50
 
@@ -41,7 +41,7 @@ class Request(models.Model):
     address = models.ForeignKey(Address, on_delete=models.SET_NULL, null=True, blank=True)
     mechanic = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     motor = models.ForeignKey(Motor, on_delete=models.SET_NULL, null=True, blank=True)
-    goods = models.ManyToManyField(Good)
+    goods = models.ManyToManyField(Product)
     services = models.ManyToManyField('Service')
 
 
