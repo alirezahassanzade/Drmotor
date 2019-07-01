@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.urls import reverse
-from shop.models import Product, Basket, BasketLine
+from shop.models import Product, Basket, BasketLine, Comment
 from django.shortcuts import get_object_or_404
 from django.views.generic.detail import DetailView
 
@@ -17,6 +17,11 @@ def shop_view(request):
 
 class ProductDetailView(DetailView):
     model = Product
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['comments'] = Comment.objects.filter(product=self.object).filter(approved=True)
+        return context
 
 
 def add_to_basket(request):

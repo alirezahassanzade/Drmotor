@@ -51,17 +51,17 @@ class Commentor(models.Model):
     # if authenticated: store user
     # if not: store name, family, email
     user = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
-    name = models.CharField(max_length=CHARFIELD_MAXLENGTH, blank=True, null=True)
-    family = models.CharField(max_length=CHARFIELD_MAXLENGTH, blank=True, null=True)
+    first_name = models.CharField(max_length=CHARFIELD_MAXLENGTH, blank=True, null=True)
+    last_name = models.CharField(max_length=CHARFIELD_MAXLENGTH, blank=True, null=True)
     phone_number = models.CharField(max_length=10, blank=True, null=True)
 
     def get_info(self):
         if self.user_id:
             # if there is a user, return back the user basic info
-            return self.user.name, self.user.family
+            return self.user.first_name, self.user.last_name
         else:
             # if there is no user, return back the basic info
-            return self.name, self.family
+            return self.first_name, self.last_name
 
     def __str__(self):
         name, family = self.get_info()
