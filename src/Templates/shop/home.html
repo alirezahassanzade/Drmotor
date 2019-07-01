@@ -379,7 +379,11 @@
 </div>
 <center>
 	<span id="timesClicked" class="num">
-			{{ request.basket.count }}
+			{% if request.basket %}
+				{{ request.basket.count }}
+			{% else %}
+			0
+			{% endif %}
 </span>
 </center>
 <div id="myModal" class="modal" >
