@@ -2,8 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from .forms import LoginForm, SignupForm
-from shop.models import Product
-from users.models import User, Basket, BasketLine
+from shop.models import Product, Basket, BasketLine
+from users.models import User
 from django.shortcuts import get_object_or_404
 
 from Drmotori.util import string_to_md5
@@ -36,7 +36,7 @@ def shop_view(request):
         new_user.save()
         print('User Successfuly created !')
 
-    return render(request, 'shop.html', context)
+    return render(request, 'shop/home.html', context)
 
 
 def add_to_basket(request):
