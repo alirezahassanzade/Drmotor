@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 from .forms import HomeRquestForm
-from Drmotori.util import send_mail
+from Drmotori.utils import send_mail
 
 
 def home_view(request):

@@ -157,33 +157,8 @@
 
 	<span class="img" style="display:none"></span>
 	<i class="imgg"></i>
-<<<<<<< HEAD
-
-<div class="problem">
-	<script>
-		function star(wh)
-		{
-		var i ;
-	var a = document.getElementsByClassName("star1")
-		for(i = 0 ; i < wh ; i ++ )
-		{
-			a[i].style.color = "#f7ce3e"
-		}
-		}
-	</script>v
-
-{% for good in goods_list %}
-	<span class="img1 common1">
-		<div class="star-rating4 responsive">
-			<script>star({{ good.vote }});</script>
-		</div>
-		<i class="fas fa-cart-plus imgg4 imgg" onclick="btnClick()"></i>
-		<div class="imgtext5">{{ good.title }}</div>
-		<div class="imgtext6">
-			امتیاز <br>قیمت
-=======
 	<div class="problem">
-		{% for good in goods_list %}
+		{% for product in goods_list %}
 			<span class="img1 common1">
 				<div class="star-rating4 responsive">
 					<script>star(4);</script>
@@ -219,27 +194,21 @@
 					}
 					}
 				</script>
-				<i class="fas fa-cart-plus imgg4 imgg" onclick="btnClick()"></i>
-				<div class="imgtext5">{{ good.title }}</div>
+				<a href="{% url "add_to_basket" %}?product_id={{ product.id }}">
+					<i class="fas fa-cart-plus imgg4 imgg"></i>
+				</a>
+
+				<div class="imgtext5">{{ product.title }}</div>
 				<div class="imgtext6">
 					امتیاز <br>قیمت
 				</div>
-				<div class="price4">{{ good.price }}</div>
+				<div class="price4">{{ product.price }}</div>
 				<img src="{{ good.images.first.image.url }}" class="image4">
 			</span>
 
 		{% endfor %}
->>>>>>> 9ecdf34651e85213fbe517ec01dbed142e22a508
 		</div>
 
-<<<<<<< HEAD
-{% endfor %}
-
-
-
-</div>
-=======
->>>>>>> 9ecdf34651e85213fbe517ec01dbed142e22a508
 	<div class="footer">
 		<img src="{% static 'img/shop_footer-bg.png' %}" class="responsive footer-bg">
 		<img src="{% static 'img/shop_Artboard 1.png' %}" alt="Drmotori logo motor mechanics مکانیک موتور دکترموتوری تعمیر موتور " class="Drmotori-logo">

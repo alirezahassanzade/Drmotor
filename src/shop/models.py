@@ -1,5 +1,9 @@
 from django.db import models
 from users.models import User
+from django.db.models.signals import pre_save
+from django.dispatch import receiver
+from Drmotori.utils import unique_slug_generator
+
 from django.core.validators import MinValueValidator
 CHARFIELD_MAXLENGTH = 50
 
@@ -8,14 +12,25 @@ class Product(models.Model):
     title = models.CharField(max_length=CHARFIELD_MAXLENGTH)
     # Maximum amount of wallet is 10^9 + 3 decimal places
     price = models.DecimalField(max_digits=13, decimal_places=3)
+    slug = models.SlugField(max_length=50, blank=True, unique=True)
     vote = models.PositiveSmallIntegerField()
     description = models.TextField()
     categories = models.ManyToManyField('Category', blank=True)
     tags = models.ManyToManyField('Tag', blank=True)
     colors = models.ManyToManyField('Color')
+    in_stock = models.BooleanField(default=True)
+    stock_count = models.IntegerField()
+    date_added = models.DateTimeField(auto_now_add=True)
+    date_updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.title
+
+
+@receiver(pre_save, sender=Product)
+def product_pre_save_receiver(sender, instance, *args, **kwargs):
+    if not instance.slug:
+        instance.slug = unique_slug_generator(instance)
 
 
 class Comment(models.Model):
@@ -145,3 +160,50 @@ class BasketLine(models.Model):
     )
 
 # End basket
+
+
+# Section Checkout
+
+class Order(models.Model):
+    NEW = 10
+    PAID = 20
+    DONE = 30
+    STATUSES = ((NEW, "New"), (PAID, "Paid"), (DONE, "Done"))
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    status = models.IntegerField(choices=STATUSES, default=NEW)
+    billing_name = models.CharField(max_length=60)
+    billing_address1 = models.CharField(max_length=60)
+    billing_address2 = models.CharField(
+        max_length=60,  blank=True
+    )
+    billing_zip_code = models.CharField(max_length=12)
+    billing_city = models.CharField(max_length=60)
+    billing_country = models.CharField(max_length=3)
+    shipping_name = models.CharField(max_length=60)
+    shipping_address1 = models.CharField(max_length=60)
+    shipping_address2 = models.CharField(
+        max_length=60, blank=True
+    )
+    shipping_zip_code = models.CharField(max_length=12)
+    shipping_city = models.CharField(max_length=60)
+    shipping_country = models.CharField(max_length=3)
+    date_updated = models.DateTimeField(auto_now=True)
+    date_added = models.DateTimeField(auto_now_add=True)
+
+
+class OrderLine(models.Model):
+    NEW = 10
+    PROCESSING = 20
+    SENT = 30
+    CANCELLED = 40
+    STATUSES = (
+        (NEW, "New"),
+        (PROCESSING, "Processing"),
+        (SENT, "Sent"),
+        (CANCELLED, "Cancelled"),
+    )
+    order = models.ForeignKey(
+        Order, on_delete=models.CASCADE, related_name="lines"
+    )
+    product = models.ForeignKey(Product, on_delete=models.PROTECT)
+    status = models.IntegerField(choices=STATUSES, default=NEW)
