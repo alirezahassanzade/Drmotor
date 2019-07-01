@@ -10,6 +10,7 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('shop/', include('shop.urls')),
     path('users/', include('users.urls')),
+    path('zarinpal_payment/', include('zarinpal.urls')),
 ]
 
 if settings.DEBUG:
