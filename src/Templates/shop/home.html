@@ -1,16 +1,5 @@
 {% load static %}
 {% load index %}
-
-{% if request.basket %}
-	<div>
-		{{ request.basket.count }}
-		items in basket
-	</div>
-{% endif %}
-
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,8 +16,8 @@
 <body>
 
 	<div class="all2">
-			<div class="all ">
-				</div>
+		<div class="all ">
+		</div>
 		<div class="ym">
 
 			<img src="{% static 'img/shop_foroshgah.png' %}" class="responsive foroshgah">
@@ -55,159 +44,159 @@
 
 	</div>
 	<div class="content2">
-	<div class="content">
-		<div class="common2"></div>
-		<div class="box53"></div>
-		<div class="kind1 common2">نوع موتور</div>
-		<img src="{% static 'img/shop_motor-logo.png' %}" class="responsive motor-logo" onclick="pushDown()">
-		<div class="arrowUp">&#10094;</div>
+		<div class="content">
+			<div class="common2"></div>
+			<div class="box53"></div>
+			<div class="kind1 common2">نوع موتور</div>
+			<img src="{% static 'img/shop_motor-logo.png' %}" class="responsive motor-logo" onclick="pushDown()">
+			<div class="arrowUp">&#10094;</div>
 
-		<div class="box1"></div>
-		<div id="models-container">
-			<label class="model-container">cg-125
-			  <input type="checkbox" >
-			  <span class="checkmarkmodel"></span>
-			</label>
-			<label class="model-container">هوندا-200
-			  <input type="checkbox">
-			  <span class="checkmarkmodel"></span>
-			</label>
-			<label class="model-container">ویو
-			  <input type="checkbox">
-			  <span class="checkmarkmodel"></span>
-			</label>
-			<label class="model-container">آپاچی
-			  <input type="checkbox">
-			  <span class="checkmarkmodel"></span>
-			</label>
-			<label class="model-container">باکستر
-				<input type="checkbox">
-				<span class="checkmarkmodel"></span>
-			  </label>
-			  <label class="model-container">cgl
-				<input type="checkbox">
-				<span class="checkmarkmodel"></span>
-			  </label>
+			<div class="box1"></div>
+			<div id="models-container">
+				<label class="model-container">cg-125
+					<input type="checkbox" >
+					<span class="checkmarkmodel"></span>
+				</label>
+				<label class="model-container">هوندا-200
+					<input type="checkbox">
+					<span class="checkmarkmodel"></span>
+				</label>
+				<label class="model-container">ویو
+					<input type="checkbox">
+					<span class="checkmarkmodel"></span>
+				</label>
+				<label class="model-container">آپاچی
+					<input type="checkbox">
+					<span class="checkmarkmodel"></span>
+				</label>
+				<label class="model-container">باکستر
+					<input type="checkbox">
+					<span class="checkmarkmodel"></span>
+				</label>
+				<label class="model-container">cgl
+					<input type="checkbox">
+					<span class="checkmarkmodel"></span>
+				</label>
 			</div>
-		<div id="filter-all-1">
-		<div class="checkbox">
-			<label class="container"><div class="checkbox1">موتوری</div>
-				<input type="radio"  name="radio">
-				<span class="checkmark"></span>
-			</label>
-			<label class="container"><div class="checkbox2">ظاهری</div>
-				<input type="radio" name="radio">
-				<span class="checkmark" style="margin-top:16vw"></span>
-			</label>
-		</div>
-		<div class="box2"></div>
-		<div class="brand common2" onclick="fbrand()">برند</div>
-		<div class="arrowUp2 arrowUp">&#10094;</div>
-		<div class="box54 box53"></div>
-		<div id="brands-container">
-			<label class="brand-container">نوبل
-			  <input type="checkbox">
-			  <span class="checkmarkbrand"></span>
-			</label>
-			<label class="brand-container">راپیدو
-			  <input type="checkbox">
-			  <span class="checkmarkbrand"></span>
-			</label>
-			<label class="brand-container">تکنیک
-			  <input type="checkbox">
-			  <span class="checkmarkbrand"></span>
-			</label>
-			<label class="brand-container">تیزرو
-			  <input type="checkbox">
-			  <span class="checkmarkbrand"></span>
-			</label>
-			<label class="brand-container">تکنو
-				<input type="checkbox">
-				<span class="checkmarkbrand"></span>
-			  </label>
-			  <label class="brand-container">ریسر
-				<input type="checkbox">
-				<span class="checkmarkbrand"></span>
-			  </label>
-			  <label class="brand-container">استاندارد
-				<input type="checkbox">
-				<span class="checkmarkbrand"></span>
-			  </label>
-			  <label class="brand-container">انرژی
-				<input type="checkbox">
-				<span class="checkmarkbrand"></span>
-			  </label>
+			<div id="filter-all-1">
+				<div class="checkbox">
+					<label class="container"><div class="checkbox1">موتوری</div>
+						<input type="radio"  name="radio">
+						<span class="checkmark"></span>
+					</label>
+					<label class="container"><div class="checkbox2">ظاهری</div>
+						<input type="radio" name="radio">
+						<span class="checkmark" style="margin-top:16vw"></span>
+					</label>
+				</div>
+				<div class="box2"></div>
+				<div class="brand common2" onclick="fbrand()">برند</div>
+				<div class="arrowUp2 arrowUp">&#10094;</div>
+				<div class="box54 box53"></div>
+				<div id="brands-container">
+					<label class="brand-container">نوبل
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+					<label class="brand-container">راپیدو
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+					<label class="brand-container">تکنیک
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+					<label class="brand-container">تیزرو
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+					<label class="brand-container">تکنو
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+					<label class="brand-container">ریسر
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+					<label class="brand-container">استاندارد
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+					<label class="brand-container">انرژی
+						<input type="checkbox">
+						<span class="checkmarkbrand"></span>
+					</label>
+				</div>
+				<div class="box6"></div>
+				<div class="box3"></div>
+				<div id="filter-all-2">
+					<div class="range common2">محدوده قیمت</div>
+					<div class="slidecontainer">
+						<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						<p class="value">مقدار: <span id="demo"></span></p>
+					</div>
+					<div class="box4"></div>
+					<div class="lavazemjanebi common2">لوازم جانبی</div>
+				</div>
 			</div>
-		<div class="box6"></div>
-		<div class="box3"></div>
-		<div id="filter-all-2">
-		<div class="range common2">محدوده قیمت</div>
-		<div class="slidecontainer">
-			<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-			<p class="value">مقدار: <span id="demo"></span></p>
 		</div>
-		<div class="box4"></div>
-		<div class="lavazemjanebi common2">لوازم جانبی</div>
-	</div>
-</div>
-	</div>
 
-<div class="content3"></div>
-</div>
+		<div class="content3"></div>
+	</div>
 
 	<span class="img" style="display:none"></span>
 	<i class="imgg"></i>
 	<div class="problem">
 		{% for product in goods_list %}
-			<span class="img1 common1">
-				<div class="star-rating4 responsive">
-					<script>star(4);</script>
-					<input id="star-5III" type="radio">
-					<label for="star-5III">
-						<i class="fa fa-star star1"></i>
-					</label>
-					<input id="star-5III" type="radio">
-					<label for="star-5III">
-						<i class="fa fa-star star1"></i>
-					</label>
-					<input id="star-5III" type="radio">
-					<label for="star-5III">
-						<i class="fa fa-star star1"></i>
-					</label>
-					<input id="star-5III" type="radio">
-					<label for="star-5III">
-						<i class="fa fa-star star1"></i>
-					</label>
-					<input id="star-5III" type="radio">
-					<label for="star-5III">
-						<i class="fa fa-star star1"></i>
-					</label>
-				</div>
-				<script>
-					function star(wh)
-					{
-					var i ;
+		<span class="img1 common1">
+			<div class="star-rating4 responsive">
+				<script>star(4);</script>
+				<input id="star-5III" type="radio">
+				<label for="star-5III">
+					<i class="fa fa-star star1"></i>
+				</label>
+				<input id="star-5III" type="radio">
+				<label for="star-5III">
+					<i class="fa fa-star star1"></i>
+				</label>
+				<input id="star-5III" type="radio">
+				<label for="star-5III">
+					<i class="fa fa-star star1"></i>
+				</label>
+				<input id="star-5III" type="radio">
+				<label for="star-5III">
+					<i class="fa fa-star star1"></i>
+				</label>
+				<input id="star-5III" type="radio">
+				<label for="star-5III">
+					<i class="fa fa-star star1"></i>
+				</label>
+			</div>
+			<script>
+			function star(wh)
+			{
+				var i ;
 				var a = document.getElementsByClassName("star1")
-					for(i = 0 ; i < wh ; i ++ )
-					{
-						a[i].style.color = "#f7ce3e"
-					}
-					}
-				</script>
-				<a href="{% url "add_to_basket" %}?product_id={{ product.id }}">
-					<i class="fas fa-cart-plus imgg4 imgg"></i>
-				</a>
+				for(i = 0 ; i < wh ; i ++ )
+				{
+					a[i].style.color = "#f7ce3e"
+				}
+			}
+			</script>
+			<a href="{% url "add_to_basket" %}?product_id={{ product.id }}">
+				<i class="fas fa-cart-plus imgg4 imgg"></i>
+			</a>
 
-				<div class="imgtext5">{{ product.title }}</div>
-				<div class="imgtext6">
-					امتیاز <br>قیمت
-				</div>
-				<div class="price4">{{ product.price }}</div>
-				<img src="{{ good.images.first.image.url }}" class="image4">
-			</span>
+			<div class="imgtext5">{{ product.title }}</div>
+			<div class="imgtext6">
+				امتیاز <br>قیمت
+			</div>
+			<div class="price4">{{ product.price }}</div>
+			<img src="{{ good.images.first.image.url }}" class="image4">
+		</span>
 
 		{% endfor %}
-		</div>
+	</div>
 
 	<div class="footer">
 		<img src="{% static 'img/shop_footer-bg.png' %}" class="responsive footer-bg">
@@ -245,291 +234,295 @@
 		<img src="{% static 'img/shop_Artboard1_footer.png' %}" alt="motori موتوری repair تعمیرات" class="motori-logo2">
 		<div class="header2 ">
 			<div class="all-cart">
-			<i class="fas fa-shopping-cart cart" onclick="openArrow()">
-				<div class="arrow-container">
-				<i class="fas fa-caret-up" ></i>
-			</div>
-				<img src="{% static 'img/shop_polygon.png' %}" class="responsive polygon">
-			</i>
-			<span class="cart-container" id="cartOne">
-				<span class="total1">  قیمت کل :
-					<span>20000 تومان</span>
+				<i class="fas fa-shopping-cart cart" onclick="openArrow()">
+					<div class="arrow-container">
+						<i class="fas fa-caret-up" ></i>
+					</div>
+					<img src="{% static 'img/shop_polygon.png' %}" class="responsive polygon">
+				</i>
+				<span class="cart-container" id="cartOne">
+					<span class="total1">  قیمت کل :
+						<span>20000 تومان</span>
+					</span>
+					<div class="goods-container">
+						<span class="deleteGoods">
+							<span class="closeGoods" onclick="noneContainer()">&#10005;</span>
+							<img src="/static/img/shop_8.jpg" alt="" class="goods-img1">
+							<span class="goods1"> لامپ</span>
+							<span class="goods-line"></span>
+						</span>
+
+						<input type="submit" class="sabtErsal" value="ثبت و ارسال" onclick="submit1()">
+
+					</div>
 				</span>
-<div class="goods-container">
-<span class="deleteGoods">
-		<span class="closeGoods" onclick="noneContainer()">&#10005;</span>
-	<img src="/static/img/shop_8.jpg" alt="" class="goods-img1">
-	<span class="goods1"> لامپ</span>
-	<span class="goods-line"></span>
-</span>
-
-<input type="submit" class="sabtErsal" value="ثبت و ارسال" onclick="submit1()">
-
-</div>
-			</span>
-		</div>
+			</div>
 		</div>
 		<i class="fas fa-filter filter1" onclick="filter2()" id="filter"></i>
 		<button id="myBtn20" class="loginap20">
-				<i class="fas fa-bars icon20"></i>
-			</button>
+			<i class="fas fa-bars icon20"></i>
+		</button>
 		<div  id="filter1-containerr">
-		<div class="filter1-opacity"></div>
-		<div class="close4-container">
-		<div class="close4" onclick="filtr1()">&#x2715;
-			</div>
-		</div>
-		<div class="filter1-container">
-				<i class="fas fa-filter filter1 filter1II"></i>
-			<div class="filter1-logo"></div>
-			<div class="filter1-header"><i class="fas fa-filter filter1-popup"></i>
-			</div>
-			<div class="filter-header-logo">فیلترها</div>
-			<div class="right-part"></div>
-			<div class="right-part-text">
-			<div class=" right-part-text1"onclick="f1left(0)">نوع موتور <br></div>
-			<div class=" right-part-text2" onclick="f1left(1)">برند</div> <br>
-			<div class=" right-part-text3" onclick="f1left(2)">محدوده قیمت</div> <br>
-			<div class=" right-part-text4" onclick="f1left(3)">نوع قطعه</div> <br>
-			<div class=" right-part-text5" onclick="f1left(4)">لوازم جانبی</div> <br>
-			<div class=" right-part-text6" onclick="f1left(5)">کلاه کاسکت</div>
-		</div>
-
-			<div class="left-part-container">
-				<div class="right-part-textt left-part-1">
-<label class="check1 check">cg-125
-		<input type="checkbox">
-		<span class="checkmark2"></span>
-	  </label>
-	  <label class="check2 check">هوندا-200
-		<input type="checkbox">
-		<span class="checkmark2"></span>
-	  </label>
-	  <label class="check3 check">ویو
-		<input type="checkbox">
-		<span class="checkmark2"></span>
-	  </label>
-	  <label class="check4 check">آپاچی
-		<input type="checkbox">
-		<span class="checkmark2"></span>
-	  </label>
-	  <label class="check5 check">باکستر
-			<input type="checkbox">
-			<span class="checkmark2"></span>
-		  </label>
-		  <label class="check6 check">cgl
-				<input type="checkbox">
-				<span class="checkmark2"></span>
-			  </label>
-			</div>
-			<div class="right-part-textt left-part-4 left-part-3">
-				<label class="check1 check check3">نوبل
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-				  <label class="check1 check check3">راپیدو
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-				  <label class="check1 check check3">تکنیک
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-				  <label class="check1 check check3">تیزرو
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-				  <label class="check1 check check3">تکنو
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-				  <label class="check1 check check3">ریسر
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-				  <label class="check1 check check3">استاندارد
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-				  <label class="check1 check check3">انرژی
-					<input type="checkbox"  >
-					<span class="checkmark2"></span>
-				  </label>
-			</div>
-			<div class="right-part-textt left-part-3">
-				<div class="slidecontainer2">
-					<input type="range"  max="600000" min="1000" value="1000" class="slider2" id="myRange2">
-					<p class="valuee">تا قیمت : <span id="demo2"></span></p>
-					<div class="valuee2">از قیمت : 0 تومان</div>
-					<div class="valuee3">تومان</div>
-				  </div>
+			<div class="filter1-opacity"></div>
+			<div class="close4-container">
+				<div class="close4" onclick="filtr1()">&#x2715;
 				</div>
-				<div class="right-part-textt left-part-3">
-					<form method="post">
-						<p id="text1">
-						  <input type="radio" id="test1" name="radio-group" checked style="margin-left: 41%;">
-						  <label for="test1" style="margin-left: -239%;">موتوری</label>
-						</p>
-						<p id="text2" style="margin-left: 70%;">
-						  <input type="radio" id="test2" name="radio-group" style="margin-left: 318%;">
-						  <label for="test2">ظاهری</label>
-						</p>
-					  </form>
+			</div>
+			<div class="filter1-container">
+				<i class="fas fa-filter filter1 filter1II"></i>
+				<div class="filter1-logo"></div>
+				<div class="filter1-header"><i class="fas fa-filter filter1-popup"></i>
+				</div>
+				<div class="filter-header-logo">فیلترها</div>
+				<div class="right-part"></div>
+				<div class="right-part-text">
+					<div class=" right-part-text1"onclick="f1left(0)">نوع موتور <br></div>
+					<div class=" right-part-text2" onclick="f1left(1)">برند</div> <br>
+					<div class=" right-part-text3" onclick="f1left(2)">محدوده قیمت</div> <br>
+					<div class=" right-part-text4" onclick="f1left(3)">نوع قطعه</div> <br>
+					<div class=" right-part-text5" onclick="f1left(4)">لوازم جانبی</div> <br>
+					<div class=" right-part-text6" onclick="f1left(5)">کلاه کاسکت</div>
+				</div>
+
+				<div class="left-part-container">
+					<div class="right-part-textt left-part-1">
+						<label class="check1 check">cg-125
+							<input type="checkbox">
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check2 check">هوندا-200
+							<input type="checkbox">
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check3 check">ویو
+							<input type="checkbox">
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check4 check">آپاچی
+							<input type="checkbox">
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check5 check">باکستر
+							<input type="checkbox">
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check6 check">cgl
+							<input type="checkbox">
+							<span class="checkmark2"></span>
+						</label>
+					</div>
+					<div class="right-part-textt left-part-4 left-part-3">
+						<label class="check1 check check3">نوبل
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check1 check check3">راپیدو
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check1 check check3">تکنیک
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check1 check check3">تیزرو
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check1 check check3">تکنو
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check1 check check3">ریسر
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check1 check check3">استاندارد
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+						<label class="check1 check check3">انرژی
+							<input type="checkbox"  >
+							<span class="checkmark2"></span>
+						</label>
+					</div>
+					<div class="right-part-textt left-part-3">
+						<div class="slidecontainer2">
+							<input type="range"  max="600000" min="1000" value="1000" class="slider2" id="myRange2">
+							<p class="valuee">تا قیمت : <span id="demo2"></span></p>
+							<div class="valuee2">از قیمت : 0 تومان</div>
+							<div class="valuee3">تومان</div>
+						</div>
+					</div>
+					<div class="right-part-textt left-part-3">
+						<form method="post">
+							<p id="text1">
+								<input type="radio" id="test1" name="radio-group" checked style="margin-left: 41%;">
+								<label for="test1" style="margin-left: -239%;">موتوری</label>
+							</p>
+							<p id="text2" style="margin-left: 70%;">
+								<input type="radio" id="test2" name="radio-group" style="margin-left: 318%;">
+								<label for="test2">ظاهری</label>
+							</p>
+						</form>
 					</div>
 					<div class="right-part-textt left-part-3">
 
-						</div>
-						<div class="right-part-textt left-part-3">
+					</div>
+					<div class="right-part-textt left-part-3">
 
-							</div>
+					</div>
+				</div>
+				<div class="filter2-sub">فیلتر کن</div>
 			</div>
-			<div class="filter2-sub">فیلتر کن</div>
 		</div>
 	</div>
-	</div>
 </div>
-	<center><span id="timesClicked" class="num">0</span></center>
-	<div id="myModal" class="modal" >
+<center>
+	<span id="timesClicked" class="num">
+			{{ request.basket.count }}
+</span>
+</center>
+<div id="myModal" class="modal" >
 
-		<div class="modal-content">
-			<div class="number"></div>
-			<input type="text5" class="text5" style="display:none">
-			<span class="close">&times;</span>
+	<div class="modal-content">
+		<div class="number"></div>
+		<input type="text5" class="text5" style="display:none">
+		<span class="close">&times;</span>
 
-			<div class="loginap-left">
-				<form method="post"> {% csrf_token %}
-					{{ login_form }}
-					<div class ="number number1">شماره همراه</div>
-					<!-- <input type="text5" name="phone_number" class="login text5"> -->
-					<div class="number number2">رمز عبور</div>
-					<!-- <input type="password" name="password" class="password text5"> -->
-					<a href="" class="common2"></a>
-					<button class="vorod common2" type="submit">ورود</button>
-					<!-- <a href="" class="vorod common2">ورود</a> -->
-					<a href="" class="faramosh ">رمز عبور خود را فراموش کرده ام</a>
-				</form>
-			</div>
-			<div class="modal-content2">
-				<form method="post"> {% csrf_token %}
-					{{ signup_form }}
-			<div class="all-filter">
-				<label for="label1">
-					<div class="number number3">نام خانوادگی</div>
-				</label>
-				<label for="lebel2">
-					<div class="number4 number">شماره همراه</div>
-				</label>
-				<label for="label3">
-					<div class="number5 number">پسورد</div>
-				</label>
+		<div class="loginap-left">
+			<form method="post"> {% csrf_token %}
+				{{ login_form }}
+				<div class ="number number1">شماره همراه</div>
+				<!-- <input type="text5" name="phone_number" class="login text5"> -->
+				<div class="number number2">رمز عبور</div>
+				<!-- <input type="password" name="password" class="password text5"> -->
+				<a href="" class="common2"></a>
+				<button class="vorod common2" type="submit">ورود</button>
+				<!-- <a href="" class="vorod common2">ورود</a> -->
+				<a href="" class="faramosh ">رمز عبور خود را فراموش کرده ام</a>
+			</form>
+		</div>
+		<div class="modal-content2">
+			<form method="post"> {% csrf_token %}
+				{{ signup_form }}
+				<div class="all-filter">
+					<label for="label1">
+						<div class="number number3">نام خانوادگی</div>
+					</label>
+					<label for="lebel2">
+						<div class="number4 number">شماره همراه</div>
+					</label>
+					<label for="label3">
+						<div class="number5 number">پسورد</div>
+					</label>
 					<label for="label4">
-							<div class="number6 number">نام</div>
+						<div class="number6 number">نام</div>
 					</label>
 					<button type="submit" class="register common2">ثبت نام</button>
 				</div>
-				</form>
-			</div>
+			</form>
+		</div>
+
+	</div>
+</div>
+<!-- The Modal -->
+<div id="myModal20" class="modal20">
+
+	<!-- Modal content -->
+	<div class="modal-content4">
+		<div class="filters2-bg1"></div>
+		<div class="hamFilter-logo">
+			<img src="/static/img/shop_Artboard1_footer.png" alt="" class="ham-img">
+		</div>
+		<span class="close2">&times;</span>
+		<button onclick="myFunction()" class="filters2-box1"><div class="filters2-text2">نام</div>
+
+			<div class="filters2-text1">کاربری</div>
+		</button>
+		<div class="filters2-bg3"></div>
+		<div id="myDIV">
+			<div class="filters2-text3">شماره همراه</div>
+			<input type="text10" class="filters2-text3-box1">
+
+			<div class="filters2-text4">رمز عبور</div>
+			<input type="password" class="filters2-text4-box2">
+
+			<a  class="filters2-text5-box3" href="" ><div class="text12">ورود
+			</div></a>
+
+			<div class="filters2-text6">شماره همراه</div>
+			<input type="text12" class="filters2-text6-box4">
+
+			<div class="filters2-text7">شماره پلاک</div>
+			<input type="text13" class="filters2-text7-box5">
+
+			<div class="filters2-text8">نام و نام خانوادگی</div>
+			<input type="text14" class="filters2-text8-box6">
+			<a href="" class="text15">رمز عبور خود را فراموش کرده ام</a>
+			<div class="filters2-text9-box7"></div>
+			<a class="text16" href="">ثبت نام</a>
+		</div>
+		<button class="filter2-box2"><div class="text17">تعمیر</div>
+			<div class="text21">اورژانسی</div>
+
+			<button class="filter2-box3">
+				<div class="text18">صفحه نخست</div>
+			</button>
+			<button class="filter2-box4">
+				<div class="text19">صفحه من</div>
+			</button>
+			<button class="filter2-box5">
+				<div class="text20">مجله موتور</div>
+			</button>
 
 		</div>
+
 	</div>
-		<!-- The Modal -->
-		<div id="myModal20" class="modal20">
+	<script>
+	function openArrow()
+	{
+		var a = document.getElementById("cartOne")
+		if(a.style.display === "unset")
+		{
+			a.style.display = "none"
+		}
+		else
+		a.style.display = "unset"
+	}
+	</script>
+	<script>
+	var myfilter3 = document.getElementById("filter1-containerr");
+	function filter2()
+	{
+		myfilter3.style.display="unset";
+	}
+	</script>
+	<script>
+	// Get the modal
+	var modal = document.getElementById('myModal');
 
-			<!-- Modal content -->
-			<div class="modal-content4">
-				<div class="filters2-bg1"></div>
-<div class="hamFilter-logo">
-	<img src="/static/img/shop_Artboard1_footer.png" alt="" class="ham-img">
-</div>
-				<span class="close2">&times;</span>
-				<button onclick="myFunction()" class="filters2-box1"><div class="filters2-text2">نام</div>
+	// Get the button that opens the modal
+	var btn = document.getElementById("myBtn");
 
-					<div class="filters2-text1">کاربری</div>
-				</button>
-				<div class="filters2-bg3"></div>
-				<div id="myDIV">
-					<div class="filters2-text3">شماره همراه</div>
-					<input type="text10" class="filters2-text3-box1">
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
 
-					<div class="filters2-text4">رمز عبور</div>
-					<input type="password" class="filters2-text4-box2">
+	// When the user clicks the button, open the modal
+	btn.onclick = function() {
+		modal.style.display = "block";
+	}
 
-					<a  class="filters2-text5-box3" href="" ><div class="text12">ورود
-					</div></a>
-
-					<div class="filters2-text6">شماره همراه</div>
-					<input type="text12" class="filters2-text6-box4">
-
-					<div class="filters2-text7">شماره پلاک</div>
-					<input type="text13" class="filters2-text7-box5">
-
-					<div class="filters2-text8">نام و نام خانوادگی</div>
-					<input type="text14" class="filters2-text8-box6">
-					<a href="" class="text15">رمز عبور خود را فراموش کرده ام</a>
-					<div class="filters2-text9-box7"></div>
-					<a class="text16" href="">ثبت نام</a>
-				</div>
-				<button class="filter2-box2"><div class="text17">تعمیر</div>
-					<div class="text21">اورژانسی</div>
-
-					<button class="filter2-box3">
-						<div class="text18">صفحه نخست</div>
-					</button>
-					<button class="filter2-box4">
-						<div class="text19">صفحه من</div>
-					</button>
-					<button class="filter2-box5">
-						<div class="text20">مجله موتور</div>
-					</button>
-
-				</div>
-
-			</div>
-			<script>
-					function openArrow()
-					{
-						var a = document.getElementById("cartOne")
-						if(a.style.display === "unset")
-						{
-							a.style.display = "none"
-						}
-						else
-						a.style.display = "unset"
-					}
-					</script>
-				<script>
-					var myfilter3 = document.getElementById("filter1-containerr");
-					function filter2()
-					{
-					myfilter3.style.display="unset";
-					}
-				</script>
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal
-btn.onclick = function() {
-	modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-	modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-	if (event.target == modal) {
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
 		modal.style.display = "none";
 	}
-}
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
 </script>
 
 <script>
@@ -630,107 +623,107 @@ function btnClick(){
 var myfilter1 = document.getElementById("filter1-containerr")
 function filtr1()
 {
-myfilter1.style.display= "none";
+	myfilter1.style.display= "none";
 }
 </script>
-	<script>
-		let i;
-		let rightPartText = document.querySelectorAll('.right-part-textt')
-	function f1left(v)
+<script>
+let i;
+let rightPartText = document.querySelectorAll('.right-part-textt')
+function f1left(v)
+{
+	for( i = 0 ; i < rightPartText.length ; i ++)
 	{
-		for( i = 0 ; i < rightPartText.length ; i ++)
-		{
-			rightPartText[i].style.display = "none";
-		}
-		rightPartText[v].style.display = "unset";
+		rightPartText[i].style.display = "none";
 	}
-	</script>
-		<script>
-			var push = document.getElementById('filter-all-1')
-			var pull = document.getElementById('models-container')
-			var push2 = document.getElementById('filter-all-2')
-			var pull2 = document.getElementById('brands-container')
+	rightPartText[v].style.display = "unset";
+}
+</script>
+<script>
+var push = document.getElementById('filter-all-1')
+var pull = document.getElementById('models-container')
+var push2 = document.getElementById('filter-all-2')
+var pull2 = document.getElementById('brands-container')
 
-			function pushDown()
-			{
-				if(push.style.marginTop == "35vw")
-				{
-					push.style.marginTop = "0vw";
-					pull.style.display="none"
-				}
-				else
-				{
-				push.style.marginTop = "35vw";
-				pull.style.display="unset"
-				}
+function pushDown()
+{
+	if(push.style.marginTop == "35vw")
+	{
+		push.style.marginTop = "0vw";
+		pull.style.display="none"
+	}
+	else
+	{
+		push.style.marginTop = "35vw";
+		pull.style.display="unset"
+	}
 
-			}
-			function fbrand()
-			{
+}
+function fbrand()
+{
 
-				if(push2.style.marginTop == "48vw")
-				{
-					push2.style.marginTop = "0vw";
-					pull2.style.display="none"
-				}
-				else
-				{
-				push2.style.marginTop = "48vw";
-				pull2.style.display="unset"
-				}
+	if(push2.style.marginTop == "48vw")
+	{
+		push2.style.marginTop = "0vw";
+		pull2.style.display="none"
+	}
+	else
+	{
+		push2.style.marginTop = "48vw";
+		pull2.style.display="unset"
+	}
 
-				}
+}
 
 
-			</script>
-			<script>
-				var slider2 = document.getElementById("myRange2");
-				var output2 = document.getElementById("demo2");
-				output2.innerHTML = slider2.value;
+</script>
+<script>
+var slider2 = document.getElementById("myRange2");
+var output2 = document.getElementById("demo2");
+output2.innerHTML = slider2.value;
 
-				slider2.oninput = function() {
-				  output2.innerHTML = this.value;
-				}
-				</script>
-				<script>
-					function submit1()
-					{
-					var o = document.getElementById("myModal")
-					if(o.style.display==="block")
-					{
-						o.style.display="none"
-					}
-					else
-					o.style.display="block"
-					}
-					</script>
-					<script>
-							var slideIndex = 1;
-							showSlides(slideIndex);
+slider2.oninput = function() {
+	output2.innerHTML = this.value;
+}
+</script>
+<script>
+function submit1()
+{
+	var o = document.getElementById("myModal")
+	if(o.style.display==="block")
+	{
+		o.style.display="none"
+	}
+	else
+	o.style.display="block"
+}
+</script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
-							function plusSlides(n) {
-								showSlides(slideIndex += n);
-							}
+function plusSlides(n) {
+	showSlides(slideIndex += n);
+}
 
-							function currentSlide(n) {
-								showSlides(slideIndex = n);
-							}
+function currentSlide(n) {
+	showSlides(slideIndex = n);
+}
 
-							function showSlides(n) {
-								var i;
-								var slides = document.getElementsByClassName("mySlides");
-								var dots = document.getElementsByClassName("dot");
-								if (n > slides.length) {slideIndex = 1}
-								if (n < 1) {slideIndex = slides.length}
-								for (i = 0; i < slides.length; i++) {
-									slides[i].style.display = "none";
-								}
-								for (i = 0; i < dots.length; i++) {
-									dots[i].className = dots[i].className.replace(" active", "");
-								}
-								slides[slideIndex-1].style.display = "block";
-								dots[slideIndex-1].className += " active";
-							}
-							</script>
+function showSlides(n) {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+	if (n > slides.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = slides.length}
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";
+	dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 </html>
