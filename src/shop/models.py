@@ -40,26 +40,16 @@ class Comment(models.Model):
     product = models.ForeignKey('Product', on_delete=models.CASCADE)
     parent = models.ForeignKey('self', on_delete=models.CASCADE, blank=True, null=True)
     text = models.TextField(max_length=200)
-    commentor = models.ForeignKey('Commentor', on_delete=models.CASCADE)
-    date_added = models.DateTimeField(auto_now_add=True)
-    date_edited = models.DateTimeField(auto_now=True)
-    approved = models.BooleanField(default=False)
-
-    def __str__(self):
-        name, family = self.commentor.get_info()
-        return f'"{name} {family}" on post "{self.product.title}"'
-
-
-class Commentor(models.Model):
-    # if authenticated: store user
-    # if not: store name, family, email
     user = models.ForeignKey(User, on_delete=models.CASCADE, blank=True, null=True)
     first_name = models.CharField(max_length=CHARFIELD_MAXLENGTH, blank=True, null=True)
     last_name = models.CharField(max_length=CHARFIELD_MAXLENGTH, blank=True, null=True)
     phone_number = models.CharField(max_length=10, blank=True, null=True)
+    date_added = models.DateTimeField(auto_now_add=True)
+    date_edited = models.DateTimeField(auto_now=True)
+    approved = models.BooleanField(default=False)
 
     def get_info(self):
-        if self.user_id:
+        if self.user:
             # if there is a user, return back the user basic info
             return self.user.first_name, self.user.last_name
         else:
@@ -68,7 +58,7 @@ class Commentor(models.Model):
 
     def __str__(self):
         name, family = self.get_info()
-        return f"{name} {family}"
+        return f'"{name} {family}" on post "{self.product.title}"'
 
 
 class Category(models.Model):
@@ -102,9 +92,6 @@ class Image(models.Model):
         return self.image.url
 
 
-# Section Discounts
-
-
 class Sales(models.Model):
     SALES_TYPE = (
         (10, 'Percent'),
@@ -134,11 +121,6 @@ class Voucher(models.Model):
     usage_limit = models.IntegerField(verbose_name='Maximum number of times that the code can be used.', blank=True, null=True)
 
 
-# End Discounts
-
-
-# Section basket
-
 class Basket(models.Model):
     OPEN = 10
     SUBMITTED = 20
@@ -154,9 +136,7 @@ class Basket(models.Model):
 
     def create_order(self, billing_address, shipping_address):
         if not self.user:
-            raise Exception.BasketException(
-                "Cannot create order without user"
-            )
+            raise Exception.BasketException("Cannot create order without user")
 
         logger.info(
             "Creating order for basket_id=%d"
@@ -168,12 +148,6 @@ class Basket(models.Model):
 
         order_data = {
             "user": self.user,
-            "billing_name": billing_address.name,
-            "billing_address1": billing_address.address1,
-            "billing_address2": billing_address.address2,
-            "billing_zip_code": billing_address.zip_code,
-            "billing_city": billing_address.city,
-            "billing_country": billing_address.country,
             "shipping_name": shipping_address.name,
             "shipping_address1": shipping_address.address1,
             "shipping_address2": shipping_address.address2,
@@ -189,7 +163,7 @@ class Basket(models.Model):
                     "order": order,
                     "product": line.product,
                 }
-                order_line = OrderLine.objects.create(**order_line_data)
+                OrderLine.objects.create(**order_line_data)
                 c += 1
 
         logger.info(
@@ -212,10 +186,6 @@ class BasketLine(models.Model):
         default=1, validators=[MinValueValidator(1)]
     )
 
-# End basket
-
-
-# Section Checkout
 
 class Order(models.Model):
     NEW = 10
